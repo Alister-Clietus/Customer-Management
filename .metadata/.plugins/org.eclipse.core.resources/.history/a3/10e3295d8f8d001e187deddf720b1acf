@@ -1,0 +1,5 @@
+package com.review.project.service;
+
+public interface Service {
+
+}

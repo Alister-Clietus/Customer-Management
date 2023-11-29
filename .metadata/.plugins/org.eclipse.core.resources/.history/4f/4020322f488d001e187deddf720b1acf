@@ -1,0 +1,5 @@
+package com.review.project.entity.validation;
+
+public @interface CustomSize {
+
+}

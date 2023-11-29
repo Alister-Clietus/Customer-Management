@@ -1,0 +1,5057 @@
+{
+    "COUNTRY_DETAIL": {
+        "SEARCH": {
+            "LABEL": "Country Details Search",
+            "COUNTRY_CODE": "Country Code",
+            "SWIFT_CODE": "SWIFT Code",
+            "DOMESTIC_ID": "Domestic ID",
+            "REFERENCE_ID": "Reference ID"
+        },
+        "RESULT": {
+            "LABEL": "Country Details Search Result"
+        },
+        "CREATE": {
+            "LABEL": "Create Country Details",
+            "COUNTRY_CODE": "Country Code",
+            "SWIFT_CODE": "SWIFT Code",
+            "DOMESTIC_ID": "Domestic ID",
+            "REFERENCE_ID": "Reference ID",
+            "BANK_NAME_ENG": "Bank Name Eng",
+            "PRIMARY_COUNTRY": "Primary Country",
+            "BASE_CURRENCY": "Base Currency",
+            "STATUS": "Status",
+            "STATUS_MESSAGE": "Status Message",
+            "IBAN_CODE": "IBAN Code",
+            "VERSION_NUMBER": "Version Number"
+        },
+        "UPDATE": {
+            "LABEL": "Update Country Details",
+            "COUNTRY_CODE": "Country Code",
+            "SWIFT_CODE": "SWIFT Code",
+            "DOMESTIC_ID": "Domestic ID",
+            "REFERENCE_ID": "Reference ID",
+            "BANK_NAME_ENG": "Bank Name Eng",
+            "PRIMARY_COUNTRY": "Primary Country",
+            "BASE_CURRENCY": "Base Currency",
+            "STATUS": "Status",
+            "STATUS_MESSAGE": "Status Message",
+            "IBAN_CODE": "IBAN Code"
+        },
+        "VERIFY": {
+            "LABEL": "Verify Country Details",
+            "OLD_RECORD_LABEL": "Existing Record",
+            "NEW_RECORD_LABEL": "Updated Record"
+        },
+        "MODAL": {
+          "DELETE": {
+            "LABEL": "Delete Country Details",
+            "CONFIRMATION": "Are you sure, you want to delete this?"
+          },
+          "VERIFY": {
+            "LABEL": "Verify Country Details",
+            "CONFIRMATION": "Are you sure, you want to verify this?"
+          },
+          "REJECT": {
+            "LABEL": "Reject Country Details",
+            "CONFIRMATION": "Are you sure, you want to reject this?"
+          }
+        }
+    },
+    "DEPARTMENT": {
+        "SEARCH": {
+            "LABEL": "Department Details Search",
+            "SWIFT_CODE": "SWIFT Code",
+            "BANK_CODE": "Bank ID",
+            "DEP": "Department",
+            "DEP_CODE": "Department Code",
+            "DEP_NAME": "Department Name",
+            "ALTERNATE_ID": "Alternate ID"
+        },
+        "RESULT": {
+            "LABEL": "Department Details Search Result"
+        },
+        "CREATE": {
+            "LABEL": "Create Department Details",
+            "SWIFT_CODE": "SWIFT Code",
+            "BANK_CODE": "Bank ID",
+            "DEP_CODE": "Department Code",
+            "DEP": "Department",
+            "DEP_NAME": "Department Name",
+            "ALTERNATE_ID": "Alternate ID",
+            "IPS_CODE": "IPS Code",
+            "SARIE_DEPARTMENT": "SARIE Department",
+            "STATUS": "Status"
+        },
+        "UPDATE": {
+            "LABEL": "Update Department Details",
+            "SWIFT_CODE": "SWIFT Code",
+            "BANK_CODE": "Bank ID",
+            "DEP_CODE": "Department Code",
+            "DEP": "Department",
+            "DEP_NAME": "Department Name",
+            "ALTERNATE_ID": "Alternate ID",
+            "IPS_CODE": "IPS Code",
+            "SARIE_DEPARTMENT": "Sarie Department"
+        },
+        "VERIFY": {
+            "LABEL": "Verify Department Details",
+            "OLD_RECORD_LABEL": "Existing Record",
+            "NEW_RECORD_LABEL": "Updated Record",
+            "ALTERNATE_ID": "Alternate ID",
+            "SWIFT_CODE": "SWIFT Code",
+            "DEP": "Department",
+            "BANK_CODE": "Bank ID",
+            "DEP_CODE": "Department Code",
+            "DEP_NAME": "Department Name",
+            "IPS_CODE": "IPS Code",
+            "SARIE_DEPARTMENT": "Sarie Department"
+        },
+        "MODAL": {
+          "DELETE": {
+            "LABEL": "Delete Department Details",
+            "CONFIRMATION": "Are you sure, you want to delete this?"
+          },
+          "VERIFY": {
+            "LABEL": "Verify Department Details",
+            "CONFIRMATION": "Are you sure, you want to verify this?"
+          },
+          "REJECT": {
+            "LABEL": "Reject Department Details",
+            "CONFIRMATION": "Are you sure, you want to reject this?"
+          }
+        }
+    },
+    "SIGNATURE_LIMIT": {
+        "SEARCH": {
+            "LABEL": "Signature Limit Search",
+            "SWIFT_CODE": "SWIFT Code",
+            "DEP": "Department",
+            "GROUP_ID1": "Group ID 1",
+            "GROUP_ID2": "Group ID 2",
+            "GROUP_ID3": "Group ID 3",
+            "FROM_AMOUNT": "From Amount",
+            "TO_AMOUNT": "To Amount",
+            "ORDER": "Order"
+        },
+        "RESULT": {
+            "LABEL": "Signature Limit Search Result"
+        },
+        "CREATE": {
+            "LABEL": "Create Signature Limit",
+            "SWIFT_CODE": "SWIFT Code",
+            "DEP": "Department",
+            "GROUP_ID1": "Group ID 1",
+            "GROUP_ID2": "Group ID 2",
+            "GROUP_ID3": "Group ID 3",
+            "FROM_AMOUNT": "From Amount",
+            "TO_AMOUNT": "To Amount",
+            "ORDER": "Order"
+        },
+        "UPDATE": {
+            "LABEL": "Update Signature Limit",
+            "SWIFT_CODE": "SWIFT Code",
+            "DEP": "Department",
+            "GROUP_ID1": "Group ID 1",
+            "GROUP_ID2": "Group ID 2",
+            "GROUP_ID3": "Group ID 3",
+            "FROM_AMOUNT": "From Amount",
+            "TO_AMOUNT": "To Amount",
+            "ORDER": "Order"
+        },
+        "VERIFY": {
+            "LABEL": "Verify Signature Limit",
+            "OLD_RECORD_LABEL": "Existing Record",
+            "NEW_RECORD_LABEL": "Updated Record",
+            "SWIFT_CODE": "SWIFT Code",
+            "DEP": "Department",
+            "GROUP_ID1": "Group ID 1",
+            "GROUP_ID2": "Group ID 2",
+            "GROUP_ID3": "Group ID 3",
+            "FROM_AMOUNT": "From Amount",
+            "TO_AMOUNT": "To Amount",
+            "ORDER": "Order"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "Delete Signature Limit",
+                "CONFIRMATION": "Are you sure, you want to delete this?"
+            },
+            "VERIFY": {
+                "LABEL": "Verify Signature Limit",
+                "CONFIRMATION": "Are you sure, you want to verify this?"
+            },
+            "REJECT": {
+                "LABEL": "Reject Signature Limit",
+                "CONFIRMATION": "Are you sure, you want to reject this?"
+            }
+        },
+        "TABLE": {
+          "SWIFT_CODE": "SWIFT Code",
+          "GROUP_ID1": "Group ID 1",
+          "GROUP_ID2": "Group ID 2",
+          "GROUP_ID3": "Group ID 3",
+          "DEP_CODE": "Department Code",
+          "FROM_AMOUNT": "From Amount",
+          "TO_AMOUNT": "To Amount",
+          "VERSION_NUMBER": "Version Number",
+          "SEQUENCE_NUMBER": "Sequence Number",
+          "STATUS": "Status"
+        }
+    },
+    "PRODUCT_CODE": {
+        "SEARCH": {
+            "LABEL": "Product Details Search",
+            "COUNTRY_CODE": "Country Code",
+            "PRODUCT_CODE": "Product Code",
+            "PRODUCT_ID": "Product ID",
+            "PRODUCT_NAME": "Product Name"
+        },
+        "RESULT": {
+            "LABEL": "Product Details Search Result"
+        },
+        "CREATE": {
+            "LABEL": "Create Product Details",
+            "COUNTRY_CODE": "Country Code",
+            "PRODUCT_CODE": "Product Code",
+            "PRODUCT_ID": "Product ID",
+            "PRODUCT_NAME": "Product Name",
+            "PRODUCT_NAMEL1": "Product Name Arabic",
+            "PRODUCT_NAMEL2": "Product Name French"
+        },
+        "UPDATE": {
+            "LABEL": "Update Product Details",
+            "COUNTRY_CODE": "Country Code",
+            "PRODUCT_CODE": "Product Code",
+            "PRODUCT_ID": "Product ID",
+            "PRODUCT_NAME": "Product Name",
+            "PRODUCT_NAMEL1": "Product Name Arabic",
+            "PRODUCT_NAMEL2": "Product Name French"
+        },
+        "VERIFY": {
+            "LABEL": "Verify Product Details",
+            "OLD_RECORD_LABEL": "Existing Record",
+            "NEW_RECORD_LABEL": "Updated Record"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "Delete Product Details",
+                "CONFIRMATION": "Are you sure, you want to delete this?"
+            },
+            "VERIFY": {
+                "LABEL": "Verify Product Details",
+                "CONFIRMATION": "Are you sure, you want to verify this?"
+            },
+            "REJECT": {
+                "LABEL": "Reject Product Details",
+                "CONFIRMATION": "Are you sure, you want to reject this?"
+            }
+        },
+        "TABLE": {
+            "COUNTRY_CODE": "Country Code",
+            "PRODUCT_CODE": "Product Code",
+            "PRODUCT_ID": "Product ID",
+            "PRODUCT_NAME": "Product Name",
+            "STATUS": "Status",
+            "VERSION_NUMBER": "Version Number"
+        }
+    },
+    "OUTGOING_CREDIT_TRANSACTION": {
+        "SEARCH": {
+            "LABEL": "Payment Enquiry Search",
+            "SWIFT_CODE": "SWIFT Code",
+            "DEP": "Department",
+            "DEP_NAME": "Department Name",
+            "CREDITOR_ID": "Creditor ID",
+            "DEBITOR_ID": "Debitor ID",
+            "CREDITOR_ACC_NO": "Creditor Account Number",
+            "DEBITOR_ACC_NO": "Debitor Account Number",
+            "CREDITOR_INFO": "Creditor ID",
+            "DEBITOR_INFO": "Debitor ID",
+            "AMOUNT": "Transaction Amount",
+            "VALUE_DATE": "  Value Date",
+            "TO_BANK": "To Bank",
+            "TRANSACTION_REF": "Transaction Reference",
+            "END2END_ID": "End to End Reference",
+            "REMITTANCE_INFO": "Remittance Info",
+            "TRANSACTION_ID": "Transaction ID",
+            "STATUS": "Status",
+            "PAY_TYPE": "Payment",
+            "BANK_REF": "Bank Reference"
+        },
+        "RESULT": {
+            "LABEL": "Payment Enquiry Search Result"
+        },
+        "TABS": {
+            "SEARCH_SCREEN": "1.Search Screen",
+            "STATUS_OF_PAYMENT":"2.Status Of Payment",
+            "PACS_008_MESSAGE":"3. Pacs 008 Message",
+            "STATUS_OF_PAYMENT1":"Status Of Payment"
+        },
+        "DETAILS": {
+            "ORDERING_ACCOUNT": "Ordering Account",
+            "CREDITOR_ID": "Creditor ID",
+            "DEBITOR_ID": "Debitor ID",
+            "CREDITOR_ACC": "Creditor Account",
+            "DEBITOR_ACC_NO": "Debitor Account Number",
+            "CREDITOR_INFO": "Creditor ID/Account Number",
+            "DEBITOR_INFO": "Debitor ID/Account Number",
+            "DIRECTION": "Direction",
+            "MESSAGE_ID": " Message ID",
+            "TO_BANK": "To Bank",
+            "TRANSACTION_ID": "Transaction ID",
+            "AMOUNT": "Amount",
+            "END2END_ID": "End to End Reference",
+            "REMITTANCE_INFO": "Remittance Info",
+            "USER_COMMENT": "User Comment",
+            "DEBIT_DATE": "Debit Date",
+            "DEPARTMENT": "Department",
+            "INSTRUCTED_ID": "Instruction ID",
+            "INSTRUCTING_AGENT": "Instructing Agent",
+            "MODIFIED_BY": "Modified By",
+            "MODIFIED_TIME": "Modified Time",
+            "TRANSACTION_AMOUNT": "Transaction Amount",
+            "STATUS": "Status",
+            "DESCRIPTION": "Description",
+            "TRANSACTION_CCY": "Transaction CCY",
+            "VALUE_DATE": "Value Date",
+            "TRANSACTION_COM": "Transaction Com",
+            "TRANSACTION_VAT": "Transaction Vat",
+            "BANK_NAME": "Bank Name",
+            "BEN_NAME": "Beneficiary Name",
+            "DATE_TIME": "Date Time",
+            "USER_ID": "User ID",
+            "ACTUAL_MESSAGE":"Actual Message"
+
+        },
+        "CREATE": {
+            "LABEL": "Create Payment Enquiry",
+            "CREDITOR_ID": "Creditor ID",
+            "DEBITOR_ID": "Debitor ID",
+            "CREDITOR_ACC_NO": "Creditor Account Number",
+            "DEBITOR_ACC_NO": "Debitor Account Number",
+            "CREDITOR_INFO": "Creditor ID/Account Number",
+            "DEBITOR_INFO": "Debitor ID/Account Number",
+            "SWIFT_CODE": "SWIFT Code",
+            "VALUE_DATE": "  Value Date",
+            "TO_BANK": "To Bank",
+            "TRANSACTION_REF": "Transaction Reference",
+            "AMOUNT": "Amount",
+            "END2END_ID": "End to End Reference",
+            "REMITTANCE_INFO": "Remittance Info",
+            "USER_COMMENT": "User Comment",
+            "DEBIT_DATE": "Debit Date",
+            "DEPARTMENT": "Department",
+            "INSTRUCTED_AGENT": "Instructed Agent",
+            "INSTRUCTING_AGENT": "Instructing Agent",
+            "MODIFIED_BY": "Modified By",
+            "MODIFIED_TIME": "Modified Time",
+            "TRANSACTION_DATE": "Transaction Date",
+            "STATUS": "Status",
+            "STATUS_MESSAGE": "Status Message",
+            "TRANSACTION_CCY": "Transaction CCY",
+            "TRANSACTION_CHARGE": "Transaction Charge",
+            "TRANSACTION_COM": "Transaction Com",
+            "TRANSACTION_VAT": "Transaction Vat",
+            "BANK_NAME": "Bank Name",
+            "BEN_NAME": "Beneficiary Name"
+        },
+        "UPDATE": {
+            "LABEL": "Update Payment Enquiry",
+            "CREDITOR_ID": "Creditor ID",
+            "DEBITOR_ID": "Debitor ID",
+            "CREDITOR_ACC_NO": "Creditor Account Number",
+            "DEBITOR_ACC_NO": "Debitor Account Number",
+            "CREDITOR_INFO": "Creditor ID/Account Number",
+            "DEBITOR_INFO": "Debitor ID/Account Number",
+            "VALUE_DATE": "  Value Date",
+            "SWIFT_CODE": "SWIFT Code",
+            "TO_BANK": "To Bank",
+            "TRANSACTION_REF": "Transaction Reference",
+            "AMOUNT": "Amount",
+            "END2END_ID": "End to End Reference",
+            "REMITTANCE_INFO": "Remittance Info",
+            "USER_COMMENT": "User Comment",
+            "DEBIT_DATE": "Debit Date",
+            "DEPARTMENT": "Department",
+            "INSTRUCTED_AGENT": "Instructed Agent",
+            "INSTRUCTING_AGENT": "Instructing Agent",
+            "MODIFIED_BY": "Modified By",
+            "MODIFIED_TIME": "Modified Time",
+            "TRANSACTION_DATE": "Transaction Date",
+            "STATUS": "Status",
+            "STATUS_MESSAGE": "Status Message",
+            "TRANSACTION_CCY": "Transaction CCY",
+            "TRANSACTION_CHARGE": "Transaction Charge",
+            "TRANSACTION_COM": "Transaction Com",
+            "TRANSACTION_VAT": "Transaction Vat"
+        },
+        "DISPLAY": {
+            "LABEL": "Display Payment Enquiry",
+            "BANK_REF": "Bank Reference",
+            "TRANS_CURRENCY": "Transaction Currency",
+            "TRANS_CHARGE": "Transaction Charge"
+        },
+        "PROXY": {
+            "LABEL": "Payment Information",
+            "CREDITOR_AGENT": "Creditor Agent",
+            "ORDERING_CUSTOMER_NAME": "Ordering Customer Name",
+            "ORDERING_CUSTOMER_ADD1": "Ordering Customer Address",
+            "ORDERING_CUSTOMER_CITY": "Ordering Customer City",
+            "ORDERING_CUSTOMER_DOB": "Ordering Customer DOB",
+            "BEN_CUSTOMER_NAME": "Beneficiary Customer Name",
+            "BEN_ACC_NUM": "Beneficiary Account Number",
+            "BEN_ACC_TYPE": "Beneficiary Account Type",
+            "BEN_ACC_NAME": "Beneficiary Account Name",
+            "BEN_CUSTOMER_ADD1": "Beneficiary Address",
+            "BEN_CITY": "Beneficiary City",
+            "BEN_DOB": "Beneficiary DOB",
+            "CHARGES": "charges ",
+            "TRANSACTION_DATE": "Transaction Date",
+            "VAT": "VAT",
+            "BEN_BIC": "Beneficiary BIC",
+            "BEN_BANK_NAME": "Beneficiary Bank Name"
+        },
+        "VERIFY": {
+            "LABEL": "Verify Payment Enquiry",
+            "CREDITOR_ID": "Creditor ID",
+            "DEBITOR_ID": "Debitor ID",
+            "CREDITOR_ACC_NO": "Creditor Account Number",
+            "DEBITOR_ACC_NO": "Debitor Account Number",
+            "CREDITOR_INFO": "Creditor ID/Account Number",
+            "DEBITOR_INFO": "Debitor ID/Account Number",
+            "VALUE_DATE": "  Value Date",
+            "SWIFT_CODE": "SWIFT Code",
+            "TO_BANK": "To Bank",
+            "TRANSACTION_REF": "Transaction Reference",
+            "AMOUNT": "Amount",
+            "END2END_ID": "End to End Reference",
+            "REMITTANCE_INFO": "Remittance Info",
+            "OLD_RECORD_LABEL": "Existing Record",
+            "NEW_RECORD_LABEL": "Updated Record",
+            "USER_COMMENT": "User Comment",
+            "DEBIT_DATE": "Debit Date",
+            "DEPARTMENT": "Department",
+            "INSTRUCTED_AGENT": "Instructed Agent",
+            "INSTRUCTING_AGENT": "Instructing Agent",
+            "MODIFIED_BY": "Modified By",
+            "MODIFIED_TIME": "Modified Time",
+            "TRANSACTION_DATE": "Transaction Date",
+            "STATUS": "Status",
+            "STATUS_MESSAGE": "Status Message",
+            "TRANSACTION_CCY": "Transaction CCY",
+            "TRANSACTION_CHARGE": "Transaction Charge",
+            "TRANSACTION_COM": "Transaction Com",
+            "TRANSACTION_VAT": "Transaction Vat"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "Cancel Payment Enquiry",
+                "CONFIRMATION": "Are you sure, you want to cancel this?"
+            },
+            "VERIFY": {
+                "LABEL": "Verify Payment Enquiry",
+                "CONFIRMATION": "Are you sure, you want to verify this?"
+            },
+            "REJECT": {
+                "LABEL": "Reject Payment Enquiry",
+                "CONFIRMATION": "Are you sure, you want to reject this?"
+            },
+            "REFUND": {
+                "LABEL": "Refund Payment Enquiry",
+                "CONFIRMATION": "Are you sure, you want to refund this?"
+            },
+            "RETURN": {
+              "LABEL": "Return Transaction",
+              "CONFIRMATION": "Are you sure, you want to return this?"
+           }
+        }
+    },
+    "INCOMING_TRANSACTION": {
+        "SEARCH": {
+            "LABEL": "Incoming Transaction Search",
+            "SWIFT_CODE": "SWIFT Code",
+            "DEP": "Department",
+            "DEP_NAME": "Department Name",
+            "CREDITOR_ID": "Creditor ID",
+            "DEBITOR_ID": "Debitor ID",
+            "CREDITOR_ACC_NO": "Creditor Account Number",
+            "DEBITOR_ACC_NO": "Debitor Account Number",
+            "CREDITOR_INFO": "Creditor ID/Account Number",
+            "DEBITOR_INFO": "Debitor ID/Account Number",
+            "AMOUNT": "Transaction Amount",
+            "VALUE_DATE": "  Value Date",
+            "TO_BANK": "To Bank",
+            "TRANSACTION_REF": "Transaction Reference",
+            "END2END_ID": "End2End Reference",
+            "REMITTANCE_INFO": "Remittance Info",
+            "TRANSACTION_ID": "Transaction ID",
+            "STATUS": "Status"
+        },
+        "RESULT": {
+            "LABEL": "Incoming Transaction Search Result"
+        },
+        "CREATE": {
+            "LABEL": "Create Incoming Transaction",
+            "CREDITOR_ID": "Creditor ID",
+            "DEBITOR_ID": "Debitor ID",
+            "CREDITOR_ACC_NO": "Creditor Account Number",
+            "DEBITOR_ACC_NO": "Debitor Account Number",
+            "CREDITOR_INFO": "Creditor ID/Account Number",
+            "DEBITOR_INFO": "Debitor ID/Account Number",
+            "SWIFT_CODE": "SWIFT Code",
+            "VALUE_DATE": "  Value Date",
+            "TO_BANK": "To Bank",
+            "TRANSACTION_REF": "Transaction Reference",
+            "AMOUNT": "Amount",
+            "END2END_ID": "End2End Reference",
+            "REMITTANCE_INFO": "Remittance Info",
+            "USER_COMMENT": "User Comment",
+            "DEBIT_DATE": "Debit Date",
+            "DEPARTMENT": "Department",
+            "INSTRUCTED_AGENT": "Instructed Agent",
+            "INSTRUCTING_AGENT": "Instructing Agent",
+            "MODIFIED_BY": "Modified By",
+            "MODIFIED_TIME": "Modified Time",
+            "TRANSACTION_DATE": "Transaction Date",
+            "STATUS": "Status",
+            "STATUS_MESSAGE": "Status Message",
+            "TRANSACTION_CCY": "Transaction CCY",
+            "TRANSACTION_CHARGE": "Transaction Charge",
+            "TRANSACTION_COM": "Transaction Com",
+            "TRANSACTION_VAT": "Transaction Vat"
+        },
+        "UPDATE": {
+            "LABEL": "Update Incoming Credit Transaction",
+            "CREDITOR_ID": "Creditor ID",
+            "DEBITOR_ID": "Debitor ID",
+            "CREDITOR_ACC_NO": "Creditor Account Number",
+            "DEBITOR_ACC_NO": "Debitor Account Number",
+            "CREDITOR_INFO": "Creditor ID/Account Number",
+            "DEBITOR_INFO": "Debitor ID/Account Number",
+            "VALUE_DATE": "  Value Date",
+            "SWIFT_CODE": "SWIFT Code",
+            "TO_BANK": "To Bank",
+            "TRANSACTION_REF": "Transaction Reference",
+            "AMOUNT": "Amount",
+            "END2END_ID": "End2End Reference",
+            "REMITTANCE_INFO": "Remittance Info",
+            "USER_COMMENT": "User Comment"
+        },
+        "PROXY": {
+            "LABEL": "Payment Information",
+            "CREDITOR_AGENT": "Creditor Agent",
+            "ORDERING_CUSTOMER_NAME": "Ordering Customer Name",
+            "ORDERING_CUSTOMER_ADD1": "Ordering Customer Address",
+            "BEN_CUSTOMER_NAME": "Beneficiary Customer Name",
+            "BEN_CUSTOMER_ADD1": "Beneficiary Address",
+            "BEN_CITY": "Beneficiary City",
+            "CHARGES": "charges ",
+            "TRANSACTION_DATE": "Transaction Date",
+            "BEN_ACC_NUM": "Beneficiary Account Number",
+            "BEN_ACC_TYPE": "Beneficiary Account Type",
+            "BEN_ACC_NAME": "Beneficiary Account Name",
+            "VAT": "VAT"
+        },
+        "VERIFY": {
+            "LABEL": "Verify Incoming Credit Transaction",
+            "CREDITOR_ID": "Creditor ID",
+            "DEBITOR_ID": "Debitor ID",
+            "CREDITOR_ACC_NO": "Creditor Account Number",
+            "DEBITOR_ACC_NO": "Debitor Account Number",
+            "CREDITOR_INFO": "Creditor ID/Account Number",
+            "DEBITOR_INFO": "Debitor ID/Account Number",
+            "VALUE_DATE": "  Value Date",
+            "SWIFT_CODE": "SWIFT Code",
+            "TO_BANK": "To Bank",
+            "TRANSACTION_REF": "Transaction Reference",
+            "AMOUNT": "Amount",
+            "END2END_ID": "End2End Reference",
+            "REMITTANCE_INFO": "Remittance Info",
+            "OLD_RECORD_LABEL": "Existing Record",
+            "NEW_RECORD_LABEL": "Updated Record",
+            "USER_COMMENT": "User Comment"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "Cancel Incoming Credit Transaction",
+                "CONFIRMATION": "Are you sure, you want to cancel this"
+            },
+            "VERIFY": {
+                "LABEL": "Verify Incoming Credit Transaction",
+                "CONFIRMATION": "Are you sure you want to verify this"
+            },
+            "REJECT": {
+                "LABEL": "Reject Incoming Credit Transaction",
+                "CONFIRMATION": "Are you sure you want to reject this"
+            },
+           "COMPLETE": {
+            "LABEL": "Complete Transaction",
+            "CONFIRMATION": "Are you sure, you want to complete this?"
+            },
+            "REPROCESS": {
+            "LABEL": "Reprocess the Payment",
+            "CONFIRMATION": "Are you sure, you want to reprocess the payment?"
+             },
+            "PENDING_REPROCESS": {
+            "LABEL": "Reprocess the Payment",
+            "CONFIRMATION": "Are you sure, you want to Verify Reprocessed payment?"
+            }
+        }
+    },
+    "PROXY_ENQUIRY": {
+        "SEARCH": {
+            "LABEL": "Lookup a Proxy",
+            "SEARCHLABEL": "Phone / Email / National ID / Iqama ID / Commercial Registration",
+            "BICID": "Bic ID",
+            "PROXY_TYPE": "Proxy Type"
+        },
+        "PROXY_TYPE": {
+            "PHONE": "Phone",
+            "EMAIL": "Email",
+            "NATIONAL_ID": "National ID",
+            "IGAMA_ID": "Iqama ID",
+            "COMERCIAL_REGISTRATION":"CR Number"
+        },
+        "RESULT": {
+            "LABEL": "Proxy Lookup Result",
+            "CSTACCNO": "Customer Account Number",
+            "REGBNKID": "Registered Bank ID",
+            "CSTNAME": "Customer Name",
+            "PROXYID": "Proxy ID",
+            "CSTADD1": "Customer Address 1",
+            "CSTADD2": "Customer Address 2",
+            "CSTADD3": "Customer Address 3",
+            "CSTDOB": "Date of Birth",
+            "CSTCTYB": "City of Birth",
+            "CSTCTRB": "Country of Birth",
+            "ACCOUNT_NAME": "Account Name",
+            "DISPLAY_NAME": "Display Name",
+            "FIRST_NAME": "First Name",
+            "SECOND_NAME": "Second Name",
+            "LAST_NAME": "Last Name",
+            "BUSINESS_NAME": "Business Name",
+            "ACCOUNT_HOLDER_TYPE": "Account Holder Type",
+            "BUSINESS_REGISTRATION_DATE": "Business Registration Date",
+            "EMAIL": "Email",
+            "PHONE_NUMBER": "Phone Number",
+            "NATIONAL_ID": "National ID",
+            "PROXY_LABEL": "Proxy Information",
+            "REG_ID": "Registration ID",
+            "PROXY_TYPE": "Proxy Type",
+            "ACC_TYPE": "Account Type",
+            "ACC_NAME": "Account Name",
+            "PART_CODE": "Participant Code",
+            "PROXY_VALUE": "Proxy Value",
+            "DISPLAY_NAME_ARB": "Display Name Arabic",
+            "ACC_VALUE": "Account Value",
+            "STATUS": "Status",
+            "STATUS_DESC": "Status Description"
+        },
+        "MODAL": {
+            "PRINT": {
+                "LABEL": "Print the Proxy Details",
+                "CONFIRMATION": "Are you sure you want to Print this"
+            },
+            "PDFDNLD": {
+                "LABEL": "Download the Proxy Details as PDF",
+                "CONFIRMATION": "Are you sure you want to Download PDF of this"
+            }
+        }
+    },
+    "PROXY_DETAIL": {
+        "SEARCH": {
+            "LABEL": "Lookup a Local Proxy",
+            "PROXYID": "Phone / Email / National ID / Iqama ID / Commercial Registration",
+            "CSTACCNAME": "Customer Name",
+            "CSTACCNUM": "Customer Account Number"
+        },
+        "CREATE": {
+            "LABEL": "Create Proxy Detail",
+            "PROXY_ID": "Proxy ID",
+            "BIC": "BIC",
+            "CUSTOMER_ACCOUNT": "Customer Account",
+            "ACCOUNT_CCY": "Account Currency",
+            "CUSTOMER_NAME": "Customer Name",
+            "CUSTOMER_ADD1": "Customer Address 1",
+            "CUSTOMER_ADD2": "Customer Address 2",
+            "CUSTOMER_ADD3": "Customer Address 3",
+            "DATE_OF_BIRTH": "Date Of Birth",
+            "CITY_OF_BIRTH": "City Of Birth",
+            "COUNTRY_OF_BIRTH": "Country Of Birth",
+            "PROXY_TYPE": "Proxy Type",
+            "PROXY_VALUE": "Proxy Value",
+            "ACCOUNT_NAME": "Account Name",
+            "DISPLAY_NAME": "Display Name",
+            "FIRST_NAME": "First Name",
+            "SECOND_NAME": "Second Name",
+            "LAST_NAME": "Last Name",
+            "BUSINESS_NAME": "Business Name",
+            "BUSINESS_REG_DATE": "Business Registration Date",
+            "DISPLAY_NAME_AR": "Display Name Arabic",
+            "ACCOUNT_TYPE": "Account Type",
+            "CUSTOMER_ID": "Customer ID",
+            "ACC_HOLDER_TYPE": "Account Holder Type",
+            "TELEPHONE": "Mobile Number",
+            "BUSINESS":"Business",
+            "PERSONAL":"Personal"
+        },
+        "UPDATE": {
+            "LABEL": "Update Proxy Details",
+            "PROXY_ID": "Proxy ID",
+            "BIC": "BIC",
+            "CUSTOMER_ACCOUNT": "Customer Account",
+            "ACCOUNT_CCY": "Account Currency",
+            "CUSTOMER_NAME": "Customer Name",
+            "CUSTOMER_ADD1": "Customer Address 1",
+            "CUSTOMER_ADD2": "Customer Address 2",
+            "CUSTOMER_ADD3": "Customer Address 3",
+            "DATE_OF_BIRTH": "Date Of Birth",
+            "CITY_OF_BIRTH": "City Of Birth",
+            "COUNTRY_OF_BIRTH": "Country Of Birth",
+            "PROXY_TYPE": "Proxy Type",
+            "PROXY_VALUE": "Proxy Value",
+            "ACCOUNT_NAME": "Account Name",
+            "DISPLAY_NAME": "Display Name",
+            "FIRST_NAME": "First Name",
+            "SECOND_NAME": "Second Name",
+            "LAST_NAME": "Last Name",
+            "BUSINESS_NAME": "Business Name",
+            "BUSINESS_REG_DATE": "Business Registration Date",
+            "DISPLAY_NAME_AR": "Display Name Arabic",
+            "ACCOUNT_TYPE": "Account Type",
+            "CUSTOMER_ID": "Customer ID"
+        },
+        "DETAILS": {
+            "LABEL": "Create Proxy Details",
+            "PROXY_ID": "Proxy ID",
+            "BIC": "BIC",
+            "CUSTOMER_ACCOUNT": "Customer Account",
+            "ACCOUNT_CCY": "Account Currency",
+            "CUSTOMER_NAME": "Customer Name",
+            "CUSTOMER_ADD1": "Customer Address 1",
+            "CUSTOMER_ADD2": "Customer Address 2",
+            "CUSTOMER_ADD3": "Customer Address 3",
+            "DATE_OF_BIRTH": "Date Of Birth",
+            "CITY_OF_BIRTH": "City Of Birth",
+            "COUNTRY_OF_BIRTH": "Country Of Birth",
+            "PROXY_TYPE": "Proxy Type",
+            "PROXY_VALUE": "Proxy Value",
+            "ACCOUNT_NAME": "Account Name",
+            "DISPLAY_NAME": "Display Name",
+            "FIRST_NAME": "First Name",
+            "SECOND_NAME": "Second Name",
+            "LAST_NAME": "Last Name",
+            "BUSINESS_NAME": "Business Name",
+            "BUSINESS_REG_DATE": "Business Registration Date",
+            "DISPLAY_NAME_AR": "Display Name Arabic",
+            "ACCOUNT_TYPE": "Account Type",
+            "CUSTOMER_ID": "Customer ID",
+            "ACC_HOLDER_TYPE": "Account Holder Type",
+            "TELEPHONE": "Telephone",
+            "STATUS":"Status"
+        },
+        "VERIFY": {
+            "DISPLAY_LABEL": "Display Proxy Details",
+            "LABEL": "Verify Proxy Details",
+            "PROXY_ID": "Proxy ID",
+            "BIC": "BIC",
+            "CUSTOMER_ACCOUNT": "Customer Account",
+            "ACCOUNT_CCY": "Account Currency",
+            "CUSTOMER_NAME": "Customer Name",
+            "CUSTOMER_ADD1": "Customer Address 1",
+            "CUSTOMER_ADD2": "Customer Address 2",
+            "CUSTOMER_ADD3": "Customer Address 3",
+            "DATE_OF_BIRTH": "Date Of Birth",
+            "CITY_OF_BIRTH": "City Of Birth",
+            "COUNTRY_OF_BIRTH": "Country Of Birth",
+            "PROXY_TYPE": "Proxy Type",
+            "PROXY_VALUE": "Proxy Value",
+            "ACCOUNT_NAME": "Account Name",
+            "DISPLAY_NAME": "Display Name",
+            "FIRST_NAME": "First Name",
+            "SECOND_NAME": "Second Name",
+            "LAST_NAME": "Last Name",
+            "BUSINESS_NAME": "Business Name",
+            "BUSINESS_REG_DATE": "Business Registration Date",
+            "DISPLAY_NAME_AR": "Display Name Arabic",
+            "ACCOUNT_TYPE": "Account Type",
+            "CUSTOMER_ID": "Customer ID",
+            "EMAIL": "Email",
+            "NATIONAL_ID": "National ID",
+            "TELEPHONE": "Telephone"
+        },
+        "RESULT": {
+            "LABEL": "Local Proxy Lookup Result"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "Delete Proxy Details",
+                "CONFIRMATION": "Are you sure, you want to delete this?"
+            },
+            "VERIFY": {
+                "LABEL": "Verify Proxy Details",
+                "CONFIRMATION": "Are you sure, you want to verify this?"
+            }
+        },
+        "BUTTON": {
+          "BUSINESS": "BUSINESS",
+          "PERSONAL": "PERSONAL"
+        }
+    },
+    "BUTTON": {
+        "SEARCH": "Search",
+        "OK": "OK",
+        "DELETE": "Delete",
+        "UPDATE": "Update",
+        "CREATE": "Create",
+        "CANCEL": "Cancel",
+        "NO": "No",
+        "YES": "Yes",
+        "ADD": "Create",
+        "LIST": "List",
+        "CLEAR": "Clear",
+        "VERIFY": "Verify",
+        "REJECT": "Reject",
+        "APPROVE": "Verify",
+        "RETURN_FUND": "Return Fund",
+        "GLBLENQ": "Global Enquiry",
+        "DISPLAY": "Display",
+        "PRINT": "Print",
+        "VIEW": "View",
+        "DETAILS": "Details",
+        "BACK": "Back",
+        "XLUPLOAD": "Excel Upload",
+        "DOWNLOAD": "Download",
+        "START": "Start",
+        "STOP": "Stop",
+        "REPAIR": "Repair",
+        "UPLOAD": "Upload",
+        "ENQUIRY": "Enquiry",
+        "ADD_BILLER": "Add Bill",
+        "EDIT": "Edit",
+        "PAY": "Pay",
+        "REFUND": "Refund",
+        "START_STREAM": "Start Stream",
+        "STOP_STREAM": "Stop Stream",
+        "RETURN": "Return",
+        "NEXT": "Next",
+        "PREVIOUS": "Previous",
+        "RE-ACTIVATE": "Re-Activate",
+        "ACTIVATE":"Activate",
+        "DISABLE":"Deactivate",
+        "COMPLETE":"Complete",
+        "REPROCESS":"Reprocess",
+        "VERIFY_REPROCESS":"Verify Reprocess",
+        "UPLOADFILE":"Uploaded File Name",
+        "PREVIEW":"Preview"
+    },
+    "BIC_DETAIL": {
+        "SEARCH": {
+            "LABEL": "Bank Code Search",
+            "BIC": "BIC",
+            "BANK_NAME1": "Bank Name ",
+            "DOMESTIC_ID": "Domestic ID",
+            "STATUS": "Status"
+        },
+        "LABEL":{
+          "BIC_CODE": "BIC",
+            "ALTERNATE_ID": "Alternate ID",
+            "DOMESTIC_ID": "Domestic ID",
+            "BANK_NAME": "Bank Name",
+            "ADDRESS": "Address",
+            "COUNTRY_CODE": "Country Code",
+            "IBAN_CODE": "IBAN Code",
+            "STATUS":"Status"
+
+        },
+        "CREATE": {
+            "LABEL": "Create Bank Code",
+            "BIC_CODE": "BIC Code",
+            "ALTERNATE_ID": "Alternate ID",
+            "DOMESTIC_ID": "Domestic ID",
+            "BANK_NAME_L1": "Bank Name L1",
+            "BANK_NAME_L2": "Bank Name L2",
+            "BANK_NAME_L3": "Bank Name L3",
+            "CITY": "City",
+            "ADDRESS1": "Address 1",
+            "ADDRESS2": "Address 2",
+            "ZIP": "Zip",
+            "PHONE": "Phone",
+            "COUNTRY_CODE": "Country Code",
+            "IPS_SERVICE": "IPS Service",
+            "DOMESTIC_SERVICE": "Domestic Service",
+            "IBAN_CODE": "IBAN Code"
+        },
+        "UPDATE": {
+            "LABEL": "Update Bank Code"
+        },
+        "RESULT": {
+            "LABEL": "Bank Code Search Result"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "Delete Bank Code",
+                "CONFIRMATION": "Are you sure, you want to delete this?"
+            },
+            "VERIFY": {
+                "LABEL": "Verify Bank Code",
+                "CONFIRMATION": "Are you sure, you want to verify this?"
+            },
+            "REJECT": {
+                "LABEL": "Reject Bank Code",
+                "CONFIRMATION": "Are you sure, you want to reject this?"
+            }
+        }
+    },
+    "FILE_SYSTEM": {
+        "LABEL": "File System Service Definition Search Result",
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "Delete File System Service Definition",
+                "CONFIRMATION": "Are you sure, you want to delete this?"
+            },
+            "VERIFY": {
+                "LABEL": "Verify File System Service Definition",
+                "CONFIRMATION": "Are you sure, you want to verify this?"
+            },
+            "REJECT": {
+                "LABEL": "Reject File System Service Definition",
+                "CONFIRMATION": "Are you sure, you want to reject this?"
+            }
+        },
+        "SEARCH": {
+            "LABEL": "File System Service Definition Search",
+            "CONNECTION_ID": "Connection ID",
+            "CONNECTION_NAME": "Connection Name",
+            "STATUS": "Status"
+        },
+        "STATUS": {
+            "APPROVED": "APPROVED",
+            "PENDING_APPROVAL": "PENDING APPROVAL",
+            "DELETED": "DELETED",
+            "DELETE_APPROVAL": "DELETE APPROVAL",
+            "VERIFIED": "VERIFIED",
+            "DELETE": "DELETE",
+            "PROCESSD": "PROCESSD",
+            "SELECT": "Select",
+            "APPLIED": "APPLIED",
+            "SENT": "SENT",
+            "REJECT":"REJECT"
+        },
+        "BUTTONS": {
+            "CLEAR": "Clear",
+            "SEARCH": "Search",
+            "CREATE": "Create",
+            "UPDATE": "Update",
+            "VERIFY": "Verify",
+            "DELETE": "Delete",
+            "LIST": "List",
+            "REJECT": "Reject",
+            "NEXT": "NEXT"
+        },
+        "CREATE": {
+            "LABEL": "Create File System Service Definition",
+            "CONNECTION_ID": "Connection ID",
+            "CONNECTION_NAME": "Connection Name",
+            "CONNECTION_TYPE": "Connection Type",
+            "INPUT_PATH": "Input Directory Path",
+            "OUTPUT_PATH": "Output Directory Path",
+            "OTHER_PATH": "Other Path ",
+            "REJECT_PATH": "Reject Directory Path",
+            "FILE_NAME_FORMAT": "File Name Format",
+            "INPUT_FILE_EXTN": "Input File Extension",
+            "RESPONSE_FILE_EXTN": "Response File Extension",
+            "REJECT_FILE_EXTN": "Reject File Extension",
+            "STATUS": "Status"
+        },
+        "CONNECTION_TYPE": {
+            "SENDING": "Sending",
+            "RECEIVING": "Receiving",
+            "BOTH": "Both"
+        },
+        "UPDATE": {
+            "LABEL": "Update File System Service Definition"
+        },
+        "VERIFY": {
+            "LABEL": "Verify File System Service Definition"
+        }
+    },
+    "NWDEFN_DETAIL": {
+        "SEARCH": {
+            "LABEL": "Network Definition Search",
+            "BANK_ID": "Bank ID",
+            "SERVICE": "Service",
+            "ADAPTER_TYPE": "Adapter Type",
+            "STATUS": "Status"
+        },
+        "CREATE": {
+            "LABEL": "Create Network Definition ",
+            "BANK_ID": "Bank ID",
+            "NETWORK_ID": "Network ID",
+            "SERVICE": "Service",
+            "ADAPTER_TYPE": "Adapter Type",
+            "PROTOCOL": "Protocol",
+            "ADAPTER_ID": "Adapter ID ",
+            "TEMPLATE_ID": "Template ID",
+            "CONNECTION_ID": "Connection ID",
+            "STATUS": "Status"
+        },
+        "VERIFY": {
+            "LABEL": " Verify Network Definition "
+        },
+        "UPDATE": {
+            "LABEL": "Update Network Definition "
+        },
+        "RESULT": {
+            "LABEL": "Network Definition Search Result"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "Delete Network Definition",
+                "CONFIRMATION": "Are you sure, you want to delete this?"
+            },
+            "VERIFY": {
+                "LABEL": "Verify Network Definition",
+                "CONFIRMATION": "Are you sure, you want to verify this?"
+            },
+            "REJECT": {
+                "LABEL": "Reject Network Definition",
+                "CONFIRMATION": "Are you sure, you want to reject this?"
+            }
+        }
+    },
+    "MQM_DEFINITION": {
+        "SEARCH": {
+            "LABEL": "MQM Definition Search",
+            "CON_ID": "Connection ID",
+            "CON_NAME": "Connection Name",
+            "STATUS": "Status"
+        },
+        "CREATE": {
+            "LABEL": "Create MQM Definition",
+            "CON_ID": "Connection ID",
+            "CON_NAME": "Connection Name",
+            "CON_TYPE": "Connection Type",
+            "QTYPE": "Queue Type",
+            "QNAME": "Queue Name",
+            "QMANAGER_NAME": "Queue Manager Name",
+            "SERVER_IP": "Server IP",
+            "PORT": "Port",
+            "RQ_NAME": "Response Queue Name",
+            "RQ_MANAGER_NAME": "Response Queue Manager Name",
+            "NOTES": "Notes",
+            "STATUS": "Status"
+        },
+        "RESULT": {
+            "LABEL": "MQM Definition Search Result"
+        },
+        "UPDATE": {
+            "LABEL": "Update MQM Definition"
+        },
+        "VERIFY": {
+            "LABEL": "Verify MQM Definition"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "Delete MQM Definition",
+                "CONFIRMATION": "Are you sure, you want to delete this?"
+            },
+            "VERIFY": {
+                "LABEL": "Verify MQM Definition",
+                "CONFIRMATION": "Are you sure, you want to verify this?"
+            },
+            "REJECT": {
+                "LABEL": "Reject MQM Definition",
+                "CONFIRMATION": "Are you sure, you want to reject this?"
+            }
+        },
+        "BUTTON": {
+          "SENDING": "Sending",
+          "RECEIVING": "Receiving",
+          "BOTH": "Both",
+          "REMOTE_QUEUE": "Remote Queue",
+          "LOCAL_QUEUE": "Local Queue",
+          "ALIAS_QUEUE": "Alias Queue"
+        }
+    },
+    "WEB_SERVICE": {
+        "SEARCH": {
+            "LABEL": "Web Service Definition Search",
+            "SERVICE_ID": "Service ID",
+            "SERVICE_NAME": "Service Name"
+        },
+        "RESULT": {
+            "LABEL": "Web Service Definition Search Result"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "Delete Web Service Definition",
+                "CONFIRMATION": "Are you sure, you want to delete this?"
+            },
+            "VERIFY": {
+                "LABEL": "Verify Web Service Definition",
+                "CONFIRMATION": "Are you sure, you want to verify this?"
+            },
+            "REJECT": {
+                "LABEL": "Reject Web Service Definition",
+                "CONFIRMATION": "Are you sure, you want to reject this?"
+            }
+        },
+        "CREATE": {
+            "CHOOSE_FILE": "Choose file",
+            "VIEW_FILE": "View File",
+            "LABEL": "Create Web Service Definition",
+            "SERVICE_ID": "Service ID",
+            "SERVICE_NAME": "Service Name",
+            "DST_PROT": "Destination Protocol",
+            "DST_XSD": "Destination XSD",
+            "DST_URL": "Destination URL",
+            "PUB_CERT": "Public Certificate",
+            "SOAP_ACTN_URL": "SOAP Action URL",
+            "SOAP_ACTN_PRFX": "SOAP Action Prefix",
+            "NAME_SPACE_URL": "Name Space URL",
+            "NAME_SPACE_URL1": "Name Space URL 1",
+            "NAME_SPACE_URL2": "Name Space URL 2",
+            "NAME_SPACE_PRFX": "Name Space Prefix",
+            "NAME_SPACE_PRFX1": "Name Space Prefix 1",
+            "NAME_SPACE_PRFX2": "Name Space Prefix 2",
+            "RES_XSD": "Response XSD",
+            "WSDL_URL": "WSDL URL",
+            "BINDING": "Binding",
+            "ENC_CERT": "Encryption Certificate",
+            "REQUESTROOT": "Request Note",
+            "RESPONSEROOT": "Response Note",
+            "STATUS": "Status"
+        },
+        "UPDATE": {
+            "CHOOSE_FILE": "Choose file",
+            "VIEW_FILE": "View File",
+            "LABEL": "Update Web Service Definition",
+            "SERVICE_ID": "Service ID",
+            "SERVICE_NAME": "Service Name",
+            "DST_PROT": "Destination protocol",
+            "DST_XSD": "Destination XSD",
+            "DST_URL": "Destination URL",
+            "PUB_CERT": "Public Certificate",
+            "SOAP_ACTN_URL": "SOAP Action URL",
+            "SOAP_ACTN_PRFX": "SOAP Action Prefix",
+            "NAME_SPACE_URL": "Name Space URL",
+            "NAME_SPACE_URL1": "Name Space URL 1",
+            "NAME_SPACE_URL2": "Name Space URL 2",
+            "NAME_SPACE_PRFX": "Name Space Prefix",
+            "NAME_SPACE_PRFX1": "Name Space Prefix 1",
+            "NAME_SPACE_PRFX2": "Name Space Prefix 2",
+            "RES_XSD": "Response XSD",
+            "WSDL_URL": "WSDL URL",
+            "BINDING": "Binding",
+            "ENC_CERT": "Encryption Certificate"
+        },
+        "VERIFY": {
+            "CHOOSE_FILE": "Choose file",
+            "VIEW_FILE": "View File",
+            "LABEL": "Verify Web Service Definition",
+            "SERVICE_ID": "Service ID",
+            "SERVICE_NAME": "Service Name",
+            "DST_PROT": "Destination protocol",
+            "DST_XSD": "Destination XSD",
+            "DST_URL": "Destination URL",
+            "PUB_CERT": "Public Certificate",
+            "SOAP_ACTN_URL": "SOAP Action URL",
+            "SOAP_ACTN_PRFX": "SOAP Action Prefix",
+            "NAME_SPACE_URL": "Name Space URL",
+            "NAME_SPACE_URL1": "Name Space URL 1",
+            "NAME_SPACE_URL2": "Name Space URL 2",
+            "NAME_SPACE_PRFX": "Name Space Prefix",
+            "NAME_SPACE_PRFX1": "Name Space Prefix 1",
+            "NAME_SPACE_PRFX2": "Name Space Prefix 2",
+            "RES_XSD": "Response XSD",
+            "WSDL_URL": "WSDL URL",
+            "BINDING": "Binding",
+            "ENC_CERT": "Encryption Certificate"
+        },
+        "VIEW": {
+            "CHOOSE_FILE": "Choose file",
+            "VIEW_FILE": "View File",
+            "LABEL": "View Web Service Definition",
+            "SERVICE_ID": "Service ID",
+            "SERVICE_NAME": "Service Name",
+            "DST_PROT": "Destination protocol",
+            "DST_XSD": "Destination XSD",
+            "DST_URL": "Destination URL",
+            "PUB_CERT": "Public Certificate",
+            "SOAP_ACTN_URL": "SOAP Action URL",
+            "SOAP_ACTN_PRFX": "SOAP Action Prefix",
+            "NAME_SPACE_URL": "Name Space URL",
+            "NAME_SPACE_URL1": "Name Space URL 1",
+            "NAME_SPACE_URL2": "Name Space URL 2",
+            "NAME_SPACE_PRFX": "Name Space Prefix",
+            "NAME_SPACE_PRFX1": "Name Space Prefix 1",
+            "NAME_SPACE_PRFX2": "Name Space Prefix 2",
+            "RES_XSD": "Response XSD",
+            "WSDL_URL": "WSDL URL",
+            "BINDING": "Binding",
+            "ENC_CERT": "Encryption Certificate"
+        }
+    },
+    "SECURITY_GROUP": {
+        "SEARCH": {
+            "LABEL": "Security Group Search",
+            "GROUP_ID": "Group ID",
+            "GROUP_NAME": "Group Name",
+            "GROUP_TYPE": "Group Type",
+            "GROUP_STATUS": "Group Status"
+        },
+        "RESULT": {
+            "LABEL": "Security Group Search Result"
+        },
+        "CREATE": {
+            "LABEL": "Create Security Group",
+            "GROUP_ID": "Group ID",
+            "GROUP_NAME": "Group Name",
+            "HOME_SCREEN": "Home Screen",
+            "GROUP_TYPE": "Group Type",
+            "SELECT": "Select",
+            "STATUS": "Status",
+            "HOME_URL": "Home Url"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "Delete Security Group",
+                "CONFIRMATION": "Are you sure, you want to delete this?"
+            },
+            "VERIFY": {
+                "LABEL": "Verify Security Group",
+                "CONFIRMATION": "Are you sure, you want to verify this?"
+            },
+            "REJECT": {
+                "LABEL": "Reject Security Group",
+                "CONFIRMATION": "Are you sure, you want to reject this?"
+            }
+        },
+        "UPDATE": {
+            "LABEL": "Update Security Group"
+        },
+        "VERIFY": {
+            "LABEL": "Verify Security Group"
+        },
+        "BUTTON": {
+          "BANK": "Bank",
+          "CORPORATE": "Corporate"
+        }
+    },
+    "SCREEN_PERMISSION": {
+        "SEARCH": {
+            "LABEL": " Screen Permission Search",
+            "GROUP": "Group"
+        },
+        "RESULT": {
+            "LABEL": "Screen Permission Search Result"
+        },
+        "BUTTON": {
+            "SAVE_ACCESS": "Save Access",
+            "NEW_GROUP": "New Group"
+        },
+        "TABLE": {
+          "SCREEN_NAME": "SCREEN NAME",
+          "CREATE": "CREATE",
+          "MODIFY": "MODIFY",
+          "DELETE": "DELETE",
+          "DISPLAY": "DISPLAY",
+          "VERIFY": "VERIFY"
+        }
+    },
+    "SECURITY_USR_LOG": {
+        "SEARCH": {
+            "LABEL": "Security User Log Search",
+            "USER_ID": "User ID",
+            "IP_ADDRESS": "IP Address",
+            "STATUS": "Status",
+            "DATE_RANGE": "Date Range"
+        },
+        "RESULT": {
+            "LABEL": "Security User Log Search Result"
+        },
+        "BUTTON": {
+            "PDF": "PDF",
+            "EXCEL": "Excel"
+        },
+        "TABLE": {
+          "USER_ID": "User ID",
+          "LOG_TIME": "Log Date/Time",
+          "REASON": "Reason",
+          "LOG_STATUS": "Log Status",
+          "SYSTEM_DATE": "System Date",
+          "IP_ADDRESS": "IP Address"
+        }
+    },
+    "ACCOUNT_DETAILS": {
+        "SEARCH": {
+            "LABEL": "Stand-In Process: Account Details Search",
+            "CIC": "CIC",
+            "ACCOUNT_NUMBER": "Account Number",
+            "NATIONAL_ID": "National ID",
+            "TELEPHONE": "Telephone"
+        },
+        "RESULT": {
+            "LABEL": "Stand-In Process: Account Details Search Result"
+        }
+    },
+    "CHANNEL_DEF": {
+        "SEARCH": {
+            "LABEL": "Channel Definition Search",
+            "BANK_ID": "Bank ID",
+            "CHANNEL_ID": "Channel ID",
+            "STATUS": "Status"
+        },
+        "RESULT": {
+            "LABEL": "Channel Definition Search Result"
+        },
+        "CREATE": {
+            "LABEL": "Create Channel Definition",
+            "BANK_ID": "Bank ID",
+            "CHANNEL_ID": "Channel ID",
+            "CHANNEL_NAME": "Channel Name"
+        },
+        "UPDATE": {
+            "LABEL": "Update Channel Definition",
+            "BANK_ID": "Bank ID",
+            "CHANNEL_ID": "Channel ID",
+            "CHANNEL_NAME": "Channel Name",
+            "STATUS": "Status"
+        },
+        "VERIFY": {
+            "LABEL": "Verify Channel Definition",
+            "OLD_RECORD_LABEL": "Existing Record",
+            "NEW_RECORD_LABEL": "Updated Record",
+            "BANK_ID": "Bank ID",
+            "CHANNEL_ID": "Channel ID",
+            "CHANNEL_NAME": "Channel Name",
+            "STATUS": "Status"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "Delete Channel Definition",
+                "CONFIRMATION": "Are you sure, you want to delete this?"
+            },
+            "VERIFY": {
+                "LABEL": "Verify Channel Definition",
+                "CONFIRMATION": "Are you sure, you want to verify this?"
+            },
+            "REJECT": {
+                "LABEL": "Reject Channel Definition",
+                "CONFIRMATION": "Are you sure, you want to reject this?"
+            }
+        }
+    },
+    "WORKFLOW_SEARCH": {
+        "SEARCH": {
+            "LABEL": "Workflow Search",
+            "WORKFLOW_ID": "Workflow ID",
+            "WORKFLOW_NAME": "Workflow Name",
+            "STATUS": "Status"
+        },
+        "RESULT": {
+            "LABEL": "Workflow Search Result"
+        },
+        "CREATE": {
+            "LABEL": "Create Workflow",
+            "BANK_ID": "Bank ID",
+            "CHANNEL_ID": "Channel ID",
+            "CHANNEL_NAME": "Channel Name",
+            "PROPERTY": "Property",
+            "NO_PROP_AVAIL": "No Properties Available."
+        },
+        "UPDATE": {
+            "LABEL": "Update Workflow",
+            "BANK_ID": "Bank ID",
+            "CHANNEL_ID": "Channel ID",
+            "CHANNEL_NAME": "Channel Name",
+            "STATUS": "Status"
+        },
+        "VERIFY": {
+            "LABEL": "Verify Workflow",
+            "OLD_RECORD_LABEL": "Existing Record",
+            "NEW_RECORD_LABEL": "Updated Record",
+            "BANK_ID": "Bank ID",
+            "CHANNEL_ID": "Channel ID",
+            "CHANNEL_NAME": "Channel Name",
+            "STATUS": "Status"
+        },
+        "TABLE": {
+          "ID": "ID",
+          "NAME": "Name",
+          "PRODUCT_ID": "Product ID",
+          "COUNTRY_CODE": "Country Code",
+          "DESCRIPTION": "Description"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "Delete Workflow",
+                "CONFIRMATION": "Are you sure, you want to delete"
+            },
+            "VERIFY": {
+                "LABEL": "Verify Workflow",
+                "CONFIRMATION": "Are you sure you want to verify this"
+            },
+            "REJECT": {
+                "LABEL": "Reject Workflow",
+                "CONFIRMATION": "Are you sure you want to reject this"
+            },
+            "MODEL": {
+              "LABEL": "Workflow Model",
+              "NAME": "Workflow Name",
+              "COUNTRY_CODE": "Country Code",
+              "PRODUCT": "Product",
+              "DESC": "Workflow description",
+              "CONTEXTUAL_PATH": "Contextual Path"
+            }
+        },
+        "SAVE": "Save",
+        "CLOSE": "Close"
+    },
+    "EVENT_CODE": {
+        "LABEL": "Event Code Definition Search",
+        "SEARCH": {
+            "LABEL": "Event Code Definition Search Result",
+            "BIC": "BIC",
+            "PRODUCT_ID": "Product ID",
+            "SERVICE_ID": "Service ID",
+            "EVENT_CODE": "Event Code",
+            "STATUS": "Status"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "Delete Event Code Definition",
+                "CONFIRMATION": "Are you sure, you want to delete this?"
+            },
+            "VERIFY": {
+                "LABEL": "Verify Event Code Definition",
+                "CONFIRMATION": "Are you sure, you want to verify this?"
+            },
+            "REJECT": {
+                "LABEL": "Reject Event Code Definition",
+                "CONFIRMATION": "Are you sure, you want to reject this?"
+            }
+        },
+        "CREATE": {
+            "LABEL": "Create Event Code Definition",
+            "BIC": "BIC",
+            "PRODUCT_ID": "Product ID",
+            "SERVICE_ID": "Service ID",
+            "EVENT_CODE": "Event Code",
+            "EXTERNAL_SERVICE": "External Service",
+            "EVENT_SHORT_NAME": "Event Short Name",
+            "SERVICE_NAME": "Service Name",
+            "LOGO": {
+                "LABEL": "Logo",
+                "PLACE_HOLDER": "Choose File",
+                "BUTTON": "View File"
+            },
+            "STATUS": "Status"
+        },
+        "VERIFY": {
+            "LABEL": "Verify Event Code Definition"
+        },
+        "UPDATE": "Update Event Code Definition"
+    },
+    "TCP_IP_DEF": {
+        "SEARCH": {
+            "LABEL": "TCP/IP Definition Search",
+            "CONNECTION_ID": "Connection ID",
+            "CONNECTION_NAME": "Connection Name",
+            "STATUS": "Status"
+        },
+        "RESULT": {
+            "LABEL": "TCP/IP Definition Search Result"
+        },
+        "CREATE": {
+            "LABEL": "Create TCP/IP Definition",
+            "CONNECTION_ID": "Connection ID",
+            "CONNECTION_NAME": "Connection Name",
+            "CONNECTION_TYPE": "Connection Type",
+            "DIRECTION": "Direction",
+            "IP_ADDRESS": "IP Address",
+            "PORT": "Port"
+        },
+        "UPDATE": {
+            "LABEL": "Update TCP/IP Definition",
+            "CONNECTION_ID": "Connection ID",
+            "CONNECTION_NAME": "Connection Name",
+            "CONNECTION_TYPE": "Connection Type",
+            "DIRECTION": "Direction",
+            "IP_ADDRESS": "IP Address",
+            "PORT": "Port",
+            "STATUS": "Status"
+        },
+        "VERIFY": {
+            "LABEL": "Verify TCP/IP Definition",
+            "OLD_RECORD_LABEL": "Existing Record",
+            "NEW_RECORD_LABEL": "Updated Record",
+            "CONNECTION_ID": "Connection ID",
+            "CONNECTION_NAME": "Connection Name",
+            "CONNECTION_TYPE": "Connection Type",
+            "DIRECTION": "Direction",
+            "IP_ADDRESS": "IP Address",
+            "PORT": "Port",
+            "STATUS": "Status"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "Delete TCP/IP Definition",
+                "CONFIRMATION": "Are you sure, you want to delete this?"
+            },
+            "VERIFY": {
+                "LABEL": "Verify TCP/IP Definition",
+                "CONFIRMATION": "Are you sure, you want to verify this?"
+            },
+            "REJECT": {
+                "LABEL": "Reject TCP/IP Definition",
+                "CONFIRMATION": "Are you sure, you want to reject this?"
+            }
+        },
+        "BUTTON": {
+          "SERVER": "Server",
+          "CLIENT": "Client",
+          "INCOMING": "Incoming",
+          "OUTGOING": "Outgoing"
+        }
+    },
+    "IBAN_CHECK": {
+        "SEARCH": {
+            "LABEL": "IBAN Check Search",
+            "BIC": "BIC",
+            "STATUS": "Status"
+        },
+        "RESULT": {
+            "LABEL": "IBAN Check Search Result"
+        },
+        "CREATE": {
+            "LABEL": "Create IBAN Check",
+            "BIC": "BIC",
+            "IBAN_FLAG": "IBAN Check"
+        },
+        "UPDATE": {
+            "LABEL": "Update IBAN Check",
+            "BIC": "BIC",
+            "IBAN_FLAG": "IBAN Check",
+            "STATUS": "Status"
+        },
+        "VERIFY": {
+            "LABEL": "Verify IBAN Check",
+            "OLD_RECORD_LABEL": "Existing Record",
+            "NEW_RECORD_LABEL": "Updated Record",
+            "BIC": "BIC",
+            "IBAN_FLAG": "IBAN Check",
+            "STATUS": "Status"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "Delete IBAN Check",
+                "CONFIRMATION": "Are you sure, you want to delete this?"
+            },
+            "VERIFY": {
+                "LABEL": "Verify IBAN Check",
+                "CONFIRMATION": "Are you sure, you want to verify this?"
+            },
+            "REJECT": {
+                "LABEL": "Reject IBAN Check",
+                "CONFIRMATION": "Are you sure, you want to reject this?"
+            }
+        }
+    },
+    "SECUSER": {
+        "LABEL": "Security User Details Search Result",
+        "SELECT": "Select",
+        "SEARCH": {
+            "LABEL": "Security User Details Search",
+            "USER_ID": "User ID",
+            "USER_NAME": "User Name",
+            "USER_TYPE": {
+                "LABEL": "User Type",
+                "BANK": "Bank",
+                "CORPORATE": "Corporate",
+                "SELECT": "Select"
+            },
+            "STATUS": {
+                "LABEL": "Status",
+                "PROCESSD": "Pending Approval",
+                "DELETE": "Delete",
+                "VERIFIED": "Approved",
+                "DELETED": "Deleted"
+            }
+        },
+        "CREATE": {
+            "LABEL": "Create Security User",
+            "USER_ID": "User ID",
+            "USER_NAME": "User Name",
+            "BANK_ID": "Bank ID",
+            "EMAIL_ID": "Email ID",
+            "MOBILE_NO": "Mobile Number",
+            "USER_TYPE": {
+                "LABEL": "User Type",
+                "ADMIN": "Admin",
+                "GENERAL": "General"
+            },
+            "USER_GROUP": "User Group",
+            "DEPARTMENT": "Department",
+            "PASSWORD":"Password",
+            "CONFIRMPWD":"Confirm Password",
+            "STATUS":"Status",
+            "BRANCH":"Branch Name",
+            "COLLEGE":"College Name",
+            "UPLOAD":"Uploaded file"
+        },
+        "CREAT": {
+            "LABEL": "Create User",
+            "USER_ID": "User ID",
+            "USER_NAME": "Student Name",
+            "COLLEGE_ID": "College",
+            "BARNCH_ID": "Branch Name",
+            "MOBILE_NO": "Mobile Number",
+            "STATUS":"Status"
+        },
+        "DISPLAY": {
+            "LABEL": "User Registration",
+            "USER_ID": "User ID",
+            "USER_NAME": "User Name",
+            "BANK_ID": "Bank ID",
+            "GROUP_ID":"Group ID",
+            "GROUP_NAME":"Group Name",
+            "EMAIL_ID": "Email ID",
+            "CELL_PHONE":"Mobile Number",
+            "STATUS": "Status",
+
+            "USER_TYPE": {
+                "LABEL": "User Type",
+                "ADMIN": "Admin",
+                "GENERAL": "General"
+            },
+            "USER_GROUP": "User Group",
+            "DEPARTMENT": "Department",
+            "PASSWORD":"Password",
+            "CONFIRMPWD":"Confirm Password"
+        },
+        "UPDATE": {
+          "LABEL": "Update Security User"
+        },
+        "VERIFY": {
+          "LABEL": "Verify Security User"
+        },
+        "SHOW":{
+            "LABEL": "Show Security User"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "Delete Security User",
+                "CONFIRMATION": "Are you sure, you want to delete this?"
+            },
+            "VERIFY": {
+                "LABEL": "Verify Security User",
+                "CONFIRMATION": "Are you sure, you want to verify this?"
+            }
+        },
+        "STUDENT":{
+            "USERID":"Id",
+            "NAME":"Name",
+            "COLLEGE":"College",
+            "BRANCH":"Branch",
+            "PHONE":"Phone Number",
+            "STATUS":"Status",
+            "GROUP_ID":"Branch",
+            "USERNAME":"User Name"
+        }
+    },
+    "AUDIT_LOG": {
+        "SEARCH": {
+            "LABEL": "Audit Log Search",
+            "USER_ID": "User ID",
+            "FUNCTION_ID": "Function ID",
+            "SELECT": "Select",
+            "CREATE": "CREATE",
+            "MODIFY": "MODIFY",
+            "DELETE": "DELETE",
+            "VERIFY": "VERIFY",
+            "DESCRIPTION": "Description",
+            "SCREEN_ID": "Screen ID",
+            "CODE": "Response Code"
+        },
+        "RESULT": {
+            "LABEL": "Audit Log Search Result"
+        },
+        "VIEW": {
+            "LABEL": "View Audit Log",
+            "DATE_TIME": "Date/Time",
+            "USER_ID": "User ID",
+            "SCREEN_ID": "Screen ID",
+            "FUNCTION_ID": "Function ID",
+            "CODE": "Response Code",
+            "DESCRIPTION": "Description",
+            "FIELD_NAME": "Field Name",
+            "PREVIOUS": "Previous",
+            "CURRENT": "Current",
+            "LONG_TIME": "Long Time"
+        }
+    },
+    "NOTIFY_DEF": {
+        "SEARCH": {
+            "LABEL": "Notification Definition Search",
+            "BANK_ID": "Bank ID",
+            "SERVICE_ID": "Service ID",
+            "PROD_ID": "Product ID",
+            "ERR_TAG": "Error Tag",
+            "ERR_VAL": "Error Value"
+        },
+        "RESULT": {
+            "LABEL": "Notification Definition Search Result"
+        },
+        "CREATE": {
+            "LABEL": "Create Notification Definition",
+            "BANK_ID": "Bank ID",
+            "PROD_ID": "Product ID",
+            "SERVICE_ID": "Service ID",
+            "ERR_VAL": "Error Value",
+            "ERR_TAG": "Error Tag",
+            "SNMP_IP": "SNMP IP",
+            "SNMP_PORT": "SNMP Port",
+            "EMAIL": "Email ID",
+            "SMS_TEL": "Tel Number",
+            "NOTIFY": "Notification Channel"
+        },
+        "DISPLAY": {
+            "LABEL": "Create Notification Definition",
+            "BANK_ID": "Bank ID",
+            "PROD_ID": "Product ID",
+            "SERVICE_ID": "Service ID",
+            "ERR_VAL": "Error Value",
+            "ERR_TAG": "Error Tag",
+            "SNMP_IP": "SNMP IP",
+            "SNMP_PORT": "SNMP Port",
+            "EMAIL": "Email ID",
+            "SMS_TEL": "Tel Number",
+            "NOTIFY": "Notification Channel",
+            "STATUS": "Status",
+            "VERSION_ID": "Version ID"
+        },
+        "VERIFY": {
+            "LABEL": "Verify Notification Definition",
+            "BANK_ID": "Bank ID",
+            "PROD_ID": "Product ID",
+            "SERVICE_ID": "Service ID",
+            "ERR_VAL": "Error Value",
+            "ERR_TAG": "Error Tag",
+            "SNMP_IP": "SNMP IP",
+            "SNMP_PORT": "SNMP Port",
+            "EMAIL": "Email ID",
+            "SMS_TEL": "Tel Number",
+            "NOTIFY": "Notification Channel"
+        },
+        "UPDATE": {
+            "LABEL": "Update Notification Definition",
+            "BANK_ID": "Bank ID",
+            "PROD_ID": "Product ID",
+            "SERVICE_ID": "Service ID",
+            "ERR_VAL": "Error Value",
+            "ERR_TAG": "Error Tag",
+            "SNMP_IP": "SNMP IP",
+            "SNMP_PORT": "SNMP Port",
+            "EMAIL": "Email ID",
+            "SMS_TEL": "Tel Number",
+            "NOTIFY": "Notification Channel"
+        }
+    },
+    "ERROR_CODE": {
+        "SEARCH": {
+            "LABEL": "External Error Code Search",
+            "BANK_ID": "Bank ID",
+            "SERVICE_ID": "Service ID",
+            "PROD_ID": "Product ID",
+            "ERR_CODE": "Error Code"
+        },
+        "RESULT": {
+            "LABEL": "External Error Code Search Result"
+        },
+        "CREATE": {
+            "LABEL": "Create External Error Code",
+            "BANK_ID": "Bank ID",
+            "PROD_ID": "Product ID",
+            "SERVICE_ID": "Service ID",
+            "ERROR_CODE": "Error Code",
+            "ERROR_DESC1": "Error Description (ENG)",
+            "ERROR_DESC2": "Error Description (ARB)",
+            "ERROR_DESC3": "Error Description (FRE)"
+        },
+        "VERIFY": {
+            "LABEL": "Verify External Error Code",
+            "BANK_ID": "Bank ID",
+            "PROD_ID": "Product ID",
+            "SERVICE_ID": "Service ID",
+            "ERROR_CODE": "Error Code",
+            "ERROR_DESC1": "Error Description (ENG)",
+            "ERROR_DESC2": "Error Description (ARB)",
+            "ERROR_DESC3": "Error Description (FRE)"
+        },
+        "UPDATE": {
+            "LABEL": "Update External Error Code",
+            "BANK_ID": "Bank ID",
+            "PROD_ID": "Product ID",
+            "SERVICE_ID": "Service ID",
+            "ERROR_CODE": "Error Code",
+            "ERROR_DESC1": "Error Description (ENG)",
+            "ERROR_DESC2": "Error Description (ARB)",
+            "ERROR_DESC3": "Error Description (FRE)"
+        }
+    },
+    "NOTIFY_MSG": {
+        "SEARCH": {
+            "LABEL": "Notification Message Search",
+            "BANK_ID": "Bank ID",
+            "SERVICE_ID": "Service ID",
+            "PROD_ID": "Product ID",
+            "REF_ID": "Reference ID",
+            "MSG_ID": "Message ID",
+            "ERR_CODE": "Error Code"
+        },
+        "RESULT": {
+            "LABEL": "Notification Message Search Result"
+        },
+        "DISPLAY": {
+            "LABEL": "Diplay External Error Code",
+            "BANK_ID": "Bank ID",
+            "PROD_ID": "Product ID",
+            "SERVICE_ID": "Service ID",
+            "MSG_ID": "Message ID",
+            "REF_ID": "Reference ID",
+            "ERR_CODE": "Error Code",
+            "ERR_DESC": "Error Description",
+            "MSG_TIME": "Message Time",
+            "MSG_DATE": "Message Date",
+            "NOTIF_DET": "Notification Detail",
+            "NOTIF_TIME": "Notification Time"
+        }
+    },
+    "CURRENCY-SPREAD": {
+        "LABEL": "Currency Spread Search Result",
+        "SELECT": "Select",
+        "SEARCH": {
+            "LABEL": "Currency Spread Search",
+            "CLIENT_ID": "Client ID",
+            "CHANNEL_ID": "Channel ID",
+            "STATUS": {
+                "LABEL": "Status",
+                "PROCESSD": "Pending Approval",
+                "DELETE": "Delete Approval",
+                "VERIFIED": "Approved"
+            }
+        },
+        "UPDATE": {
+            "LABEL": "Update Currency Spread",
+            "CLIENT_ID": "Client ID",
+            "CHANNEL_ID": "Channel ID",
+            "CURRENCY_CODE": "Currency Code",
+            "BUY_SPREAD": "Buy Spread",
+            "SELL_SPREAD": "Sell Spread",
+            "EXPIRY_DATE": "Expiry Date",
+            "STATUS": "Status"
+        },
+        "CREATE": {
+            "LABEL": "Create Currency Spread"
+        },
+        "VERIFY": {
+            "LABEL": "Verify Currency Spread ",
+            "CONFIRMATION": "Are you sure you want to verify this"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "Delete Currency Spread",
+                "CONFIRMATION": "Are you sure, you want to delete this?"
+            },
+            "VERIFY": {
+                "LABEL": "Verify Currency Spread",
+                "CONFIRMATION": "Are you sure, you want to verify this?"
+            },
+            "REJECT": {
+                "LABEL": "Reject Currency Spread",
+                "CONFIRMATION": "Are you sure, you want to reject this?"
+            }
+        }
+    },
+    "CUSTOM-MSG": {
+        "NOCHANGE": "No Fields are Changed"
+    },
+    "NOTIFICATION_DEFINITION": {
+        "LABEL": "Notification Definition",
+        "SEARCH": {
+            "LABEL": "Notification Definition Search",
+            "MESSAGE_TYPE": "Message",
+            "MESSAGE": "Message",
+            "TYPE": "Type",
+            "NOT_TYPE": {
+                "LABEL": "Type",
+                "SNMP": "SNMP",
+                "EMAIL": "EMAIL",
+                "SELECT": "Select"
+            },
+            "EMAIL_ID": "Email ID"
+        },
+        "RESULT": {
+            "LABEL": "Notification Definition Search Result"
+        },
+        "DISPLAY": {
+            "LABEL": "Display Notification Definition"
+        },
+        "CREATE": {
+            "LABEL": "Create Notification Definition",
+            "MAPPER_ID": "Mapper ID",
+            "MESSAGE": "Message",
+            "NOT_TYPE": {
+                "LABEL": "Type",
+                "SNMP": "SNMP",
+                "EMAIL": "Email"
+            },
+            "MAPPING_ELEMENT": "Mapping Element",
+            "MAPPING_VALUE": "Mapping Value",
+            "SNMP_IP": "SNMP IP",
+            "EMAIL_ID": "Email ID",
+            "MOBILE_NO": "Mobile Number"
+        },
+        "DETAILS": {
+            "LABEL": "Create Notification Definition",
+            "MAPPER_ID": "Mapper ID",
+            "MESSAGE": "Message",
+            "NOT_TYPE": {
+                "LABEL": "Type",
+                "SNMP": "SNMP",
+                "EMAIL": "Email"
+            },
+            "MAPPING_ELEMENT": "Mapping Element",
+            "MAPPING_VALUE": "Mapping Value",
+            "SNMP_IP": "SNMP IP",
+            "EMAIL_ID": "Email ID",
+            "MOBILE_NO": "Mobile Number",
+            "TYPE": "Type",
+            "STATUS": "Status"
+        },
+        "UPDATE": {
+            "LABEL": "Update Notification Definition",
+            "MAPPER_ID": "Mapper ID",
+            "MESSAGE": "Message",
+            "NOT_TYPE": {
+                "LABEL": "Type",
+                "ADMIN": "SNMP",
+                "GENERAL": "Email"
+            },
+            "MAPPING_ELEMENT": "Mapping Element",
+            "MAPPING_VALUE": "Mapping Value",
+            "EMAIL_ID": "Email ID",
+            "MOBILE_NO": "Mobile Number"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "Delete Notification Definition",
+                "CONFIRMATION": "Are you sure, you want to delete this?"
+            },
+            "VERIFY": {
+                "LABEL": "Verify Notification Definition",
+                "CONFIRMATION": "Are you sure, you want to verify this?"
+            },
+            "REJECT": {
+                "LABEL": "Reject Notification Definition",
+                "CONFIRMATION": "Are you sure, you want to reject this?"
+            }
+        }
+    },
+    "NOTIFICATIONS_MSGS": {
+        "SEARCH": {
+            "LABEL": "Notification Message Search",
+            "MESSAGE": "Message",
+            "DATE_RANGE": "Date",
+            "TYPE": "Notification Type"
+        },
+        "RESULT": {
+            "LABEL": "Notification Message Search Result"
+        },
+        "DISPLAY": {
+            "DATE_TIME": "Date Time",
+            "MESSAGE": "Message",
+            "END_TO_END": "End To End ID",
+            "ERROR_CODE": "Error Code",
+            "ERROR_DESCRIPTION": "Error Description",
+            "NOTIFICATION_TYPE": "Notification Type",
+            "EXTENDED_REASON": "Extended Reason",
+            "NOTIFICATIONS": "Notifications",
+            "CONTROL": "Control",
+            "ECHO_MESSAGE": "Echo message"
+        }
+    },
+    "STANDIN_PAYMENTS": {
+        "SEARCH": {
+            "LABEL": "Stand-in payment Search",
+            "SWIFT_CODE": "SWIFT Code",
+            "DEP": "Department",
+            "DEP_NAME": "Department Name",
+            "CREDITOR_ID": "Creditor ID",
+            "DEBITOR_ID": "Debitor ID",
+            "CREDITOR_ACC_NO": "Creditor Account Number",
+            "DEBITOR_ACC_NO": "Debitor Account Number",
+            "CREDITOR_INFO": "Creditor ID/Account Number",
+            "DEBITOR_INFO": "Debitor ID/Account Number",
+            "AMOUNT": "Transaction Amount",
+            "VALUE_DATE": "Value Date",
+            "TO_BANK": "To Bank",
+            "TRANSACTION_REF": "Transaction Reference",
+            "END2END_ID": "End2End Reference",
+            "REMITTANCE_INFO": "Remittance Info",
+            "TRANSACTION_ID": "Transaction ID",
+            "STATUS": "Status",
+            "BANK_REF": "Bank Reference",
+            "ACCOUNT_NUMBER": "Account Number",
+            "TRANSACTION_DATE": "Transaction Date",
+            "CRDR_FLAG": "Credit/Debit",
+            "DIRECTION": "Incoming/Outgoing"
+        },
+        "RESULT": {
+            "LABEL": "Stand-in payment Search Result"
+        },
+        "DISPLAY": {
+            "LABEL": "Stand-in Payment",
+            "DEBITOR_INFO": "Debitor ID/Account Number",
+            "CREDITOR_INFO": "Creditor ID/Account Number",
+            "TO_BANK": "To Bank",
+            "AMOUNT": "Amount",
+            "TRANSACTION_REF": "Transaction Reference",
+            "END2END_ID": "End2End Reference",
+            "STATUS": "Status",
+            "REMITTANCE_INFO": "Remittance Info",
+            "STATUS_MESSAGE": "Status Message",
+            "USER_COMMENT": "User Comment"
+        }
+    },
+    "SETTLEMENT_HISTORY": {
+        "SEARCH": {
+            "LABEL": "Settlement History Search",
+            "SETTLEMENT_STATUS": "Settlement Status",
+            "PAYMENT_STATUS": "Payment Status"
+        },
+        "RESULT": {
+            "LABEL": "Settlement History Search Result"
+        }
+    },
+    "SERVICE_STATUS": {
+        "SEARCH": {
+            "LABEL": "Service Status Search",
+            "SERVICE_NAME": "Service Name",
+            "RUNNING_STATUS": "Running Status"
+        },
+        "RESULT": {
+            "LABEL": "Service Status Search Result"
+        },
+        "TABLE": {
+          "SERVICE_NAME": "Service Name",
+          "RUNNING_STATUS": "Running Status",
+          "DESCRIPTION": "Description",
+          "STATUS": "Status"
+        }
+    },
+    "REST_SERVICE": {
+        "SEARCH": {
+            "LABEL": "Rest Service Definition Search",
+            "SERVICE_ID": "Service ID",
+            "SERVICE_NAME": "Service Name"
+        },
+        "RESULT": {
+            "LABEL": "Rest Service Definition Search Result"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "Delete Web Service Detail",
+                "CONFIRMATION": "Are you sure, you want to delete"
+            },
+            "VERIFY": {
+                "LABEL": "Verify Rest Service Detail",
+                "CONFIRMATION": "Are you sure you want to verify this"
+            },
+            "REJECT": {
+                "LABEL": "Reject Rest Service",
+                "CONFIRMATION": "Are you sure you want to reject this"
+            }
+        },
+        "CREATE": {
+            "CHOOSE_FILE": "Choose file",
+            "VIEW_FILE": "View File",
+            "LABEL": "Create Rest Service Detail",
+            "SERVICE_ID": "Service ID",
+            "SERVICE_NAME": "Service Name",
+            "JSON_REQUEST": "JSON Request",
+            "JSON_RESPONSE": "JSON Response",
+            "REST_URL": "Rest URL"
+        },
+        "UPDATE": {
+            "CHOOSE_FILE": "Choose file",
+            "VIEW_FILE": "View File",
+            "LABEL": "Update Web Service Detail",
+            "SERVICE_ID": "Service ID",
+            "SERVICE_NAME": "Service Name",
+            "JSON_REQUEST": "JSON Request",
+            "JSON_RESPONSE": "JSON Response",
+            "REST_URL": "Rest URL"
+        },
+        "VERIFY": {
+            "CHOOSE_FILE": "Choose file",
+            "VIEW_FILE": "View File",
+            "LABEL": "Verify Web Service Detail",
+            "SERVICE_ID": "Service ID",
+            "SERVICE_NAME": "Service Name",
+            "JSON_REQUEST": "JSON Request",
+            "JSON_RESPONSE": "JSON Response",
+            "REST_URL": "Rest URL"
+        },
+        "VIEW": {
+            "CHOOSE_FILE": "Choose file",
+            "VIEW_FILE": "View File",
+            "LABEL": "View Web Service Detail",
+            "SERVICE_ID": "Service ID",
+            "SERVICE_NAME": "Service Name",
+            "JSON_REQUEST": "JSON Request",
+            "JSON_RESPONSE": "JSON Response",
+            "REST_URL": "Rest URL"
+        }
+    },
+    "TRANSACTION_ENQUIRY": {
+        "LABEL": "SADAD Transaction Search",
+        "SELECT": "Select",
+        "SEARCH": {
+            "LABEL": "Security User Search",
+            "USER_ID": "User ID",
+            "USER_NAME": "User Name",
+            "USER_TYPE": {
+                "LABEL": "User Type",
+                "BANK": "Bank",
+                "CORPORATE": "Corporate",
+                "SELECT": "Select"
+            },
+            "STATUS": {
+                "LABEL": "Status",
+                "PROCESSD": "Pending Approval",
+                "DELETE": "Deleted",
+                "VERIFIED": "Approved"
+            }
+        }
+    },
+    "SADAD_PAYMENT": {
+        "SEARCH": {
+            "LABEL": "SADAD Transaction Enquiry Search",
+            "STATUS": "Status",
+            "DATE_RANGE": "Date Range",
+            "BILLER_NAME": "Biller Name",
+            "FILE_REFERENCE_NUMBER": "File Reference Number",
+            "TRN_REFERENCE_NUMBER": "Transaction Reference Number",
+            "BILL_TYPE": "Bill Type"
+        },
+        "RESULT": {
+            "LABEL": "SADAD Transaction Enquiry Search Result"
+        },
+        "LABEL": {
+            "ONE_TIME_BILL_PAYMENT": "One Time Bill Payment",
+            "PAYMENT_UPLOAD": " Upload SADAD Transaction Enquiry",
+            "BILL_ENQUIRY": "Bill Enquiry",
+            "ACCOUNT_DETAILS": "Account Details",
+            "PAYMENT_DETAILS": "Payment Details",
+            "UPDATE_BENEFICIARY": "Update Beneficiary",
+            "VERIFY_TRANSACTION": "Verify SADAD Transaction Enquiry",
+            "DISPLAY_TRANSACTION": "Display SADAD Transaction Enquiry",
+            "UPDATE_TRANSACTION": "Update SADAD Transaction Enquiry",
+            "BEN_DETAILS": "Beneficiary Details",
+            "BANK_DETAILS": "Bank Details",
+            "REQUIRED_FIELD": "* Indicates Required Field",
+            "TRANSACTION_DETAILS": "SADAD Transaction Details",
+            "REPAIR_TRANSACTION": "Repair SADAD Transaction",
+            "TRANSACTION_OTP": "Bill Transaction OTP"
+        },
+        "WIZARD": {
+            "BILL_ENQUIRY": "Bill Enquiry",
+            "ACCOUNT_DETAILS": "Account Details",
+            "PAYMENT_DETAILS": "Payment Details",
+            "TRANSACTION_DETAILS": "Transaction Details",
+            "ONE_TIME_PAYENT": "One Time Payment",
+            "PREVIEW_CONFIRM": "Preview and Confirm",
+            "SUMMARY": "Summary",
+            "PREVIEW_SELECT": "Preview and Select",
+            "FILE_DETAILS": "File Details"
+        },
+        "FORM": {
+            "BILLER_NAME": "Biller Name",
+            "DUE_AMOUNT": "Due Amount",
+            "DEBIT_ACCOUNT_NUMBER": "Debit Account Number",
+            "PAYMENT_NARRATIVE": "Payment Narrative",
+            "BILLER_REFERENCE_NUMBER": "Biller Reference Number",
+            "DEBIT_REFERENCE_NUMBER": "Debit Reference Number",
+            "CREATED_DATE": "Created Date",
+            "PAID_AMOUNT": "Paid Amount",
+            "REFERENCE_NUMBER": "Reference Number",
+            "STATUS": "Status",
+            "STATUS_DESCRIPTION": "Status Description",
+            "TRANSACTION_ID": "Transaction Id",
+            "PRODUCT_TYPE": "Payment Type",
+            "BILLER_ID": "Biller ID",
+            "FILE_PATH": "File Path",
+            "CHOOSE_FILE": "Choose file",
+            "FILE_NAME": "File Name",
+            "MESSAGE": "Message",
+            "PAYMENT_TYPE":"Payment Type",
+            "BANK_REF":"Bank Reference",
+            "CUST_REF":"Customer Reference",
+            "ODR_CUS_ACC":"Ordering Customer Account",
+            "CHANNEL_ID":"Channel ID",
+            "BILLING_ACC":"Billing Account"
+        },
+        "DETAILS":{
+          "LABEL": "SADAD Transaction Enquiry Details",
+          "TAB_1": "1. Message",
+          "TAB_2": "2. Accounting Details",
+          "TAB_3": "3. Events & PSR",
+          "TAB_4": "4. Additional Information",
+          "LABEL_TAB1": "Message",
+          "LABEL_TAB2": " Accounting Details ",
+          "LABEL_TAB3": "Events & PSR",
+          "LABEL_TAB4": "Additional Information",
+          "SADAD_TRN": "SADAD PAYMENT",
+          "EVENT_ID": "Event ID",
+          "PSR_ID": "PSR ID",
+          "PSR_TIME": "PSR Date Time",
+          "EVENT_DCR": "Event Description",
+          "PSR_DCR": "PSR Description",
+          "RES_STATUS": "Response Status",
+          "ESB_MESSAGE": "ESB Message"
+        },
+        "MODAL": {
+            "VERIFY": {
+                "LABEL": "Verify SADAD Transaction Enquiry",
+                "CONFIRMATION": "Are you sure, you want to verify this?"
+            },
+            "REJECT": {
+                "LABEL": "Reject SADAD Transaction Enquiry",
+                "CONFIRMATION": "Are you sure, you want to reject this?",
+                "USER_COMMENT": "Please Specify Reason"
+            },
+            "REPAIR": {
+                "LABEL": "Repair SADAD Transaction Enquiry",
+                "CONFIRMATION": "Are you sure, you want to repair this?",
+                "USER_COMMENT": "Please Specify Reason"
+            }
+        }
+    },
+    "GRIDSTATUS": {
+        "ALL": "All",
+        "PENDING_APPROVAL": "Pending Approval",
+        "DELETE_APPROVAL": "Delete Approval",
+        "VERIFIED": "Verified",
+        "PROCESSED": "Processed",
+        "APPROVED": "Approved",
+        "DELETED": "Deleted",
+        "REJECTED": "Rejected",
+        "REQUESTED": "Requested",
+        "CANCELLED": "Cancelled",
+        "DELETE": "Delete",
+        "REPAIR": "Repair",
+        "PENDING": "Pending",
+        "ACTIVE": "Active",
+        "BLOCKED": "Blocked",
+        "HOTLISTED": "Hotlisted",
+        "COMPLETED": "Completed",
+        "SUCCESS": "Success",
+        "FAILED": "Failed",
+        "DEBITED": "Debited",
+        "CREDITED": "Credited",
+        "CLOSED": "Closed",
+        "TEMPLATE": "Template",
+        "APPLIED": "Applied",
+        "EXCEPT": "Except",
+        "ACCUP": "Accup",
+        "ACCEPTED": "Accepted",
+        "RETURN": "Return",
+        "SENT": "Sent",
+        "ACCEPT": "Accept",
+        "INACTIVE":"Inactive",
+        "TOBECANCEL":"To be Cancel",
+        "COMPLETE":"Complete",
+        "RECEIVED":"Received",
+        "AMENDED": "Amended",
+        "TOBE": "To Be",
+        "DEBITR": "Debitr",
+        "NEW": "New",
+        "PENDING_REPAIR": "Pending Repair",
+        "REPROCESS":"Reprocess",
+        "PENDING_REPROCESS":"Pending Reprocess"
+    },
+    "SADAD_MOI": {
+        "SEARCH": {
+            "LABEL": "SADAD MOI Summary Search",
+            "STATUS": "Status",
+            "PAY_STATUS": "Payment Status",
+            "DATE_RANGE": "Date Range",
+            "BILLER_NAME": "Biller Name",
+            "FILE_REFERENCE_NUMBER": "File Reference Number",
+            "TRN_REFERENCE_NUMBER": "Transaction Reference Number",
+            "BILL_REFERENCE_NAME": "Bill Reference Name",
+            "BILL_TYPE": "Bill Type"
+        },
+        "RESULT": {
+            "LABEL": "SADAD MOI Summary Search Result"
+        },
+        "LABEL": {
+            "BILLER_REGISTRATION": "Bill Registration",
+            "BILL_UPLOAD": "Bill Upload",
+            "BILL_ENQUIRY": "Bill Enquiry",
+            "ACCOUNT_DETAILS": "Account Details",
+            "PAYMENT_DETAILS": "Payment Details",
+            "UPDATE_BENEFICIARY": "Update Beneficiary",
+            "VERIFY_BENEFICIARY": "Verify Beneficiary",
+            "DISPLAY_BILLER": "Registered Bill",
+            "BEN_DETAILS": "Beneficiary Details",
+            "BANK_DETAILS": "Bank Details",
+            "REQUIRED_FIELD": "* Indicates Required Field",
+            "MOI_DETAILS": "MOI Details",
+            "VERIFY_MOI": "Verify SADAD MOI Summary",
+            "DISPLAY_MOI": "Display SADAD MOI Summary",
+            "BILL_PAYMENT": "Bill Payment",
+            "BILLS": "Bills",
+            "TRANSACTION_OTP": "Bill Transaction OTP",
+            "MOI_PAYMENT": "Create SADAD MOI Summary",
+            "GRAND_TOTAL": "Grand Total",
+            "MOI_REFUND_PAYMENT": "MOI Refund Payment",
+            "SADAD_BULK_UPLOAD": "Upload SADAD MOI Summary"
+        },
+        "WIZARD": {
+            "SELECT_SERVICE": "Select Service",
+            "MOI_DETAILS": "MOI Details",
+            "PREVIEW_CONFIRM": "Preview and Pay",
+            "SUMMARY": "Summary",
+            "FILE_DETAILS": "File Details",
+            "PREVIEW_SELECT": "Preview and Select"
+        },
+        "FORM": {
+            "SERVICE_TYPE": "Service Type",
+            "APPLICATION_TYPE": "Application Type",
+            "PRODUCT_TYPE": "Bill Type",
+            "DUE_DATE": "Due Date",
+            "DUE_AMOUNT": "Due Amount",
+            "REQUEST_TYPE": "Request Type",
+            "PAID_AMOUNT": "Paid Amount",
+            "BANK_REFERNCE": "Bank Reference",
+            "DEBIT_ACCOUNT": "Debit Account",
+            "UNIQUE_REF": "Transaction Ref",
+            "BENEF_REF_NUMBER": "Benef Ref ID",
+            "CREATE_DATE": "Request Date",
+            "NARRATIVE": "Narrative",
+            "BILLER_NAME": "Biller Name",
+            "DEBIT_ACCOUNT_NUMBER": "Debit Account Number",
+            "PAYMENT_NARRATIVE": "Payment Narrative",
+            "BILLER_REFERENCE_NUMBER": "Biller Reference Number",
+            "DEBIT_REFERENCE_NUMBER": "Debit Reference Number",
+            "CREATED_DATE": "Request Date",
+            "REFERENCE_NUMBER": "Reference Number",
+            "STATUS": "Status",
+            "STATUS_DESCRIPTION": "Status Description",
+            "TRANSACTION_ID": "Transaction Id",
+            "BILL_REFERENCE_NAME": "Bill Reference Name",
+            "FILE_REFERENCE_NUMBER": "File Reference Number",
+            "TRN_REFERENCE_NUMBER": "Transaction Reference Number",
+            "DUE_TODAY": "Due Today",
+            "PARTIAL_ALLOWED": "Partial Allowed",
+            "PAY_STATUS": "Pay Status",
+            "NICK_NAME": "Nick Name",
+            "BILL_TYPE": "Bill Type",
+            "BILEER_ID": "Bill Id",
+            "PAID_DATE": "Paid Date",
+            "PAID_STATUS": "Paid Status",
+            "SADAD_REFERENCE": "SADAD Reference",
+            "FILE_TYPE": "File Type",
+            "FILE_PATH": "File Path",
+            "FILE_REFFERENCE": "File Reference",
+            "MESSAGE": "Message",
+            "BENF_ID": "Beneficiary Id",
+            "FILE_NAME": "File Name",
+            "AVAIL_BAL": "Available Balance",
+            "UNUSED_BAL": "Unused Balance",
+            "DTLS": "Details",
+            "SL_NO": "Sl No",
+            "FEE_TYPE": "Fee Type",
+            "FEE_AMNT": "Fee Amount",
+            "SUB_TOTL": "Sub Total",
+            "BEN_ID": "Beneficiary ID",
+            "BEN_ID_TYPE": "Beneficiary ID Type",
+            "FEE_DEATILS": "Fee Details",
+            "FEE_AMOUNT":"Amount",
+            "FINE_DEATILS": "Fine Details",
+            "VERDICT_NUMBER": "Verdict Number",
+            "VERDICT_DATE": "Verdict Date",
+            "VIOLATIONS_COUNT": "Violations Count",
+            "FINE_AMOUNT":  "Fine Amount",
+            "SENTANCE_DEATILS": "Sentance Details",
+            "INSTALLMENT_NUMBER": "Installment Number",
+            "SENTENCE_NUMBER": "Sentence Number",
+            "CASE_NUMBER":  "Case Number",
+            "DECISION": "Decision",
+            "AMOUNT":"Amount",
+            "REGISTRATION_DATE": "Registration Date",
+            "PAYMENT_DEATILS": "Payment Details",
+            "SADAD_GROUP_PAYMENT_ID": "SADAD Group Payment ID",
+            "BEN_NAME":"Beneficiary Name",
+            "SADAD_TRANSACTION_ID": "SADAD Transaction ID",
+            "TOTAL_AMOUNT":"Total Amount"
+        },
+        "BILL_TYPE": {
+            "PUBLIC": "Public",
+            "PERSONAL": "Personal"
+        },
+        "MODAL": {
+            "VERIFY": {
+                "LABEL": "Verify SADAD MOI Summary",
+                "CONFIRMATION": "Are you sure, you want to verify this?"
+            },
+            "REJECT": {
+                "LABEL": "Reject SADAD MOI Summary",
+                "CONFIRMATION": "Are you sure, you want to reject this?",
+                "USER_COMMENT": "Please specify reason"
+            },
+            "DELETE": {
+                "LABEL": "Delete SADAD MOI Summary",
+                "CONFIRMATION": "Are you sure, you want to delete this?"
+            }
+        }
+    },
+    "STANDING_INST": {
+        "SEARCH": {
+            "LABEL": "Standing Instruction Search",
+            "STATUS": "Status",
+            "PAY_STATUS": "Payment Status",
+            "DATE_RANGE": "Date Range",
+            "BILLER_NAME": "Biller Name",
+            "FILE_REFERENCE_NUMBER": "File Reference Number",
+            "TRN_REFERENCE_NUMBER": "Transaction Reference Number",
+            "BILL_REFERENCE_NAME": "Bill Reference Name",
+            "BILL_TYPE": "Bill Type"
+        },
+        "RESULT": {
+            "LABEL": "Standing Instruction Search Result"
+        },
+        "LABEL": {
+            "ACCOUNT_DETAILS": "Account Details",
+            "PAYMENT_DETAILS": "Payment Details",
+            "UPDATE_BENEFICIARY": "Update Beneficiary",
+            "VERIFY": "Verify Standing Instruction",
+            "CREATE": "Create Standing Instruction",
+            "UPDATE": "Update Standing Instruction",
+            "DISPLAY": "Display Standing Instruction",
+            "BEN_DETAILS": "Beneficiary Details",
+            "BANK_DETAILS": "Bank Details",
+            "REQUIRED_FIELD": "* Indicates Required Field",
+            "BILLER_DETAILS": "Bill Details",
+            "VERIFY_BILLER": "Verify Bill",
+            "BILL_PAYMENT": "Bill Payment",
+            "BILLS": "Bills",
+            "TRANSACTION_OTP": "Bill Transaction OTP",
+            "STANDING_INST_DETAILS": "Standing Instruction Details",
+            "STANDING_INST": "Standing Instruction",
+            "STAND_INST_BULK_UPLOAD": " Upload Standing Instruction  ",
+            "STANDING_INST_ID": "Standing Instruction Id"
+        },
+        "WIZARD": {
+            "BILL_ENQUIRY": "Bill Enquiry",
+            "STANDING_INST_DETAILS": "Standing Instruction Details",
+            "PAYMENT_DETAILS": "Payment Details",
+            "ONE_TIME_PAYENT": "One Time Payment",
+            "PREVIEW_CONFIRM": "Preview and Confirm",
+            "SUMMARY": "Summary",
+            "FILE_DETAILS": "File Details",
+            "PREVIEW_SELECT": "Preview and Select"
+        },
+        "FORM": {
+            "": "",
+            "PRODUCT_TYPE": "Bill Type",
+            "BILLER_NAME": "Biller Name",
+            "DUE_AMOUNT": "Due Amount",
+            "DEBIT_ACCOUNT_NUMBER": "Debit Account Number",
+            "PAYMENT_NARRATIVE": "Payment Narrative",
+            "BILLER_REFERENCE_NUMBER": "Biller Reference Number",
+            "DEBIT_REFERENCE_NUMBER": "Debit Reference Number",
+            "CREATED_DATE": "Created Date",
+            "PAID_AMOUNT": "Paid Amount",
+            "REFERENCE_NUMBER": "Reference Number",
+            "STATUS": "Status",
+            "STATUS_DESCRIPTION": "Status Description",
+            "TRANSACTION_ID": "Transaction Id",
+            "BILL_REFERENCE_NAME": "Bill Reference Name",
+            "FILE_REFERENCE_NUMBER": "File Reference Number",
+            "TRN_REFERENCE_NUMBER": "Transaction Reference Number",
+            "DUE_DATE": "Due Date",
+            "DUE_TODAY": "Due Today",
+            "PARTIAL_ALLOWED": "Partial Allowed",
+            "PAY_STATUS": "Pay Status",
+            "NICK_NAME": "Nick Name",
+            "BILL_TYPE": "Bill Type",
+            "BILEER_ID": "Bill Id",
+            "SI_FREQ": "SI Frequency",
+            "STANDINGINS_ID": "Standing Inst ID",
+            "CEILING_AMOUNT": "Ceiling Amount",
+            "NARRATIVE": "Narrative",
+            "NEXT_DEBIT_DATE": "Next Debit Date",
+            "START_DATE": "Start Date",
+            "END_DATE": "End Date",
+            "PAYMENT_START_DATE": "Payment Start Date",
+            "PAYMENT_END_DATE": "Payment End Date",
+            "RETRY": "Retry",
+            "EMAIL_NOTI": "Email Notification",
+            "DEFAULT_NOTI": "Use your default email",
+            "EMAIL": "Email",
+            "FREQUENCY": "Frequency",
+            "SPECIFY_DAY": "Specify Day",
+            "SPECIFY_MONTH_DAY": "Specify Month And Day",
+            "FILE_TYPE": "File Type",
+            "FILE_PATH": "File Path",
+            "FILE_REFFERENCE": "File Reference",
+            "MESSAGE": "Message",
+            "BILLER_ID": "Biller ID",
+            "FILE_NAME": "File Name",
+            "CHOOSE_FILE": "Choose file",
+            "ACCOUNT_NUMBER": "Account Number"
+        },
+        "BILL_TYPE": {
+            "PUBLIC": "Public",
+            "PERSONAL": "Personal"
+        },
+        "MODAL": {
+            "VERIFY": {
+                "LABEL": "Verify Standing Instruction",
+                "CONFIRMATION": "Are you sure, you want to verify this?"
+            },
+            "REJECT": {
+                "LABEL": "Reject Standing Instruction",
+                "CONFIRMATION": "Are you sure, you want to reject this?",
+                "USER_COMMENT": "Please specify reason"
+            },
+            "DELETE": {
+                "LABEL": "Delete Standing Instruction",
+                "CONFIRMATION": "Are you sure, you want to delete this?"
+            }
+        }
+    },
+    "SADAD_BILLER": {
+        "SEARCH": {
+            "LABEL": "Bill Maintenance Search",
+            "STATUS": "Status",
+            "PAY_STATUS": "Payment Status",
+            "DATE_RANGE": "Date Range",
+            "BILLER_NAME": "Biller Name",
+            "FILE_REFERENCE_NUMBER": "File Reference Number",
+            "TRN_REFERENCE_NUMBER": "Transaction Reference Number",
+            "BILL_REFERENCE_NAME": "Bill Reference Name",
+            "BILL_TYPE": "Bill Type"
+        },
+        "RESULT": {
+            "LABEL": "Bill Maintenance Search Result"
+        },
+        "LABEL": {
+            "BILLER_REGISTRATION": "Create Bill Maintenance",
+            "BILL_UPLOAD": "Upload Bill Maintenance",
+            "BILL_ENQUIRY": "Bill Enquiry",
+            "ACCOUNT_DETAILS": "Account Details",
+            "PAYMENT_DETAILS": "Payment Details",
+            "UPDATE_BENEFICIARY": "Update Beneficiary",
+            "VERIFY_BENEFICIARY": "Verify Beneficiary",
+            "DISPLAY_BILLER": " Display Bill Maintenance",
+            "BEN_DETAILS": "Beneficiary Details",
+            "BANK_DETAILS": "Bank Details",
+            "REQUIRED_FIELD": "* Indicates Required Field",
+            "BILLER_DETAILS": "Bill Details",
+            "VERIFY_BILLER": "Verify Bill Maintenance",
+            "BILL_PAYMENT": "Pay Bill Maintenance",
+            "BILLS": "Bills",
+            "TRANSACTION_OTP": "Bill Transaction OTP",
+            "MORE_DETAILS": "More Details",
+            "UPDATE_BILLER_REGISTRATION": "Update Bill Maintenance"
+        },
+        "WIZARD": {
+            "BILL_ENQUIRY": "Bill Enquiry",
+            "BILLER_DETAILS": "Bill Details",
+            "PAYMENT_DETAILS": "Payment Details",
+            "ONE_TIME_PAYENT": "One Time Payment",
+            "PREVIEW_CONFIRM": "Preview and Confirm",
+            "SUMMARY": "Summary",
+            "PREVIEW_SELECT": "Preview and Select"
+        },
+        "FORM": {
+            "PRODUCT_TYPE": "Bill Type",
+            "BILLER_NAME": "Biller Name",
+            "DUE_AMOUNT": "Due Amount",
+            "DEBIT_ACCOUNT_NUMBER": "Debit Account Number",
+            "PAYMENT_NARRATIVE": "Payment Narrative",
+            "BILLER_REFERENCE_NUMBER": "Biller Reference Number",
+            "DEBIT_REFERENCE_NUMBER": "Debit Reference Number",
+            "CREATED_DATE": "Created Date",
+            "PAID_AMOUNT": "Paid Amount",
+            "REFERENCE_NUMBER": "Reference Number",
+            "STATUS": "Status",
+            "STATUS_DESCRIPTION": "Status Description",
+            "TRANSACTION_ID": "Transaction Id",
+            "BILL_REFERENCE_NAME": "Bill Reference Name",
+            "FILE_REFERENCE_NUMBER": "File Reference Number",
+            "TRN_REFERENCE_NUMBER": "Transaction Reference Number",
+            "DUE_DATE": "Due Date",
+            "DUE_TODAY": "Due Today",
+            "PARTIAL_ALLOWED": "Partial Allowed",
+            "PAY_STATUS": "Pay Status",
+            "NICK_NAME": "Nick Name",
+            "BILL_TYPE": "Bill Type",
+            "BILEER_ID": "Bill Id",
+            "MESSAGE": "Message",
+            "SERVICE_TYPE": "Service Type",
+            "BILLER_ID": "Biller ID"
+        },
+        "BILL_TYPE": {
+            "PUBLIC": "Public",
+            "PERSONAL": "Personal"
+        },
+        "MODAL": {
+            "VERIFY": {
+                "LABEL": "Verify Bill Maintenance",
+                "CONFIRMATION": "Are you sure, you want to verify this?"
+            },
+            "REJECT": {
+                "LABEL": "Reject Bill Maintenance",
+                "CONFIRMATION": "Are you sure, you want to reject this?",
+                "USER_COMMENT": "Please specify reason"
+            },
+            "REPAIR": {
+                "LABEL": "Repair Bill Maintenance",
+                "CONFIRMATION": "Are you sure, you want to repair this?",
+                "USER_COMMENT": "Please specify reason"
+            },
+            "DELETE": {
+                "LABEL": "Delete Bill Maintenance",
+                "CONFIRMATION": "Are you sure, you want to delete this?"
+            }
+        }
+    },
+    "PAYROLL": {
+        "LABEL": {
+            "PAYROLL_UPLOAD": "Payroll Upload",
+            "TRANSACTION_DETAILS": "Payroll Transaction Details",
+            "TRANSACTION_OTP": "Payroll Transaction OTP",
+            "UPLOADED_FILE_DETAILS": "Uploaded File Details",
+            "PAYROLL_HEADERS_SEARCH": "Payroll Headers Search",
+            "PAYROLL_HEADERS_SEARCH_RESULT": "Payroll Headers Search Result",
+            "PAYROLL_TRANSACTIONS_SEARCH": "Payroll Transactions Search",
+            "PAYROLL_TRANSACTIONS_SEARCH_RESULT": "Payroll Transactions Search Result",
+            "PAYROLL_TRANSACTIONS_LOGS": "Payroll Transaction Logs",
+            "PAYROLL_DETAILS": "Payroll Details",
+            "VERIFY_PAYROLL_DETAILS": "Verify Payroll Details",
+            "EMPLOYEE_SEARCH": "Employee Search",
+            "EMPLOYEE_SEARCH_RESULT": "Employee Search Result",
+            "UPDTAE_EMPLOYEE_DETAILS": "Update Employee Details",
+            "VERIFY_EMPLOYEE_DETAILS": "Verify Employee Details",
+            "ACTIVATE_EMPLOYEE_DETAILS": "Activate Employee Details",
+            "BLOCK_EMPLOYEE_DETAILS": "Block Employee Details",
+            "PROCESS_PAYROLL": "Process Payroll",
+            "RENEW_VISA": "Renew Visa",
+            "RENEW_IQAMA": "Renew Iqama",
+            "VEHICLE_SEARCH": "Vehicle Search",
+            "VEHICLE_SEARCH_RESULT": "Vehicle Search Result",
+            "CREATE_VEHICLE": "Create Vehicle",
+            "UPDATE_VEHICLE": "Update Vehicle",
+            "VERIFY_VEHICLE": "Verify Vehicle",
+            "DISPLAY_VEHICLE": "Display Vehicle",
+            "RENEW_VEHICLE": "Renew Vehicle",
+            "AGREEMENT_DETAILS": "Agreement Details"
+        },
+        "WIZARD": {
+            "FILE_DETAILS": "File Details",
+            "PREVIEW_CONFIRM": "Preview and Confirm",
+            "SUMMARY": "Summary",
+            "TRANSACTION_DETAILS": "Transaction Details",
+            "EMPLOYEE_DETAILS": "Employee Details",
+            "VEHICLE_DETAILS": "Vehicle Details"
+        },
+        "FORM": {
+            "PRODUCT_TYPE": "Payroll Type",
+            "FILE_PATH": "File Path",
+            "FILE_DESCRIPTION": "File Description",
+            "CHOOSE_FILE": "Choose file",
+            "FILE_REFFERENCE": "File Reference",
+            "VALUE_DATE": " Value Date",
+            "AMOUNT": "Amount",
+            "CURRENCY": "Currency",
+            "FILE_NAME": "File Name",
+            "OTP": "OTP",
+            "ENTER_OTP": "Enter Otp Here",
+            "PAYROLL_TYPE": "Payroll Type",
+            "PROCESS_STATUS": "Process Status",
+            "TOTAL_RECORDS": "Total Records",
+            "VALID_RECORDS": "Valid Records",
+            "INVALID_RECORDS": "Invalid Records",
+            "DEBIT_ACCOUNT": "Debit Account",
+            "TOTAL_AMOUNT": "Total Amount",
+            "TOTAL_VALID_AMOUNT": "Total Valid Amount",
+            "TOTAL_INVALID_AMOUNT": "Total Invalid Amount",
+            "TOTAL_CHARGES": "Total Charges",
+            "STATUS": "Status",
+            "NATIONAL_ID": "Identification Number",
+            "BENEFICIARY_NAME": "Beneficiary Name",
+            "BENEFICIARY_ACCOUNT": "Beneficiary Account",
+            "FROM_AMOUNT": "From Amount",
+            "TO_AMOUNT": "To Amount",
+            "VERSION_NUMBER": "Version Number",
+            "EST_ID": "Est Id",
+            "NUMBER_RECORDS": "Number Records",
+            "DESCRIPTION": "Description",
+            "TOTAL_DEBIT_AMOUNT": "Total Debit Amount",
+            "TOTAL_FILE_AMOUNT": "Total File Amount",
+            "BASIC_SALARY": "Basic Salary",
+            "HOUSING_ALLOWANCE": "Housing Allowance",
+            "OTHER_EARNINGS": "Other Earnings",
+            "DEDUCTION": "Deduction",
+            "TOTAL_PROCESS_AMOUNT": "Total Process Amount",
+            "TOTAL_REJECT_AMOUNT": "Total Reject Amount",
+            "EMPLOYEEID": "Employee Id",
+            "CELL_NUMBER": "Cell Number",
+            "EMPLOYEENAME": "Employee Name",
+            "EMPLOYEETYPE": "Employee Type",
+            "SAUDI": "Saudi",
+            "NONSAUDI": "Non Saudi",
+            "ALL": "All",
+            "BANK_CODE": "Bank Code",
+            "BANK_ACCOUNT": "Bank Account Number",
+            "ID_EXPIRY_DATE": "ID Expiry Date",
+            "EMP_STATUS": "Employee Status",
+            "GCIC": "GCIC",
+            "LAST_MONTH_PAYROLL": "Last Month Payroll",
+            "MESSAGE": "Message",
+            "ID_TYPE": "ID Type",
+            "CURRENT_OWNER_ID": "Current Owner Id",
+            "VEHICLE_SEQUENCE_NUMBER": "Vehicle Sequence No",
+            "FINANCIAL_NARRATIVE": "Financial Narrative",
+            "REFERRENCE_NUMBER": "Referrence No",
+            "AGREEMENT_STATUS": "Agreement Status"
+        },
+        "GRID": {
+            "NATIONAL_ID": "National Id",
+            "STAFF_ID": "Staff Id",
+            "BENEFICIARY_NAME": "Beneficiary Name",
+            "BENEFICIARY_BANK": "Beneficiary Bank",
+            "BENEFICIARY_ACCOUNT": "Beneficiary Account",
+            "BASIC": "Basic",
+            "HOUSING_ALLOWANCE": "Housing Allowance",
+            "OTHER_EARNINGS": "Other Earnings",
+            "DEDUCTION": "Deduction",
+            "TOTAL_AMOUNT": "Total Amount",
+            "FILE_REFFERENCE": "File Reference",
+            "VERSION_NUMBER": "Version Number",
+            "DEBIT_ACCOUNT": "Debit Account",
+            "VALUE_DATE": " Value Date",
+            "EST_ID": "Est Id",
+            "NUMBER_RECORDS": "Number Records",
+            "AMOUNT": "Amount",
+            "STATUS": "Status",
+            "DESCRIPTION": "Description",
+            "BENEFICIARY_BANK_ID": "Beneficiary Bank Id",
+            "TOTAL_SALARY": "Total Salary",
+            "LOG_TIME": "Log Time",
+            "LOG_BY": "Log By",
+            "INFO": "Information",
+            "FILE_AMOUNT": "File Amount",
+            "DEBIT_AMOUNT": "Debit Amount",
+            "PROCESS_AMOUNT": "Process Amount",
+            "EMPLOYEEID": "Employee Id",
+            "EMPLOYEENAME": "Employee Name",
+            "CELL_NUMBER": "Cell Number",
+            "EMPLOYEETYPE": "Employee Type",
+            "GCIC": "GCIC",
+            "CURRENT_OWNER_ID": "Current Owner Id",
+            "VEHICLE_SEQUENCE_NUMBER": "Vehicle Sequence No",
+            "FINANCIAL_NARRATIVE": "Financial Narrative",
+            "EXPIRY_DATE": "Expiry Date",
+            "REFERRENCE_NUMBER": "Referrence No",
+            "VEHICLE_STATUS": "Vehicle Status",
+            "ID_STATUS": "Id Status"
+        },
+        "TAB": {
+            "PAYROLL_FILE_SEARCH": "Payroll File Search",
+            "PAYROLL_TRANSACTIONS": "Payroll Transactions",
+            "PROCESSING_STATUS": "Processing Status"
+        },
+        "MODALREJECT": {
+            "HEADER": "Reject Payroll",
+            "BODY": {
+                "SURE_REJECT_MESSAGE": "Are you sure, you want to reject ?",
+                "REASON": "Please specify reason"
+            }
+        },
+        "MODALDELETE": {
+            "HEADER": "Delete Payroll",
+            "BODY": {
+                "SURE_DELETE_MESSAGE": "Are you sure, you want to delete ?"
+            }
+        },
+        "MODALREGENERATE": {
+            "HEADER": "Regenerate Payroll",
+            "BODY": {
+                "SURE_REGENERATE_MESSAGE": "Are you sure, you want to regenerate the payroll for the selected file reference ?"
+            }
+        },
+        "MODALNEW": {
+            "HEADER": "New Payroll",
+            "BODY": {
+                "SURE_NEW_MESSAGE": "Are you sure, you want to generate new payroll for the selected file reference ?"
+            }
+        },
+        "MODAL_UPLOAD_EMPLOYEE_FILE": {
+            "HEADER": "Upload Employee File",
+            "BODY": {
+                "EMPLOYEE_FILE": "Employee File"
+            }
+        },
+        "MODAL_REJECT_EMPLOYEE": {
+            "HEADER": "Reject Employee",
+            "BODY": {
+                "SURE_REJECT_MESSAGE": "Are you sure, you want to reject this employee ?"
+            }
+        },
+        "MODAL_ACTIVATE_PAYROLL": {
+            "HEADER": "Activate Employee",
+            "BODY": {
+                "SURE_NEW_MESSAGE": "Are you sure, you want to activate this employee ?"
+            }
+        },
+        "MODAL_BLOCK_PAYROLL": {
+            "HEADER": "Block Employee",
+            "BODY": {
+                "SURE_NEW_MESSAGE": "Are you sure, you want to block this employee ?"
+            }
+        },
+        "MODAL_PROCESS_PAYROLL": {
+            "HEADER": "Process Payroll",
+            "BODY": {
+                "SURE_NEW_MESSAGE": "Please provide a file reference for process payroll"
+            }
+        },
+        "MODALREJECTVEHICLE": {
+            "HEADER": "Reject Vehicle",
+            "BODY": {
+                "SURE_REJECT_MESSAGE": "Are you sure, you want to reject ?"
+            }
+        }
+    },
+    "CURRENCY_CUTOF_DEF": {
+        "SEARCH": {
+            "LABEL": "Currency Cut-off Definition Search",
+            "LABEL_RESULT": "Currency Cut-off Definition Search Result",
+            "BANK_ID": "Bank ID",
+            "PRODUCT_ID": "Product ID",
+            "CURRENCY_CODE": "Currency Code",
+            "CUT_TYPE": "Cut-off Type"
+        },
+        "FORM": {
+            "BANK_ID": "Bank ID",
+            "PRODUCT_ID": "Product ID",
+            "CURRENCY_CODE": "Currency Code",
+            "CUT_TYPE": "Cut-off Type",
+            "CUT_OF_TIME": "Cut-off Time",
+            "STATUS": "Status"
+        },
+        "CREATE": {
+            "LABEL": "Create Currency Cut-off Definition"
+        },
+        "UPDATE": {
+            "LABEL": "Update Currency Cut-off Definition"
+        },
+        "VERIFY": {
+            "LABEL": "Verify Currency Cut-off Definition"
+        },
+        "MODAL": {
+            "VERIFY": {
+                "LABEL": "Verify Currency Cut-off Definition",
+                "CONFIRMATION": "Are you sure, you want to verify this?"
+            }
+        },
+        "BUTTON": {
+          "BULK": "Bulk",
+          "SINGLE": "Single"
+        }
+    },
+    "BUSINESS_DATE": {
+        "LABEL": "Business Date  Search Result",
+        "SELECT": "Select",
+        "SEARCH": {
+            "LABEL": "Business Date  Search",
+            "BANK_ID": "Bank ID",
+            "PRODUCT_ID": "Product ID",
+            "USER_TYPE": {
+                "LABEL": "User Type",
+                "BANK": "Bank",
+                "CORPORATE": "Corporate",
+                "SELECT": "Select"
+            },
+            "STATUS": {
+                "LABEL": "Status",
+                "PROCESSD": "Pending Approval",
+                "DELETE": "Deleted",
+                "VERIFIED": "Approved"
+            }
+        },
+        "CREATE": {
+            "LABEL": "Create Business Date",
+            "BANK_ID": "Bank ID",
+            "PRODUCT_ID": "Product ID",
+            "BUSINESS_DATE": "Business Date  ",
+            "JULIAN_DATE": "Julian Date",
+            "CUT_OVER_TIME": "Cut Over Time",
+            "CUT_OFF_TIME": "Cut Off Time",
+            "BO_CUT_OFF_TIME": "Back Office Cut Off Time",
+            "CUT_OVER_REFERENCE": "Cut Over Reference",
+            "CUT_OFF_REFERENCE": "Cut Off Reference",
+            "USER_TYPE": {
+                "LABEL": "User Type",
+                "ADMIN": "Admin",
+                "GENERAL": "General"
+            },
+            "USER_GROUP": "User Group"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "Delete Business Date",
+                "CONFIRMATION": "Are you sure, you want to delete this?"
+            },
+            "VERIFY": {
+                "LABEL": "Verify Business Date",
+                "CONFIRMATION": "Are you sure, you want to verify this?"
+            },
+            "REJECT": {
+                "LABEL": "Reject Business Date",
+                "CONFIRMATION": "Are you sure, you want to reject this?"
+            }
+        },
+        "VERIFY": {
+            "LABEL": "Verify Business Date",
+            "CONFIRMATION": "Are you sure, you want to approve this?",
+            "BANK_ID": "Bank ID",
+            "PRODUCT_ID": "Product ID",
+            "BUSINESS_DATE": "Business Date  ",
+            "JULIAN_DATE": "Julian Date",
+            "CUT_OVER_TIME": "Cut Over Time",
+            "CUT_OFF_TIME": "Cut Off Time",
+            "BO_CUT_OFF_TIME": "Back Office Cut Off Time",
+            "CUT_OVER_REFERENCE": "Cut Over Reference",
+            "CUT_OFF_REFERENCE": "Cut Off Reference"
+        },
+        "UPDATE": {
+            "LABEL": "Update Business Date",
+            "BANK_ID": "Bank ID",
+            "PRODUCT_ID": "Product ID",
+            "BUSINESS_DATE": "Business Date  ",
+            "JULIAN_DATE": "Julian Date",
+            "CUT_OVER_TIME": "Cut Over Time",
+            "CUT_OFF_TIME": "Cut Off Time",
+            "BO_CUT_OFF_TIME": "Back Office Cut Off Time",
+            "CUT_OVER_REFERENCE": "Cut Over Reference",
+            "CUT_OFF_REFERENCE": "Cut Off Reference",
+            "STATUS": "Status"
+        },
+        "DISPLAY": {
+            "LABEL": "Display Business Date",
+            "BANK_ID": "Bank ID",
+            "PRODUCT_ID": "Product ID",
+            "BUSINESS_DATE": "Business Date  ",
+            "JULIAN_DATE": "Julian Date",
+            "CUT_OVER_TIME": "Cut Over Time",
+            "CUT_OFF_TIME": "Cut Off Time",
+            "BO_CUT_OFF_TIME": "Back Office Cut Off Time",
+            "CUT_OVER_REFERENCE": "Cut Over Reference",
+            "CUT_OFF_REFERENCE": "Cut Off Reference"
+        },
+        "BUTTONS": {
+            "SEARCH": "Search",
+            "OK": "OK",
+            "DELETE": "Delete",
+            "UPDATE": "Update",
+            "CREATE": "Create",
+            "CANCEL": "Cancel",
+            "NO": "No",
+            "YES": "Yes",
+            "ADD": "Create",
+            "LIST": "List",
+            "CLEAR": "Clear",
+            "VERIFY": "Verify",
+            "REJECT": "Reject",
+            "APPROVE": "Verify",
+            "RETURN_FUND": "Return Fund",
+            "GLBLENQ": "Global Enquiry",
+            "DISPLAY": "Display",
+            "PRINT": "Print",
+            "VIEW": "View",
+            "DETAILS": "Details",
+            "BACK": "Back",
+            "XLUPLOAD": "Excel Upload",
+            "DOWNLOAD": "Download",
+            "START": "Start",
+            "STOP": "Stop",
+            "IMAGEUPLOAD":"Image Upload"
+        }
+    },
+    "PRD_SRV": {
+        "SEARCH_HEAD": "Products and Services Search",
+        "PRD_SRV": "Products and Services Search Result",
+        "PRD_ID": "Product ID",
+        "SRV_ID": "Service ID",
+        "BANK_ID": "Bank ID",
+        "STATUS": "Status",
+        "SRV_L1": "Service Name L1",
+        "SRV_L2": "Service Name L2",
+        "MSG_TYPE": "Message Type",
+        "MSG_FMT": "Message Format",
+        "VIEW": "View Product and Services"
+    },
+    "HOLDAY": {
+        "BANK_ID": "Bank ID",
+        "DATE": "Date",
+        "HOLDAY": "Holiday",
+        "HOL_DATE": "Holiday Date",
+        "HEAD": "Holidays Search Result",
+        "SEARCH_HEAD": "Holidays search",
+        "HOL_CREATE": "Create Holidays",
+        "HOL_UPDATE": "Update Holidays",
+        "EDIT_HOLIDAY":"Holiday",
+        "VERIFY": {
+          "LABEL": "Verify Holidays",
+          "BANK_ID": "Bank ID",
+          "HOLIDAY": "Holiday",
+          "CREATED_BY": "Created By",
+          "STATUS": "Status"
+        },
+        "MODAL": {
+          "DELETE": {
+              "LABEL": "Delete Holidays",
+              "CONFIRMATION": "Are you sure, you want to delete this?"
+          },
+          "VERIFY": {
+              "LABEL": "Verify Holidays",
+              "CONFIRMATION": "Are you sure, you want to verify this?"
+          }
+      }
+    },
+    "ACCOUNT_DEFINITION": {
+        "SEARCH": {
+            "LABEL": "Account Definition Search",
+            "BANK_ID": "Bank ID",
+            "PRODUCT_ID": "Product ID",
+            "DIRECTION": {
+                "LABEL": "Direction",
+                "SELECT": "Select",
+                "I": "Incoming",
+                "O": "Outgoing"
+            },
+            "ACCOUNT_TYPE": "Account Type"
+        },
+        "CREATE": {
+            "LABEL": "Create Account Definition",
+            "BANK_ID": "Bank ID",
+            "PRODUCT_ID": "Product ID",
+            "ACCOUNT_TYPE": "Account Type",
+            "IBAN": "IBAN Account Number",
+            "BBAN": "BBAN Account Number",
+            "DIRECTION": "Direction",
+            "SERVICE_ID": "Service ID",
+            "STATUS": "Status"
+        },
+        "UPDATE": {
+          "LABEL": "Update Account Definition"
+        },
+        "VERIFY": {
+          "LABEL": "Verify Account Definition"
+        },
+        "BUTTONS": {
+            "CLEAR": "Clear",
+            "SEARCH": "Search",
+            "CREATE": "Create",
+            "UPDATE": "Update",
+            "VERIFY": "Verify",
+            "DELETE": "Delete",
+            "LIST": "List"
+        },
+        "RESULT": {
+            "LABEL": "Account Definition Search Result"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "Delete Account Definition",
+                "CONFIRMATION": "Are you sure, you want to delete this?"
+            },
+            "VERIFY": {
+                "LABEL": "Verify Account Definition",
+                "CONFIRMATION": "Are you sure, you want to verify this?"
+            }
+        }
+    },
+    "OUT_BLK_PAY": {
+        "SRCH": "Outgoing Bulk Payment Search",
+        "BANK_ID": "Bank ID",
+        "CHANNEL_ID": "Channel ID",
+        "INSTRUCTION_UUID": "Instruction UUID",
+        "PRODUCT_ID": "Product ID",
+        "SERVICE_ID": "Service ID",
+        "FILE_REFERNCE": "File Reference",
+        "PSH_REFERNCE": "PSH Reference",
+        "DEP": "Department",
+        "TOTAL_AMOUNT": "Total Amount",
+        "PROCESS_DATE_RANGE": "Process Date",
+        "PROCESS_DATE": "Process Date ",
+        "VALUE_DATE_RANGE": "Value Date",
+        "VALUE_DATE": "Value Date ",
+        "STATUS": "Status",
+        "STATUS_DCR": "Status Description",
+        "DIR": "Direction",
+        "OUT": "Outgoing",
+        "IN": "Incoming",
+        "RSLTS": "Outgoing bulk payment search Result",
+        "UTI": "UTI"
+    },
+    "COMMONFIELD": {
+        "SELECT": "Select"
+    },
+    "SARIE_STREAM_DEF": {
+        "SEARCH": {
+            "LABEL": "SARIE Stream Definition Search",
+            "STREAM_ID": "Stream ID",
+            "SAMA_ID": "SAMA ID",
+            "STATUS": "Status"
+        },
+        "RESULT": {
+            "LABEL": "SARIE Stream Definition Search Result"
+        },
+        "DISPLAY": {
+            "QUEUE_SIZE": "Queue Size",
+            "STREAM": "Stream ID",
+            "SAMA_ID": "SAMA ID",
+            "STATUS": "Status",
+            "COVERSATION_ID": "Conversation ID",
+            "SSN": "SSN",
+            "DIRECTION":"Direction"
+        }
+    },
+    "SARIE_OUT_CST_PAY": {
+        "LABEL": "Outgoing Customer Payment Search",
+        "SEARCH": {
+            "LABEL": "Outgoing Customer Payment Search Result",
+            "ACC_NO": "Account Number",
+            "TO_BANK": "To Bank",
+            "FROM_DEP": "From Department",
+            "UTI": "UTI",
+            "STATUS": {
+                "CANCELL": "CANCELLED"
+            },
+            "AMOUNT": "Amount",
+            "TRANS_REF": "Transaction Reference",
+            "DATE_RANGE": "Date Range",
+            "SORT_BY": "Sort By",
+            "VALUE_DATE": "Value Date"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "Reject Outgoing Customer Payment",
+                "CONFIRMATION": "Are you sure, you want to reject this?"
+            },
+            "VERIFY": {
+                "LABEL": "Verify Outgoing Customer Payment",
+                "CONFIRMATION": "Are you sure, you want to verify this?"
+            },
+            "CANCEL": {
+                "LABEL": "Cancel Outgoing Customer Payment",
+                "CONFIRMATION": "Are you sure, you want to cancel this?"
+            },
+            "REPAIR": {
+              "LABEL": "Repair Outgoing Customer Payment",
+              "CONFIRMATION": "Are you sure, you want to repair this?",
+              "PLACEHOLDER": "Please specify repair reason"
+            }
+        },
+        "CREATE": {
+          "LABEL": "Create Outgoing Customer Payment ",
+          "BIC": "Bank ID",
+          "CUST_REF": ":20:Sender’s Reference",
+          "PAYMENT_MODE": "Payment Mode",
+          "PAYMENT_PRIORITY": "Payment Priority",
+          "CUR_CODE": ":32A:Currency",
+          "VALUE_DATE": ":32A:Value Date",
+          "AMOUNT": ":32A:Transaction Amount",
+          "SERVICE_NAME": "Service Name",
+          "ORDR_CST_BIC": "Ordering Institution BIC",
+          "ORDR_CST_DET1": ":50K:Ordering Customer Address Line 1",
+          "ORDR_CST_DET2": ":50K:Ordering Customer Address Line 2",
+          "ORDR_CST_DET3": ":50K:Ordering Customer Address Line 3",
+          "ORDR_CST_NAME": ":50K:Ordering Customer Name",
+          "ORDR_CST_ACCOUNT": ":50K:Ordering Customer Account",
+          "PAY_DET4": ":70:Remittance Information Line 4",
+          "PAY_DET3": ":70:Remittance Information Line 3",
+          "PAY_DET2": ":70:Remittance Information Line 2",
+          "PAY_DET1": ":70:Remittance Information Line 1",
+          "SENDER_2_REC_INFO1": ":72:Sender to Receiver Information Narrative 1",
+          "SENDER_2_REC_INFO2": ":72:Sender to Receiver Information Narrative 2",
+          "SENDER_2_REC_INFO3": ":72:Sender to Receiver Information Narrative 3",
+          "SENDER_2_REC_INFO4": ":72:Sender to Receiver Information Narrative 4",
+          "SENDER_2_REC_INFO5": ":72:Sender to Receiver Information Narrative 5",
+          "SENDER_2_REC_INFO6": ":72:Sender to Receiver Information Narrative 6",
+          "POP": ":77B:Regulatory Information-Purpose of Payment",
+          "OTHER_POP": "Other Purpose of Payment",
+          "BEN_ADD1": ":59:Beneficiary Address 1",
+          "BEN_ADD2": ":59:Beneficiary Address 2",
+          "BEN_ADD3": ":59:Beneficiary Address 3",
+          "BEN_NAME": ":59:Beneficiary Name",
+          "BEN_ACCOUNT": ":59:Beneficiary Account Number",
+          "BEN_BIC": "Beneficiary Bank Code",
+          "ACCOUNT_WITH_INSTI_BIC": ":57A:Account with Institution Identifier Code",
+          "ACCOUNT_WITH_INSTI_ID": ":57A:Account with Institution Party Identifier",
+          "ACCOUNT_WITH_INSTI_DET1": ":57A:Account with Institution Address 1",
+          "ACCOUNT_WITH_INSTI_DET2": ":57A:Account with Institution Address 2",
+          "ACCOUNT_WITH_INSTI_DET3": ":57A:Account with Institution Address 3",
+          "57A_ACCOUNT_WITH_INSTI_ACC_NUM": ":57A:Account with Institution Account Number",
+          "57A_ACCOUNT_WITH_INSTI_PARTY_BIC": ":57A:Account with Institution Party Identifier and BIC",
+          "57D_ACCOUNT_WITH_INSTI_ACC_NUM": ":57D:Account with Institution Account Number",
+          "57D_ACCOUNT_WITH_INSTI_NAME": ":57D:Account With Institution Name",
+          "57D_ACCOUNT_WITH_INSTI_ADD1": ":57D:Account with Institution Address 1",
+          "57D_ACCOUNT_WITH_INSTI_ADD2": ":57D:Account with Institution Address 2",
+          "57D_ACCOUNT_WITH_INSTI_ADD3": ":57D:Account with Institution Address 3",
+          "57A_TITLE": ":57A:",
+          "57D_TITLE": ":57D:",
+          "57C_TITLE": ":57C:",
+          "57C_ACCOUNT_WITH_INSTI_ACC_NUM": ":57C:Account with Institution Account Number",
+          "SERVICE_ID":"Service ID"
+        },
+        "VERIFY": {
+            "LABEL": " Verify Outgoing Customer Payment "
+        },
+        "UPDATE": "Update Outgoing Customer Payment ",
+        "BUTTON": {
+          "HIGH": "High",
+          "LOW": "Low"
+        }
+    },
+    "INTERBK_PAY": {
+        "LABEL": "Interbank Payment Search",
+        "SEARCH": {
+            "LABEL": "Interbank Payment Search Result",
+            "ACC_NO": "Account Number",
+            "TO_BANK": "To Bank",
+            "FROM_DEP": "From Department",
+            "UTI": "UTI",
+            "STATUS": {
+                "CANCELL": "CANCELLED"
+            },
+            "AMOUNT": "Amount",
+            "TRANS_REF": "Transaction Reference",
+            "DATE_RANGE": "Date Range",
+            "SORT_BY": "Sort By",
+            "VALUE_DATE": "Value Date"
+        },
+
+        "DISPLAY": {
+            "LABEL": "Interbank Payment Search Result",
+            "ACC_NO": "Account Number",
+            "TO_BANK": "To Bank",
+            "FROM_DEP": "From Department",
+            "UTI": "UTI",
+            "AMOUNT": "Amount",
+            "TRANS_REF": "Transaction Reference",
+            "DATE_RANGE": "Date Range",
+            "STATUS": "Status",
+            "VALUE_DATE": "Value Date",
+            "POST_DATE": "Post Date",
+            "REPAIR_REASON": "Repair Reason"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "Reject Interbank Payment",
+                "CONFIRMATION": "Are you sure, you want to reject this?"
+            },
+            "VERIFY": {
+                "LABEL": "Verify Interbank Payment",
+                "CONFIRMATION": "Are you sure, you want to verify this?"
+            },
+            "CANCEL": {
+                "LABEL": "Cancel Interbank Payment",
+                "CONFIRMATION": "Are you sure, you want to cancel this?"
+            },
+            "REPAIR": {
+              "LABEL": "Repair Interbank Payment",
+              "CONFIRMATION": "Are you sure, you want to repair this?",
+              "PLACEHOLDER": "Please specify repair reason"
+            }
+        },
+        "CREATE": {
+          "LABEL": "Create Interbank Payment ",
+          "BIC": "Beneficiary Bank ID",
+          "CUST_REF": ":20:Sender’s Reference",
+          "RELATED_REF": ":21:Related Reference",
+          "PAYMENT_MODE": "Payment Mode",
+          "CUR_CODE": "Currency Code",
+          "VALUE_DATE": ":32A:Value Date",
+          "AMOUNT": ":32A:Transaction Amount",
+          "SERVICE_NAME": "Service Name",
+          "ORDR_IST_BIC": ":52A:Ordering Institution BIC",
+          "ORDR_IST_DET1": ":52D:Ordering Customer Address Line 1",
+          "ORDR_IST_DET2": ":52D:Ordering Customer Address Line 2",
+          "ORDR_IST_DET3": ":52D:Ordering Customer Address Line 3",
+          "ORDR_IST_NAME": ":52D:Ordering Customer Name",
+          "ORDR_IST_ACCOUNT": "Debit Account Number",
+          "SENDER_2_REC_INFO1": ":72:Sender to Receiver Information Narrative 1",
+          "SENDER_2_REC_INFO2": ":72:Sender to Receiver Information Narrative 2",
+          "SENDER_2_REC_INFO3": ":72:Sender to Receiver Information Narrative 3",
+          "SENDER_2_REC_INFO4": ":72:Sender to Receiver Information Narrative 4",
+          "SENDER_2_REC_INFO5": ":72:Sender to Receiver Information Narrative 5",
+          "SENDER_2_REC_INFO6": ":72:Sender to Receiver Information Narrative 6",
+          "BEN_ADD1": ":58D:Beneficiary Institution Name",
+          "BEN_ADD2": ":58D:Beneficiary Institution Address 1",
+          "BEN_ADD3": ":58D:Beneficiary Institution Address 2",
+          "BEN_ADD4": ":58D:Beneficiary Institution Address 3",
+          "BEN_BANK_CODE": "Beneficiary Bank Name",
+          "BEN_ACCOUNT": ":58A:Party Identifier (Beneficiary Account)",
+          "BEN_BIC": ":58A:Identifier Code (Beneficiary Institution BIC)",
+          "ACCOUNT_WITH_INSTI_BIC": ":57A:Account with Institution Identifier Code",
+          "ACCOUNT_WITH_INSTI_ID": "Account With Institution ID",
+          "ACCOUNT_WITH_INSTI_DET1": ":57A:Account with Institution Address 1",
+          "ACCOUNT_WITH_INSTI_DET2": ":57A:Account with Institution Address 2",
+          "ACCOUNT_WITH_INSTI_DET3": ":57A:Account with Institution Address 3",
+          "BEN_ACC_NUM": ":58A:Party Identifier (Beneficiary Account)",
+          "57A":":57A:",
+          "57D":":57D:",
+          "ACCOUNT_WITH_INSTI_AC_A":":57A:Account with Institution Account Number",
+          "ACCOUNT_WITH_INSTI_I_BIC":":57A:Account with Institution Party Identifier and BIC",
+          "ACCOUNT_WITH_INSTI_AC_D":":57D:Account with Institution Account Number",
+          "ACCOUNT_WITH_INSTI_NAME":"57D:Account with Institution Name",
+          "ACCOUNT_WITH_INSTI_ADD1":"57D:Account with Institution Address 1",
+          "ACCOUNT_WITH_INSTI_ADD2":"57D:Account with Institution Address 2",
+          "ACCOUNT_WITH_INSTI_ADD3":"57D:Account with Institution Address 3",
+          "PAYMENT_PRIORITY": "Payment Priority",
+          "SERVICE_ID":"Service ID"
+        },
+        "VERIFY": {
+            "LABEL": "Verify Interbank Payment"
+        },
+        "UPDATE": "Update Interbank Payment ",
+        "BUTTON": {
+          "HIGH": "High",
+          "LOW": "Low"
+        },
+        "VALIDATION_MESSAGE" : {
+          "PSH_021": "Beneficiary BIC And Either Beneficiary Account Or Beneficiary Name Must Not Be Empty.",
+          "PSH_022": "Beneficiary Name And Either Beneficiary BIC Or Beneficiary Address Must Not Be Empty.",
+          "PSH_024": "Beneficiary Institution BIC Must Not Be Empty.",
+          "PSH_023": "Beneficiary Address Must Not Be Empty."
+        }
+    },
+    "OUT_TRN_ENQ": {
+        "SEARCH": {
+            "LABEL": "Outgoing Transaction Enquiry Search",
+            "CHANNEL_ID": "Channel ID",
+            "PRODUCT_ID": "Product ID",
+            "SERVICE_ID": "Service ID",
+            "E2E_REF": "Transaction Reference",
+            "PSH_REF": "PSH Reference",
+            "BANK_REF": "Bank Reference",
+            "EXT_REF": "UTI/External Reference",
+            "VALUE_DATE_FROM": "Value Date From",
+            "VALUE_DATE_TO": "Value Date To",
+            "STATUS": "Status",
+            "TO_BANK":"To Bank",
+            "AMOUNT_RANGE": "Amount Range",
+            "FROM_AMOUNT": "From Amount",
+            "TO_AMOUNT": "To Amount",
+            "RELATED_REF": "Related Reference",
+            "ORD_CUST_ACNT": "Ordering Customer Account",
+            "BEF_CUST_ACNT": "Beneficiary Customer Account",
+            "PAYMENT_TYPE": "Payment Type"
+        },
+        "RESULT": {
+            "LABEL": "Outgoing Transaction Enquiry Search Result"
+        },
+        "MODAL": {
+          "CANCEL_MODAL": {
+            "TITLE": "Cancel Outgoing Transaction",
+            "MESSAGE": "Are you sure, you want to cancel this?"
+          },
+          "VERIFY_MODAL": {
+            "TITLE": "Verify Outgoing Transaction",
+            "MESSAGE": "Are you sure, you want to verify this?"
+          },
+          "COMPLETE": {
+            "TITLE": "Complete Outgoing Transaction",
+            "MESSAGE": "Are you sure, you want to Complete this?"
+          }
+        },
+        "DISPLAY": {
+            "LABEL": "Outgoing Transaction Enquiry Details",
+            "TAB_1": "1. Message",
+            "TAB_2": "2. Accounting Details",
+            "TAB_3": "3. Events & PSR",
+            "TAB_4": "4. Additional Information",
+            "LABEL_TAB1": "Message",
+            "LABEL_TAB2": " Accounting Details ",
+            "LABEL_TAB3": "Events & PSR",
+            "LABEL_TAB4": "Additional Information",
+            "BANK_ID": "Bank ID",
+            "CHANNEL_ID": "Channel ID",
+            "INSTRUCTION_UUID": "Instruction UUID",
+            "PRODUCT_ID": "Product ID",
+            "SERVICE_ID": "Service ID",
+            "PSH_REFERNCE": "PSH Reference",
+            "TRN_AMOUNT": ":32A:Transaction Amount",
+            "DEBIT_DATE": "Debit Date ",
+            "VALUE_DATE": ":32A:Value Date ",
+            "CUST_REF": "Customer Reference",
+            "CUST_NAME": "Customer Name",
+            "CUST_ACC_NO": ":50K:Ordering Customer Account",
+            "BEN_BANK_CODE": "Beneficiary Bank Code",
+            "BEN_CUST_NAME": ":59:/:58D:Beneficiary Name",
+            "BEN_BANK_ACC": ":59:/:58A:Beneficiary Account Number",
+            "TO_BANK": "To Bank",
+            "EXT_REF": "UTI/External Reference",
+            "BANK_REF": "Bank Reference",
+            "STATUS": "Status",
+            "STATUS_DCR": "Status Description",
+            "EVENT_ID": "Event ID",
+            "PSR_ID": "PSR ID",
+            "PSR_TIME": "PSR Date Time",
+            "EVENT_DCR": "Event Description",
+            "TRANSACTION_REF": ":20:Sender’s Reference",
+            "PSR_DCR": "PSR Description",
+            "ACCOUNT_NUMBER": "Account Number",
+            "TRN_TIME": "Transaction Date/Time",
+            "CURRENCY_CODE": ":32A:Currency",
+            "CRDR_FLAG": "Credit/Debit",
+            "LABEL_OUTPAY": "Outgoing Payment",
+            "LABEL_CUST_INFO": "Ordering Customer Info",
+            "CUST_ADD1": ":50K:/:52D:Ordering customer Address Line 1",
+            "CUST_ADD2": ":50K:/:52D:Ordering customer Address Line 2",
+            "CUST_ADD3": ":50K:/:52D:Ordering customer Address Line 3",
+            "CUST_INST_BIC": "Customer Institution BIC",
+            "NETWORK": "Network",
+            "LABEL_BEN_INFO": "Beneficiary Info",
+            "BEN_ADD1": ":59:/:58D:Beneficiary Address 1",
+            "BEN_ADD2": ":59:/:58D:Beneficiary Address 2",
+            "BEN_ADD3": ":59:/:58D:Beneficiary Address 3",
+            "LABEL_ACTUAL_INFO": "Actual Info",
+            "DEP": "Department",
+            "TRN_CCY": "Currency Code",
+            "CHARGE": "Charge",
+            "VAT": "VAT",
+            "EX_RATE": "Exchange Rate",
+            "ACC_INST_BIC": ":57A:Account with Institution Identifier Code",
+            "ACC_INST_ID": ":57A:Account with Institution Party Identifier",
+            "ACC_INST_DET1": ":57A:Account with Institution Address 1",
+            "ACC_INST_DET2": ":57A:Account with Institution Address 2",
+            "ACC_INST_DET3": ":57A:Account with Institution Address 3",
+
+            "ACC_WITH_INST_ACC_NUM":":57A:/:57C:/:57D:Account with Institution Account Number",
+            "ACC_WITH_INST_BIC": ":57A:Account with Institution Party Identifier and BIC",
+            "ACC_WITH_INST_NAME": ":57D:Account With Institution Name",
+            "ACC_WITH_INST_ADDR1": ":57D:Account with Institution Address 1",
+            "ACC_WITH_INST_ADDR2": ":57D:Account with Institution Address 2",
+            "ACC_WITH_INST_ADDR3": ":57D:Account with Institution Address 3",
+
+            "PP": ":77B:Regulatory Information-Purpose of Payment",
+            "PAY_DET_1": ":70:Remittance Information Line 1",
+            "PAY_DET_2": ":70:Remittance Information Line 2",
+            "PAY_DET_3": ":70:Remittance Information Line 3",
+            "PAY_DET_4": ":70:Remittance Information Line 4",
+            "S2R_INFO_1": ":72:Sender to Receiver Information Narrative 1",
+            "S2R_INFO_2": ":72:Sender to Receiver Information Narrative 2",
+            "S2R_INFO_3": ":72:Sender to Receiver Information Narrative 3",
+            "S2R_INFO_4": ":72:Sender to Receiver Information Narrative 4",
+            "S2R_INFO_5": ":72:Sender to Receiver Information Narrative 5",
+            "S2R_INFO_6": ":72:Sender to Receiver Information Narrative 6",
+            "ADD_INFO_1": "Additional Info 1",
+            "ADD_INFO_2": "Additional Info 2",
+            "ADD_INFO_3": "Additional Info 3",
+            "ADD_INFO_4": "Additional Info 4",
+            "ESB_MESSAGE": "ESB Message",
+            "RES_STATUS": "Response Status",
+            "FROM_BANK":"From Bank",
+            "RELATED_REF": "Related Reference",
+            "TRN_REF": "Transaction Reference",
+            "VAL_DATE":"  Value Date",
+            "TR_AMOUNT": "Transaction Amount",
+            "CREATED_ON": "Created On"
+        }
+    },
+    "RTGS_BLK_ENQ": {
+        "SEARCH": {
+            "LABEL": "RTGS Bulk Enquiry Search",
+            "FROM_BANK": "From Bank",
+            "TO_BANK": "To Bank",
+            "DIRECTION": "Direction",
+            "PAYMENT_TYPE": "Payment Type",
+            "VALUE_DATE_FROM": "Value Date From",
+            "VALUE_DATE_TO": "Value Date To",
+            "STATUS": "Status"
+        },
+        "MODAL": {
+          "CANCEL_MODAL": {
+            "TITLE": "Cancel RTGS Bulk Transaction",
+            "MESSAGE": "Are you sure, you want to cancel this?"
+          },
+          "VERIFY_MODAL": {
+            "TITLE": "Verify RTGS Bulk Transaction",
+            "MESSAGE": "Are you sure, you want to verify this?"
+          }
+        },
+        "RESULT": {
+            "LABEL": "RTGS Bulk Enquiry Search Result"
+        },
+        "DISPLAY": {
+            "UTI": "UTI",
+            "FROM_BANK": "From Bank",
+            "TO_BANK": "To Bank",
+            "VALUE_DATE": "Value Date ",
+            "STATUS": "Status",
+            "STATUS_DCR": "Status Description",
+            "TOTAL_AMOUNT": "Total Amount",
+            "TOTAL_TRN": "Total Number of Transactions",
+            "CREATED_ON":"Created On"
+        }
+    },
+    "CHANNEL_ONBOARDING": {
+        "LABEL": {
+            "CHA_ONB": "Channel Onboarding",
+            "SEARCH": "Channel Onboarding Search",
+            "RESULT": "Channel Onboarding Search Result",
+            "DISPLAY": "Display Channel",
+            "CREATE": "Create Channel Onboarding",
+            "UPDATE": "Update Channel Onboarding",
+            "VERIFY": "Verify Channel Onboarding"
+        },
+        "FORM": {
+            "CHANNEL_ID": "Channel ID",
+            "DIRECTION": "Direction",
+            "ALLOW_BACK_DATE": "Allow Back Dated Transaction",
+            "POST_CUT_OFF": "Post Cut Off Action",
+            "ALLOW_FUTURE_DATE": "Allow Future Date Transaction",
+            "ALLOW_WARE_HOUSE": "Warehouse Future Date",
+            "CROSS_CURRENCY": "Cross Currency",
+            "DEBIT_COMPUTATION": "Debit Computation",
+            "SAN_CHK": "Sanction Check",
+            "ACCOUNTING": "Accounting",
+            "POSSIBLE_DUPLICATE": "Possible Duplicate",
+            "INCOMMING": "Incoming",
+            "OUTGOING": "Outgoing",
+            "YES": "Yes",
+            "NO": "No",
+            "SERVICE_LIMIT": "Service Limit",
+            "REPAIR_QUEUE": "Repair Queue",
+            "CHANGE_VALUE": "Change Value Date",
+            "STP": "STP",
+            "REPAIR": "Repair",
+            "REJECT": "Reject",
+            "ON_PROCESS_DATE": "On Process Date",
+            "ON_VALUE_DATE": "On Value Date",
+            "REJECT_PAYMENT": "Reject Payment",
+            "SEND_TO_REPAIR": "Send to Repair",
+            "SEND_WITH_TAG": "Send with Tag",
+            "PRODUCTS": "Products",
+            "SERVICES": "Services",
+            "FINANCIAL": "Financial",
+            "NON_FINANCIAL": "Non Financial",
+            "BANK_ID": "Bank ID",
+            "VERSION_NUMBER": "Version Number",
+            "STATUS": "Status"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "Delete Channel Details",
+                "CONFIRMATION": "Are you sure, you want to delete this?"
+            },
+            "VERIFY": {
+                "LABEL": "Verify Channel Details",
+                "CONFIRMATION": "Are you sure, you want to verify this?"
+            },
+            "REJECT": {
+                "LABEL": "Reject Channel Details",
+                "CONFIRMATION": "Are you sure, you want to reject this?"
+            }
+        }
+    },
+    "IN_TRN_ENQ": {
+        "SEARCH": {
+            "LABEL": "Incoming Transaction Enquiry Search",
+            "CHANNEL_ID": "Channel ID",
+            "PRODUCT_ID": "Product ID",
+            "SERVICE_ID": "Service ID",
+            "E2E_REF": "Transaction Reference",
+            "PSH_REF": "PSH Reference",
+            "BANK_REF": "Bank Reference",
+            "EXT_REF": "UTI / External Reference",
+            "VALUE_DATE_FROM": "Value Date From",
+            "VALUE_DATE_TO": "Value Date To",
+            "STATUS": "Status",
+            "FROM_BANK":"From Bank",
+            "RELATED_REF":"Related Reference",
+            "ORDERING_CUST_ACC":"Ordering Customer Account",
+            "BEN_CUST_ACC":"Beneficiary Customer Account",
+            "AMOUNT_RANGE":"Amount Range",
+            "AMOUNT_RANGE_FROM":"From Amount",
+            "AMOUNT_RANGE_TO":"To Amount",
+            "PAYMENT_TYPE": "Payment Type"
+        },
+        "RESULT": {
+            "LABEL": "Incoming Transaction Enquiry Search Result"
+        },
+        "DISPLAY":{
+          "LABEL":"Incoming Transaction Enquiry",
+          "TAB_1":"1. Message",
+          "TAB_2":"2. Accounting Details",
+          "TAB_3":"3. Events & PSR",
+          "TAB_4":"4. Additional Information",
+          "LABEL_TAB1":"Message",
+          "LABEL_TAB2":" Accounting Details ",
+          "LABEL_TAB3":"Events & PSR",
+          "LABEL_TAB4":"Additional Information",
+          "BANK_ID":"Bank ID",
+          "CHANNEL_ID":"Channel ID",
+          "INSTRUCTION_UUID":"Instruction UUID",
+          "PRODUCT_ID":"Product ID",
+          "SERVICE_ID":"Service ID",
+          "PSH_REFERNCE":"PSH Reference",
+          "TRN_AMOUNT":":32A:Transaction Amount",
+          "DEBIT_DATE":"Debit Date ",
+          "VALUE_DATE":":32A:Value Date ",
+          "CUST_REF":"Customer Reference",
+          "CUST_NAME":":50K:Ordering customer Name",
+          "CUST_ACC_NO":":50K:Ordering Customer Account",
+          "BEN_BANK_CODE":"Beneficiary Bank Code",
+          "BEN_CUST_NAME":":59:Beneficiary Name",
+          "BEN_BANK_ACC":":59:Beneficiary Account Number",
+          "TO_BANK": "To Bank",
+          "EXT_REF":"UTI / External Reference",
+          "BANK_REF":"Bank Reference",
+          "STATUS":"Status",
+          "STATUS_DCR":"Status Description",
+          "EVENT_ID":"Event ID",
+          "PSR_ID":"PSR ID",
+          "PSR_TIME":"PSR Date Time",
+          "EVENT_DCR": "Event Description",
+          "TRANSACTION_REF": "Transaction Reference",
+          "PSR_DCR": "PSR Description",
+          "ACCOUNT_NUMBER": "Account Number",
+          "TRN_TIME": "Transaction Time",
+          "CURRENCY_CODE": "Currency Code",
+          "CRDR_FLAG": "Credit/Debit",
+          "LABEL_OUTPAY": "Incoming Payment",
+          "LABEL_CUST_INFO": "Ordering Customer Info",
+          "LABEL_RECIVED_INFO": "Received & Actual C/A",
+          "CUST_ADD1": ":50K:Ordering customer Address Line 1",
+          "CUST_ADD2": ":50K:Ordering customer Address Line 2",
+          "CUST_ADD3": ":50K:Ordering customer Address Line 3",
+          "CUST_INST_BIC":"Customer Institution BIC",
+          "NETWORK":"Network",
+          "LABEL_BEN_INFO": "Beneficiary Info",
+          "BEN_ADD1": ":59:Beneficiary Address 1",
+          "BEN_ADD2": ":59:Beneficiary Address 2",
+          "BEN_ADD3": ":59:Beneficiary Address 3",
+          "LABEL_ACTUAL_INFO": "Payment Info",
+          "LABEL_ACT_INFO": "Actual Information",
+          "DEP": "Department",
+          "TRN_CCY": "Currency Code",
+          "CHARGE": "Charge",
+          "VAT": "VAT",
+          "EX_RATE": "Exchange Rate",
+          "ACC_INST_BIC": ":57A:Account with Institution Identifier Code",
+          "ACC_INST_ID": ":57A:Account with Institution Party Identifier",
+          "ACC_INST_DET1": ":57A:Account with Institution Address 1",
+          "ACC_INST_DET2": ":57A:Account with Institution Address 2",
+          "ACC_INST_DET3": ":57A:Account with Institution Address 3",
+          "PP": ":77B:Regulatory Information-Purpose of Payment",
+          "PAY_DET_1": ":70:Remittance Information Line 1",
+          "PAY_DET_2": ":70:Remittance Information Line 2",
+          "PAY_DET_3": ":70:Remittance Information Line 3",
+          "PAY_DET_4": ":70:Remittance Information Line 4",
+          "S2R_INFO_1": ":72:Sender to Receiver Information Narrative 1",
+          "S2R_INFO_2": ":72:Sender to Receiver Information Narrative 2",
+          "S2R_INFO_3": ":72:Sender to Receiver Information Narrative 3",
+          "S2R_INFO_4": ":72:Sender to Receiver Information Narrative 4",
+          "S2R_INFO_5": ":72:Sender to Receiver Information Narrative 5",
+          "S2R_INFO_6": ":72:Sender to Receiver Information Narrative 6",
+          "ADD_INFO_1": "Additional Info 1",
+          "ADD_INFO_2": "Additional Info 2",
+          "ADD_INFO_3": "Additional Info 3",
+          "ADD_INFO_4": "Additional Info 4",
+          "ACT_ACC":"Actual Account Number",
+          "RPR_CODE": "Repair Reason Code",
+          "RPR_DCR":"Description",
+          "ACT_NAME":"Actual Name",
+          "ACT_ADD1": "Address 1",
+          "ACT_ADD2": "Address 2",
+          "ACT_ADD3": "Address 3",
+          "ACT_ADD4": "Address 4",
+          "NOTES":"Note",
+          "ESB_MESSAGE": "ESB Message",
+          "RES_STATUS": "Response Status",
+          "FROM_BANK":"From Bank",
+          "ORDERING_CUST_ACC":"Ordering Customer Account",
+          "BEN_CUST_ACC":"Beneficiary Customer Account",
+          "RELATED_REF":"Related Reference",
+          "VAL_DATE":"  Value Date",
+          "TR_AMOUNT":"Transaction Amount",
+          "CREATED_ON": "Created On"
+      }
+    },
+    "SADAD":{
+        "BANK_ID":"Bank ID",
+        "BILLER_ID":"Biller ID",
+        "CHANNEL_ID":"Channel ID",
+        "INSTRUCTION_UUID":"Instruction UUID",
+        "SADAD_PAY_ID":"SADAD payment ID",
+        "SERVICE_ID":"Service ID",
+        "TRANSACTION_AMNT":"Transaction Amount",
+        "BANK_REF":"Bank Reference",
+        "ORDERING_CUST_NAME":"Ordering Customer Name",
+        "ORDERING_CUST_ACCNT":"Ordering Customer Account",
+        "DEP":"dep",
+        "PRODUCT_ID":"Product ID",
+        "CURRENCY_CODE":"Currency Code",
+        "BENEFICIARY_CUST_ACCNT":"Beneficiary Customer Account",
+        "BENEFICIARY_CUST_NAME":"Beneficiary Customer Name",
+        "STATUS":"Status",
+        "VALUE_DATE":"Value Date",
+        "DEBIT_DATE":"Debit Date",
+        "SADAD":"SADAD Search",
+        "SADAD_BILL":"SADAD Bill",
+        "MOI":"MOI",
+        "SRCH_RSLT":"SADAD Search Result",
+        "BILLINGACC":"Billing Account",
+        "DATE_RANGE": "Date Range",
+        "NATIONAL_ID":"National ID / Iqama ID / CR Number",
+        "UNIQUE_ID":"Unique ID",
+        "FORM": {
+            "BILLER_NAME": "Biller Name",
+            "DUE_AMOUNT": "Due Amount",
+            "DEBIT_ACCOUNT_NUMBER": "Debit Account Number",
+            "PAYMENT_NARRATIVE": "Payment Narrative",
+            "BILLER_REFERENCE_NUMBER": "Biller Reference Number",
+            "DEBIT_REFERENCE_NUMBER": "Debit Reference Number",
+            "CREATED_DATE": "Created Date",
+            "PAID_AMOUNT": "Paid Amount",
+            "REFERENCE_NUMBER": "Reference Number",
+            "STATUS": "Status",
+            "STATUS_DESCRIPTION": "Status Description",
+            "TRANSACTION_ID": "Transaction Id",
+            "PRODUCT_TYPE": "Payment Type",
+            "BILLER_ID": "Biller ID",
+            "FILE_PATH": "File Path",
+            "CHOOSE_FILE": "Choose file",
+            "FILE_NAME": "File Name",
+            "MESSAGE": "Message",
+            "PAYMENT_TYPE":"Payment Type",
+            "BANK_REF":"Bank Reference",
+            "CUST_REF":"Customer Reference",
+            "ODR_CUS_ACC":"Ordering Customer Account",
+            "CHANNEL_ID":"Channel ID",
+            "BILLING_ACC":"Billing Account",
+            "ODR_CUS_NAME":"Ordering Customer Name",
+            "BEN_CUST_ACC":"Beneficiary Customer Account",
+            "BEN_CUST_NAME":"Beneficiary Customer Name",
+            "CURR_CODE":"Currency Code",
+            "PRODUCT_ID":"Product ID",
+            "SERVICE_ID":"Service ID",
+            "INSTRUCTUIION_UUID":"Instruction UUID",
+            "SADAD_PAYMENT_ID":"SADAD Payment ID",
+            "BANK_REFERNCE":"Bank Reference",
+            "TRANSACTION_AMOUNT":"Transaction Amount",
+            "BILLINGACC":"Billing Account",
+            "BILL_NUMBER":"Bill Number",
+            "MOI_SER_CODE":"MOI ServiceCode",
+            "MOI_BEN_ID":"MOI Benefeciary ID",
+            "SADAD_PAY_METHOD":"SADAD Payment Method"
+        },
+        "DETAILS":{
+            "LABEL": "SADAD Details",
+            "TAB_1": "1. Message",
+            "TAB_2": "2. Accounting Details",
+            "TAB_3": "3. Events & PSR",
+            "TAB_4": "4. Additional Information",
+            "LABEL_TAB1": "Message",
+            "LABEL_TAB2": " Accounting Details ",
+            "LABEL_TAB3": "Events & PSR",
+            "LABEL_TAB4": "Additional Information",
+            "SADAD_TRN": "SADAD PAYMENT",
+            "EVENT_ID": "Event ID",
+            "PSR_ID": "PSR ID",
+            "PSR_TIME": "PSR Date Time",
+            "EVENT_DCR": "Event Description",
+            "PSR_DCR": "PSR Description",
+            "RES_STATUS": "Response Status",
+            "ESB_MESSAGE": "ESB Message"
+        }
+
+
+    },
+    "RECONCILATION":{
+      "RECONCILATION":"Reconciliation Search",
+      "ID":"Application ID",
+      "SRCH_RSLT":"Reconciliation Search Result",
+      "PROCESS_DATE":"Reconciliation Date",
+      "TOTAL_RECORDS":"Total Records",
+      "FINAL_REPORT_FILE_PATH":"Final Report",
+      "SUBMITTED_REPORT_FILE_PATH":"Submitted Report",
+      "RECONCILATION_TYPE":"Reconciliation Type",
+      "FAILED_RECORDS":"Failed Records",
+      "STATUS":"Status",
+      "REQUEST":"Request",
+      "RESPONSE":"Response"
+    },
+    "RECONCILATION_DIFFERENCE":{
+
+      "RECON_SEARCH":"Reconciliation Difference Search",
+      "RECON_SEARCH_RESULT":"Reconciliation Difference Search Result",
+      "RECON_TYPE":"Reconciliation Type",
+      "EXTN_AMOUNT":"Report Amount",
+
+
+      "RECON_DATE":"Reconciliation Date",
+      "EXTERNAL_REF":"External Reference",
+      "VALUE_DATE":"Value Date",
+      "DIRECTION":"Direction",
+      "CUR_CODE":"Currency Code",
+      "PSH_AMOUNT":"Psh Amount",
+      "STATUS":"Status",
+      "RECON_STATUS":"Reconciliation Status",
+      "TODAY_UNRECONCILED":"Today's Unreconciled",
+      "YESTERDAY_UNRECONCILED":"Yesterday's Unreconciled",
+      "TOTAL_UNRECONCILED":"Unreconciled So Far",
+      "HEAD":"Recociliation Difference"
+    },
+    "RECONCILIATION_DETAIL":{
+      "RECONDET":"Reconciliation Detail",
+      "HEADER_ID": "Header ID",
+      "RECORD_ID": "Record ID",
+      "BANK_TRAN_REF":"Bank Transaction Reference",
+      "SRCH_RSLT":"Reconciliation Detail Search Result",
+      "CUST_TRAN_REF":"customer Transaction Reference",
+      "SAMA_TRAN_REF":"SAMA Transaction Reference",
+      "BANK_REV_REF":" Bank Reversal Reference",
+      "SAMA_STATUIS":"SAMA Status",
+      "AMOUNT":"Amount",
+      "DEBIT_ACC":"Debit Account",
+      "CREDIT_ACC":"Credit Account",
+      "SERVICE_TYPE":"Service Type",
+      "STATUS":"Status"
+    },
+    "BENEFICIARYSIAUTHORIZATIONSUMMARY": {
+        "LABEL": {
+            "CREATE_BENEFICIARY_STANDARD_INSTRUCTION": "Create Beneficiary Standing Instruction",
+            "UPDATE_BENEFICIARY_STANDARD_INSTRUCTION": "Update Beneficiary Standing Instruction",
+            "VERIFY_BENEFICIARY_STANDARD_INSTRUCTION": "Verify Beneficiary Standing Instruction",
+            "DISPLAY_BENEFICIARY_STANDARD_INSTRUCTION": "Display Beneficiary Standing Instruction",
+            "BENEFICIARY_STANDING_INC_SEARCH": "Beneficiary Standing Instruction Search",
+            "BENEFICIARY_STANDING_INC_SEARCH_RESULT": "Beneficiary Standing Instruction Search Result"
+        },
+        "WIZARD": {
+            "STANDING_INSTRUCTION_DETAILS": "Standing Instruction Details",
+            "PREVIEW_CONFIRM": "Preview and Confirm",
+            "SUMMARY": "Summary"
+        },
+        "CREATE": {
+            "NICK_NAME": "Nick Name",
+            "BEN_REF_NAME": "Beneficiary Reference Number",
+            "DEBIT_ACCOUNT_NUMBER": "Debit Account Number",
+            "AMOUNT": "Amount",
+            "FREQUENCY": "Frequency",
+            "SPECIFY_DAY": "Specify Day",
+            "SPECIFY_MONTH_DAY": "Specify Month And Day",
+            "START_DATE": "Start Date",
+            "END_DATE": "End Date",
+            "NEXT_DEBIT_DATE": "Next Debit Date",
+            "RETRY_ENABLED": "Retry Enabled",
+            "EMAIL_NOTI": "Email Notification",
+            "AMOUNT_VALID": " Specify Day Between 1 - 31"
+        },
+        "SEARCH": {
+            "NICK_NAME": "Nick Name",
+            "BEN_REF_NAME": "Beneficiary Reference Number",
+            "DEBIT_ACCOUNT_NUMBER": "Debit Account Number",
+            "DEBIT_REF_NUMBER": "Debit Reference Number",
+            "DATE_RANGE": "Date Range",
+            "STATUS": "Status"
+        },
+        "GRID": {
+            "SID": "SID",
+            "NICK_NAME": "Nick Name",
+            "BEN_REF_NAME": "Beneficiary Reference Number",
+            "DEBIT_REF_NUMBER": "Debit Reference Number",
+            "SI_FREQUENCY": "SI Frequency",
+            "CEILING_AMOUNT": "Ceiling Amount",
+            "DEBIT_ACCOUNT_NUMBER": "Debit Account Number",
+            "START_DATE": "Start Date",
+            "END_DATE": "End Date",
+            "STATUS": "Status",
+            "RETRY": "Retry"
+        },
+        "MODALDELETE": {
+            "HEADER": "Delete Beneficiary Standing Instruction",
+            "BODY": {
+                "SURE_DELETE_MESSAGE": "Are you sure, you want to delete ?",
+                "REASON": "Please specify reason"
+            }
+        },
+        "MODALVERIFY": {
+            "HEADER": "Verify Beneficiary Standing Instruction",
+            "BODY": {
+                "SURE_VERIFY_MESSAGE": "Are you sure, you want to verify ?"
+            }
+        },
+        "MODALREJECT": {
+            "HEADER": "Reject Beneficiary Standing Instruction",
+            "BODY": {
+                "SURE_REJECT_MESSAGE": "Are you sure, you want to reject ?",
+                "REASON": "Please specify reason"
+            }
+        }
+    },
+    "DASHBOARD": {
+        "LABEL": {
+            "CREATE_BENEFICIARY_STANDARD_INSTRUCTION": "Create Beneficiary Standing Instruction",
+            "BENEFICIARY_STANDING_INC_SEARCH": "Beneficiary Standing Instruction Search",
+            "BENEFICIARY_STANDING_INC_SEARCH_RESULT": "Beneficiary Standing Instruction Search Result"
+        },
+        "TABS": {
+            "TODAY": "Today",
+            "FORECAST": "Forecast"
+
+        },
+        "RESULT": {
+            "LABEL": "Dashboard",
+            "FORECAST": "Forecast"
+
+        },
+        "SEARCH": {
+
+        },
+        "DETAILS": {
+
+           "CURRENCY":"Currency",
+        "SYSTEM_OR_BIC":"System/BIC",
+       "OUTGOING":"Outgoing",
+        "INCOMING":"Incoming",
+            "NET_POSITION":"Net Position",
+        "ACTUAL_LIMIT":"Actual Limit",
+     "LAST_TIME_UPDATE":"Last Time Update",
+    "OPENING_BALANCE":"Opening Balance",
+        "FORWARD_BALANCE":"Forward Balance",
+            "CLOSING_BALANCE":"Closing Balance"
+
+        },
+        "MODALDELETE": {
+            "HEADER": "Delete Standing Instruction",
+            "BODY": {
+                "SURE_DELETE_MESSAGE": "Are you sure, you want to delete ?",
+                "REASON": "Please specify reason"
+            }
+        },
+        "MODALVERIFY": {
+            "HEADER": "Verify Standing Instruction",
+            "BODY": {
+                "SURE_VERIFY_MESSAGE": "Are you sure, you want to verify ?"
+            }
+        },
+        "MODALREJECT": {
+            "HEADER": "Reject Standing Instruction",
+            "BODY": {
+                "SURE_REJECT_MESSAGE": "Are you sure, you want to reject ?",
+                "REASON": "Please specify reason"
+            }
+        }
+    },
+    "BENEFICIARY": {
+        "LABEL": {
+            "BENEFICIARY_SEARCH": "Beneficiary Search",
+            "BENEFICIARY_SEARCH_RESULT": "Beneficiary Search Result",
+            "CREATE_BENEFICIARY_DETAILS": "Create Beneficiary",
+            "UPDATE_BENEFICIARY_DETAILS": "Update Beneficiary",
+            "VERIFY_BENEFICIARY_DETAILS": "Verify Beneficiary",
+            "ACTIVATE_BENEFICIARY_DETAILS": "Activate Beneficiary",
+            "DEACTIVATE_BENEFICIARY_DETAILS": "Deactivate Beneficiary",
+            "DELETE_BENEFICIARY_DETAILS": "Delete Beneficiary",
+            "BEN_DETAILS": "Beneficiary Details",
+            "BANK_DETAILS": "Bank Details",
+            "ACCOUNT_DETAILS": "Account Details",
+            "BIC_SEARCH": "Beneficiary Bic Search",
+            "BIC_SEARCH_RESULT": "Beneficiary Bic List",
+            "CONFIRMATION_DETAILS": "Confirmation Details"
+        },
+        "SEARCH": {
+            "NICK_NAME": "Nick Name",
+            "BEN_BIC": "Beneficiary BIC",
+            "PAYMENT_TYPE": "Payment Type",
+            "STATUS": "Status",
+            "BIC": "Bic",
+            "BIC_NAME": "Bic Name"
+        },
+        "GRID": {
+            "NICK_NAME": "Nick Name",
+            "BENEFICIARY_NAME": "Beneficiary Name",
+            "ACCOUNT_NUMBER": "Account Number",
+            "PAYMENT_TYPE": "Payment Type",
+            "STATUS": "Status",
+            "STATUS_DESCRIPTION": "Status Description"
+        },
+        "WIZARD": {
+            "CREATE_BENEFICIARY_DETAILS": "Create Beneficiary",
+            "UPDATE_BENEFICIARY_DETAILS": "Update Beneficiary Details",
+            "VERIFY_BENEFICIARY_DETAILS": "Verify Beneficiary Details",
+            "DELETE_BENEFICIARY_DETAILS": "Delete Beneficiary Details",
+            "REPAIR_BENEFICIARY_DETAILS": "Repair Beneficiary Details",
+            "REJECT_BENEFICIARY_DETAILS": "Reject Beneficiary Details",
+            "PREVIEW_CONFIRM": "Preview and Confirm",
+            "SUMMARY": "Summary"
+        },
+        "FORM": {
+            "NICK_NAME": "Nick Name",
+            "BENEFICIARY_NAME": "Beneficiary Name",
+            "CHARITY": "Charity",
+            "YES": "Yes",
+            "NO": "No",
+            "ADDRESS1": "Address1",
+            "ADDRESS2": "Address2",
+            "ADDRESS3": "Address3",
+            "ADDRESS4": "Address4",
+            "CITY": "City",
+            "STATE": "State",
+            "COUNTRY": "Country",
+            "ZIP": "Zip Code",
+            "TELEPHONE": "Telephone",
+            "MOBILE": "Mobile Number",
+            "FAX": "Fax",
+            "EMAIL": "Email",
+            "ACCESS_TYPE": "Access Type",
+            "MAX_LIMIT": "Max limit Amount",
+            "BANK_IDENTIFIER": "Network and Bank Identifier",
+            "BEN_BIC": "Beneficiary BIC",
+            "LOOKUP": "LOOKUP",
+            "PAY_BANK": "Pay Bank Name",
+            "BRANCH": "Branch",
+            "ADDRESS": "Address",
+            "ACCOUNT_NUMBER": "Account Number",
+            "CONFIRM_ACC": "Confirm Account Number",
+            "CURRENCY": "Account Currency",
+            "PURPOSE_PAYMENT": "Purpose Of Payment",
+            "PROXY_ID": "Proxy ID",
+            "COMMISSION_INDICATOR": "Commission Indicator",
+            "ROUTING_CODE": "Routing Code",
+            "STATUS": "Status",
+            "MESSAGE": "Message",
+            "MASKINGFLAG": "Masking Flag"
+        },
+        "MODALVERIFY": {
+            "HEADER": "Verify Beneficiary",
+            "BODY": {
+                "SURE_VERIFY_MESSAGE": "Are you sure, you want to verify the record(s) ?"
+            }
+        },
+        "MODALDELETE": {
+            "HEADER": "Delete Beneficiary",
+            "BODY": {
+                "SURE_DELETE_MESSAGE": "Are you sure, you want to delete  ?"
+            },
+            "LABEL": "Delete Beneficiary",
+            "CONFIRMATION": "Are you sure, you want to delete this?",
+            "USER_COMMENT": "Please specify reason"
+        },
+        "MODALACTIVATE": {
+            "HEADER": "Activate Beneficiary",
+            "BODY": {
+                "SURE_DELETE_MESSAGE": "Are you sure, you want to activate this?"
+            },
+            "LABEL": "Activate Beneficiary",
+            "CONFIRMATION": "Are you sure you want to Activate this",
+            "USER_COMMENT": "Please specify reason"
+        },
+        "MODALDISABLE": {
+            "HEADER": "Deactivate Beneficiary",
+            "BODY": {
+                "SURE_DELETE_MESSAGE": "Are you sure, you want to deactivate  beneficiary?"
+            },
+            "LABEL": "Deactivate Beneficiary",
+            "CONFIRMATION": "Are you sure you, want to deactivate this?",
+            "USER_COMMENT": "Please specify reason"
+        },
+        "REJECT": {
+            "LABEL": "Reject Beneficiary",
+            "CONFIRMATION": "Are you sure you want to reject this",
+            "USER_COMMENT": "Please specify reason"
+        },
+        "REPAIR": {
+            "LABEL": "Repair Beneficiary",
+            "CONFIRMATION": "Are you sure, you want to repair",
+            "USER_COMMENT": "Please specify reason"
+        },
+        "BENBIC": {
+            "BIC": "BIC",
+            "BANK_NAME": "Bank Name",
+            "BRANCH_NAME": "Branch Name",
+            "ADDRESS1": "Address1",
+            "ADDRESS2": "Address2",
+            "CITY": "City",
+            "ZIP": "Zip",
+            "COUNTRY": "Country"
+        },
+        "VALIDATION": {
+          "FAILED": "Validation Failed.",
+          "PATTERN": "Invalid Account Number",
+          "NOT_EMPTY_ACC": "Account Number cannot be empty",
+          "NOT_EMPTY_CONFIRM_ACC": "Confirm Account Number cannot be empty",
+          "NOT_SAME": "Must be same as Account Number"
+        }
+    },
+    "LIBRARY": {
+      "STANDARD_LIBRARY": "Standard Library",
+      "TYPE": "Type",
+      "VERSION": "Version",
+      "LAST_UPDATED_DATE": "Last Updated Date",
+      "SEARCH": "Search by service name"
+    },
+    "MAPPING": {
+      "INPUTS": "Inputs",
+      "INPUT": "Input",
+      "OUTPUT": "Output",
+      "OUTPUTS": "Outputs",
+      "SAVE": "Save",
+      "CLOSE": "Close",
+      "INTERNAL": "Internal",
+      "EXTERNAL": "External",
+      "SWIFT": "SWIFT",
+      "MODAL": {
+        "MAPPING": {
+          "LABEL": "Mapping Modal",
+          "MAPPING_NAME": "Mapping Name",
+          "LIBRARY": "Library",
+          "CHANNEL": "Channel"
+        },
+        "FORMATTING": {
+          "LABEL": "Formatting",
+          "DESTINATION_TYPE": "Destination Type",
+          "DESTINATION_FORMAT": "Destination Format"
+        }
+
+      }
+    },
+  "LIQUIDITY_MANAGEMENT_PARAMETER": {
+    "LABEL": {
+      "SEARCH": "Liquidity Management Parameter Search",
+      "SEARCH_RESULT": "Liquidity Management Parameter Search Result",
+      "CREATE": "Create Liquidity Management Parameter",
+      "UPDATE": "Update Liquidity Management Parameter",
+      "VERIFY": "Verify Liquidity Management Parameter",
+      "DELETE": "Delete Liquidity Management Parameter"
+    },
+    "FIELD": {
+      "SERVICE_TYPE": "Service ID",
+      "PREFUND_LIMIT": "Prefund Limit",
+      "LIMIT_ACCOUNT": "Limit Account",
+      "VOSTRO_ACCOUNT": "Vostro Account",
+      "NOSTRO_ACCOUNT": "Nostro Account",
+      "CURRENCY_CODE": "Currency Code",
+      "BANK_ID": "Bank ID",
+      "ALERT_SMS": "Alert SMS",
+      "ALERT_EMAIL": "Alert Email",
+      "ALERT_PERCENTAGE": "Alert Percentage",
+      "STATUS": "Status"
+    },
+    "MODAL": {
+      "VERIFY": {
+        "LABEL": "Verify Liquidity Management Parameter",
+        "CONFIRMATION": "Are you sure, you want to verify this?"
+      },
+      "DELETE": {
+        "LABEL": "Delete Liquidity Management Parameter",
+        "CONFIRMATION":"Are you sure, you want to delete this?"
+      }
+    }
+  },
+  "TSMMSG":{
+    "SEARCH":{
+        "LABEL":"TSM Message Search",
+        "RESULT":"TSM Message Search Result",
+        "RELATED_REF": "Related Reference",
+        "TRN_REF": "Transaction Reference",
+        "DATE_RANGE":"Date Range",
+        "DEP":"Department",
+        "DIR":"Direction",
+        "OUT":"Outgoing",
+        "IN":"Incoming",
+        "FROM_BANK":"From Bank",
+        "TO_BANK":"To Bank"
+    },
+    "DISPLAY":{
+        "LABEL": "Display TSM Message",
+        "DATE":"Date",
+        "FROM_BANK":"From Bank",
+        "TO_BANK":"To Bank",
+        "TRN_REF": "Transaction Reference",
+        "RELATED_REF": "Related Reference",
+        "MESSAGE":"Message",
+        "STATUS":"Status",
+        "TAB_1": "1. Message",
+        "TAB_2": "2. Events & PSR",
+        "TAB_3": "3. Additional Information",
+        "LABEL_TAB1": "TSM Info",
+        "LABEL_TAB2": "Events & PSR",
+        "LABEL_TAB3": "Additional Information",
+        "EVENT_ID": "Event ID",
+          "PSR_ID": "PSR ID",
+          "PSR_TIME": "PSR Date Time",
+          "EVENT_DCR": "Event Description",
+          "PSR_DCR": "PSR Description",
+          "RES_STATUS": "Response Status",
+          "ESB_MESSAGE": "ESB Message"
+    },
+    "CREATE":{
+        "LABEL": "Create TSM Message",
+        "TRN_REF": "Transaction Reference",
+        "RELATED_REF": "Related Reference",
+        "MESSAGE":"Message"
+
+    },
+    "VERIFY":{
+        "LABEL": "Verify TSM Message"
+
+
+    },
+    "MODAL": {
+        "DELETE": {
+            "LABEL": "Delete TSM Message",
+            "CONFIRMATION": "Are you sure, you want to delete this?"
+        },
+        "VERIFY": {
+            "LABEL": "Verify TSM Message",
+            "CONFIRMATION": "Are you sure, you want to verify this?"
+        }
+    }
+  },
+  "TABNAME": {
+    "LIQUIDITY_MANAGEMENT_PARAMETER": "Liquidity Management Parameter",
+    "LIBRARY": "Library",
+    "MAPPING": "Mapping",
+    "WORKFLOW": "Workflow",
+    "OUT_BLK_PAY": "Outgoing Bulk Payment Enquiry",
+    "SADAD": "SADAD",
+    "IN_TRN_ENQ": "Incoming Transaction Enquiry",
+    "OUT_TRN_ENQ": "Outgoing Transaction Enquiry",
+    "RTGS_BLK_ENQ": "RTGS Bulk Enquiry",
+    "RECONCILIATION": "Reconciliation",
+    "RECONCILIATION_DIFF":"Reconciliation Difference",
+    "BENEFICIARY": "Beneficiary",
+    "BENEFICIARY_SI": "Beneficiary Standing Instruction",
+    "PROXY_ENQUIRY": "Proxy Enquiry",
+    "PROXY_DETAIL": "Proxy Detail",
+    "PAYMENT_ENQUIRY": "Payment Enquiry",
+    "NOTIFY_DEF": "Notification Definition",
+    "NOTIFY_MSG": "Notification Message",
+    "NOTIFICATIONS_MSGS": "Notification Message",
+    "NOTIFICATION_DEFINITION": "Notification Definition",
+    "TSM_MSG": "TSM Message",
+    "INTERBK_PAY": "Interbank Payment",
+    "SARIE_OUT_CST_PAY": "Outgoing Customer Payment",
+    "SARIE_STREAM_DEF": "SARIE Stream Definition",
+    "SADAD_PAYMENT": "SADAD Transaction Enquiry",
+    "SADAD_BILLER": "Bill Maintenance",
+    "SADAD_MOI": "SADAD MOI Summary",
+    "STANDING_INST": "Standing Instruction",
+    "CURRENCY_SPREAD": "Currency Spread",
+    "IBAN_CHECK": "IBAN Check",
+    "BUSINESS_DATE": "Business Date",
+    "SERVICE_STATUS": "Service Status",
+    "CURRENCY_CUTOF_DEF": "Currency Cut-off Definition",
+    "PRD_SRV": "Products and Services",
+    "ACCOUNT_DEFINITION": "Account Definition",
+    "HOLDAY": "Holidays",
+    "CHANNEL_ONBOARDING": "Channel Onboarding",
+    "DASHBOARD": "Dashboard",
+    "SECURITY_USER": "Security User",
+    "AUDIT_LOG": "Audit Log",
+    "SCREEN_PERMISSION": "Screen Permission",
+    "SECURITY_GROUP": "Security Group",
+    "SECURITY_USR_LOG": "Security User Log",
+    "COUNTRY_DETAIL": "Country Details",
+    "DEPARTMENT": "Department Details",
+    "SIGNATURE_LIMIT": "Signature Limit",
+    "PRODUCT_CODE": "Product Details",
+    "BIC_DETAIL": "Bank Code",
+    "FILE_SYSTEM": "File System Service Definition",
+    "WEB_SERVICE": "Web Service Definition",
+    "MQM_DEFINITION": "MQM Definition",
+    "NWDEFN_DETAIL": "Network Definition",
+    "EVENT_CODE": "Event Code Definition",
+    "CHANNEL_DEF": "Channel Definition",
+    "TCP_IP_DEF": "TCP/IP Definition",
+    "DUP_CHECK": "Duplicate Check",
+    "ALL_CONFIGURATIONS":"All Configurations",
+    "SADAD_BILLER_DATA": "SADAD Biller Data",
+    "INCOMING_CONTROL_MESSAGES": "Incoming Control Messages",
+    "IN_ENQ": "Incoming RTP Enquiry",
+    "OUT_ENQ":"Outgoing RTP Enquiry"
+  },"OUT_ENQ": {
+    "SEARCH": {
+        "LABEL": "Outgoing Enquiry Search",
+        "PAYMENT_INFO_ID": "Payment Info id",
+        "PSH_REFERENCE": "PshReference",
+        "REQ_EXECUTION_DATE": "Req Execution Date",
+        "DBTR_NAME": "Debitor Name",
+        "DBTR_IBAN_ACC": "Debitor Iban Acc",
+        "END_TO_END_ID": "EndToEndId",
+        "AMOUNT": "Amount",
+        "CURRENCY": "Currency",
+        "CDTR_AGENT_MEMBER_ID": "Creditor Agent Member Id",
+        "CDTR_NAME": "Creditor Name",
+        "CDTR_ACC_IBAN":"Creditor Acc Iban",
+        "STATUS":"Status"
+      },
+      "RESULT": {
+          "LABEL": "Outgoing Enquiry Search Result"
+      },
+      "DISPLAY": {
+        "LABEL": "Outgoing RTP Enquiry Details",
+        "LABEL_OUT": "Outgoing Request To Pay",
+        "TAB_1": "1. Message",
+        "TAB_2": "2. Events & PSR",
+        "TAB_3": "3. Additional Information",
+        "LABEL_TAB1": "Message",
+        "LABEL_TAB2": "Events & PSR",
+        "LABEL_TAB3": "Additional Information",
+        "INSTRUCTION_UUID":"Instruction UUID",
+        "PAYMENT_INFO_ID": "Payment Info id",
+        "PSH_REFERENCE": "PshReference",
+        "REQ_EXECUTION_DATE": "Req Execution Date",
+        "DBTR_NAME": "Debitor Name",
+        "DBTR_IBAN_ACC": "Debitor Iban Acc",
+        "END_TO_END_ID": "EndToEndId",
+        "AMOUNT": "Amount",
+        "CURRENCY": "Currency",
+        "STATUS":"Status",
+        "CDTR_DETAILS": "Creditor Details",
+        "CDTR_AGENT_MEMBER_ID":"Creditor Agent MemberId",
+        "CDTR_NAME":"Creditor Name",
+        "CDTR_ADR_TYPE":"Creditor Address Type",
+        "CDTR_STREET_TYPE":"Creditor Street Type",
+        "CDTR_BUILD_NUMBER":"Creditor Build Number",
+        "CDTR_POST_CODE":"Creditor Post Code",
+        "CDTR_TOWN_NAME":"Creditor Town Name",
+        "CDTR_CTRYSUB_DIV":"Creditor Country Sub Division",
+        "CDTR_CTRY":"Creditor Country",
+        "CDTR_ADR_LINE1":"Creditor Address Line1",
+        "CDTR_ADR_LINE2":"Creditor Address Line2",
+        "CDTR_ADR_LINE3":"Creditor Address Line3",
+        "CDTR_ADR_LINE4":"Creditor Address Line4",
+        "CDTR_ADR_LINE5":"Creditor Address Line5",
+        "CDTR_ADR_LINE6":"Creditor Address Line6",
+        "CDTR_ADR_LINE7":"Creditor Address Line7",
+        "CDTR_ID":"Creditor Id",
+        "CDTR_PROV_OF_BIRTH":"Creditor Prove of Birth",
+        "CDTR_CITY_OF_BIRTH":"Creditor City of Birth",
+        "CDTR_CTRY_OF_BIRTH":"Creditor Country of Birth",
+        "CDTR_BIRTH_DATE":"Creditor Birth Date",
+        "CDTR_PRIVATE_ID":"Creditor Private Id",
+        "CDTR_SCH_CODE":"Creditor Scheme Code",
+        "CDTR_SCH_PRTRY":"Creditor Sheme Prtry ",
+        "CDTR_SCH_ISSUER":"Creditor Scheme Issuer",
+        "CDTR_CTRY_OF_RES":"Creditor Country of Residence",
+        "CDTR_NAME_PREFIX":"Creditor Name Prefix",
+        "CDTR_CON_NAME":"Creditor Con Name",
+        "CDTR_PHONE":"Creditor Phone",
+        "CDTR_MOBILE":"Creditor Mobile",
+        "CDTR_FAX":"Creditor Fax",
+        "CDTR_EMAIL":"Creditor Email",
+        "CDTR_OTHER_DETAIL":"Creditor Other Detail",
+        "CDTR_ACC_IBAN":"Creditor Account Iban",
+        "CDTR_CURRENCY":"Creditor Currency",
+        "CDTR_ACC_NAME":"Creditor Account Name",
+
+        "DBTR_DETAILS": "Debitor Details",
+        "DBTR_ADR_TYPE":"Debitor Address Type",
+        "DBTR_STREET_NAME":"Debitor Street Type",
+        "DBTR_BUILD_NUMBER":"Debitor Build Number",
+        "DBTR_POST_CODE":"Debitor Post Code",
+        "DBTR_TOWN_NAME":"Debitor Town Name",
+        "DBTR_CTRYSUB_DIV":"Ultimate Debitor Country Sub Division",
+        "DBTR_CTRY":"Debitor Country",
+        "DBTR_ADR_LINE1":"Debitor Address Line1",
+        "DBTR_ADR_LINE2":"Debitor Address Line2",
+        "DBTR_ADR_LINE3":"Debitor Address Line3",
+        "DBTR_ADR_LINE4":"Debitor Address Line4",
+        "DBTR_ADR_LINE5":"Debitor Address Line5",
+        "DBTR_ADR_LINE6":"Debitor Address Line6",
+        "DBTR_ADR_LINE7":"Debitor Address Line7",
+        "DBTR_ID":"Debitor Id",
+        "DBTR_BIRTH_DATE":"Debitor Birth Date",
+        "DBTR_PROV_OF_BIRTH":"Debitor Prove of Birth",
+        "DBTR_CITY_OF_BIRTH":"Debitor City of Birth",
+        "DBTR_CTRY_OF_BIRTH":"Debitor Country of Birth",
+        "DBTR_PRIVATE_ID":"Debitor Private Id",
+        "DBTR_SCH_CODE":"Debitor Scheme Code",
+        "DBTR_SCH_PRTRY":"Debitor Sheme Prtry ",
+        "DBTR_SCH_ISSUER":"Debitor Scheme Issuer",
+        "DBTR_CTRY_OF_RES":"Debitor Country of Residence",
+        "DBTR_NAME_PREFIX":"Debitor Name Prefix",
+        "DBTR_CON_NAME":"Debitor Con Name",
+        "DBTR_PHONE":"Debitor Phone",
+        "DBTR_MOBILE":"Debitor Mobile",
+        "DBTR_FAX":"Debitor Fax",
+        "DBTR_EMAIL":"Debitor Email",
+        "DBTR_OTHER_DETAIL":"Debitor Other Detail",
+        "CDTR_ACC_CURRENCY":"Debitor Acc Currency",
+        "DBTR_ACC_NAME":"Debitor Account Name",
+        "DBTR_AGENT_MEMBER_ID":"Debitor Agent MemberId",
+
+        "ULMT_CDTR_DETAILS":"Ultimate Creditor Details",
+        "ULMT_CDTR_NAME":"Ultimate Creditor Name",
+        "ULMT_CDTR_ADR_TYPE":"Ultimate Creditor Address Type",
+        "ULMT_CDTR_STREET_NAME":"Ultimate Creditor Street Name",
+        "ULMT_CDTR_BUILD_NUM":"Ultimate Creditor Build Number",
+        "ULMT_CDTR_POST_CODE":"Ultimate Creditor Post Code",
+        "ULMT_CDTR_TOWN_NAME":"Ultimate Creditor Town Name",
+        "ULMT_CDTR_CTRY_SUB_DIV":"Ultimate Creditor Country Sub Div",
+        "ULMT_CDTR_CTRY":"Ultimate Creditor Country",
+        "ULMT_CDTR_ADR_LINE1":"Ultimate Creditor Address Line1",
+        "ULMT_CDTR_ADR_LINE2":"Ultimate Creditor Address Line2",
+        "ULMT_CDTR_ADR_LINE3":"Ultimate Creditor Address Line3",
+        "ULMT_CDTR_ADR_LINE4":"Ultimate Creditor Address Line4",
+        "ULMT_CDTR_ADR_LINE5":"Ultimate Creditor Address Line5",
+        "ULMT_CDTR_ADR_LINE6":"Ultimate Creditor Address Line6",
+        "ULMT_CDTR_ADR_LINE7":"Ultimate Creditor Address Line7",
+        "ULMT_CDTR_ID":"Ultimate Creditor Id",
+        "ULMT_CDTR_BIRTH_DATE":"Ultimate Birth Date",
+        "ULMT_CDTR_PROV_OF_BIRTH":"Ultimate Creditor Prove Of Birth",
+        "ULMT_CDTR_CITY_OF_BIRTH":"Ultimate Creditor City Of Birth",
+        "ULMT_CDTR_CTRY_OF_BIRTH":"Ultimate Creditor Country Of Birth",
+        "ULMT_CDTR_PRIVATE_ID":"Ultimate Creditor Private Id",
+        "ULMT_CDTR_SCH_CODE":"Ultimate Creditor Scheme Code",
+        "ULMT_CDTR_SCH_PTPRY":"Ultimate Creditor Scheme Ptpry",
+        "ULMT_CDTR_SCH_ISSUER":"Ultimate Creditor Scheme Issuer",
+        "ULMT_CDTR_CTRY_OF_RES":"Ultimate Creditor Country of Res",
+        "ULMT_CDTR_NAME_PREFIX":"Ultimate Creditor Name Prefix",
+        "ULMT_CDTR_CON_NAME":"Ultimate Creditor Con Name",
+        "ULMT_CDTR_PHONE":"Ultimate Creditor Phone",
+        "ULMT_CDTR_MOBILE":"Ultimate Creditor Mobile",
+        "ULMT_CDTR_FAX":"Ultimate Creditor Fax",
+        "ULMT_CDTR_EMAIL":"Ultimate Creditor Email",
+        "ULMT_CDTR_OTHER_DETAIL":"Ultimate Creditor Other Detail",
+
+        "ULMT_DBTR_DETAILS":"Ultimate Debitor Details",
+        "ULMT_DBTR_NAME":"Ultimate Debitor Name",
+        "ULMT_DBTR_ADR_TYPE":"Ultimate Debitor Address Type",
+        "ULMT_DBTR_STREET_NAME":"Ultimate Debitor Street Name",
+        "ULMT_DBTR_BUILD_NUM":"Ultimate Debitor Build Number",
+        "ULMT_DBTR_POST_CODE":"Ultimate Debitor Post Code",
+        "ULMT_DBTR_TOWN_NAME":"Ultimate Debitor Town Name",
+        "ULMT_DBTR_CTRY_SUB_DIV":"Ultimate Debitor Country Sub Div",
+        "ULMT_DBTR_CTRY":"Ultimate Debitor Country",
+        "ULMT_DBTR_ADR_LINE1":"Ultimate Debitor Address Line1",
+        "ULMT_DBTR_ADR_LINE2":"Ultimate Debitor Address Line2",
+        "ULMT_DBTR_ADR_LINE3":"Ultimate Debitor Address Line3",
+        "ULMT_DBTR_ADR_LINE4":"Ultimate Debitor Address Line4",
+        "ULMT_DBTR_ADR_LINE5":"Ultimate Debitor Address Line5",
+        "ULMT_DBTR_ADR_LINE6":"Ultimate Debitor Address Line6",
+        "ULMT_DBTR_ADR_LINE7":"Ultimate Debitor Address Line7",
+        "ULMT_DBTR_ID":"Ultimate Debitor Id",
+        "ULMT_DBTR_BIRTH_DATE":"Ultimate Debitor Birth Date",
+        "ULMT_DBTR_PROV_OF_BIRTH":"Ultimate Debitor Prove Of Birth",
+        "ULMT_DBTR_CITY_OF_BIRTH":"Ultimate Debitor City Of Birth",
+        "ULMT_DBTR_CTRY_OF_BIRTH":"Ultimate Debitor Country Of Birth",
+        "ULMT_DBTR_PRIVATE_ID":"Ultimate Debitor Private Id",
+        "ULMT_DBTR_SCH_CODE":"Ultimate Debitor Scheme Code",
+        "ULMT_DBTR_SCH_PTPRY":"Ultimate Debitor Scheme Ptpry",
+        "ULMT_DBTR_SCH_ISSUER":"Ultimate Debitor Scheme Issuer",
+        "ULMT_DBTR_CTRY_OF_RES":"Ultimate Debitor Country of Residence",
+        "ULMT_DBTR_NAME_PREFIX":"Ultimate Debitor Name Prefix",
+        "ULMT_DBTR_CON_NAME":"Ultimate Debitor Con Name",
+        "ULMT_DBTR_PHONE":"Ultimate Debitor Phone",
+        "ULMT_DBTR_MOBILE":"Ultimate Debitor Mobile",
+        "ULMT_DBTR_FAX":"Ultimate Debitor Fax",
+        "ULMT_DBTR_EMAIL":"Ultimate Debitor Email",
+        "ULMT_DBTR_OTHER_DETAIL":"Ultimate Debitor Other Detail",
+        "OTHER_DETAILS": "Other Details",
+        "INSTRN_ID":" Instruction id",
+        "PAYMENT_TYPE_CODE": "Payment Type",
+        "LOCAL_INST_PROP": " Local inst Prop",
+        "INST_FOR_CDTR_AGENT": "Inst for Creditor Agent",
+        "REM_ID": "Rem Id",
+        "REM_MTHD": "Rem Method",
+        "ELE_ADR": "Electronic Address",
+        "UNSTR_REM_INFO": "Unstruct Rem Information",
+        "STR_REM_INFO_NUM": "Struct Rem Information",
+        "STR_REM_RLTD_DATE": "Struct Rem Related Date",
+        "ADR_REM_INFO": "Address Rem Information",
+        "CHARGES": " Charges",
+        "VAT": "VAT",
+
+        "PSR_ID":"PSR ID",
+        "PSR_TIME":"PSR Date Time",
+        "EVENT_ID":"Event ID",
+        "EVENT_DCR": "Event Description",
+        "PSR_DCR": "PSR Description",
+        "ESB_MESSAGE": "ESB Message",
+        "RES_STATUS": "Response Status"
+  }
+},"IN_ENQ": {
+    "SEARCH": {
+        "LABEL": "Incoming Enquiry Search",
+        "PAYMENT_INFO_ID": "Payment Info Id",
+        "ACTION": "Action",
+        "NOTIFY_EMAIL": "Notify Email",
+        "NOTIFY_SMS": "Notify Sms",
+        "PSH_REF": "PSH Reference",
+        "EXP_DATE": "Expiry Date",
+        "STATUS": "Status",
+        "STATUS_DCR":"Status Description"
+    },
+    "RESULT": {
+        "LABEL": "Incoming Enquiry Search Result"
+    },
+    "DISPLAY":{
+      "LABEL":"Incoming RTP Enquiry Details",
+      "TAB_1":"1. Message",
+      "TAB_3":"2. Events & PSR",
+      "TAB_4":"3. Additional Information",
+      "LABEL_TAB1":"Message",
+      "LABEL_TAB2":" Accounting Details ",
+      "LABEL_TAB3":"Events & PSR",
+      "LABEL_TAB4":"Additional Information",
+      "PAYMENT_INFO_ID": "Payment Info Id",
+      "ACTION": "Action",
+      "NOTIFY_EMAIL": "Notify Email",
+      "NOTIFY_SMS": "Notify Sms",
+      "PSH_REF": "PSH Reference",
+      "EXP_DATE": "Expiry Date",
+      "STATUS": "Status",
+      "STATUS_DCR":"Status Description",
+      "INSTRUCTION_UUID":"Instruction UUID",
+      "CDTR_AGENT_MEMBER_ID":"Creditor Agent MemberId",
+      "CDTR_NAME":"Creditor Name",
+      "CDTR_ADR_TYPE":"Creditor Address Type",
+      "CDTR_STREET_TYPE":"Creditor Street Type",
+      "CDTR_BUILD_NUMBER":"Creditor Build Number",
+      "CDTR_POST_CODE":"Creditor Post Code",
+      "CDTR_TOWN_NAME":"Creditor Town Name",
+      "CDTR_CTRYSUB_DIV":"Creditor Country Sub Div",
+      "CDTR_CTRY":"Creditor Country",
+      "CDTR_ADR_LINE1":"Creditor Address Line1",
+      "CDTR_ADR_LINE2":"Creditor Address Line2",
+      "CDTR_ADR_LINE3":"Creditor Address Line3",
+      "CDTR_ADR_LINE4":"Creditor Address Line4",
+      "CDTR_ADR_LINE5":"Creditor Address Line5",
+      "CDTR_ADR_LINE6":"Creditor Address Line6",
+      "CDTR_ADR_LINE7":"Creditor Address Line7",
+      "CDTR_ID":"Creditor Id",
+      "CDTR_PROV_OF_BIRTH":"Creditor Prove of Birth",
+      "CDTR_CITY_OF_BIRTH":"Creditor City of Birth",
+      "CDTR_CTRY_OF_BIRTH":"Creditor Country of Birth",
+      "CDTR_BIRTH_DATE":"Creditor Birth Date",
+      "CDTR_PRIVATE_ID":"Creditor Private Id",
+      "CDTR_SCH_CODE":"Creditor Scheme Code",
+      "CDTR_SCH_PRTRY":"Creditor Sheme Prtry ",
+      "CDTR_SCH_ISSUER":"Creditor Scheme Issuer",
+      "CDTR_CTRY_OF_RES":"Creditor Country of Residence",
+      "CDTR_NAME_PREFIX":"Creditor Name Prefix",
+      "CDTR_CON_NAME":"Creditor Con Name",
+      "CDTR_PHONE":"Creditor Phone",
+      "CDTR_MOBILE":"Creditor Mobile",
+      "CDTR_FAX":"Creditor Fax",
+      "CDTR_EMAIL":"Creditor Email",
+      "CDTR_OTHER_DETAIL":"Creditor Other Detail",
+      "CDTR_ACC_IBAN":"Creditor Account Iban",
+      "CDTR_CURRENCY":"Creditor Currency",
+      "CDTR_ACC_NAME":"Creditor Account Name",
+  
+      "ULMT_CDTR_NAME":"Ultimate Creditor Name",
+      "ULMT_CDTR_ADR_TYPE":"Ultimate Creditor Address Type",
+      "ULMT_CDTR_STREET_NAME":"Ultimate Creditor Street Name",
+      "ULMT_CDTR_BUILD_NUM":"Ultimate Creditor Build Number",
+      "ULMT_CDTR_POST_CODE":"Ultimate Creditor Post Code",
+      "ULMT_CDTR_TOWN_NAME":"Ultimate Creditor Town Name",
+      "ULMT_CDTR_CTRY_SUB_DIV":"Ultimate Creditor Country Sub Div",
+      "ULMT_CDTR_CTRY":"Ultimate Creditor Country",
+      "ULMT_CDTR_ADR_LINE1":"Ultimate Creditor Address Line1",
+      "ULMT_CDTR_ADR_LINE2":"Ultimate Creditor Address Line2",
+      "ULMT_CDTR_ADR_LINE3":"Ultimate Creditor Address Line3",
+      "ULMT_CDTR_ADR_LINE4":"Ultimate Creditor Address Line4",
+      "ULMT_CDTR_ADR_LINE5":"Ultimate Creditor Address Line5",
+      "ULMT_CDTR_ADR_LINE6":"Ultimate Creditor Address Line6",
+      "ULMT_CDTR_ADR_LINE7":"Ultimate Creditor Address Line7",
+      "ULMT_CDTR_ID":"Ultimate Creditor Id",
+      "ULMT_BIRTH_DATE":"Ultimate Creditor Birth Date",
+      "ULMT_CDTR_PROV_OF_BIRTH":"Ultimate Creditor Prove Of Birth",
+      "ULMT_CDTR_CITY_OF_BIRTH":"Ultimate Creditor City Of Birth",
+      "ULMT_CDTR_CTRY_OF_BIRTH":"Ultimate Creditor Country Of Birth",
+      "ULMT_CDTR_PRIVATE_ID":"Ultimate Creditor Private Id",
+      "ULMT_CDTR_SCH_CODE":"Ultimate Creditor Scheme Code",
+      "ULMT_CDTR_SCH_PTPRY":"Ultimate Creditor Scheme Ptpry",
+      "ULMT_CDTR_SCH_ISSUER":"Ultimate Creditor Scheme Issuer",
+      "ULMT_CDTR_CTRY_OF_RES":"Ultimate Creditor Country of Res",
+      "ULMT_CDTR_NAME_PREFIX":"Ultimate Creditor Name Prefix",
+      "ULMT_CDTR_CON_NAME":"Ultimate Creditor Con Name",
+      "ULMT_CDTR_PHONE":"Ultimate Creditor Phone",
+      "ULMT_CDTR_MOBILE":"Ultimate Creditor Mobile",
+      "ULMT_CDTR_FAX":"Ultimate Creditor Fax",
+      "ULMT_CDTR_EMAIL":"Ultimate Creditor Email",
+      "ULMT_CDTR_OTHER_DETAIL":"Ultimate Creditor Other Detail",
+  
+      "DBTR_DETAILS":"Debitor Details",
+      "DBTR_NAME":"Debitor Name",
+      "DBTR_ADR_TYPE":"Debitor Address Type",
+      "DBTR_STREET_NAME":"Debitor Street Type",
+      "DBTR_BUILD_NUMBER":"Debitor Build Number",
+      "DBTR_POST_CODE":"Debitor Post Code",
+      "DBTR_TOWN_NAME":"Debitor Town Name",
+      "DBTR_CTRYSUB_DIV":"Debitor Country Sub Div",
+      "DBTR_CTRY":"Debitor Country",
+      "DBTR_ADR_LINE1":"Debitor Address Line1",
+      "DBTR_ADR_LINE2":"Debitor Address Line2",
+      "DBTR_ADR_LINE3":"Debitor Address Line3",
+      "DBTR_ADR_LINE4":"Debitor Address Line4",
+      "DBTR_ADR_LINE5":"Debitor Address Line5",
+      "DBTR_ADR_LINE6":"Debitor Address Line6",
+      "DBTR_ADR_LINE7":"Debitor Address Line7",
+      "DBTR_ID":"Debitor Id",
+      "DBTR_BIRTH_DATE":"Debitor Birth Date",
+      "DBTR_PROV_OF_BIRTH":"Debitor Prove of Birth",
+      "DBTR_CITY_OF_BIRTH":"Debitor City of Birth",
+      "DBTR_CTRY_OF_BIRTH":"Debitor Country of Birth",
+      "DBTR_PRIVATE_ID":"Debitor Private Id",
+      "DBTR_SCH_CODE":"Debitor Scheme Code",
+      "DBTR_SCH_PRTRY":"Debitor Sheme Prtry ",
+      "DBTR_SCH_ISSUER":"Debitor Scheme Issuer",
+      "DBTR_CTRY_OF_RES":"Debitor Country of Residence",
+      "DBTR_NAME_PREFIX":"Debitor Name Prefix",
+      "DBTR_CON_NAME":"Debitor Con Name",
+      "DBTR_PHONE":"Debitor Phone",
+      "DBTR_MOBILE":"Debitor Mobile",
+      "DBTR_FAX":"Debitor Fax",
+      "DBTR_EMAIL":"Debitor Email",
+      "DBTR_OTHER_DETAIL":"Debitor Other Detail",
+      "CDTR_ACC_CURRENCY":"Debitor Acc Currency",
+      "DBTR_ACC_NAME":"Debitor Account Name",
+      "DBTR_AGENT_MEMBER_ID":"Debitor Agent MemberId",
+  
+      "ULMT_DBTR_DETAILS":"Ultimate Debitor Details",
+      "ULMT_DBTR_NAME":"Ultimate Debitor Name",
+      "ULMT_DBTR_ADR_TYPE":"Ultimate Debitor Address Type",
+      "ULMT_DBTR_STREET_NAME":"Ultimate Debitor Street Name",
+      "ULMT_DBTR_BUILD_NUM":"Ultimate Debitor Build Number",
+      "ULMT_DBTR_POST_CODE":"Ultimate Debitor Post Code",
+      "ULMT_DBTR_TOWN_NAME":"Ultimate Debitor Town Name",
+      "ULMT_DBTR_CTRY_SUB_DIV":"Ultimate Debitor Country Sub Div",
+      "ULMT_DBTR_CTRY":"Ultimate Debitor Country",
+      "ULMT_DBTR_ADR_LINE1":"Ultimate Debitor Address Line1",
+      "ULMT_DBTR_ADR_LINE2":"Ultimate Debitor Address Line2",
+      "ULMT_DBTR_ADR_LINE3":"Ultimate Debitor Address Line3",
+      "ULMT_DBTR_ADR_LINE4":"Ultimate Debitor Address Line4",
+      "ULMT_DBTR_ADR_LINE5":"Ultimate Debitor Address Line5",
+      "ULMT_DBTR_ADR_LINE6":"Ultimate Debitor Address Line6",
+      "ULMT_DBTR_ADR_LINE7":"Ultimate Debitor Address Line7",
+      "ULMT_DBTR_ID":"Ultimate Debitor Id",
+      "ULMT_DBTR_BIRTH_DATE":"Ultimate Debitor Birth Date",
+      "ULMT_DBTR_PROV_OF_BIRTH":"Ultimate Debitor Prove Of Birth",
+      "ULMT_DBTR_CITY_OF_BIRTH":"Ultimate Debitor City Of Birth",
+      "ULMT_DBTR_CTRY_OF_BIRTH":"Ultimate Debitor Country Of Birth",
+      "ULMT_DBTR_PRIVATE_ID":"Ultimate Debitor Private Id",
+      "ULMT_DBTR_SCH_CODE":"Ultimate Debitor Scheme Code",
+      "ULMT_DBTR_SCH_PTPRY":"Ultimate Debitor Scheme Ptpry",
+      "ULMT_DBTR_SCH_ISSUER":"Ultimate Debitor Scheme Issuer",
+      "ULMT_DBTR_CTRY_OF_RES":"Ultimate Debitor Country of Res",
+      "ULMT_DBTR_NAME_PREFIX":"Ultimate Debitor Name Prefix",
+      "ULMT_DBTR_CON_NAME":"Ultimate Debitor Con Name",
+      "ULMT_DBTR_PHONE":"Ultimate Debitor Phone",
+      "ULMT_DBTR_MOBILE":"Ultimate Debitor Mobile",
+      "ULMT_DBTR_FAX":"Ultimate Debitor Fax",
+      "ULMT_DBTR_EMAIL":"Ultimate Debitor Email",
+      "ULMT_DBTR_OTHER_DETAIL":"Ultimate Debitor Other Detail",
+  
+      "OTHERS":"Others",
+      "REQ_EXECUTION_DATE":"Req Execution Date",
+      "INSTRUCTION_ID":"Instruction Id",
+      "END_TO_END_ID":"End to End Id",
+      "PAYMENT_TYPE_CODE":"Payment Type Code",
+      "LOCAL_INST_PROP":"Local Inst Prop",
+      "AMOUNT":"Amount",
+      "CURRENCY":"Currency",
+      "INST_FOR_CDTR_AGNT":"Inst For Creditor Agnt",
+      "REM_ID":"Rem Id",
+      "REM_METHOD":"Rem Method",
+      "ELECTRONIC_ADDRESS":"Electronic Address",
+      "UNSTRUCT_REM_INFO":"Unstruct Rem Info",
+      "STRUCT_REM_INFO_NUM":"Struct Rem Info Number",
+      "STRUCT_REM_RELATED_DATE":"Struct Rem Related Date",
+      "ADDRESS_REM_INFO":"Address Rem Info",
+      "CHARGES":"charges ",
+      "REQUEST_ID":"Request Id",
+  
+      "CUST_REF":"Customer Reference",
+      "CUST_NAME":":50K:Ordering customer Name",
+      "CUST_ACC_NO":":50K:Ordering Customer Account",
+      "BEN_BANK_CODE":"Beneficiary Bank Code",
+      "BEN_CUST_NAME":":59:Beneficiary Name",
+      "BEN_BANK_ACC":":59:Beneficiary Account Number",
+      "TO_BANK": "To Bank",
+      "EXT_REF":"UTI / External Reference",
+      "BANK_REF":"Bank Reference",
+      "EVENT_ID":"Event ID",
+      "PSR_ID":"PSR ID",
+      "PSR_TIME":"PSR Date Time",
+      "EVENT_DCR": "Event Description",
+      "TRANSACTION_REF": "Transaction Reference",
+      "PSR_DCR": "PSR Description",
+      "ACCOUNT_NUMBER": "Account Number",
+      "TRN_TIME": "Transaction Time",
+      "CURRENCY_CODE": "Currency Code",
+      "CRDR_FLAG": "Credit/Debit",
+      "LABEL_OUTPAY": "Incoming Request To Pay",
+      "DEBITOR_DETAILS": "Debitor Details",
+      "CREDITOR_DETAILS": "Creditor Details",
+      "CUST_INST_BIC":"Customer Institution BIC",
+      "NETWORK":"Network",
+      "ULTIMATE_DEBITOR_DETAILS": "Ultimate Debitor Details",
+      "ULTIMATE_CREDITOR_DETAILS": "Ultimate Creditor Details",
+      "DEP": "Department",
+      "TRN_CCY": "Currency Code",
+      "CHARGE": "Charge",
+      "VAT": "VAT",
+      "EX_RATE": "Exchange Rate",
+      "ACT_ACC":"Actual Account Number",
+      "RPR_CODE": "Repair Reason Code",
+      "RPR_DCR":"Description",
+      "NOTES":"Note",
+      "ESB_MESSAGE": "ESB Message",
+      "RES_STATUS": "Response Status",
+      "FROM_BANK":"From Bank",
+      "ORDERING_CUST_ACC":"Ordering Customer Account",
+      "BEN_CUST_ACC":"Beneficiary Customer Account",
+      "RELATED_REF":"Related Reference",
+      "VAL_DATE":"  Value Date",
+      "TR_AMOUNT":"Transaction Amount",
+      "CREATED_ON": "Created On"
+  }
+  },
+  "ALMSYS":{
+    "DISPLAY":{
+        "CHANNEL_ID":"Channel ID",
+        "PRODUCT_ID":"Product ID",
+        "SERVICE_ID": "Service ID",
+        "CUR_CODE": "Currency Code",
+        "TRANSACTION_AMOUNT":"Amount",
+        "VALUE_DATE":"Value Date",
+        "TRANSACTION_REFERENCE":"Transaction Reference",
+        "ORDERING_ACCOUNT":"Ordering Customer Account",
+        "BENEFICIERY_ACCOUNT":"Benificiery Account Number",
+        "PAYMENT_DETAIL":"Payment Details",
+        "BENBANK_ID":"Ben Bank",
+        "ACTION_CODE":"Result",
+        "STATUS":"Status"
+
+
+    },
+    "SEARCH":{
+        "LABEL":"Duplicate Check Search",
+        "RESULT":"Duplicate Check Search Result",
+        "CHANNEL_ID": "Channel ID",
+        "SERVICE_ID": "Service ID",
+        "PRODUCT_ID": "Product ID"
+
+
+
+
+    },
+    "LABEL": {
+        "CREATE_ALMSYSTEM": "Create Duplicate Check",
+        "UPDATE_ALMSYSTEM": "Update Duplicate Check",
+        "VERIFY_ALMSYSTEM": "Verify Duplicate Check",
+        "DISPLAY_BENEFICIARY_STANDARD_INSTRUCTION": "Display Beneficiary Standing Instruction",
+        "BENEFICIARY_STANDING_INC_SEARCH": "Beneficiary Standing Instruction Search",
+        "BENEFICIARY_STANDING_INC_SEARCH_RESULT": "Beneficiary Standing Instruction Search Result"
+    },
+
+
+
+    "MODAL": {
+        "DELETE": {
+            "LABEL": "Delete Duplicate Check Record",
+            "CONFIRMATION": "Are you sure, you want to delete this?"
+        },
+        "VERIFY": {
+            "LABEL": "Verify Duplicate Check Record",
+            "CONFIRMATION": "Are you sure, you want to verify this?"
+        }
+    },
+    "BUTTONS": {
+        "CLEAR": "Clear",
+        "SEARCH": "Search",
+        "CREATE": "Create",
+        "UPDATE": "Update",
+        "VERIFY": "Verify",
+        "DELETE": "Delete",
+        "LIST": "List",
+        "REJECT": "Reject",
+        "NEXT": "NEXT"
+    },
+    "CREATE": {
+        "LABEL": "Create Duplicate Check",
+        "BANK_ID": "Bank ID",
+        "PRODUCT_ID": "Product ID",
+        "CURR_CODE": "Currency Code",
+        "SERID": "Service ID",
+        "PROID": "Product ID",
+        "CHNID": "Channel ID",
+        "AMNT": "Amount",
+        "VD": "Value Date",
+        "TR": "Transaction Reference",
+        "OCA": "Ordering Customer Account",
+        "BCA": "Benificiary Customer Account num",
+        "PD": "Payment Details",
+        "BENB": "Ben Bank",
+        "RES": "Result",
+        "DIRECTION": {
+            "LABEL": "Direction",
+            "SELECT": "Select",
+            "YES": "Yes",
+            "NO": "No",
+            "P": "Repair",
+            "R": "Reject"
+
+
+        },
+        "ACCOUNT_TYPE": "Account Type"
+    }
+},
+"ALL_CONFIGURATIONS": {
+    "SEARCH": {
+        "LABEL": "All Configurations Search",
+        "CODE": "Code",
+        "DESCRIPTION": "Description",
+        "PRIMARY_VALUE": "Primary Value",
+        "SECONDARY_VALUE": "Secondary Value"
+    },
+    "CREATE": {
+        "LABEL": "Create Configuration",
+        "CODE": "Code",
+        "DESCRIPTION": "Description",
+        "PRIMARY_VALUE": "Primary Value",
+        "SECONDARY_VALUE": "Secondary Value",
+        "STATUS": "Status"
+    },
+    "UPDATE": {
+      "LABEL": "Update Configuration"
+    },
+    "VERIFY": {
+      "LABEL": "Verify Configuration"
+    },
+    "BUTTONS": {
+        "CLEAR": "Clear",
+        "SEARCH": "Search",
+        "CREATE": "Create",
+        "UPDATE": "Update",
+        "VERIFY": "Verify",
+        "DELETE": "Delete",
+        "LIST": "List"
+    },
+    "RESULT": {
+        "LABEL": "All Configurations Search Result"
+    },
+    "MODAL": {
+        "DELETE": {
+            "LABEL": "Delete Configuration",
+            "CONFIRMATION": "Are you sure, you want to delete this?"
+        },
+        "VERIFY": {
+            "LABEL": "Verify Configuration",
+            "CONFIRMATION": "Are you sure, you want to verify this?"
+        }
+    }
+},
+"SADAD_BILLER_DATA": {
+  "LABEL": {
+    "SEARCH": "SADAD Biller Data Search",
+    "SEARCH_RESULT": "SADAD Biller Data Search Result",
+    "CREATE": "Create SADAD Biller Data",
+    "UPDATE": "Update SADAD Biller Data",
+    "VERIFY": "Verify SADAD Biller Data",
+    "DELETE": "Delete SADAD Biller Data",
+    "YES": "Yes",
+    "NO": "No"
+  },
+  "FIELD": {
+    "BILLER_ID": "Biller ID",
+    "BILLER_NAME": "Biller Name",
+    "BILLER_NAME_ARB": "Biller Name Arabic",
+    "BILLER_TYPE": "Biller Type",
+    "BILLER_REF": "Biller Reference",
+    "BILLER_REF_ARB": "Biller Reference Arabic",
+    "SERVICE_TYPE": "Service Type",
+    "STATUS": "Status",
+    "AMTDNMTNFLAG": "AMTDNMTN Flag",
+    "AMTDNMTNLIST": "AMTDNMTN List"
+  },
+  "MODAL": {
+    "VERIFY": {
+      "LABEL": "Verify SADAD Biller Data",
+      "CONFIRMATION": "Are you sure, you want to verify this?"
+    },
+    "DELETE": {
+      "LABEL": "Delete SADAD Biller Data",
+      "CONFIRMATION":"Are you sure, you want to delete this?"
+    }
+  }
+
+},
+
+"INCRTG":{
+  "DISPLAY":{
+      "MESSAGE_NO":"Message No",
+      "MESSAGE_TYPE":"Message Type",
+      "DEPARTMENT": "Department",
+      "FROM_BIC": "From Bic",
+      "TRN_NO":"Trn No.",
+      "REL_REF":"Rel. Ref",
+      "CURRENCY":"Currency",
+      "AMOUNT":"Amount",
+      "VALUE_DATE":"Value Date",
+      "STATUS":"Status",
+      "TO_BIC":"To Bic",
+      "Trans_Ref":"Trans Ref.:",
+      "ROUTE_MSG":"Route Message",
+      "ROUTE_MSG_TO":"Route Message To:",
+      "COMMENT":"Comment:",
+      "NEW_CASE":"New Case",
+      "FILL_DETAILS":"Please fill the details below.",
+      "SUB_CATEGORY":"Sub Category",
+      "CATEGORY":"Category",
+      "CASENO":"Case No.:"
+
+
+  },
+  "SEARCH":{
+      "LABEL":"Incoming Routing Search",
+      "RESULT":"Incoming Routing Search Result",
+      "DEPARTMENT": "Department",
+      "MESSAGE_TYPE": "Message Type",
+      "FROM_DATE": "From Date",
+      "TO_DATE": "To Date",
+      "TRANS_REF": "Trans Ref",
+      "REL_REF": "Rel Ref",
+      "FROM_AMOUNT": "From Amount",
+      "TO_AMOUNT": "To Amount",
+      "CURRENCY": "Currency",
+      "STATUS": "Status",
+      "SORT_BY": "Sort By",
+      "FROM_BIC": "From Bic"
+
+
+
+
+
+
+  },
+  "LABEL": {
+      "CREATE_ALMSYSTEM": "Create Duplicate Check",
+      "UPDATE_ALMSYSTEM": "Update Duplicate Check",
+      "VERIFY_ALMSYSTEM": "Verify Duplicate Check",
+      "DISPLAY_BENEFICIARY_STANDARD_INSTRUCTION": "Display Beneficiary Standing Instruction",
+      "BENEFICIARY_STANDING_INC_SEARCH": "Beneficiary Standing Instruction Search",
+      "BENEFICIARY_STANDING_INC_SEARCH_RESULT": "Beneficiary Standing Instruction Search Result",
+      "INCOMING_ROUTING_ENQUIRY":"Incoming Routing Enquiry",
+      "INCOMING_MESSAGE_DISPLAY":"INCOMING MESSAGE DISPLAY",
+      "MESSAGE_DISPLAY":"Incoming Message Display",
+      "MESSAGE_DETAILS":"MESSAGE DETAILS",
+      "EXISTCASE":"Existing Case"
+
+  },
+
+
+
+  "MODAL": {
+      "DELETE": {
+          "LABEL": "Delete Duplicate Check Record",
+          "CONFIRMATION": "Are you sure, you want to delete this?"
+      },
+      "VERIFY": {
+          "LABEL": "Verify Duplicate Check Record",
+          "CONFIRMATION": "Are you sure, you want to verify this?"
+      }
+  },
+  "BUTTONS": {
+      "CLEAR": "Clear",
+      "SEARCH": "Search",
+      "CREATE": "Create",
+      "UPDATE": "Update",
+      "VERIFY": "Verify",
+      "DELETE": "Delete",
+      "LIST": "List",
+      "REJECT": "Reject",
+      "NEXT": "NEXT",
+      "DISAPPROVE":"DISAPPROVE",
+      "APPROVE":"APPROVE",
+      "COMPLETE":"COMPLETE",
+      "DOWNLOAD":"DOWNLOAD",
+      "REROUTE":"REROUTE",
+      "ADDNEW":"Add New",
+      "ADDEXIST":"Add Existing"
+
+  },
+  "CREATE": {
+      "LABEL": "Create Duplicate Check",
+      "BANK_ID": "Bank ID",
+      "PRODUCT_ID": "Product ID",
+      "CURR_CODE": "Currency Code",
+      "SERID": "Service ID",
+      "PROID": "Product ID",
+      "CHNID": "Channel ID",
+      "AMNT": "Amount",
+      "VD": "Value Date",
+      "TR": "Transaction Reference",
+      "OCA": "Ordering Customer Account",
+      "BCA": "Benificiary Customer Account num",
+      "PD": "Payment Details",
+      "BENB": "Ben Bank",
+      "RES": "Result",
+      "DIRECTION": {
+          "LABEL": "Direction",
+          "SELECT": "Select",
+          "YES": "Yes",
+          "NO": "No",
+          "P": "Repair",
+          "R": "Reject"
+
+
+      },
+      "ACCOUNT_TYPE": "Account Type"
+  }
+},
+  "INCOMING_CONTROL_MESSAGES": {
+    "LABEL": {
+      "SEARCH": "Incoming Control Messages Search",
+      "SEARCH_RESULT": "Incoming Control Messages Search Result",
+      "DISPLAY": "Display Incoming Control Messages"
+    },
+    "FIELD": {
+      "PSH_REFERENCE": "PSH Reference",
+      "TRANSACTION_REFERENCE": "Transaction Reference",
+      "RELATED_REFERENCE": "Related Reference",
+      "MESSAGE_TYPE": "Message Type",
+      "MESSAGE_DATA": "Message Data",
+      "QUEUE_DET": "Queue Details",
+      "CREATED_DATE": "Created Date",
+      "DATE_RANGE": "Date Range"
+    },
+    "DISPLAY": {
+      "LABEL": "Display Incoming Control Messages",
+      "TAB_1": "1. Message",
+      "TAB_2": "2. Additional Information",
+      "LABEL_TAB1": "Incoming Control Messages Info",
+      "LABEL_TAB2": "Additional Information"
+    }
+  }
+
+}

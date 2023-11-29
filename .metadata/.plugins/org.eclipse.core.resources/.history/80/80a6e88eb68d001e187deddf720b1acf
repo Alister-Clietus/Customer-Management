@@ -1,0 +1,160 @@
+package com.review.project.serviceimp;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.Date;
+import java.util.Optional;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.json.simple.JSONObject;
+
+import com.review.project.dto.IdDto;
+import com.review.project.dto.ServiceResponse;
+import com.review.project.dto.UserDto;
+import com.review.project.entity.EntityClass;
+import com.review.project.entity.EntityID;
+import com.review.project.repository.specification.RepositoryClass;
+import com.review.project.service.Serviceclass;
+
+@Service
+public class ServiceImplementation implements Serviceclass
+{
+	private static Logger logger = LogManager.getLogger(ServiceImplementation.class);
+
+	@Autowired
+	RepositoryClass repo;
+
+	public ServiceResponse postDetails(UserDto dto)
+	{
+		EntityClass entity=new EntityClass();
+		EntityID id=new EntityID();
+		Date currentDate = new Date();
+		try
+		{
+			id.setId(dto.getName());
+			id.setName(dto.getName());
+			entity.setId(id);
+			entity.setPhonenumber(dto.getPhonenumber());
+			entity.setEmail(dto.getEmail());
+			entity.setDob(dto.getDOB());
+			entity.setBlood(dto.getBlood());
+			entity.setMdate(null);
+			entity.setCdate(currentDate);
+			entity.setStatus("PROCESSED");
+			entity.setCreatedby(user());
+			repo.save(entity);
+			return new ServiceResponse("Entered Successfully","Entered Successfully",null);
+		}
+		catch(Exception e)
+		{
+			logger.error("Error:" + e.getMessage(), e);
+			return new ServiceResponse("Exception Occured","Exception Occured",null);
+		}
+
+	}
+	
+	public JSONObject getall()
+	{
+		
+
+		try 
+		{
+
+			
+		} 
+		catch (Exception e) 
+		{
+			logger.error("Error:" + e.getMessage(), e);
+		}
+		return null;
+	}
+	
+	public ServiceResponse verifyDetails()
+	{
+		
+		try
+		{
+
+			return new ServiceResponse("Verified Successfully","Verified Successfully",null);
+		}
+		catch(Exception e)
+		{
+			logger.error("Error:" + e.getMessage(), e);
+			return new ServiceResponse("Exception Occured","Exception Occured",null);
+		}
+
+	}
+	
+	public ServiceResponse DeleteDetails()
+	{
+		
+		try
+		{
+
+			return new ServiceResponse("Deleted Successfully","Deleted Successfully",null);
+		}
+		catch(Exception e)
+		{
+			logger.error("Error:" + e.getMessage(), e);
+			return new ServiceResponse("Exception Occured","Exception Occured",null);
+		}
+
+	}
+	
+	public ServiceResponse updateDetails(IdDto id)
+	{
+		
+		EntityID entityid=new EntityID();
+		entityid.setId(id.getName());
+		entityid.setName(id.getName());
+		
+		try
+		{
+			Optional<EntityClass> num=repo.findById(entityid);
+			EntityClass entity=num.get();
+			
+			return new ServiceResponse("Updated Successfully","Updated Successfully",null);
+		}
+		catch(Exception e)
+		{
+			logger.error("Error:" + e.getMessage(), e);
+			return new ServiceResponse("Exception Occured","Exception Occured",null);
+		}
+
+	}
+	
+	public ServiceResponse verifyDetails(IdDto id)
+	{
+		
+		EntityID entityid=new EntityID();
+		entityid.setId(id.getName());
+		entityid.setName(id.getName());
+		Date currentDate = new Date();
+		try
+		{
+			Optional<EntityClass> num=repo.findById(entityid);
+			EntityClass entity=num.get();
+			entity.setStatus("VERIFIED");
+			entity.setModifiedby(user());
+			entity.setMdate(currentDate);
+			return new ServiceResponse("Verified Successfully","Verified Successfully",null);
+		}
+		catch(Exception e)
+		{
+			logger.error("Error:" + e.getMessage(), e);
+			return new ServiceResponse("Exception Occured","Exception Occured",null);
+		}
+
+	}
+	
+	private String user()
+	{
+		return "Alister";
+	}
+	
+	
+	
+	
+}

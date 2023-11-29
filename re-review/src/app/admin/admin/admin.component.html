@@ -1,0 +1,171 @@
+
+<nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="#" style="font-family: 'cursive';">
+      <img src="https://th.bing.com/th/id/OIP.w2McZSq-EYWxh02iSvC3xwHaHa?rs=1&pid=ImgDetMain" width="30" height="30" class="d-inline-block align-top" alt="">
+      Current User: {{authusername}}
+    </a>
+  </nav>
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="idid">ID:</label>
+                <input type="text" id="idid" name="idid" class="form-control" placeholder="Enter ID">
+            </div>
+        </div> <!--1st col ends here -->
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="idname">Name:</label>
+                <input type="text" id="idname" name="idname" class="form-control" placeholder="Enter Name">
+            </div>
+        </div> <!--2nd col ends here -->
+     </div> <!--1st row ends here -->
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="idphonenumber">Phonenumber:</label>
+                <input type="text" id="idphonenumber" name="idphonenumber" class="form-control" placeholder="Enter Phone Number">
+            </div>
+        </div> <!--1st col ends here -->
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="idemail">Email</label>
+                <input type="text" id="idemail" name="idemail" class="form-control" placeholder="Enter Email">
+            </div>
+        </div> <!--2nd col ends here -->
+    </div> <!--2nd row ends here -->
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="idblood">Blood Group:</label>
+                <select id="idblood" name="idblood" class="form-control">
+                    <option value="">Select Blood Group</option>
+                    <option value="A+">A+</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B-">B-</option>
+                    <option value="AB+">AB+</option>
+                    <option value="AB-">AB-</option>
+                    <option value="O+">O+</option>
+                    <option value="O-">O-</option>
+                </select>
+            </div>            
+        </div> <!--1st col ends here -->
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="iddob">DOB</label>
+                <input type="Date" id="iddob" name="iddob" class="form-control" placeholder="Enter Date of Birth">
+            </div>
+        </div> <!--3nd col ends here -->
+    </div> <!--3nd row ends here -->
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="status">Status:</label>
+                <select id="status" name="status" class="form-control">
+                    <option value="">None</option>
+                    <option value="DELETED">DELETED</option>
+                    <option value="VERIFIED">VERIFIED</option>
+                    <option value="PROCESSED">PROCESSED</option>
+                </select>
+            </div>
+        </div> <!-- 1st col ends here -->
+    </div> <!--4th row ends here -->
+    <br>
+    <div class="row">
+        <div class="col-md-6">
+            <button type="button" class="btn btn-dark" (click)="search()">Search</button>
+        </div>
+        <div class="col-md-6">
+            <button type="button" class="btn btn-dark" (click)="clear()">Clear</button>
+        </div>
+    </div> <!--3rd row ends here -->
+</div>
+
+
+
+<!-- Body of table starts here -->
+<div class="container mt-4">
+    <div class="row mb-2">
+        <div class="col-md-12">
+            <div class="bs-example">
+                <ul class="nav nav-pills table-status-badge">
+                    <li class="nav-item">
+                        <a class="nav-link active" (click)="refreshByStatus('')">
+                          ALL:{{ statusCountList.totalStatus }}
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" (click)="refreshByStatus('PROCESSED')">
+                          PROCESSD
+                          <span class="badge badge-warning ipsh-badge-pending">
+                            {{ statusCountList.processd }}
+                          </span>
+                        </a>
+                    </li>
+                    <li class="nav-item" >
+                        <a class="nav-link" (click)="refreshByStatus('VERIFIED')">
+                          VERIFIED
+                          <span class="badge badge-dark ipsh-badge-approve">
+                            {{ statusCountList.verified }}
+                          </span>
+                        </a>
+                    </li>
+                    <li class="nav-item" >
+                      <a class="nav-link" (click)="refreshByStatus('DELETED')">
+                        DELETED
+                        <span class="badge badge-danger ipsh-badge-delete">
+                          {{ statusCountList.deleted }}
+                        </span>
+                      </a>
+                  </li>
+                  <li class="nav-item" >
+                    <a class="nav-link" (click)="refreshByStatus('DELETE')">
+                      DELETE
+                      <span class="badge badge-dark ipsh-badge-delete">
+                        {{ statusCountList.delete }}
+                      </span>
+                    </a>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+ <div class="container mt-4">
+    <div class="table-responsive">
+        <table id="userList"
+            class="table table-bordered table-hover dataTable responsive nowrap ipsh-grid">
+            <thead id="id-table-head">
+                <tr>
+                    <th *ngFor="let head of initialHead">{{head}}</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <!-- /.table-responsive -->
+</div>
+<!-- /.card-body -->
+<div class="card-footer clearfix">
+    <button type="button" class="btn btn-dark action-btn float-right" (click)="deleteUser()">
+        DELETE
+    </button>
+    <button type="button" class="btn btn-dark action-btn float-right" (click)="verifyUSer()">
+        VERIFY
+    </button>
+    <button type="button" class="btn btn-dark action-btn float-right" (click)="updateUser()">
+        UPDATE
+    </button>
+    <button type="button" class="btn btn-dark action-btn float-right" (click)="createUser()">
+      CREATE
+    </button>
+    <button type="button" class="btn btn-dark action-btn float-right" (click)="Logout()">
+        Logout
+      </button>
+</div>
+</div>
+<!-- Whole body of table ends here -->

@@ -1,0 +1,15 @@
+package com.review.project.service;
+
+import org.json.simple.JSONObject;
+
+import com.review.project.dto.ServiceResponse;
+
+public interface Service 
+{
+	public ServiceResponse postDetails();
+	public JSONObject getall();
+	public ServiceResponse verifyDetails();
+	public ServiceResponse DeleteDetails();
+	public ServiceResponse updateDetails();
+
+}

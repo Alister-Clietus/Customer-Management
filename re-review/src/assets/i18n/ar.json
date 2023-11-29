@@ -1,0 +1,4708 @@
+{
+    "COUNTRY_DETAIL": {
+        "SEARCH": {
+            "LABEL": "البحث عن تفاصيل الدولة",
+            "COUNTRY_CODE": "رمز البلد",
+            "SWIFT_CODE": "سويفت كود",
+            "DOMESTIC_ID": "الهوية المحليا",
+            "REFERENCE_ID": "مرجع معرف"
+        },
+        "RESULT": {
+            "LABEL": "تفاصيل البلد نتيجة البحث"
+        },
+        "CREATE": {
+            "LABEL": "إنشاء تفاصيل الدولة",
+            "COUNTRY_CODE": "رمز البلد",
+            "SWIFT_CODE": "سويفت كود",
+            "DOMESTIC_ID": "الهوية المحليا",
+            "REFERENCE_ID": "مرجع معرف",
+            "BANK_NAME_ENG": "اسم البنك Eng",
+            "PRIMARY_COUNTRY": "البلد الأساسي",
+            "BASE_CURRENCY": "العملة الأساسية",
+            "STATUS": "حالة",
+            "STATUS_MESSAGE": "رسالة الحالة",
+            "IBAN_CODE": "كود IBAN",
+            "VERSION_NUMBER": "رقم الإصدار"
+        },
+        "UPDATE": {
+            "LABEL": "تحديث تفاصيل البلد",
+            "COUNTRY_CODE": "رمز البلد",
+            "SWIFT_CODE": "سويفت كود",
+            "DOMESTIC_ID": "المحلية Id",
+            "REFERENCE_ID": "مرجع معرف",
+            "BANK_NAME_ENG": "اسم البنك Eng",
+            "PRIMARY_COUNTRY": "البلد الأساسي",
+            "BASE_CURRENCY": "العملة الأساسية",
+            "STATUS": "حالة",
+            "STATUS_MESSAGE": "رسالة الحالة",
+            "IBAN_CODE": "كود IBAN"
+        },
+        "VERIFY": {
+            "LABEL": "تحقق من تفاصيل الدولة",
+            "OLD_RECORD_LABEL": "سجل موجود",
+            "NEW_RECORD_LABEL": "تحديث سجل"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "حذف تفاصيل البلد",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد حذف هذا؟"
+            },
+            "VERIFY": {
+                "LABEL": "تحقق من تفاصيل الدولة",
+                "CONFIRMATION": "هل أنت متأكد ، تريد التحقق من هذا؟"
+            },
+            "REJECT": {
+                "LABEL": "رفض تفاصيل البلد",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد رفض هذا؟"
+            }
+        }
+    },
+    "DEPARTMENT": {
+        "SEARCH": {
+            "LABEL": "البحث عن تفاصيل القسم",
+            "SWIFT_CODE": "رمز السرعة",
+            "BANK_CODE": "معرف البنك",
+            "DEP": "قسم",
+            "DEP_CODE": "كود قسم",
+            "DEP_NAME": "اسم القسم",
+            "ALTERNATE_ID": "معرف بديل"
+        },
+        "RESULT": {
+            "LABEL": "تفاصيل القسم نتيجة البحث"
+        },
+        "CREATE": {
+            "LABEL": "إنشاء تفاصيل القسم",
+            "SWIFT_CODE": "رمز السرعة",
+            "BANK_CODE": "معرف البنك",
+            "DEP_CODE": "كود قسم",
+            "DEP": "قسم",
+            "DEP_NAME": "اسم القسم",
+            "ALTERNATE_ID": "معرف بديل",
+            "IPS_CODE": "كود IPS",
+            "SARIE_DEPARTMENT": "قسم ساري",
+            "STATUS": "حالة"
+        },
+        "UPDATE": {
+            "LABEL": "تحديث بيانات القسم",
+            "SWIFT_CODE": "رمز السرعة",
+            "BANK_CODE": "معرف البنك",
+            "DEP_CODE": "كود قسم",
+            "DEP": "قسم",
+            "DEP_NAME": "اسم القسم",
+            "ALTERNATE_ID": "معرف بديل",
+            "IPS_CODE": "كود IPS",
+            "SARIE_DEPARTMENT": "قسم ساري"
+        },
+        "VERIFY": {
+            "LABEL": "تحقق من تفاصيل القسم",
+            "OLD_RECORD_LABEL": "سجل موجود",
+            "NEW_RECORD_LABEL": "سجل محدث",
+            "ALTERNATE_ID": "معرف بديل",
+            "SWIFT_CODE": "رمز السرعة",
+            "DEP": "قسم",
+            "BANK_CODE": "معرف البنك",
+            "DEP_CODE": "كود قسم",
+            "DEP_NAME": "اسم القسم",
+            "IPS_CODE": "كود IPS",
+            "SARIE_DEPARTMENT": "قسم ساري"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "حذف تفاصيل القسم",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد حذف هذا؟"
+            },
+            "VERIFY": {
+                "LABEL": "تحقق من تفاصيل القسم",
+                "CONFIRMATION": "هل أنت متأكد ، تريد التحقق من هذا؟"
+            },
+            "REJECT": {
+                "LABEL": "رفض تفاصيل القسم",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد رفض هذا؟"
+            }
+        }
+    },
+    "SIGNATURE_LIMIT": {
+        "SEARCH": {
+            "LABEL": "البحث عن حدود التوقيع",
+            "SWIFT_CODE": "سويفت كود",
+            "DEP": "قسم",
+            "GROUP_ID1": "معرف المجموعة 1",
+            "GROUP_ID2": "معرف المجموعة 2",
+            "GROUP_ID3": "معرف المجموعة 3",
+            "FROM_AMOUNT": "من المبلغ",
+            "TO_AMOUNT": "إلى كمية",
+            "ORDER": "النظام"
+        },
+        "RESULT": {
+            "LABEL": "التوقيع نتيجة البحث"
+        },
+        "CREATE": {
+            "LABEL": "إنشاء التوقيع",
+            "SWIFT_CODE": "سويفت كود",
+            "DEP": "قسم",
+            "GROUP_ID1": "معرف المجموعة 1",
+            "GROUP_ID2": "معرف المجموعة 2",
+            "GROUP_ID3": "معرف المجموعة 3",
+            "FROM_AMOUNT": "من المبلغ",
+            "TO_AMOUNT": "إلى كمية",
+            "ORDER": "النظام"
+        },
+        "UPDATE": {
+            "LABEL": "تحديث التوقيع",
+            "SWIFT_CODE": "سويفت كود",
+            "DEP": "قسم",
+            "GROUP_ID1": "معرف المجموعة 1",
+            "GROUP_ID2": "معرف المجموعة 2",
+            "GROUP_ID3": "معرف المجموعة 3",
+            "FROM_AMOUNT": "من المبلغ",
+            "TO_AMOUNT": "إلى كمية",
+            "ORDER": "النظام"
+        },
+        "VERIFY": {
+            "LABEL": "التحقق من التوقيع الحد",
+            "OLD_RECORD_LABEL": "سجل موجود",
+            "NEW_RECORD_LABEL": "تحديث سجل",
+            "SWIFT_CODE": "سويفت كود",
+            "DEP": "قسم",
+            "GROUP_ID1": "معرف المجموعة 1",
+            "GROUP_ID2": "معرف المجموعة 2",
+            "GROUP_ID3": "معرف المجموعة 3",
+            "FROM_AMOUNT": "من المبلغ",
+            "TO_AMOUNT": "إلى كمية",
+            "ORDER": "النظام"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "حذف حدود التوقيع",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد حذف هذا؟"
+            },
+            "VERIFY": {
+                "LABEL": "تحقق من حدود التوقيع",
+                "CONFIRMATION": "هل أنت متأكد ، تريد التحقق من هذا؟"
+            },
+            "REJECT": {
+                "LABEL": "رفض التوقيع الحد",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد رفض هذا؟"
+            }
+        },
+        "TABLE": {
+            "SWIFT_CODE": "رمز السرعة",
+            "GROUP_ID1": "معرف المجموعة 1",
+            "GROUP_ID2": "معرف المجموعة 2",
+            "GROUP_ID3": "معرف المجموعة 3",
+            "DEP_CODE": "كود قسم",
+            "FROM_AMOUNT": "من كمية",
+            "TO_AMOUNT": "لكمية",
+            "VERSION_NUMBER": "رقم الإصدار",
+            "SEQUENCE_NUMBER": "رقم التسلسل",
+            "STATUS": "حالة"
+        }
+    },
+    "PRODUCT_CODE": {
+        "SEARCH": {
+            "LABEL": "تفاصيل المنتج البحث",
+            "COUNTRY_CODE": "الرقم الدولي",
+            "PRODUCT_CODE": "كود المنتج",
+            "PRODUCT_ID": "معرف المنتج",
+            "PRODUCT_NAME": "اسم المنتج"
+        },
+        "RESULT": {
+            "LABEL": "تفاصيل المنتج نتيجة البحث"
+        },
+        "CREATE": {
+            "LABEL": "إنشاء تفاصيل المنتج",
+            "COUNTRY_CODE": "الرقم الدولي",
+            "PRODUCT_CODE": "كود المنتج",
+            "PRODUCT_ID": "معرف المنتج",
+            "PRODUCT_NAME": "اسم المنتج",
+            "PRODUCT_NAMEL1": "اسم المنتج عربي",
+            "PRODUCT_NAMEL2": "اسم المنتج فرنسي"
+        },
+        "UPDATE": {
+            "LABEL": "تحديث تفاصيل المنتج",
+            "COUNTRY_CODE": "الرقم الدولي",
+            "PRODUCT_CODE": "كود المنتج",
+            "PRODUCT_ID": "معرف المنتج",
+            "PRODUCT_NAME": "اسم المنتج",
+            "PRODUCT_NAMEL1": "اسم المنتج عربي",
+            "PRODUCT_NAMEL2": "اسم المنتج فرنسي"
+        },
+        "VERIFY": {
+            "LABEL": "تحقق من تفاصيل المنتج",
+            "OLD_RECORD_LABEL": "سجل موجود",
+            "NEW_RECORD_LABEL": "سجل محدث"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "حذف تفاصيل المنتج",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد حذف هذا؟"
+            },
+            "VERIFY": {
+                "LABEL": "تحقق من تفاصيل المنتج",
+                "CONFIRMATION": "هل أنت متأكد ، تريد التحقق من هذا؟"
+            },
+            "REJECT": {
+                "LABEL": "ارفض تفاصيل المنتج",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد رفض هذا؟"
+            }
+        },
+        "TABLE": {
+            "COUNTRY_CODE": "الرقم الدولي",
+            "PRODUCT_CODE": "كود المنتج",
+            "PRODUCT_ID": "معرف المنتج",
+            "PRODUCT_NAME": "اسم المنتج",
+            "STATUS": "حالة",
+            "VERSION_NUMBER": "رقم الإصدار"
+        }
+    },
+    "OUTGOING_CREDIT_TRANSACTION": {
+        "SEARCH": {
+            "LABEL": "بحث استفسار عن الدفع",
+            "SWIFT_CODE": "سويفت كود",
+            "DEP": "قسم",
+            "DEP_NAME": "اسم القسم",
+            "CREDITOR_ID": "معرف الدائن",
+            "DEBITOR_ID": "معرف المدين",
+            "CREDITOR_ACC_NO": "الدائن الحساب الرقم",
+            "DEBITOR_ACC_NO": "رقم حساب المدين",
+            "CREDITOR_INFO": "الدائن الهوية\/رقم الحساب",
+            "DEBITOR_INFO": "معرف المدي",
+            "AMOUNT": "مبلغ الصفقة",
+            "VALUE_DATE": " قيمة التاريخ",
+            "TO_BANK": "إلى البنك",
+            "TRANSACTION_REF": "المعاملات المرجعية",
+            "END2END_ID": "نهاية إلى نهاية المرجع",
+            "REMITTANCE_INFO": "التحويلات معلومات",
+            "TRANSACTION_ID": "رقم المعاملات",
+            "STATUS": "حالة",
+            "PAY_TYPE": "دفع",
+            "BANK_REF": "مرجع البنك"
+        },
+        "RESULT": {
+            "LABEL": "نتيجة بحث الاستفسار عن الدفع"
+        },
+        "TABS": {
+            "SEARCH_SCREEN": "1. شاشة البحث",
+            "STATUS_OF_PAYMENT": "2- حالة الدفع",
+            "PACS_008_MESSAGE": "3. رسالة باك 008",
+            "STATUS_OF_PAYMENT1": "حالة الدفع"
+        },
+        "CREATE": {
+            "LABEL": "إنشاء استعلام عن الدفع",
+            "CREDITOR_ID": "معرف الدائن",
+            "DEBITOR_ID": "معرف المدين",
+            "CREDITOR_ACC_NO": "رقم حساب الدائن",
+            "DEBITOR_ACC_NO": "رقم حساب المدين",
+            "CREDITOR_INFO": "معرف الدائن / رقم الحساب",
+            "DEBITOR_INFO": "معرف المدين / رقم الحساب",
+            "SWIFT_CODE": "رمز السرعة",
+            "VALUE_DATE": "تاريخ القيمة",
+            "TO_BANK": "إلى البنك",
+            "TRANSACTION_REF": "رمز العملية",
+            "AMOUNT": "مقدار",
+            "END2END_ID": "نهاية إلى نهاية المرجع",
+            "REMITTANCE_INFO": "معلومات التحويل",
+            "USER_COMMENT": "تعليق المستخدم",
+            "DEBIT_DATE": "تاريخ الخصم",
+            "DEPARTMENT": "قسم",
+            "INSTRUCTED_AGENT": "وكيل تعليمات",
+            "INSTRUCTING_AGENT": "إرشاد الوكيل",
+            "MODIFIED_BY": "تم التعديل بواسطة",
+            "MODIFIED_TIME": "الوقت المعدل",
+            "TRANSACTION_DATE": "تاريخ الصفقة",
+            "STATUS": "حالة",
+            "STATUS_MESSAGE": "رسالة الحالة",
+            "TRANSACTION_CCY": "معاملة CCY",
+            "TRANSACTION_CHARGE": "رسوم المعاملات",
+            "TRANSACTION_COM": "كوم المعاملات",
+            "TRANSACTION_VAT": "ضريبة القيمة المضافة على المعاملات",
+            "BANK_NAME": "اسم البنك",
+            "BEN_NAME": "أسم المستفيد"
+        },
+        "DETAILS": {
+            "ORDERING_ACCOUNT": "طلب حساب",
+            "CREDITOR_ID": "معرف الدائن",
+            "DEBITOR_ID": "معرف المدين",
+            "CREDITOR_ACC": "حساب الدائن",
+            "DEBITOR_ACC_NO": "رقم حساب المدين",
+            "CREDITOR_INFO": "معرف الدائن / رقم الحساب",
+            "DEBITOR_INFO": "معرف المدين / رقم الحساب",
+            "DIRECTION": "اتجاه",
+            "MESSAGE_ID": "معرف الرسالة",
+            "TO_BANK": "إلى البنك",
+            "TRANSACTION_ID": "رقم المعاملة",
+            "AMOUNT": "مقدار",
+            "END2END_ID": "نهاية إلى نهاية المرجع",
+            "REMITTANCE_INFO": "معلومات التحويل",
+            "USER_COMMENT": "تعليق المستخدم",
+            "DEBIT_DATE": "تاريخ الخصم",
+            "DEPARTMENT": "قسم",
+            "INSTRUCTED_ID": "معرف التعليمات",
+            "INSTRUCTING_AGENT": "إرشاد الوكيل",
+            "MODIFIED_BY": "تم التعديل بواسطة",
+            "MODIFIED_TIME": "الوقت المعدل",
+            "TRANSACTION_AMOUNT": "قيمة التحويل",
+            "STATUS": "حالة",
+            "DESCRIPTION": "وصف",
+            "TRANSACTION_CCY": "معاملة CCY",
+            "VALUE_DATE": "تاريخ القيمة",
+            "TRANSACTION_COM": "كوم المعاملات",
+            "TRANSACTION_VAT": "ضريبة القيمة المضافة على المعاملات",
+            "BANK_NAME": "اسم البنك",
+            "BEN_NAME": "أسم المستفيد",
+            "DATE_TIME": "تاريخ الوقت",
+            "USER_ID": "معرف المستخدم",
+            "ACTUAL_MESSAGE": "الرسالة الفعلية"
+        },
+        "UPDATE": {
+            "LABEL": "تحديث استعلام الدفع",
+            "CREDITOR_ID": "معرف الدائن",
+            "DEBITOR_ID": "معرف المدين",
+            "CREDITOR_ACC_NO": "الدائن الحساب الرقم",
+            "DEBITOR_ACC_NO": "رقم حساب المدين",
+            "CREDITOR_INFO": "الدائن الهوية\/رقم الحساب",
+            "DEBITOR_INFO": "معرف المدين / رقم الحساب",
+            "VALUE_DATE": " قيمة التاريخ",
+            "SWIFT_CODE": "سويفت كود",
+            "TO_BANK": "إلى البنك",
+            "TRANSACTION_REF": "المعاملات المرجعية",
+            "AMOUNT": "المبلغ",
+            "END2END_ID": "نهاية إلى نهاية المرجع",
+            "REMITTANCE_INFO": "التحويلات معلومات",
+            "USER_COMMENT": "تعليق المستخدم",
+            "DEBIT_DATE": "الخصم التاريخ",
+            "DEPARTMENT": "قسم",
+            "INSTRUCTED_AGENT": "أوعز الوكيل",
+            "INSTRUCTING_AGENT": "تعليمات الوكيل",
+            "MODIFIED_BY": "تعديل من قبل",
+            "MODIFIED_TIME": "تعديل الوقت",
+            "TRANSACTION_DATE": "تاريخ العملية",
+            "STATUS": "حالة",
+            "STATUS_MESSAGE": "رسالة الحالة",
+            "TRANSACTION_CCY": "الصفقة نقاط التحول الرئيسية",
+            "TRANSACTION_CHARGE": "الصفقة تهمة",
+            "TRANSACTION_COM": "المعاملات Com",
+            "TRANSACTION_VAT": "الصفقة ضريبة القيمة المضافة"
+        },
+        "DISPLAY": {
+            "LABEL": "عرض استعلام الدفع",
+            "BANK_REF": "مرجع البنك",
+            "TRANS_CURRENCY": "عملة تداولية",
+            "TRANS_CHARGE": "رسوم المعاملات"
+        },
+        "PROXY": {
+            "LABEL": "معلومات الدفع",
+            "CREDITOR_AGENT": "وكيل دائن",
+            "ORDERING_CUSTOMER_NAME": "طلب اسم العميل",
+            "ORDERING_CUSTOMER_ADD1": "طلب عنوان العميل",
+            "ORDERING_CUSTOMER_CITY": "طلب مدينة العميل",
+            "ORDERING_CUSTOMER_DOB": "طلب تاريخ ميلاد العميل",
+            "BEN_CUSTOMER_NAME": "اسم العميل المستفيد",
+            "BEN_ACC_NUM": "رقم حساب المستفيد",
+            "BEN_ACC_TYPE": "نوع حساب المستفيد",
+            "BEN_ACC_NAME": "المستفيد اسم الحساب",
+            "BEN_CUSTOMER_ADD1": "عنوان المستفيد",
+            "BEN_CITY": "مدينة المستفيد",
+            "BEN_DOB": "تاريخ ميلاد المستفيد",
+            "CHARGES": "شحنة",
+            "TRANSACTION_DATE": "تاريخ الصفقة",
+            "VAT": "ضريبة القيمة المضافة",
+            "BANK_NAME": "اسم البنك",
+            "BEN_NAME": "أسم المستفيد"
+        },
+        "VERIFY": {
+            "LABEL": "تحقق من استعلام الدفع",
+            "CREDITOR_ID": "معرف الدائن",
+            "DEBITOR_ID": "معرف المدين",
+            "CREDITOR_ACC_NO": "الدائن الحساب الرقم",
+            "DEBITOR_ACC_NO": "رقم حساب المدين",
+            "CREDITOR_INFO": "الدائن الهوية\/رقم الحساب",
+            "DEBITOR_INFO": "معرف المدين / رقم الحساب",
+            "VALUE_DATE": " قيمة التاريخ",
+            "SWIFT_CODE": "سويفت كود",
+            "TO_BANK": "إلى البنك",
+            "TRANSACTION_REF": "المعاملات المرجعية",
+            "AMOUNT": "المبلغ",
+            "END2END_ID": "نهاية إلى نهاية المرجع",
+            "REMITTANCE_INFO": "التحويلات معلومات",
+            "OLD_RECORD_LABEL": "سجل موجود",
+            "NEW_RECORD_LABEL": "تحديث سجل",
+            "USER_COMMENT": "تعليق المستخدم",
+            "DEBIT_DATE": "الخصم التاريخ",
+            "DEPARTMENT": "قسم",
+            "INSTRUCTED_AGENT": "أوعز الوكيل",
+            "INSTRUCTING_AGENT": "تعليمات الوكيل",
+            "MODIFIED_BY": "تعديل من قبل",
+            "MODIFIED_TIME": "تعديل الوقت",
+            "TRANSACTION_DATE": "تاريخ العملية",
+            "STATUS": "حالة",
+            "STATUS_MESSAGE": "رسالة الحالة",
+            "TRANSACTION_CCY": "الصفقة نقاط التحول الرئيسية",
+            "TRANSACTION_CHARGE": "الصفقة تهمة",
+            "TRANSACTION_COM": "المعاملات Com",
+            "TRANSACTION_VAT": "الصفقة ضريبة القيمة المضافة"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "إلغاء الاستعلام عن الدفع",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد إلغاء هذا؟"
+            },
+            "VERIFY": {
+                "LABEL": "تحقق من استعلام الدفع",
+                "CONFIRMATION": "هل أنت متأكد ، تريد التحقق من هذا؟"
+            },
+            "REJECT": {
+                "LABEL": "رفض الاستفسار عن الدفع",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد رفض هذا؟"
+            },
+            "REFUND": {
+                "LABEL": "استعلام عن سداد المبالغ المستردة",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد استرداد هذا؟"
+            },
+            "RETURN": {
+                "LABEL": "إعادة المعاملة",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد إرجاع هذا؟"
+            }
+        }
+    },
+    "INCOMING_TRANSACTION": {
+        "SEARCH": {
+            "LABEL": "واردة الصفقة البحث",
+            "SWIFT_CODE": "سويفت كود",
+            "DEP": "قسم",
+            "DEP_NAME": "اسم القسم",
+            "CREDITOR_ID": "معرف الدائن",
+            "DEBITOR_ID": "معرف المدين",
+            "CREDITOR_ACC_NO": "الدائن الحساب الرقم",
+            "DEBITOR_ACC_NO": "رقم حساب المدين",
+            "CREDITOR_INFO": "الدائن الهوية\/رقم الحساب",
+            "DEBITOR_INFO": "معرف المدين / رقم الحساب",
+            "AMOUNT": "مبلغ الصفقة",
+            "VALUE_DATE": " قيمة التاريخ",
+            "TO_BANK": "إلى البنك",
+            "TRANSACTION_REF": "المعاملات المرجعية",
+            "END2END_ID": "End2End المرجعية",
+            "REMITTANCE_INFO": "التحويلات معلومات",
+            "TRANSACTION_ID": "رقم المعاملات",
+            "STATUS": "حالة"
+        },
+        "RESULT": {
+            "LABEL": "واردة الصفقة نتيجة البحث"
+        },
+        "CREATE": {
+            "LABEL": "إنشاء المعاملات الواردة",
+            "CREDITOR_ID": "معرف الدائن",
+            "DEBITOR_ID": "معرف المدين",
+            "CREDITOR_ACC_NO": "الدائن الحساب الرقم",
+            "DEBITOR_ACC_NO": "رقم حساب المدين",
+            "CREDITOR_INFO": "الدائن الهوية\/رقم الحساب",
+            "DEBITOR_INFO": "معرف المدين / رقم الحساب",
+            "SWIFT_CODE": "سويفت كود",
+            "VALUE_DATE": " قيمة التاريخ",
+            "TO_BANK": "إلى البنك",
+            "TRANSACTION_REF": "المعاملات المرجعية",
+            "AMOUNT": "المبلغ",
+            "END2END_ID": "End2End المرجعية",
+            "REMITTANCE_INFO": "التحويلات معلومات",
+            "USER_COMMENT": "تعليق المستخدم",
+            "DEBIT_DATE": "الخصم التاريخ",
+            "DEPARTMENT": "قسم",
+            "INSTRUCTED_AGENT": "أوعز الوكيل",
+            "INSTRUCTING_AGENT": "تعليمات الوكيل",
+            "MODIFIED_BY": "تعديل من قبل",
+            "MODIFIED_TIME": "تعديل الوقت",
+            "TRANSACTION_DATE": "تاريخ العملية",
+            "STATUS": "حالة",
+            "STATUS_MESSAGE": "رسالة الحالة",
+            "TRANSACTION_CCY": "الصفقة نقاط التحول الرئيسية",
+            "TRANSACTION_CHARGE": "الصفقة تهمة",
+            "TRANSACTION_COM": "المعاملات Com",
+            "TRANSACTION_VAT": "الصفقة ضريبة القيمة المضافة"
+        },
+        "UPDATE": {
+            "LABEL": "تحديث واردة المعاملات الائتمانية",
+            "CREDITOR_ID": "معرف الدائن",
+            "DEBITOR_ID": "معرف المدين",
+            "CREDITOR_ACC_NO": "الدائن الحساب الرقم",
+            "DEBITOR_ACC_NO": "رقم حساب المدين",
+            "CREDITOR_INFO": "الدائن الهوية\/رقم الحساب",
+            "DEBITOR_INFO": "معرف المدين / رقم الحساب",
+            "VALUE_DATE": " قيمة التاريخ",
+            "SWIFT_CODE": "سويفت كود",
+            "TO_BANK": "إلى البنك",
+            "TRANSACTION_REF": "المعاملات المرجعية",
+            "AMOUNT": "المبلغ",
+            "END2END_ID": "End2End المرجعية",
+            "REMITTANCE_INFO": "التحويلات معلومات",
+            "USER_COMMENT": "تعليق المستخدم"
+        },
+        "PROXY": {
+            "LABEL": "معلومات الدفع",
+            "CREDITOR_AGENT": "وكيل دائن",
+            "ORDERING_CUSTOMER_NAME": "طلب اسم العميل",
+            "ORDERING_CUSTOMER_ADD1": "طلب عنوان العميل",
+            "ORDERING_CUSTOMER_CITY": "طلب مدينة العميل",
+            "ORDERING_CUSTOMER_DOB": "طلب تاريخ ميلاد العميل",
+            "BEN_CUSTOMER_NAME": "اسم العميل المستفيد",
+            "BEN_ACC_NUM": "رقم حساب المستفيد",
+            "BEN_ACC_TYPE": "نوع حساب المستفيد",
+            "BEN_ACC_NAME": "المستفيد اسم الحساب",
+            "BEN_CUSTOMER_ADD1": "عنوان المستفيد",
+            "BEN_CITY": "مدينة المستفيد",
+            "BEN_DOB": "تاريخ ميلاد المستفيد",
+            "CHARGES": "شحنة",
+            "TRANSACTION_DATE": "تاريخ الصفقة",
+            "VAT": "ضريبة القيمة المضافة",
+            "BANK_NAME": "اسم البنك",
+            "BEN_NAME": "أسم المستفيد"
+        },
+        "VERIFY": {
+            "LABEL": "التحقق من الائتمان الواردة الصفقة",
+            "CREDITOR_ID": "معرف الدائن",
+            "DEBITOR_ID": "معرف المدين",
+            "CREDITOR_ACC_NO": "الدائن الحساب الرقم",
+            "DEBITOR_ACC_NO": "رقم حساب المدين",
+            "CREDITOR_INFO": "الدائن الهوية\/رقم الحساب",
+            "DEBITOR_INFO": "معرف المدين / رقم الحساب",
+            "VALUE_DATE": " قيمة التاريخ",
+            "SWIFT_CODE": "سويفت كود",
+            "TO_BANK": "إلى البنك",
+            "TRANSACTION_REF": "المعاملات المرجعية",
+            "AMOUNT": "المبلغ",
+            "END2END_ID": "End2End المرجعية",
+            "REMITTANCE_INFO": "التحويلات معلومات",
+            "OLD_RECORD_LABEL": "سجل موجود",
+            "NEW_RECORD_LABEL": "تحديث سجل",
+            "USER_COMMENT": "تعليق المستخدم"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "إلغاء واردة المعاملات الائتمانية",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد إلغاء هذا"
+            },
+            "VERIFY": {
+                "LABEL": "التحقق من الائتمان الواردة الصفقة",
+                "CONFIRMATION": "هل أنت متأكد من أنك تريد أن الموافقة على هذا"
+            },
+            "REJECT": {
+                "LABEL": "رفض واردة المعاملات الائتمانية",
+                "CONFIRMATION": "هل أنت متأكد من أنك تريد أن ترفض هذا"
+            },
+            "COMPLETE": {
+                "LABEL": "صفقة كاملة",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد إكمال هذا"
+            }
+        }
+    },
+    "PROXY_ENQUIRY": {
+        "SEARCH": {
+            "LABEL": "ابحث عن وكيل",
+            "SEARCHLABEL": "الهاتف / البريد الإلكتروني / الهوية الوطنية",
+            "BICID": "معرف Bic",
+            "PROXY_TYPE": "نوع الوكيل"
+        },
+        "PROXY_TYPE": {
+            "PHONE": "هاتف",
+            "EMAIL": "بريد الالكتروني",
+            "NATIONAL_ID": "الهوية الوطنية",
+            "IGAMA_ID": "معرف الإقامة",
+            "COMERCIAL_REGISTRATION": "رقم السجل التجاري"
+        },
+        "RESULT": {
+            "LABEL": "نتيجة بحث الوكيل",
+            "CSTACCNO": "رقم حساب العميل",
+            "REGBNKID": "معرف البنك المسجل",
+            "CSTNAME": "اسم الزبون",
+            "PROXYID": "معرف الوكيل",
+            "CSTADD1": "عنوان العميل 1",
+            "CSTADD2": "عنوان العميل 2",
+            "CSTADD3": "عنوان العميل 3",
+            "CSTDOB": "تاريخ الولادة",
+            "CSTCTYB": "مدينة الولادة",
+            "CSTCTRB": "بلد الميلاد",
+            "ACCOUNT_NAME": "أسم الحساب",
+            "DISPLAY_NAME": "اسم العرض",
+            "FIRST_NAME": "الاسم الاول",
+            "SECOND_NAME": "الاسم الثاني",
+            "LAST_NAME": "الكنية",
+            "ACCOUNT_HOLDER_TYPE": "نوع صاحب الحساب",
+            "BUSINESS_NAME": "الاسم التجاري",
+            "BUSINESS_REGISTRATION_DATE": "تاريخ تسجيل العمل",
+            "EMAIL": "البريد الإلكتروني",
+            "PHONE_NUMBER": "رقم الهاتف",
+            "NATIONAL_ID": "الهوية الوطنية",
+            "PROXY_LABEL": "معلومات الوكيل",
+            "REG_ID": "معرف تسجيل",
+            "PROXY_TYPE": "نوع الوكيل",
+            "ACC_TYPE": "نوع الحساب",
+            "ACC_NAME": "أسم الحساب",
+            "PART_CODE": "رمز المشارك",
+            "PROXY_VALUE": "قيمة الوكيل",
+            "DISPLAY_NAME_ARB": "اسم العرض عربي",
+            "ACC_VALUE": "قيمة الحساب",
+            "STATUS": "الحالة",
+            "STATUS_DESC": "وصف الحالة"
+        },
+        "MODAL": {
+            "PRINT": {
+                "LABEL": "طباعة تفاصيل البروكسي",
+                "CONFIRMATION": "هل أنت متأكد من أنك تريد طباعة هذا"
+            },
+            "PDFDNLD": {
+                "LABEL": "تحميل تفاصيل البروكسي PDF",
+                "CONFIRMATION": "هل أنت متأكد من أنك تريد تحميل PDF من هذا"
+            }
+        }
+    },
+    "PROXY_DETAIL": {
+        "SEARCH": {
+            "LABEL": "ابحث عن وكيل محلي",
+            "PROXYID": "رقم الهاتف المحمول / معرف البريد الإلكتروني",
+            "CSTACCNAME": "اسم الزبون",
+            "CSTACCNUM": "رقم حساب العميل"
+        },
+        "CREATE": {
+            "LABEL": "إنشاء تفاصيل الوكيل",
+            "PROXY_ID": "معرف الوكيل",
+            "BIC": "رمز BIC",
+            "CUSTOMER_ACCOUNT": "حساب العميل",
+            "ACCOUNT_CCY": "عملة الحساب",
+            "CUSTOMER_NAME": "اسم الزبون",
+            "CUSTOMER_ADD1": "عنوان العميل 1",
+            "CUSTOMER_ADD2": "عنوان العميل 2",
+            "CUSTOMER_ADD3": "عنوان العميل 3",
+            "DATE_OF_BIRTH": "تاريخ الولادة",
+            "CITY_OF_BIRTH": "مدينة الولادة",
+            "COUNTRY_OF_BIRTH": "بلد الميلاد",
+            "PROXY_TYPE": "نوع الوكيل",
+            "PROXY_VALUE": "قيمة الوكيل",
+            "ACCOUNT_NAME": "أسم الحساب",
+            "DISPLAY_NAME": "اسم العرض",
+            "FIRST_NAME": "الاسم الاول",
+            "SECOND_NAME": "الاسم الثاني",
+            "LAST_NAME": "الكنية",
+            "BUSINESS_NAME": "الاسم التجاري",
+            "BUSINESS_REG_DATE": "تاريخ تسجيل العمل",
+            "DISPLAY_NAME_AR": "اسم العرض عربي",
+            "ACCOUNT_TYPE": "نوع الحساب",
+            "CUSTOMER_ID": "هوية الزبون",
+            "ACC_HOLDER_TYPE": "نوع صاحب الحساب",
+            "TELEPHONE": "رقم الهاتف المحمول",
+            "BUSINESS": "اعمال",
+            "PERSONAL": "شخصي"
+        },
+        "DETAILS": {
+            "LABEL": "إنشاء تفاصيل الوكيل",
+            "PROXY_ID": "معرف الوكيل",
+            "BIC": "رمز BIC",
+            "CUSTOMER_ACCOUNT": "حساب الزبون",
+            "ACCOUNT_CCY": "عملة الحساب",
+            "CUSTOMER_NAME": "اسم الزبون",
+            "CUSTOMER_ADD1": "عنوان العميل 1",
+            "CUSTOMER_ADD2": "عنوان العميل 2",
+            "CUSTOMER_ADD3": "عنوان العميل 3",
+            "DATE_OF_BIRTH": "تاريخ الولادة",
+            "CITY_OF_BIRTH": "مدينة الولادة",
+            "COUNTRY_OF_BIRTH": "بلد الميلاد",
+            "PROXY_TYPE": "نوع الوكيل",
+            "PROXY_VALUE": "قيمة الوكيل",
+            "ACCOUNT_NAME": "إسم الحساب",
+            "DISPLAY_NAME": "اسم العرض",
+            "FIRST_NAME": "الاسم الأول",
+            "SECOND_NAME": "الاسم الثاني",
+            "LAST_NAME": "الكنية",
+            "BUSINESS_NAME": "الاسم التجاري",
+            "BUSINESS_REG_DATE": "تاريخ تسجيل العمل",
+            "DISPLAY_NAME_AR": "اسم العرض عربي",
+            "ACCOUNT_TYPE": "نوع الحساب",
+            "CUSTOMER_ID": "هوية الزبون",
+            "ACC_HOLDER_TYPE": "نوع صاحب الحساب",
+            "TELEPHONE": "هاتف",
+            "STATUS": "حالة"
+        },
+        "UPDATE": {
+            "LABEL": "تحديث تفاصيل الوكيل",
+            "PROXY_ID": "معرف الوكيل",
+            "BIC": "رمز BIC",
+            "CUSTOMER_ACCOUNT": "حساب العميل",
+            "ACCOUNT_CCY": "عملة الحساب",
+            "CUSTOMER_NAME": "اسم الزبون",
+            "CUSTOMER_ADD1": "عنوان العميل 1",
+            "CUSTOMER_ADD2": "عنوان العميل 2",
+            "CUSTOMER_ADD3": "عنوان العميل 3",
+            "DATE_OF_BIRTH": "تاريخ الولادة",
+            "CITY_OF_BIRTH": "مدينة الولادة",
+            "COUNTRY_OF_BIRTH": "بلد الميلاد",
+            "PROXY_TYPE": "نوع الوكيل",
+            "PROXY_VALUE": "قيمة الوكيل",
+            "ACCOUNT_NAME": "أسم الحساب",
+            "DISPLAY_NAME": "اسم العرض",
+            "FIRST_NAME": "الاسم الاول",
+            "SECOND_NAME": "الاسم الثاني",
+            "LAST_NAME": "الكنية",
+            "BUSINESS_NAME": "الاسم التجاري",
+            "BUSINESS_REG_DATE": "تاريخ تسجيل العمل",
+            "DISPLAY_NAME_AR": "اسم العرض عربي",
+            "ACCOUNT_TYPE": "نوع الحساب",
+            "CUSTOMER_ID": "هوية الزبون"
+        },
+        "VERIFY": {
+            "DISPLAY_LABEL": "عرض تفاصيل الوكيل",
+            "LABEL": "تحقق من تفاصيل الوكيل",
+            "PROXY_ID": "معرف الوكيل",
+            "BIC": "رمز BIC",
+            "CUSTOMER_ACCOUNT": "حساب الزبون",
+            "ACCOUNT_CCY": "عملة الحساب",
+            "CUSTOMER_NAME": "اسم الزبون",
+            "CUSTOMER_ADD1": "عنوان العميل 1",
+            "CUSTOMER_ADD2": "عنوان العميل 2",
+            "CUSTOMER_ADD3": "عنوان العميل 3",
+            "DATE_OF_BIRTH": "تاريخ الولادة",
+            "CITY_OF_BIRTH": "مدينة الولادة",
+            "COUNTRY_OF_BIRTH": "بلد الميلاد",
+            "PROXY_TYPE": "نوع الوكيل",
+            "PROXY_VALUE": "قيمة الوكيل",
+            "ACCOUNT_NAME": "أسم الحساب",
+            "DISPLAY_NAME": "اسم العرض",
+            "FIRST_NAME": "الاسم الاول",
+            "SECOND_NAME": "الاسم الثاني",
+            "LAST_NAME": "الكنية",
+            "BUSINESS_NAME": "الاسم التجاري",
+            "BUSINESS_REG_DATE": "تاريخ تسجيل العمل",
+            "DISPLAY_NAME_AR": "اسم العرض عربي",
+            "ACCOUNT_TYPE": "نوع الحساب",
+            "CUSTOMER_ID": "هوية الزبون",
+            "EMAIL": "البريد الإلكتروني",
+            "NATIONAL_ID": "الهوية الوطنية",
+            "TELEPHONE": "هاتف"
+        },
+        "RESULT": {
+            "LABEL": "نتيجة بحث الوكيل المحلي"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "حذف تفاصيل الوكيل",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد حذف هذا؟"
+            },
+            "VERIFY": {
+                "LABEL": "تحقق من تفاصيل الوكيل",
+                "CONFIRMATION": "هل أنت متأكد ، تريد التحقق من هذا؟"
+            }
+        },
+        "BUTTON": {
+            "BUSINESS": "اعمال",
+            "PERSONAL": "شخصي"
+        }
+    },
+    "BENEFICIARYSIAUTHORIZATIONSUMMARY": {
+        "LABEL": {
+            "CREATE_BENEFICIARY_STANDARD_INSTRUCTION": "إنشاء تعليمات دائمة للمستفيد",
+            "UPDATE_BENEFICIARY_STANDARD_INSTRUCTION": "تحديث التعليمات الدائمة للمستفيد",
+            "VERIFY_BENEFICIARY_STANDARD_INSTRUCTION": "تحقق من التعليمات الدائمة للمستفيد",
+            "DISPLAY_BENEFICIARY_STANDARD_INSTRUCTION": "عرض التعليمات الدائمة للمستفيد",
+            "BENEFICIARY_STANDING_INC_SEARCH": "بحث عن التعليمات الدائمة للمستفيد",
+            "BENEFICIARY_STANDING_INC_SEARCH_RESULT": "نتيجة بحث التعليمات الدائمة للمستفيد"
+        },
+        "WIZARD": {
+            "STANDING_INSTRUCTION_DETAILS": "تفاصيل التعليمات الدائمة",
+            "PREVIEW_CONFIRM": "معاينة وتأكيد",
+            "SUMMARY": "ملخص"
+        },
+        "CREATE": {
+            "NICK_NAME": "اسم الشهرة",
+            "BEN_REF_NAME": "الرقم المرجعي للمستفيد",
+            "DEBIT_ACCOUNT_NUMBER": "رقم حساب الخصم",
+            "AMOUNT": "مقدار",
+            "FREQUENCY": "تكرر",
+            "SPECIFY_DAY": "حدد اليوم",
+            "SPECIFY_MONTH_DAY": "حدد الشهر واليوم",
+            "START_DATE": "تاريخ البدء",
+            "END_DATE": "تاريخ الانتهاء",
+            "NEXT_DEBIT_DATE": "تاريخ الخصم التالي",
+            "RETRY_ENABLED": "تم تمكين إعادة المحاولة",
+            "EMAIL_NOTI": "إعلام البريد الإلكتروني",
+            "AMOUNT_VALID": "حدد اليوم بين 1 - 31"
+        },
+        "SEARCH": {
+            "NICK_NAME": "اسم الشهرة",
+            "BEN_REF_NAME": "الرقم المرجعي للمستفيد",
+            "DEBIT_ACCOUNT_NUMBER": "رقم حساب الخصم",
+            "DEBIT_REF_NUMBER": "الرقم المرجعي للخصم",
+            "DATE_RANGE": "نطاق الموعد",
+            "STATUS": "حالة"
+        },
+        "GRID": {
+            "SID": "SID",
+            "NICK_NAME": "اسم الشهرة",
+            "BEN_REF_NAME": "الرقم المرجعي للمستفيد",
+            "DEBIT_REF_NUMBER": "الرقم المرجعي للخصم",
+            "SI_FREQUENCY": "تردد SI",
+            "CEILING_AMOUNT": "مبلغ السقف",
+            "DEBIT_ACCOUNT_NUMBER": "رقم حساب الخصم",
+            "START_DATE": "تاريخ البدء",
+            "END_DATE": "تاريخ الانتهاء",
+            "STATUS": "حالة",
+            "RETRY": "أعد المحاولة"
+        },
+        "MODALDELETE": {
+            "HEADER": "حذف التعليمات الدائمة للمستفيد",
+            "BODY": {
+                "SURE_DELETE_MESSAGE": "هل أنت متأكد أنك تريد حذف ؟",
+                "REASON": "يرجى تحديد السبب"
+            }
+        },
+        "MODALVERIFY": {
+            "HEADER": "تحقق من التعليمات الدائمة للمستفيد",
+            "BODY": {
+                "SURE_VERIFY_MESSAGE": "هل أنت متأكد ، تريد التحقق؟"
+            }
+        },
+        "MODALREJECT": {
+            "HEADER": "رفض التعليمات الدائمة للمستفيد",
+            "BODY": {
+                "SURE_REJECT_MESSAGE": "هل أنت متأكد أنك تريد الرفض؟",
+                "REASON": "يرجى تحديد السبب"
+            }
+        }
+    },
+    "BUTTON": {
+        "SEARCH": "بحث",
+        "OK": "نعم",
+        "DELETE": "حذف",
+        "UPDATE": "تحديث",
+        "CREATE": "خلق",
+        "CANCEL": "يلغي",
+        "NO": "لا",
+        "YES": "نعم",
+        "ADD": "يضيف",
+        "LIST": "قائمة",
+        "CLEAR": "واضح",
+        "VERIFY": "التحقق",
+        "REJECT": "رفض",
+        "APPROVE": "يوافق",
+        "RETURN_FUND": "صندوق العائد",
+        "GLBLENQ": "الاستفسار العالمي",
+        "DISPLAY": "عرض",
+        "PRINT": "مطبعة",
+        "VIEW": "رأي",
+        "DETAILS": "تفاصيل",
+        "BACK": "خلف",
+        "XLUPLOAD": "تحميل إكسل",
+        "DOWNLOAD": "تحميل",
+        "START": "يبدأ",
+        "STOP": "قف",
+        "REPAIR": "بصلح",
+        "UPLOAD": "تحميل",
+        "ENQUIRY": "تحقيق",
+        "ADD_BILLER": "أضف بيل",
+        "EDIT": "تعديل",
+        "PAY": "دفع",
+        "REFUND": "استرداد",
+        "START_STREAM": "بدء البث",
+        "STOP_STREAM": "وقف الدفق",
+        "RETURN": "يعود",
+        "NEXT": "التالي",
+        "PREVIOUS": "سابق",
+        "RE-ACTIVATE": "اعادة تفعيل",
+        "ACTIVATE": "تفعيل",
+        "DISABLE": "تعطيل",
+        "COMPLETE": "مكتمل"
+    },
+    "BIC_DETAIL": {
+        "SEARCH": {
+            "LABEL": "بيك تفاصيل البحث",
+            "BIC": "بيك",
+            "BANK_NAME1": "اسم البنك ",
+            "DOMESTIC_ID": "المحلية Id",
+            "STATUS": "حالة"
+        },
+        "LABEL": {
+            "BIC_CODE": "بيك ",
+            "ALTERNATE_ID": "معرف بديل",
+            "DOMESTIC_ID": "الهوية المحلية",
+            "BANK_NAME": "اسم البنك",
+            "ADDRESS": "عنوان",
+            "COUNTRY_CODE": "الرقم الدولي",
+            "IBAN_CODE": "كود IBAN",
+            "STATUS": "حالة"
+        },
+        "CREATE": {
+            "LABEL": "إنشاء بيك التفاصيل",
+            "BIC_CODE": "كود BIC",
+            "ALTERNATE_ID": "هوية بديلة",
+            "DOMESTIC_ID": "المحلية Id",
+            "BANK_NAME_L1": "اسم البنك L1",
+            "BANK_NAME_L2": "اسم البنك L2",
+            "BANK_NAME_L3": "اسم البنك L3",
+            "CITY": "المدينة",
+            "ADDRESS1": "العنوان 1",
+            "ADDRESS2": "العنوان 2",
+            "ZIP": "الرمز البريدي",
+            "PHONE": "الهاتف",
+            "COUNTRY_CODE": "رمز البلد",
+            "IPS_SERVICE": "IPS الخدمة",
+            "DOMESTIC_SERVICE": "الخدمة المنزلية",
+            "IBAN_CODE": "كود IBAN"
+        },
+        "UPDATE": {
+            "LABEL": "تحديث رمز البنك"
+        },
+        "RESULT": {
+            "LABEL": "Bic تفاصيل نتيجة البحث"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "حذف رمز البنك",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد حذف هذا؟"
+            },
+            "VERIFY": {
+                "LABEL": "تحقق من رمز البنك",
+                "CONFIRMATION": "هل أنت متأكد ، تريد التحقق من هذا؟"
+            },
+            "REJECT": {
+                "LABEL": "رفض رمز البنك",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد رفض هذا؟"
+            }
+        }
+    },
+    "FILE_SYSTEM": {
+        "LABEL": "نتائج البحث في تعريف خدمة نظام الملفات",
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "حذف تعريف خدمة نظام الملفات",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد حذف هذا؟"
+            },
+            "VERIFY": {
+                "LABEL": "تحقق من تعريف خدمة نظام الملفات",
+                "CONFIRMATION": "هل أنت متأكد ، تريد التحقق من هذا؟"
+            },
+            "REJECT": {
+                "LABEL": "رفض تعريف خدمة نظام الملفات",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد رفض هذا؟"
+            }
+        },
+        "SEARCH": {
+            "LABEL": "البحث في تعريف خدمة نظام الملفات",
+            "CONNECTION_ID": "معرف الاتصال",
+            "CONNECTION_NAME": "اسم الاتصال",
+            "STATUS": "حالة"
+        },
+        "STATUS": {
+            "APPROVED": "وافق",
+            "PENDING_APPROVAL": "ما زال يحتاج بتصدير",
+            "DELETED": "تم الحذف",
+            "DELETE_APPROVAL": "حذف الموافقة",
+            "VERIFIED": "تم التحقق",
+            "DELETE": "حذف",
+            "PROCESSD": "عملية",
+            "SELECT": "يختار",
+            "APPLIED": "مُطبَّق",
+            "SENT": "أرسلت",
+            "REJECT": "يرفض"
+        },
+        "BUTTONS": {
+            "CLEAR": "واضح",
+            "SEARCH": "بحث",
+            "CREATE": "خلق",
+            "UPDATE": "تحديث",
+            "VERIFY": "التحقق",
+            "DELETE": "حذف",
+            "LIST": "قائمة",
+            "REJECT": "رفض",
+            "NEXT": "التالي"
+        },
+        "CREATE": {
+            "LABEL": "تكوين تعريف خدمة نظام الملفات",
+            "CONNECTION_ID": "معرف الاتصال",
+            "CONNECTION_NAME": "اسم الاتصال",
+            "CONNECTION_TYPE": "نوع الاتصال",
+            "INPUT_PATH": "مسار دليل الإدخال",
+            "OUTPUT_PATH": "مسار دليل الإخراج",
+            "OTHER_PATH": "مسار آخر",
+            "REJECT_PATH": "رفض مسار الدليل",
+            "FILE_NAME_FORMAT": "تنسيق اسم الملف",
+            "INPUT_FILE_EXTN": "ملحق ملف الإدخال",
+            "RESPONSE_FILE_EXTN": "ملحق ملف الاستجابة",
+            "REJECT_FILE_EXTN": "رفض امتداد الملف",
+            "STATUS": "حالة"
+        },
+        "CONNECTION_TYPE": {
+            "SENDING": "إرسال",
+            "RECEIVING": "يستلم",
+            "BOTH": "كلاهما"
+        },
+        "UPDATE": {
+            "LABEL": "تحديث تعريف خدمة نظام الملفات"
+        },
+        "VERIFY": {
+            "LABEL": "تحقق من تعريف خدمة نظام الملفات"
+        }
+    },
+    "MQM_DEFINITION": {
+        "SEARCH": {
+            "LABEL": "MQM تعريف البحث",
+            "CON_ID": "اتصال ID",
+            "CON_NAME": "اسم الاتصال",
+            "STATUS": "حالة"
+        },
+        "CREATE": {
+            "LABEL": "إنشاء تعريف الحركة القومية المتحدة",
+            "CON_ID": "اتصال ID",
+            "CON_NAME": "اسم الاتصال",
+            "CON_TYPE": "نوع الاتصال",
+            "QTYPE": "طابور نوع",
+            "QNAME": "اسم قائمة الانتظار",
+            "QMANAGER_NAME": "طابور اسم مدير",
+            "SERVER_IP": "خادم IP",
+            "PORT": "ميناء",
+            "RQ_NAME": "اسم قائمة انتظار الاستجابة",
+            "RQ_MANAGER_NAME": "اسم مدير قائمة انتظار الاستجابة",
+            "NOTES": "ملاحظات",
+            "STATUS": "الحالة"
+        },
+        "RESULT": {
+            "LABEL": "MQM تعريف نتيجة البحث"
+        },
+        "UPDATE": {
+            "LABEL": "تحديث تعريف MQM"
+        },
+        "VERIFY": {
+            "LABEL": "تحقق من تعريف MQM"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "حذف تعريف MQM",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد حذف هذا؟"
+            },
+            "VERIFY": {
+                "LABEL": "تحقق من تعريف MQM",
+                "CONFIRMATION": "هل أنت متأكد ، تريد التحقق من هذا؟"
+            },
+            "REJECT": {
+                "LABEL": "رفض تعريف MQM",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد رفض هذا؟"
+            }
+        },
+        "BUTTON": {
+            "SENDING": "إرسال",
+            "RECEIVING": "يستلم",
+            "BOTH": "كلاهما",
+            "REMOTE_QUEUE": "قائمة الانتظار البعيدة",
+            "LOCAL_QUEUE": "قائمة الانتظار المحلية",
+            "ALIAS_QUEUE": "قائمة انتظار الاسم المستعار"
+        }
+    },
+    "ACCOUNT_DETAILS": {
+        "SEARCH": {
+            "LABEL": "عملية الوقوف: البحث عن تفاصيل الحساب",
+            "CIC": "CIC",
+            "ACCOUNT_NUMBER": "رقم حساب",
+            "NATIONAL_ID": "الهوية الوطنية",
+            "TELEPHONE": "هاتف"
+        },
+        "RESULT": {
+            "LABEL": "عملية الوقوف: نتيجة البحث عن تفاصيل الحساب"
+        }
+    },
+    "WEB_SERVICE": {
+        "SEARCH": {
+            "LABEL": "بحث تعريف خدمة الويب",
+            "SERVICE_ID": "معرف الخدمة",
+            "SERVICE_NAME": "اسم الخدمة"
+        },
+        "RESULT": {
+            "LABEL": "نتيجة بحث تعريف خدمة الويب"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "حذف تعريف خدمة الويب",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد حذف هذا؟"
+            },
+            "VERIFY": {
+                "LABEL": "تحقق من تعريف خدمة الويب",
+                "CONFIRMATION": "هل أنت متأكد ، تريد التحقق من هذا؟"
+            },
+            "REJECT": {
+                "LABEL": "رفض تعريف خدمة الويب",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد رفض هذا؟"
+            }
+        },
+        "CREATE": {
+            "CHOOSE_FILE": "اختر ملف",
+            "VIEW_FILE": "استعراض الملف",
+            "LABEL": "إنشاء تعريف خدمة الويب",
+            "SERVICE_ID": "معرف الخدمة",
+            "SERVICE_NAME": "اسم الخدمة",
+            "DST_PROT": "بروتوكول الوجهة",
+            "DST_XSD": "الوجهة XSD",
+            "DST_URL": "عنوان URL المقصود",
+            "PUB_CERT": "شهادة عامة",
+            "SOAP_ACTN_URL": "عنوان URL لإجراء SOAP",
+            "SOAP_ACTN_PRFX": "بادئة إجراء SOAP",
+            "NAME_SPACE_URL": "اسم مساحة URL",
+            "NAME_SPACE_URL1": "عنوان URL الخاص بمساحة الاسم 1",
+            "NAME_SPACE_URL2": "اسم مساحة URL 2",
+            "NAME_SPACE_PRFX": "بادئة مساحة الاسم",
+            "NAME_SPACE_PRFX1": "بادئة مساحة الاسم 1",
+            "NAME_SPACE_PRFX2": "بادئة مساحة الاسم 2",
+            "RES_XSD": "استجابة XSD",
+            "WSDL_URL": "URL WSDL",
+            "BINDING": "ربط",
+            "ENC_CERT": "شهادة انتساب",
+            "REQUESTROOT": "طلب ملاحظة",
+            "RESPONSEROOT": "ملاحظة الرد",
+            "STATUS": "الحالة"
+        },
+        "UPDATE": {
+            "CHOOSE_FILE": "اختر ملف",
+            "VIEW_FILE": "استعراض الملف",
+            "LABEL": "تحديث تعريف خدمة الويب",
+            "SERVICE_ID": "معرف الخدمة",
+            "SERVICE_NAME": "اسم الخدمة",
+            "DST_PROT": "بروتوكول الوجهة",
+            "DST_XSD": "الوجهة XSD",
+            "DST_URL": "عنوان URL المقصود",
+            "PUB_CERT": "شهادة عامة",
+            "SOAP_ACTN_URL": "عنوان URL لإجراء SOAP",
+            "SOAP_ACTN_PRFX": "بادئة إجراء SOAP",
+            "NAME_SPACE_URL": "اسم مساحة URL",
+            "NAME_SPACE_URL1": "عنوان URL الخاص بمساحة الاسم 1",
+            "NAME_SPACE_URL2": "اسم مساحة URL 2",
+            "NAME_SPACE_PRFX": "بادئة مساحة الاسم",
+            "NAME_SPACE_PRFX1": "بادئة مساحة الاسم 1",
+            "NAME_SPACE_PRFX2": "بادئة مساحة الاسم 2",
+            "RES_XSD": "استجابة XSD",
+            "WSDL_URL": "URL WSDL",
+            "BINDING": "ربط",
+            "ENC_CERT": "شهادة انتساب"
+        },
+        "VERIFY": {
+            "CHOOSE_FILE": "اختر ملف",
+            "VIEW_FILE": "استعراض الملف",
+            "LABEL": "تحقق من تعريف خدمة الويب",
+            "SERVICE_ID": "معرف الخدمة",
+            "SERVICE_NAME": "اسم الخدمة",
+            "DST_PROT": "بروتوكول الوجهة",
+            "DST_XSD": "الوجهة XSD",
+            "DST_URL": "عنوان URL المقصود",
+            "PUB_CERT": "شهادة عامة",
+            "SOAP_ACTN_URL": "عنوان URL لإجراء SOAP",
+            "SOAP_ACTN_PRFX": "بادئة إجراء SOAP",
+            "NAME_SPACE_URL": "اسم مساحة URL",
+            "NAME_SPACE_URL1": "عنوان URL الخاص بمساحة الاسم 1",
+            "NAME_SPACE_URL2": "اسم مساحة URL 2",
+            "NAME_SPACE_PRFX": "بادئة مساحة الاسم",
+            "NAME_SPACE_PRFX1": "بادئة مساحة الاسم 1",
+            "NAME_SPACE_PRFX2": "بادئة مساحة الاسم 2",
+            "RES_XSD": "استجابة XSD",
+            "WSDL_URL": "URL WSDL",
+            "BINDING": "ربط",
+            "ENC_CERT": "شهادة انتساب"
+        },
+        "VIEW": {
+            "CHOOSE_FILE": "اختر ملف",
+            "VIEW_FILE": "استعراض الملف",
+            "LABEL": "عرض تعريف خدمة الويب",
+            "SERVICE_ID": "معرف الخدمة",
+            "SERVICE_NAME": "اسم الخدمة",
+            "DST_PROT": "بروتوكول الوجهة",
+            "DST_XSD": "الوجهة XSD",
+            "DST_URL": "عنوان URL المقصود",
+            "PUB_CERT": "شهادة عامة",
+            "SOAP_ACTN_URL": "عنوان URL لإجراء SOAP",
+            "SOAP_ACTN_PRFX": "بادئة إجراء SOAP",
+            "NAME_SPACE_URL": "اسم مساحة URL",
+            "NAME_SPACE_URL1": "عنوان URL الخاص بمساحة الاسم 1",
+            "NAME_SPACE_URL2": "اسم مساحة URL 2",
+            "NAME_SPACE_PRFX": "بادئة مساحة الاسم",
+            "NAME_SPACE_PRFX1": "بادئة مساحة الاسم 1",
+            "NAME_SPACE_PRFX2": "بادئة مساحة الاسم 2",
+            "RES_XSD": "استجابة XSD",
+            "WSDL_URL": "URL WSDL",
+            "BINDING": "ربط",
+            "ENC_CERT": "شهادة انتساب"
+        }
+    },
+    "AUDIT_LOG": {
+        "SEARCH": {
+            "LABEL": "البحث في سجل التدقيق",
+            "USER_ID": "معرف المستخدم",
+            "FUNCTION_ID": "معرف الوظيفة",
+            "SELECT": "تحديد",
+            "CREATE": "خلق",
+            "MODIFY": "تعديل",
+            "DELETE": "حذف",
+            "VERIFY": "تحقق",
+            "DESCRIPTION": "وصف",
+            "SCREEN_ID": "معرف الشاشة",
+            "CODE": "كود الاستجابة"
+        },
+        "RESULT": {
+            "LABEL": "نتيجة بحث سجل التدقيق"
+        },
+        "VIEW": {
+            "LABEL": "عرض سجل التدقيق",
+            "DATE_TIME": "التاريخ / الوقت",
+            "USER_ID": "معرف المستخدم",
+            "SCREEN_ID": "معرف الشاشة",
+            "FUNCTION_ID": "معرف الوظيفة",
+            "CODE": "كود الاستجابة",
+            "DESCRIPTION": "وصف",
+            "FIELD_NAME": "اسم الحقل",
+            "PREVIOUS": "السابق",
+            "CURRENT": "تيار",
+            "LONG_TIME": "وقت طويل"
+        }
+    },
+    "NOTIFY_DEF": {
+        "SEARCH": {
+            "LABEL": "بحث تعريف الإخطار",
+            "BANK_ID": "معرف البنك",
+            "SERVICE_ID": "معرف الخدمة",
+            "PROD_ID": "معرف المنتج",
+            "ERR_TAG": "علامة خطأ",
+            "ERR_VAL": "قيمة الخطأ"
+        },
+        "RESULT": {
+            "LABEL": "نتيجة بحث تعريف الإخطار"
+        },
+        "CREATE": {
+            "LABEL": "إنشاء تعريف إعلام",
+            "BANK_ID": "معرف البنك",
+            "PROD_ID": "معرف المنتج",
+            "SERVICE_ID": "معرف الخدمة",
+            "ERR_VAL": "قيمة الخطأ",
+            "ERR_TAG": "علامة خطأ",
+            "SNMP_IP": "بروتوكول SNMP IP",
+            "SNMP_PORT": "منفذ SNMP",
+            "EMAIL": "عنوان الايميل",
+            "SMS_TEL": "رقم الهاتف",
+            "NOTIFY": "قناة الإخطار"
+        },
+        "DISPLAY": {
+            "LABEL": "إنشاء تعريف إعلام",
+            "BANK_ID": "معرف البنك",
+            "PROD_ID": "معرف المنتج",
+            "SERVICE_ID": "معرف الخدمة",
+            "ERR_VAL": "قيمة الخطأ",
+            "ERR_TAG": "علامة خطأ",
+            "SNMP_IP": "بروتوكول SNMP IP",
+            "SNMP_PORT": "منفذ SNMP",
+            "EMAIL": "عنوان الايميل",
+            "SMS_TEL": "رقم الهاتف",
+            "NOTIFY": "قناة الإخطار",
+            "STATUS": "حالة",
+            "VERSION_ID": "معرف الإصدار"
+        },
+        "VERIFY": {
+            "LABEL": "التحقق من تعريف الإخطار",
+            "BANK_ID": "معرف البنك",
+            "PROD_ID": "معرف المنتج",
+            "SERVICE_ID": "معرف الخدمة",
+            "ERR_VAL": "قيمة الخطأ",
+            "ERR_TAG": "علامة خطأ",
+            "SNMP_IP": "بروتوكول SNMP IP",
+            "SNMP_PORT": "منفذ SNMP",
+            "EMAIL": "عنوان الايميل",
+            "SMS_TEL": "رقم الهاتف",
+            "NOTIFY": "قناة الإخطار"
+        },
+        "UPDATE": {
+            "LABEL": "تحديث تعريف الإعلام",
+            "BANK_ID": "معرف البنك",
+            "PROD_ID": "معرف المنتج",
+            "SERVICE_ID": "معرف الخدمة",
+            "ERR_VAL": "قيمة الخطأ",
+            "ERR_TAG": "علامة خطأ",
+            "SNMP_IP": "بروتوكول SNMP IP",
+            "SNMP_PORT": "منفذ SNMP",
+            "EMAIL": "عنوان الايميل",
+            "SMS_TEL": "رقم الهاتف",
+            "NOTIFY": "قناة الإخطار"
+        }
+    },
+    "ERROR_CODE": {
+        "SEARCH": {
+            "LABEL": "البحث عن رمز خطأ خارجي",
+            "BANK_ID": "معرف البنك",
+            "SERVICE_ID": "معرف الخدمة",
+            "PROD_ID": "معرف المنتج",
+            "ERR_CODE": "خطا بالكود"
+        },
+        "RESULT": {
+            "LABEL": "نتيجة البحث عن رمز الخطأ الخارجي"
+        },
+        "CREATE": {
+            "LABEL": "إنشاء رمز خطأ خارجي",
+            "BANK_ID": "معرف البنك",
+            "PROD_ID": "معرف المنتج",
+            "SERVICE_ID": "معرف الخدمة",
+            "ERROR_CODE": "خطا بالكود",
+            "ERROR_DESC1": "وصف الخطأ (ENG)",
+            "ERROR_DESC2": "وصف الخطأ (ARB)",
+            "ERROR_DESC3": "وصف الخطأ (FRE)"
+        },
+        "VERIFY": {
+            "LABEL": "تحقق من رمز الخطأ الخارجي",
+            "BANK_ID": "معرف البنك",
+            "PROD_ID": "معرف المنتج",
+            "SERVICE_ID": "معرف الخدمة",
+            "ERROR_CODE": "خطا بالكود",
+            "ERROR_DESC1": "وصف الخطأ (ENG)",
+            "ERROR_DESC2": "وصف الخطأ (ARB)",
+            "ERROR_DESC3": "وصف الخطأ (FRE)"
+        },
+        "UPDATE": {
+            "LABEL": "تحديث رمز الخطأ الخارجي",
+            "BANK_ID": "معرف البنك",
+            "PROD_ID": "معرف المنتج",
+            "SERVICE_ID": "معرف الخدمة",
+            "ERROR_CODE": "خطا بالكود",
+            "ERROR_DESC1": "وصف الخطأ (ENG)",
+            "ERROR_DESC2": "وصف الخطأ (ARB)",
+            "ERROR_DESC3": "وصف الخطأ (FRE)"
+        }
+    },
+    "NOTIFY_MSG": {
+        "SEARCH": {
+            "LABEL": "البحث عن رسالة الإخطار",
+            "BANK_ID": "معرف البنك",
+            "SERVICE_ID": "معرف الخدمة",
+            "PROD_ID": "معرف المنتج",
+            "REF_ID": "الرقم المرجعي",
+            "MSG_ID": "معرف الرسالة",
+            "ERR_CODE": "خطا بالكود"
+        },
+        "RESULT": {
+            "LABEL": "نتيجة بحث رسالة الإخطار"
+        },
+        "DISPLAY": {
+            "LABEL": "رمز خطأ خارجي دبلوماسي",
+            "BANK_ID": "معرف البنك",
+            "PROD_ID": "معرف المنتج",
+            "SERVICE_ID": "معرف الخدمة",
+            "MSG_ID": "معرف الرسالة",
+            "REF_ID": "الرقم المرجعي",
+            "ERR_CODE": "خطا بالكود",
+            "ERR_DESC": "وصف خاطئ",
+            "MSG_TIME": "وقت الرسالة",
+            "MSG_DATE": "تاريخ الرسالة",
+            "NOTIF_DET": "تفاصيل الإخطار",
+            "NOTIF_TIME": "وقت الإخطار"
+        }
+    },
+    "NOTIFICATION_DEFINITION": {
+        "LABEL": "تعريف الإخطار",
+        "SEARCH": {
+            "LABEL": "بحث تعريف الإخطار",
+            "MESSAGE_TYPE": "رسالة",
+            "MESSAGE": "رسالة",
+            "TYPE": "نوع",
+            "NOT_TYPE": {
+                "LABEL": "نوع",
+                "SNMP": "SNMP",
+                "EMAIL": "البريد الإلكتروني",
+                "SELECT": "تحديد"
+            },
+            "EMAIL_ID": "عنوان الايميل"
+        },
+        "RESULT": {
+            "LABEL": "نتيجة بحث تعريف الإخطار"
+        },
+        "DISPLAY": {
+            "LABEL": "تعريف إعلام العرض"
+        },
+        "CREATE": {
+            "LABEL": "إنشاء تعريف إعلام",
+            "MAPPER_ID": "معرف مصمم الخرائط",
+            "MESSAGE": "رسالة",
+            "NOT_TYPE": {
+                "LABEL": "نوع",
+                "SNMP": "SNMP",
+                "EMAIL": "البريد الإلكتروني"
+            },
+            "MAPPING_ELEMENT": "عنصر التعيين",
+            "MAPPING_VALUE": "قيمة التعيين",
+            "SNMP_IP": "SNMP",
+            "EMAIL_ID": "عنوان الايميل",
+            "MOBILE_NO": "رقم الهاتف المحمول"
+        },
+        "DETAILS": {
+            "LABEL": "إنشاء تعريف إعلام",
+            "MAPPER_ID": "معرف مصمم الخرائط",
+            "MESSAGE": "رسالة",
+            "NOT_TYPE": {
+                "LABEL": "يكتب",
+                "SNMP": "SNMP",
+                "EMAIL": "بريد الالكتروني"
+            },
+            "MAPPING_ELEMENT": "عنصر التعيين",
+            "MAPPING_VALUE": "قيمة التعيين",
+            "SNMP_IP": "بروتوكول SNMP IP",
+            "EMAIL_ID": "عنوان الايميل",
+            "MOBILE_NO": "رقم الهاتف المحمول",
+            "TYPE": "يكتب",
+            "STATUS": "حالة"
+        },
+        "UPDATE": {
+            "LABEL": "تحديث تعريف الإعلام",
+            "MAPPER_ID": "معرف مصمم الخرائط",
+            "MESSAGE": "رسالة",
+            "NOT_TYPE": {
+                "LABEL": "نوع",
+                "ADMIN": "SNMP",
+                "GENERAL": "البريد الإلكتروني"
+            },
+            "MAPPING_ELEMENT": "عنصر التعيين",
+            "MAPPING_VALUE": "قيمة التعيين",
+            "EMAIL_ID": "عنوان الايميل",
+            "MOBILE_NO": "رقم الهاتف المحمول"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "حذف تعريف الإعلام",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد حذف هذا؟"
+            },
+            "VERIFY": {
+                "LABEL": "التحقق من تعريف الإخطار",
+                "CONFIRMATION": "هل أنت متأكد ، تريد التحقق من هذا؟"
+            },
+            "REJECT": {
+                "LABEL": "تعريف رفض الإخطار",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد رفض هذا؟"
+            }
+        }
+    },
+    "CHANNEL_ONBOARDING": {
+        "LABEL": {
+            "CHA_ONB": "قناة على متن الطائرة",
+            "SEARCH": "قناة على متن الطائرة البحث",
+            "RESULT": "نتيجة بحث تهيئة القناة",
+            "DISPLAY": "عرض القناة",
+            "CREATE": "إنشاء قناة على متن الطائرة",
+            "UPDATE": "تحديث القناة على متن الطائرة",
+            "VERIFY": "تحقق من القناة على متن الطائرة"
+        },
+        "FORM": {
+            "CHANNEL_ID": "معرف القناة",
+            "DIRECTION": "اتجاه",
+            "ALLOW_BACK_DATE": "السماح بالمعاملة المؤرخة",
+            "POST_CUT_OFF": "إجراء ما بعد القطع",
+            "ALLOW_FUTURE_DATE": "السماح بمعاملة التاريخ المستقبلي",
+            "ALLOW_WARE_HOUSE": "تاريخ المستودع في المستقبل",
+            "CROSS_CURRENCY": "عبر العملات",
+            "DEBIT_COMPUTATION": "حساب الخصم",
+            "SAN_CHK": "فحص الجزاء",
+            "ACCOUNTING": "محاسبة",
+            "POSSIBLE_DUPLICATE": "تكرار محتمل",
+            "INCOMMING": "واردة",
+            "OUTGOING": "منفتح",
+            "YES": "نعم",
+            "NO": "لا",
+            "SERVICE_LIMIT": "حد الخدمة",
+            "REPAIR_QUEUE": "قائمة انتظار الإصلاح",
+            "CHANGE_VALUE": "تغيير تاريخ القيمة",
+            "STP": "STP",
+            "REPAIR": "بصلح",
+            "REJECT": "رفض",
+            "ON_PROCESS_DATE": "في تاريخ العملية",
+            "ON_VALUE_DATE": "في تاريخ الاستحقاق",
+            "REJECT_PAYMENT": "رفض الدفع",
+            "SEND_TO_REPAIR": "أرسل إلى الإصلاح",
+            "SEND_WITH_TAG": "إرسال مع علامة",
+            "PRODUCTS": "منتجات",
+            "SERVICES": "خدمات",
+            "FINANCIAL": "مالي",
+            "NON_FINANCIAL": "غير مالي",
+            "BANK_ID": "معرف البنك",
+            "VERSION_NUMBER": "رقم الإصدار",
+            "STATUS": "حالة"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "حذف تفاصيل القناة",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد حذف هذا؟"
+            },
+            "VERIFY": {
+                "LABEL": "تحقق من تفاصيل القناة",
+                "CONFIRMATION": "هل أنت متأكد ، تريد التحقق من هذا؟"
+            },
+            "REJECT": {
+                "LABEL": "رفض تفاصيل القناة",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد رفض هذا؟"
+            }
+        }
+    },
+    "IBAN_CHECK": {
+        "SEARCH": {
+            "LABEL": "بحث تحقق من رقم الحساب المصرفي الدولي (IBAN)",
+            "BIC": "رمز BIC",
+            "STATUS": "حالة"
+        },
+        "RESULT": {
+            "LABEL": "تحقق من IBAN نتيجة البحث"
+        },
+        "CREATE": {
+            "LABEL": "إنشاء التحقق من رقم الحساب بصيغة IBAN",
+            "BIC": "رمز BIC",
+            "IBAN_FLAG": "تحقق من رقم الحساب المصرفي الدولي (IBAN)"
+        },
+        "UPDATE": {
+            "LABEL": "تحديث التحقق من رقم الحساب بصيغة IBAN",
+            "BIC": "رمز BIC",
+            "IBAN_FLAG": "تحقق من رقم الحساب المصرفي الدولي (IBAN)",
+            "STATUS": "حالة"
+        },
+        "VERIFY": {
+            "LABEL": "تحقق من التحقق من IBAN",
+            "OLD_RECORD_LABEL": "سجل موجود",
+            "NEW_RECORD_LABEL": "سجل محدث",
+            "BIC": "رمز BIC",
+            "IBAN_FLAG": "تحقق من رقم الحساب المصرفي الدولي (IBAN)",
+            "STATUS": "حالة"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "حذف التحقق من رقم الحساب بصيغة IBAN",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد حذف هذا؟"
+            },
+            "VERIFY": {
+                "LABEL": "تحقق من التحقق من IBAN",
+                "CONFIRMATION": "هل أنت متأكد ، تريد التحقق من هذا؟"
+            },
+            "REJECT": {
+                "LABEL": "رفض التحقق من رقم الحساب بصيغة IBAN",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد رفض هذا؟"
+            }
+        }
+    },
+    "NOTIFICATIONS_MSGS": {
+        "SEARCH": {
+            "LABEL": "بحث الرسائل الإخطارات",
+            "MESSAGE": "رسالة",
+            "DATE_RANGE": "تاريخ",
+            "TYPE": "نوع إعلام"
+        },
+        "RESULT": {
+            "LABEL": "إخطارات رسائل نتائج البحث"
+        },
+        "DISPLAY": {
+            "DATE_TIME": "تاريخ الوقت",
+            "MESSAGE": "رسالة",
+            "END_TO_END": "معرف النهاية 2",
+            "ERROR_CODE": "خطا بالكود",
+            "ERROR_DESCRIPTION": "وصف خاطئ",
+            "NOTIFICATION_TYPE": "نوع إعلام",
+            "EXTENDED_REASON": "تمديد السبب",
+            "NOTIFICATIONS": "إشعارات",
+            "CONTROL": "مراقبة",
+            "ECHO_MESSAGE": "رسالة صدى"
+        }
+    },
+    "STANDIN_PAYMENTS": {
+        "SEARCH": {
+            "LABEL": "الوقوف في بحث الدفع",
+            "SWIFT_CODE": "سويفت كود",
+            "DEP": "قسم",
+            "DEP_NAME": "اسم القسم",
+            "CREDITOR_ID": "معرف الدائن",
+            "DEBITOR_ID": "معرف المدين",
+            "CREDITOR_ACC_NO": "الدائن الحساب الرقم",
+            "DEBITOR_ACC_NO": "رقم حساب المدين",
+            "CREDITOR_INFO": "الدائن الهوية\/رقم الحساب",
+            "DEBITOR_INFO": "معرف المدين / رقم الحساب",
+            "AMOUNT": "مبلغ الصفقة",
+            "VALUE_DATE": " قيمة التاريخ",
+            "TO_BANK": "إلى البنك",
+            "TRANSACTION_REF": "المعاملات المرجعية",
+            "END2END_ID": "End2End المرجعية",
+            "REMITTANCE_INFO": "التحويلات معلومات",
+            "TRANSACTION_ID": "رقم المعاملات",
+            "STATUS": "حالة",
+            "ACCOUNT_NUMBER": "رقم حساب",
+            "TRANSACTION_DATE": "تاريخ الصفقة",
+            "CRDR_FLAG": "علم CRDR",
+            "DIRECTION": "الوارد الصادر"
+        },
+        "RESULT": {
+            "LABEL": "الوقوف في نتيجة بحث الدفع"
+        },
+        "DISPLAY": {
+            "LABEL": "الدفع الاحتياطي",
+            "DEBITOR_INFO": "معرف المدين / رقم الحساب",
+            "CREDITOR_INFO": "معرف الدائن / رقم الحساب",
+            "TO_BANK": "إلى البنك",
+            "AMOUNT": "كمية",
+            "TRANSACTION_REF": "رمز العملية",
+            "END2END_ID": "نهاية 2 نهاية المرجع",
+            "STATUS": "الحالة",
+            "REMITTANCE_INFO": "معلومات التحويل",
+            "STATUS_MESSAGE": "رسالة الحالة",
+            "USER_COMMENT": "تعليق المستخدم"
+        }
+    },
+    "SETTLEMENT_HISTORY": {
+        "SEARCH": {
+            "LABEL": "البحث في تاريخ التسوية",
+            "SETTLEMENT_STATUS": "حالة التسوية",
+            "PAYMENT_STATUS": "حالة السداد"
+        },
+        "RESULT": {
+            "LABEL": "نتيجة بحث تاريخ التسوية"
+        }
+    },
+    "SERVICE_STATUS": {
+        "SEARCH": {
+            "LABEL": "البحث عن حالة الخدمة",
+            "SERVICE_NAME": "اسم الخدمة",
+            "RUNNING_STATUS": "حالة التشغيل"
+        },
+        "RESULT": {
+            "LABEL": "نتيجة البحث عن حالة الخدمة"
+        },
+        "TABLE": {
+            "SERVICE_NAME": "اسم الخدمة",
+            "RUNNING_STATUS": "حالة التشغيل",
+            "DESCRIPTION": "وصف",
+            "STATUS": "حالة"
+        }
+    },
+    "REST_SERVICE": {
+        "SEARCH": {
+            "LABEL": "البحث عن تعريف خدمة الراحة",
+            "SERVICE_ID": "معرف الخدمة",
+            "SERVICE_NAME": "اسم الخدمة"
+        },
+        "RESULT": {
+            "LABEL": "نتيجة البحث عن تعريف خدمة الراحة"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "حذف تفاصيل خدمة الويب",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد حذف"
+            },
+            "VERIFY": {
+                "LABEL": "تحقق من تفاصيل خدمة الراحة",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد الموافقة على هذا"
+            },
+            "REJECT": {
+                "LABEL": "رفض خدمة الراحة",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد رفض هذا"
+            }
+        },
+        "CREATE": {
+            "CHOOSE_FILE": "اختر ملف",
+            "VIEW_FILE": "استعراض الملف",
+            "LABEL": "إنشاء تفاصيل خدمة الراحة",
+            "SERVICE_ID": "معرف الخدمة",
+            "SERVICE_NAME": "اسم الخدمة",
+            "JSON_REQUEST": "طلب JSON",
+            "JSON_RESPONSE": "استجابة JSON",
+            "REST_URL": "بقية URL"
+        },
+        "UPDATE": {
+            "CHOOSE_FILE": "اختر ملف",
+            "VIEW_FILE": "استعراض الملف",
+            "LABEL": "تحديث تفاصيل خدمة الويب",
+            "SERVICE_ID": "معرف الخدمة",
+            "SERVICE_NAME": "اسم الخدمة",
+            "JSON_REQUEST": "طلب JSON",
+            "JSON_RESPONSE": "استجابة JSON",
+            "REST_URL": "بقية URL"
+        },
+        "VERIFY": {
+            "CHOOSE_FILE": "اختر ملف",
+            "VIEW_FILE": "استعراض الملف",
+            "LABEL": "تحقق من تفاصيل خدمة الويب",
+            "SERVICE_ID": "معرف الخدمة",
+            "SERVICE_NAME": "اسم الخدمة",
+            "JSON_REQUEST": "طلب JSON",
+            "JSON_RESPONSE": "استجابة JSON",
+            "REST_URL": "بقية URL"
+        },
+        "VIEW": {
+            "CHOOSE_FILE": "اختر ملف",
+            "VIEW_FILE": "استعراض الملف",
+            "LABEL": "عرض تفاصيل خدمة الويب",
+            "SERVICE_ID": "معرف الخدمة",
+            "SERVICE_NAME": "اسم الخدمة",
+            "JSON_REQUEST": "طلب JSON",
+            "JSON_RESPONSE": "استجابة JSON",
+            "REST_URL": "بقية URL"
+        }
+    },
+    "BENEFICIARY": {
+        "LABEL": {
+            "BENEFICIARY_SEARCH": "بحث المستفيد",
+            "BENEFICIARY_SEARCH_RESULT": "نتيجة بحث المستفيد",
+            "CREATE_BENEFICIARY_DETAILS": "إنشاء مستفيد",
+            "UPDATE_BENEFICIARY_DETAILS": "تحديث المستفيد",
+            "VERIFY_BENEFICIARY_DETAILS": "تحقق من المستفيد",
+            "ACTIVATE_BENEFICIARY_DETAILS": "تفعيل المستفيد",
+            "DEACTIVATE_BENEFICIARY_DETAILS": "إلغاء تنشيط المستفيد",
+            "DELETE_BENEFICIARY_DETAILS": "حذف المستفيد",
+            "BEN_DETAILS": "تفاصيل المستفيد",
+            "BANK_DETAILS": "التفاصيل المصرفية",
+            "ACCOUNT_DETAILS": "تفاصيل الحساب",
+            "BIC_SEARCH": "المستفيد Bic Search",
+            "BIC_SEARCH_RESULT": "قائمة Bic المستفيد",
+            "CONFIRMATION_DETAILS": "تفاصيل التأكيد"
+        },
+        "SEARCH": {
+            "NICK_NAME": "اسم الشهرة",
+            "BEN_BIC": "المستفيد BIC",
+            "PAYMENT_TYPE": "نوع الدفع",
+            "STATUS": "حالة",
+            "BIC": "بيك",
+            "BIC_NAME": "اسم بيك"
+        },
+        "GRID": {
+            "NICK_NAME": "اسم الشهرة",
+            "BENEFICIARY_NAME": "أسم المستفيد",
+            "ACCOUNT_NUMBER": "رقم حساب",
+            "PAYMENT_TYPE": "نوع الدفع",
+            "STATUS": "حالة",
+            "STATUS_DESCRIPTION": "وصف الحالة"
+        },
+        "WIZARD": {
+            "CREATE_BENEFICIARY_DETAILS": "إنشاء مستفيد",
+            "UPDATE_BENEFICIARY_DETAILS": "تحديث تفاصيل المستفيد",
+            "VERIFY_BENEFICIARY_DETAILS": "تحقق من تفاصيل المستفيد",
+            "DELETE_BENEFICIARY_DETAILS": "حذف تفاصيل المستفيد",
+            "REPAIR_BENEFICIARY_DETAILS": "تفاصيل المستفيد من الإصلاح",
+            "REJECT_BENEFICIARY_DETAILS": "رفض تفاصيل المستفيد",
+            "PREVIEW_CONFIRM": "معاينة وتأكيد",
+            "SUMMARY": "ملخص"
+        },
+        "FORM": {
+            "NICK_NAME": "اسم الشهرة",
+            "BENEFICIARY_NAME": "أسم المستفيد",
+            "CHARITY": "صدقة",
+            "YES": "نعم",
+            "NO": "لا",
+            "ADDRESS1": "العنوان 1",
+            "ADDRESS2": "العنوان 2",
+            "ADDRESS3": "العنوان 3",
+            "ADDRESS4": "العنوان 4",
+            "CITY": "مدينة",
+            "STATE": "حالة",
+            "COUNTRY": "دولة",
+            "ZIP": "رمز بريدي",
+            "TELEPHONE": "هاتف",
+            "MOBILE": "رقم الهاتف المحمول",
+            "FAX": "فاكس",
+            "EMAIL": "بريد الالكتروني",
+            "ACCESS_TYPE": "نوع الوصول",
+            "MAX_LIMIT": "الحد الأقصى للمبلغ",
+            "BANK_IDENTIFIER": "معرف الشبكة والبنك",
+            "BEN_BIC": "المستفيد BIC",
+            "LOOKUP": "ابحث عن",
+            "PAY_BANK": "دفع اسم البنك",
+            "BRANCH": "فرع",
+            "ADDRESS": "عنوان",
+            "ACCOUNT_NUMBER": "رقم حساب",
+            "CONFIRM_ACC": "قم بتأكيد رقم الحساب",
+            "CURRENCY": "عملة الحساب",
+            "PURPOSE_PAYMENT": "الغرض من الدفع",
+            "PROXY_ID": "معرف الوكيل",
+            "COMMISSION_INDICATOR": "مؤشر العمولة",
+            "ROUTING_CODE": "كود توجيه",
+            "STATUS": "حالة",
+            "MESSAGE": "رسالة",
+            "MASKINGFLAG": "اخفاء العلم"
+        },
+        "MODALVERIFY": {
+            "HEADER": "تحقق من المستفيد",
+            "BODY": {
+                "SURE_VERIFY_MESSAGE": "هل أنت متأكد أنك تريد التحقق من السجل (السجلات)؟"
+            }
+        },
+        "MODALDELETE": {
+            "HEADER": "حذف المستفيد",
+            "BODY": {
+                "SURE_DELETE_MESSAGE": "هل أنت متأكد أنك تريد حذف  ؟"
+            },
+            "LABEL": "حذف المستفيد",
+            "CONFIRMATION": "هل أنت متأكد أنك تريد حذف هذا؟",
+            "USER_COMMENT": "يرجى تحديد السبب"
+        },
+        "MODALACTIVATE": {
+            "HEADER": "تفعيل المستفيد",
+            "BODY": {
+                "SURE_DELETE_MESSAGE": "هل أنت متأكد أنك تريد تفعيل هذا؟"
+            },
+            "LABEL": "تفعيل المستفيد",
+            "CONFIRMATION": "هل أنت متأكد أنك تريد تفعيل هذا",
+            "USER_COMMENT": "يرجى تحديد السبب"
+        },
+        "MODALDISABLE": {
+            "HEADER": "إلغاء تنشيط المستفيد",
+            "BODY": {
+                "SURE_DELETE_MESSAGE": "هل أنت متأكد تريد الغاء تفعيل المستفيد؟"
+            },
+            "LABEL": "إلغاء تنشيط المستفيد",
+            "CONFIRMATION": "هل أنت متأكد أنك تريد إلغاء تنشيط هذا؟",
+            "USER_COMMENT": "يرجى تحديد السبب"
+        },
+        "REJECT": {
+            "LABEL": "رفض المستفيد",
+            "CONFIRMATION": "هل أنت متأكد أنك تريد رفض هذا",
+            "USER_COMMENT": "يرجى تحديد السبب"
+        },
+        "REPAIR": {
+            "LABEL": "مستفيد الإصلاح",
+            "CONFIRMATION": "هل أنت متأكد أنك تريد الإصلاح",
+            "USER_COMMENT": "يرجى تحديد السبب"
+        },
+        "BENBIC": {
+            "BIC": "رمز BIC",
+            "BANK_NAME": "اسم البنك",
+            "BRANCH_NAME": "اسم الفرع",
+            "ADDRESS1": "العنوان 1",
+            "ADDRESS2": "العنوان 2",
+            "CITY": "مدينة",
+            "ZIP": "أَزِيز",
+            "COUNTRY": "دولة"
+        },
+        "VALIDATION": {
+            "PATTERN": "رقم حساب غير صحيح",
+            "NOT_EMPTY_ACC": "لا يمكن أن يكون رقم الحساب فارغًا",
+            "NOT_EMPTY_CONFIRM_ACC": "لا يمكن أن يكون رقم تأكيد الحساب فارغًا",
+            "NOT_SAME": "يجب أن يكون نفس رقم الحساب"
+        }
+    },
+    "SADAD_PAYMENT": {
+        "SEARCH": {
+            "LABEL": "بحث الاستعلام عن معاملة سداد",
+            "STATUS": "حالة",
+            "DATE_RANGE": "نطاق الموعد",
+            "BILLER_NAME": "اسم بيلر",
+            "FILE_REFERENCE_NUMBER": "الرقم المرجعي للملف",
+            "TRN_REFERENCE_NUMBER": "الرقم المرجعي للمعاملة",
+            "BILL_TYPE": "نوع الفاتورة"
+        },
+        "RESULT": {
+            "LABEL": "نتيجة البحث عن الاستفسار عن معاملة سداد"
+        },
+        "LABEL": {
+            "ONE_TIME_BILL_PAYMENT": "دفع الفواتير لمرة واحدة",
+            "PAYMENT_UPLOAD": "تحميل استعلام عن معاملة سداد",
+            "BILL_ENQUIRY": "الاستفسار عن الفاتورة",
+            "ACCOUNT_DETAILS": "تفاصيل الحساب",
+            "PAYMENT_DETAILS": "بيانات الدفع",
+            "UPDATE_BENEFICIARY": "تحديث المستفيد",
+            "VERIFY_TRANSACTION": "تحقق من الاستعلام عن معاملة سداد",
+            "DISPLAY_TRANSACTION": "عرض الاستعلام عن معاملة سداد",
+            "UPDATE_TRANSACTION": "تحديث الاستعلام عن معاملة سداد",
+            "BEN_DETAILS": "تفاصيل المستفيد",
+            "BANK_DETAILS": "التفاصيل المصرفية",
+            "REQUIRED_FIELD": "* يشير إلى الحقل المطلوب",
+            "TRANSACTION_DETAILS": "تفاصيل صفقة سداد",
+            "REPAIR_TRANSACTION": "إصلاح معاملة سداد",
+            "TRANSACTION_OTP": "فاتورة المعاملات OTP"
+        },
+        "WIZARD": {
+            "BILL_ENQUIRY": "الاستفسار عن الفاتورة",
+            "ACCOUNT_DETAILS": "تفاصيل الحساب",
+            "PAYMENT_DETAILS": "بيانات الدفع",
+            "TRANSACTION_DETAILS": "تفاصيل الصفقه",
+            "ONE_TIME_PAYENT": "دفعة لمرة واحدة",
+            "PREVIEW_CONFIRM": "معاينة وتأكيد",
+            "SUMMARY": "ملخص",
+            "PREVIEW_SELECT": "معاينة وتحديد",
+            "FILE_DETAILS": "تفاصيل ملف"
+        },
+        "FORM": {
+            "BILLER_NAME": "اسم بيلر",
+            "DUE_AMOUNT": "مبلغ مستحق",
+            "DEBIT_ACCOUNT_NUMBER": "رقم حساب الخصم",
+            "PAYMENT_NARRATIVE": "سرد الدفع",
+            "BILLER_REFERENCE_NUMBER": "الرقم المرجعي للفاتورة",
+            "DEBIT_REFERENCE_NUMBER": "الرقم المرجعي للخصم",
+            "CREATED_DATE": "تاريخ الإنشاء",
+            "PAID_AMOUNT": "المبلغ المدفوع",
+            "REFERENCE_NUMBER": "رقم المرجع",
+            "STATUS": "حالة",
+            "STATUS_DESCRIPTION": "وصف الحالة",
+            "TRANSACTION_ID": "رقم المعاملة",
+            "PRODUCT_TYPE": "نوع الدفع",
+            "BILLER_ID": "معرف الفاتورة",
+            "FILE_PATH": "مسار الملف",
+            "CHOOSE_FILE": "اختر ملف",
+            "FILE_NAME": "اسم الملف",
+            "MESSAGE": "رسالة",
+            "PAYMENT_TYPE": "نوع الدفع",
+            "BANK_REF": "مرجع البنك",
+            "CUST_REF": "إشارة العملاء",
+            "ODR_CUS_ACC": "طلب حساب العميل",
+            "CHANNEL_ID": "معرف القناة",
+            "BILLING_ACC": "حساب الفواتير"
+        },
+        "DETAILS": {
+            "LABEL": "تفاصيل الاستعلام عن معاملة سداد",
+            "TAB_1": "1. الرسالة",
+            "TAB_2": "2. التفاصيل المحاسبية",
+            "TAB_3": "3. الأحداث و PSR",
+            "TAB_4": "4. معلومات إضافية",
+            "LABEL_TAB1": "رسالة",
+            "LABEL_TAB2": "تفاصيل المحاسبة",
+            "LABEL_TAB3": "الأحداث و PSR",
+            "LABEL_TAB4": "معلومات إضافية",
+            "SADAD_TRN": "سداد سداد",
+            "EVENT_ID": "معرف الحدث",
+            "PSR_ID": "معرف PSR",
+            "PSR_TIME": "وقت تاريخ PSR",
+            "EVENT_DCR": "وصف الحدث",
+            "PSR_DCR": "وصف PSR",
+            "RES_STATUS": "حالة الاستجابة",
+            "ESB_MESSAGE": "رسالة ESB"
+        },
+        "MODAL": {
+            "VERIFY": {
+                "LABEL": "تحقق من الاستعلام عن معاملة سداد",
+                "CONFIRMATION": "هل أنت متأكد ، تريد التحقق من هذا؟"
+            },
+            "REJECT": {
+                "LABEL": "رفض الاستعلام عن معاملة سداد",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد رفض هذا؟",
+                "USER_COMMENT": "يرجى تحديد السبب"
+            },
+            "REPAIR": {
+                "LABEL": "إصلاح الاستعلام عن معاملة سداد",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد إصلاح هذا؟",
+                "USER_COMMENT": "يرجى تحديد السبب"
+            }
+        }
+    },
+    "SADAD_MOI": {
+        "SEARCH": {
+            "LABEL": "ملخص البحث عن سداد وزارة الداخلية",
+            "STATUS": "حالة",
+            "PAY_STATUS": "حالة السداد",
+            "DATE_RANGE": "نطاق الموعد",
+            "BILLER_NAME": "اسم بيلر",
+            "FILE_REFERENCE_NUMBER": "الرقم المرجعي للملف",
+            "TRN_REFERENCE_NUMBER": "الرقم المرجعي للمعاملة",
+            "BILL_REFERENCE_NAME": "الاسم المرجعي للفاتورة",
+            "BILL_TYPE": "نوع الفاتورة"
+        },
+        "RESULT": {
+            "LABEL": "ملخص نتائج البحث عن سداد وزارة الداخلية"
+        },
+        "LABEL": {
+            "BILLER_REGISTRATION": "تسجيل الفاتورة",
+            "BILL_UPLOAD": "تحميل الفاتورة",
+            "BILL_ENQUIRY": "الاستفسار عن الفاتورة",
+            "ACCOUNT_DETAILS": "تفاصيل الحساب",
+            "PAYMENT_DETAILS": "بيانات الدفع",
+            "UPDATE_BENEFICIARY": "تحديث المستفيد",
+            "VERIFY_BENEFICIARY": "تحقق من المستفيد",
+            "DISPLAY_BILLER": "فاتورة مسجلة",
+            "BEN_DETAILS": "تفاصيل المستفيد",
+            "BANK_DETAILS": "التفاصيل المصرفية",
+            "REQUIRED_FIELD": "* يشير إلى الحقل المطلوب",
+            "MOI_DETAILS": "تفاصيل وزارة الداخلية",
+            "VERIFY_MOI": "تحقق من ملخص سداد وزارة الداخلية",
+            "DISPLAY_MOI": "عرض ملخص وزارة الداخلية لسداد",
+            "BILL_PAYMENT": "فاتورة الدفع",
+            "BILLS": "الفواتير",
+            "TRANSACTION_OTP": "فاتورة المعاملات OTP",
+            "MOI_PAYMENT": "إنشاء ملخص لسداد وزارة الداخلية",
+            "GRAND_TOTAL": "المبلغ الإجمالي",
+            "MOI_REFUND_PAYMENT": "سداد المبالغ المستردة من وزارة الداخلية",
+            "SADAD_BULK_UPLOAD": "تحميل ملخص سداد وزارة الداخلية"
+        },
+        "WIZARD": {
+            "SELECT_SERVICE": "اختر الخدمة",
+            "MOI_DETAILS": "تفاصيل وزارة الداخلية",
+            "PREVIEW_CONFIRM": "المعاينة والدفع",
+            "SUMMARY": "ملخص",
+            "FILE_DETAILS": "تفاصيل ملف",
+            "PREVIEW_SELECT": "معاينة وتحديد"
+        },
+        "FORM": {
+            "SERVICE_TYPE": "نوع الخدمة",
+            "APPLICATION_TYPE": "نوع التطبيق",
+            "PRODUCT_TYPE": "نوع الفاتورة",
+            "DUE_DATE": "تاريخ الاستحقاق",
+            "DUE_AMOUNT": "مبلغ مستحق",
+            "REQUEST_TYPE": "نوع الطلب",
+            "PAID_AMOUNT": "المبلغ المدفوع",
+            "BANK_REFERNCE": "مرجع البنك",
+            "DEBIT_ACCOUNT": "حساب مدين",
+            "UNIQUE_REF": "المرجع المعاملة",
+            "BENEF_REF_NUMBER": "معرف مرجع المرجع",
+            "CREATE_DATE": "تاريخ الطلب",
+            "NARRATIVE": "رواية",
+            "BILLER_NAME": "اسم بيلر",
+            "DEBIT_ACCOUNT_NUMBER": "رقم حساب الخصم",
+            "PAYMENT_NARRATIVE": "سرد الدفع",
+            "BILLER_REFERENCE_NUMBER": "الرقم المرجعي للفاتورة",
+            "DEBIT_REFERENCE_NUMBER": "الرقم المرجعي للخصم",
+            "CREATED_DATE": "تاريخ الطلب",
+            "REFERENCE_NUMBER": "رقم المرجع",
+            "STATUS": "حالة",
+            "STATUS_DESCRIPTION": "وصف الحالة",
+            "TRANSACTION_ID": "رقم المعاملة",
+            "BILL_REFERENCE_NAME": "الاسم المرجعي للفاتورة",
+            "FILE_REFERENCE_NUMBER": "الرقم المرجعي للملف",
+            "TRN_REFERENCE_NUMBER": "الرقم المرجعي للمعاملة",
+            "DUE_TODAY": "موعد الاستحقاق اليوم",
+            "PARTIAL_ALLOWED": "مسموح جزئياً",
+            "PAY_STATUS": "حالة الدفع",
+            "NICK_NAME": "اسم الشهرة",
+            "BILL_TYPE": "نوع الفاتورة",
+            "BILEER_ID": "معرف بيل",
+            "PAID_DATE": "تاريخ المدفوعة",
+            "PAID_STATUS": "الحالة المدفوعة",
+            "SADAD_REFERENCE": "مرجع سداد",
+            "FILE_TYPE": "نوع الملف",
+            "FILE_PATH": "مسار الملف",
+            "FILE_REFFERENCE": "مصدر المعلومات",
+            "MESSAGE": "رسالة",
+            "BENF_ID": "معرف المستفيد",
+            "FILE_NAME": "اسم الملف",
+            "AVAIL_BAL": "الرصيد المتوفر",
+            "UNUSED_BAL": "رصيد غير مستخدم",
+            "DTLS": "تفاصيل",
+            "SL_NO": "SL. لا",
+            "FEE_TYPE": "نوع الرسوم",
+            "FEE_AMNT": "مبلغ الرسوم",
+            "SUB_TOTL": "المجموع الفرعي",
+            "BEN_ID": "معرف المستفيد",
+            "BEN_ID_TYPE": "نوع معرف المستفيد",
+            "FEE_DEATILS": "تفاصيل الرسوم",
+            "FEE_AMOUNT": "مقدار",
+            "FINE_DEATILS": "التفاصيل الدقيقة",
+            "VERDICT_NUMBER": "رقم الحكم",
+            "VERDICT_DATE": "تاريخ الحكم",
+            "VIOLATIONS_COUNT": "عدد الانتهاكات",
+            "FINE_AMOUNT": "مبلغ الغرامة",
+            "SENTANCE_DEATILS": "تفاصيل الجمل",
+            "INSTALLMENT_NUMBER": "رقم القسط",
+            "SENTENCE_NUMBER": "رقم الجملة",
+            "CASE_NUMBER": "رقم القضية",
+            "DECISION": "قرار",
+            "AMOUNT": "مقدار",
+            "REGISTRATION_DATE": "تاريخ التسجيل",
+            "PAYMENT_DEATILS": "بيانات الدفع",
+            "SADAD_GROUP_PAYMENT_ID": "معرّف الدفع لمجموعة سداد",
+            "BEN_NAME": "أسم المستفيد",
+            "SADAD_TRANSACTION_ID": "معرّف معاملة سداد",
+            "TOTAL_AMOUNT": "المبلغ الإجمالي"
+        },
+        "BILL_TYPE": {
+            "PUBLIC": "عام",
+            "PERSONAL": "شخصي"
+        },
+        "MODAL": {
+            "VERIFY": {
+                "LABEL": "تحقق من ملخص سداد وزارة الداخلية",
+                "CONFIRMATION": "هل أنت متأكد ، تريد التحقق من هذا؟"
+            },
+            "REJECT": {
+                "LABEL": "رفض ملخص سداد وزارة الداخلية",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد رفض هذا؟",
+                "USER_COMMENT": "يرجى تحديد السبب"
+            },
+            "DELETE": {
+                "LABEL": "حذف ملخص سداد وزارة الداخلية",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد حذف هذا؟"
+            }
+        }
+    },
+    "STANDING_INST": {
+        "SEARCH": {
+            "LABEL": "البحث عن التعليمات الدائمة",
+            "STATUS": "الحالة",
+            "PAY_STATUS": "حالة السداد",
+            "DATE_RANGE": "نطاق الموعد",
+            "BILLER_NAME": "اسم المفوتر",
+            "FILE_REFERENCE_NUMBER": "الرقم المرجعي للملف",
+            "TRN_REFERENCE_NUMBER": "الرقم المرجعي للمعاملة",
+            "BILL_REFERENCE_NAME": "اسم مرجع الفاتورة",
+            "BILL_TYPE": "نوع الفاتورة"
+        },
+        "RESULT": {
+            "LABEL": "نتائج البحث عن التعليمات الدائمة"
+        },
+        "LABEL": {
+            "ACCOUNT_DETAILS": "تفاصيل الحساب",
+            "PAYMENT_DETAILS": "بيانات الدفع",
+            "UPDATE_BENEFICIARY": "تحديث المستفيد",
+            "VERIFY_BENEFICIARY": "تحقق من المستفيد",
+            "DISPLAY_BILLER": "فاتورة مسجلة",
+            "BEN_DETAILS": "تفاصيل المستفيد",
+            "BANK_DETAILS": "التفاصيل المصرفية",
+            "REQUIRED_FIELD": "* يشير إلى الحقل المطلوب",
+            "BILLER_DETAILS": "تفاصيل الفاتورة",
+            "VERIFY_BILLER": "تحقق من الفاتورة",
+            "BILL_PAYMENT": "فاتورة الدفع",
+            "BILLS": "فواتير",
+            "TRANSACTION_OTP": "معاملة الفاتورة OTP",
+            "STANDING_INST_DETAILS": "تفاصيل التعليمات الدائمة",
+            "STANDING_INST": "التعليمات الدائمة",
+            "STAND_INST_BULK_UPLOAD": "تحميل مجمع التعليمات الدائمة",
+            "STANDING_INST_ID": "معرف التعليمات الدائمة",
+            "CREATE": "إنشاء تعليمات دائمة",
+            "UPDATE": "تحديث التعليمات الدائمة",
+            "DISPLAY": "عرض التعليمات الدائمة",
+            "VERIFY": "تحقق من التعليمات الدائمة"
+        },
+        "WIZARD": {
+            "BILL_ENQUIRY": "الاستعلام عن الفاتورة",
+            "STANDING_INST_DETAILS": "تفاصيل التعليمات الدائمة",
+            "PAYMENT_DETAILS": "بيانات الدفع",
+            "ONE_TIME_PAYENT": "دفعة لمرة واحدة",
+            "PREVIEW_CONFIRM": "معاينة وتأكيد",
+            "SUMMARY": "ملخص",
+            "FILE_DETAILS": "File Details",
+            "PREVIEW_SELECT": "معاينة وتحديد"
+        },
+        "FORM": {
+            "": "",
+            "PRODUCT_TYPE": "نوع الفاتورة",
+            "BILLER_NAME": "اسم المفوتر",
+            "DUE_AMOUNT": "مبلغ مستحق",
+            "DEBIT_ACCOUNT_NUMBER": "رقم حساب الخصم",
+            "PAYMENT_NARRATIVE": "سرد الدفع",
+            "BILLER_REFERENCE_NUMBER": "الرقم المرجعي للفاتورة",
+            "DEBIT_REFERENCE_NUMBER": "الرقم المرجعي للخصم",
+            "CREATED_DATE": "تاريخ الإنشاء",
+            "PAID_AMOUNT": "المبلغ المدفوع",
+            "REFERENCE_NUMBER": "رقم المرجع",
+            "STATUS": "حالة",
+            "STATUS_DESCRIPTION": "وصف الحالة",
+            "TRANSACTION_ID": "رقم المعاملة",
+            "BILL_REFERENCE_NAME": "الاسم المرجعي للفاتورة",
+            "FILE_REFERENCE_NUMBER": "الرقم المرجعي للملف",
+            "TRN_REFERENCE_NUMBER": "الرقم المرجعي للمعاملة",
+            "DUE_DATE": "تاريخ الاستحقاق",
+            "DUE_TODAY": "موعد التسليم اليوم",
+            "PARTIAL_ALLOWED": "مسموح جزئياً",
+            "PAY_STATUS": "حالة الدفع",
+            "NICK_NAME": "اسم الشهرة",
+            "BILL_TYPE": "نوع الفاتورة",
+            "BILEER_ID": "معرف بيل",
+            "SI_FREQ": "تردد SI",
+            "STANDINGINS_ID": "الدائمة Inst Id",
+            "CEILING_AMOUNT": "مبلغ السقف",
+            "NARRATIVE": "رواية",
+            "NEXT_DEBIT_DATE": "تاريخ الخصم التالي",
+            "START_DATE": "تاريخ البدء",
+            "END_DATE": "تاريخ الانتهاء",
+            "PAYMENT_START_DATE": "تاريخ بدء الدفع",
+            "PAYMENT_END_DATE": "تاريخ انتهاء الدفع",
+            "RETRY": "أعد المحاولة",
+            "EMAIL_NOTI": "إعلام البريد الإلكتروني",
+            "DEFAULT_NOTI": "استخدم بريدك الإلكتروني الافتراضي",
+            "EMAIL": "بريد الالكتروني",
+            "FREQUENCY": "تكرر",
+            "SPECIFY_DAY": "حدد اليوم",
+            "SPECIFY_MONTH_DAY": "حدد الشهر واليوم",
+            "FILE_TYPE": "نوع الملف",
+            "FILE_PATH": "مسار الملف",
+            "FILE_REFFERENCE": "مصدر المعلومات",
+            "MESSAGE": "رسالة",
+            "BILLER_ID": "معرف الفاتورة",
+            "FILE_NAME": "اسم الملف",
+            "CHOOSE_FILE": "اختر ملف",
+            "ACCOUNT_NUMBER": "رقم حساب"
+        },
+        "BILL_TYPE": {
+            "PUBLIC": "عامة",
+            "PERSONAL": "شخصي"
+        },
+        "MODAL": {
+            "VERIFY": {
+                "LABEL": "تحقق من التعليمات الدائمة",
+                "CONFIRMATION": "هل أنت متأكد ، تريد التحقق من هذا؟"
+            },
+            "REJECT": {
+                "LABEL": "رفض التعليمات الدائمة",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد رفض هذا؟",
+                "USER_COMMENT": "يرجى تحديد السبب"
+            },
+            "DELETE": {
+                "LABEL": "حذف التعليمات الدائمة",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد حذف هذا؟"
+            }
+        }
+    },
+    "SADAD_BILLER": {
+        "SEARCH": {
+            "LABEL": "بحث صيانة الفاتورة",
+            "STATUS": "حالة",
+            "PAY_STATUS": "حالة السداد",
+            "DATE_RANGE": "نطاق الموعد",
+            "BILLER_NAME": "اسم بيلر",
+            "FILE_REFERENCE_NUMBER": "الرقم المرجعي للملف",
+            "TRN_REFERENCE_NUMBER": "الرقم المرجعي للمعاملة",
+            "BILL_REFERENCE_NAME": "الاسم المرجعي للفاتورة",
+            "BILL_TYPE": "نوع الفاتورة"
+        },
+        "RESULT": {
+            "LABEL": "نتيجة البحث عن فاتورة الصيانة"
+        },
+        "LABEL": {
+            "BILLER_REGISTRATION": "إنشاء فاتورة صيانة",
+            "BILL_UPLOAD": "تحميل فاتورة الصيانة",
+            "BILL_ENQUIRY": "الاستفسار عن الفاتورة",
+            "ACCOUNT_DETAILS": "تفاصيل الحساب",
+            "PAYMENT_DETAILS": "بيانات الدفع",
+            "UPDATE_BENEFICIARY": "تحديث المستفيد",
+            "VERIFY_BENEFICIARY": "تحقق من المستفيد",
+            "DISPLAY_BILLER": "عرض فاتورة الصيانة",
+            "BEN_DETAILS": "تفاصيل المستفيد",
+            "BANK_DETAILS": "التفاصيل المصرفية",
+            "REQUIRED_FIELD": "* يشير إلى الحقل المطلوب",
+            "BILLER_DETAILS": "تفاصيل الفاتورة",
+            "VERIFY_BILLER": "تحقق من صيانة الفاتورة",
+            "BILL_PAYMENT": "دفع فاتورة الصيانة",
+            "BILLS": "الفواتير",
+            "TRANSACTION_OTP": "فاتورة المعاملات OTP",
+            "MORE_DETAILS": "المزيد من التفاصيل",
+            "UPDATE_BILLER_REGISTRATION": "تحديث فاتورة الصيانة"
+        },
+        "WIZARD": {
+            "BILL_ENQUIRY": "الاستفسار عن الفاتورة",
+            "BILLER_DETAILS": "تفاصيل الفاتورة",
+            "PAYMENT_DETAILS": "بيانات الدفع",
+            "ONE_TIME_PAYENT": "دفعة لمرة واحدة",
+            "PREVIEW_CONFIRM": "معاينة وتأكيد",
+            "SUMMARY": "ملخص",
+            "PREVIEW_SELECT": "معاينة وتحديد"
+        },
+        "FORM": {
+            "PRODUCT_TYPE": "نوع الفاتورة",
+            "BILLER_NAME": "اسم بيلر",
+            "DUE_AMOUNT": "مبلغ مستحق",
+            "DEBIT_ACCOUNT_NUMBER": "رقم حساب الخصم",
+            "PAYMENT_NARRATIVE": "سرد الدفع",
+            "BILLER_REFERENCE_NUMBER": "الرقم المرجعي للفاتورة",
+            "DEBIT_REFERENCE_NUMBER": "الرقم المرجعي للخصم",
+            "CREATED_DATE": "تاريخ الإنشاء",
+            "PAID_AMOUNT": "المبلغ المدفوع",
+            "REFERENCE_NUMBER": "رقم المرجع",
+            "STATUS": "حالة",
+            "STATUS_DESCRIPTION": "وصف الحالة",
+            "TRANSACTION_ID": "رقم المعاملة",
+            "BILL_REFERENCE_NAME": "الاسم المرجعي للفاتورة",
+            "FILE_REFERENCE_NUMBER": "الرقم المرجعي للملف",
+            "TRN_REFERENCE_NUMBER": "الرقم المرجعي للمعاملة",
+            "DUE_DATE": "تاريخ الاستحقاق",
+            "DUE_TODAY": "موعد التسليم اليوم",
+            "PARTIAL_ALLOWED": "مسموح جزئياً",
+            "PAY_STATUS": "حالة الدفع",
+            "NICK_NAME": "اسم الشهرة",
+            "BILL_TYPE": "نوع الفاتورة",
+            "BILEER_ID": "معرف بيل",
+            "MESSAGE": "رسالة",
+            "SERVICE_TYPE": "نوع الخدمة",
+            "BILLER_ID": "معرف الفاتورة"
+        },
+        "BILL_TYPE": {
+            "PUBLIC": "عام",
+            "PERSONAL": "شخصي"
+        },
+        "MODAL": {
+            "VERIFY": {
+                "LABEL": "تحقق من صيانة الفاتورة",
+                "CONFIRMATION": "هل أنت متأكد ، تريد التحقق من هذا؟"
+            },
+            "REJECT": {
+                "LABEL": "رفض صيانة الفاتورة",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد رفض هذا؟",
+                "USER_COMMENT": "يرجى تحديد السبب"
+            },
+            "REPAIR": {
+                "LABEL": "إصلاح فاتورة الصيانة",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد إصلاح هذا؟",
+                "USER_COMMENT": "يرجى تحديد السبب"
+            },
+            "DELETE": {
+                "LABEL": "حذف فاتورة الصيانة",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد حذف هذا؟"
+            }
+        }
+    },
+    "PAYROLL": {
+        "LABEL": {
+            "PAYROLL_UPLOAD": "تحميل كشوف المرتبات",
+            "TRANSACTION_DETAILS": "تفاصيل معاملات كشوف المرتبات",
+            "TRANSACTION_OTP": "معاملات كشوف المرتبات",
+            "UPLOADED_FILE_DETAILS": "تفاصيل الملف الذي تم تحميله",
+            "PAYROLL_HEADERS_SEARCH": "البحث في رؤوس الرواتب",
+            "PAYROLL_HEADERS_SEARCH_RESULT": "نتيجة بحث رؤوس الرواتب",
+            "PAYROLL_TRANSACTIONS_SEARCH": "البحث عن معاملات الرواتب",
+            "PAYROLL_TRANSACTIONS_SEARCH_RESULT": "نتيجة البحث عن المعاملات الرواتب",
+            "PAYROLL_TRANSACTIONS_LOGS": "سجلات معاملات الرواتب",
+            "PAYROLL_DETAILS": "تفاصيل كشوف المرتبات",
+            "VERIFY_PAYROLL_DETAILS": "تحقق من تفاصيل الرواتب",
+            "EMPLOYEE_SEARCH": "بحث الموظف",
+            "EMPLOYEE_SEARCH_RESULT": "نتيجة بحث الموظف",
+            "UPDTAE_EMPLOYEE_DETAILS": "تحديث تفاصيل الموظف",
+            "VERIFY_EMPLOYEE_DETAILS": "تحقق من تفاصيل الموظف",
+            "ACTIVATE_EMPLOYEE_DETAILS": "تفعيل بيانات الموظف",
+            "BLOCK_EMPLOYEE_DETAILS": "كتلة تفاصيل الموظف",
+            "PROCESS_PAYROLL": "معالجة كشوف المرتبات",
+            "RENEW_VISA": "تجديد التأشيرة",
+            "RENEW_IQAMA": "تجديد الإقامة",
+            "VEHICLE_SEARCH": "البحث عن مركبة",
+            "VEHICLE_SEARCH_RESULT": "نتيجة البحث عن مركبة",
+            "CREATE_VEHICLE": "إنشاء مركبة",
+            "UPDATE_VEHICLE": "تحديث السيارة",
+            "VERIFY_VEHICLE": "تحقق من المركبة",
+            "DISPLAY_VEHICLE": "عرض السيارة",
+            "RENEW_VEHICLE": "تجديد المركبة"
+        },
+        "WIZARD": {
+            "FILE_DETAILS": "تفاصيل ملف",
+            "PREVIEW_CONFIRM": "معاينة وتأكيد",
+            "SUMMARY": "ملخص",
+            "TRANSACTION_DETAILS": "تفاصيل الصفقه",
+            "EMPLOYEE_DETAILS": "تفاصيل الموظف",
+            "VEHICLE_DETAILS": "تفاصيل السيارة"
+        },
+        "FORM": {
+            "PRODUCT_TYPE": "نوع المنتج",
+            "FILE_PATH": "مسار الملف",
+            "FILE_DESCRIPTION": "وصف الملف",
+            "CHOOSE_FILE": "اختر ملف",
+            "FILE_REFFERENCE": "إحالة الملف",
+            "VALUE_DATE": "تاريخ القيمة",
+            "AMOUNT": "كمية",
+            "CURRENCY": "عملة",
+            "FILE_NAME": "اسم الملف",
+            "OTP": "OTP",
+            "ENTER_OTP": "أدخل Otp هنا",
+            "PAYROLL_TYPE": "نوع الرواتب",
+            "PROCESS_STATUS": "حالة العملية",
+            "TOTAL_RECORDS": "إجمالي السجلات",
+            "VALID_RECORDS": "السجلات الصالحة",
+            "INVALID_RECORDS": "السجلات غير صالحة",
+            "DEBIT_ACCOUNT": "حساب مدين",
+            "TOTAL_AMOUNT": "المبلغ الإجمالي",
+            "TOTAL_VALID_AMOUNT": "إجمالي المبلغ الصالح",
+            "TOTAL_INVALID_AMOUNT": "المبلغ الإجمالي غير صالح",
+            "TOTAL_CHARGES": "الكلفة الاجماليه",
+            "STATUS": "الحالة",
+            "NATIONAL_ID": "رقم الهوية",
+            "BENEFICIARY_NAME": "أسم المستفيد",
+            "BENEFICIARY_ACCOUNT": "حساب المستفيد",
+            "FROM_AMOUNT": "من كمية",
+            "TO_AMOUNT": "لكمية",
+            "VERSION_NUMBER": "رقم الإصدار",
+            "EST_ID": "معرف المؤسسة",
+            "NUMBER_RECORDS": "سجلات الأرقام",
+            "DESCRIPTION": "وصف",
+            "TOTAL_DEBIT_AMOUNT": "إجمالي مبلغ الخصم",
+            "TOTAL_FILE_AMOUNT": "إجمالي كمية الملف",
+            "BASIC_SALARY": "راتب اساسي",
+            "HOUSING_ALLOWANCE": "بدل سكن",
+            "OTHER_EARNINGS": "أرباح أخرى",
+            "DEDUCTION": "المستقطع",
+            "TOTAL_PROCESS_AMOUNT": "إجمالي مبلغ العملية",
+            "TOTAL_REJECT_AMOUNT": "إجمالي رفض المبلغ",
+            "EMPLOYEEID": "هوية الموظف",
+            "CELL_NUMBER": "رقم الخلوي",
+            "EMPLOYEENAME": "اسم الموظف",
+            "EMPLOYEETYPE": "نوع موظف",
+            "SAUDI": "سعودي",
+            "NONSAUDI": "غير سعودي",
+            "ALL": "الكل",
+            "BANK_CODE": "رمز بنكي",
+            "BANK_ACCOUNT": "رقم الحساب المصرفي",
+            "ID_EXPIRY_DATE": "تاريخ انتهاء الهوية",
+            "EMP_STATUS": "حالة الموظف",
+            "GCIC": "GCIC",
+            "LAST_MONTH_PAYROLL": "كشوف المرتبات الشهر الماضي",
+            "MESSAGE": "رسالة",
+            "ID_TYPE": "نوع الهوية",
+            "CURRENT_OWNER_ID": "معرف المالك الحالي",
+            "VEHICLE_SEQUENCE_NUMBER": "تسلسل السيارة لا",
+            "FINANCIAL_NARRATIVE": "السرد المالي",
+            "REFERRENCE_NUMBER": "رقم المرجع"
+        },
+        "GRID": {
+            "NATIONAL_ID": "الهوية الوطنية",
+            "STAFF_ID": "معرف الموظفين",
+            "BENEFICIARY_NAME": "أسم المستفيد",
+            "BENEFICIARY_BANK": "البنك المستفيد",
+            "BENEFICIARY_ACCOUNT": "حساب المستفيد",
+            "BASIC": "الأساسي",
+            "HOUSING_ALLOWANCE": "بدل سكن",
+            "OTHER_EARNINGS": "أرباح أخرى",
+            "DEDUCTION": "المستقطع",
+            "TOTAL_AMOUNT": "المبلغ الإجمالي",
+            "FILE_REFFERENCE": "إحالة الملف",
+            "VERSION_NUMBER": "رقم الإصدار",
+            "DEBIT_ACCOUNT": "حساب مدين",
+            "VALUE_DATE": "تاريخ القيمة",
+            "EST_ID": "معرف المؤسسة",
+            "NUMBER_RECORDS": "سجلات الأرقام",
+            "AMOUNT": "كمية",
+            "STATUS": "الحالة",
+            "DESCRIPTION": "وصف",
+            "BENEFICIARY_BANK_ID": "معرف البنك المستفيد",
+            "TOTAL_SALARY": "كامل الراتب",
+            "LOG_TIME": "تسجيل وقت",
+            "LOG_BY": "تسجيل الدخول",
+            "INFO": "معلومات",
+            "FILE_AMOUNT": "مبلغ الملف",
+            "DEBIT_AMOUNT": "مقدار الخصم",
+            "PROCESS_AMOUNT": "مبلغ العملية",
+            "EMPLOYEEID": "هوية الموظف",
+            "EMPLOYEENAME": "اسم الموظف",
+            "CELL_NUMBER": "رقم الخلوي",
+            "EMPLOYEETYPE": "نوع موظف",
+            "GCIC": "GCIC",
+            "CURRENT_OWNER_ID": "معرف المالك الحالي",
+            "VEHICLE_SEQUENCE_NUMBER": "تسلسل السيارة لا",
+            "FINANCIAL_NARRATIVE": "السرد المالي",
+            "EXPIRY_DATE": "تاريخ انتهاء الصلاحية",
+            "REFERRENCE_NUMBER": "رقم المرجع",
+            "VEHICLE_STATUS": "حالة السيارة",
+            "ID_STATUS": "حالة الهوية"
+        },
+        "TAB": {
+            "PAYROLL_FILE_SEARCH": "بحث ملف الرواتب",
+            "PAYROLL_TRANSACTIONS": "معاملات الرواتب",
+            "PROCESSING_STATUS": "حالة المعالجة"
+        },
+        "MODALREJECT": {
+            "HEADER": "رفض الرواتب",
+            "BODY": {
+                "SURE_REJECT_MESSAGE": "هل أنت متأكد أنك تريد الرفض ?",
+                "REASON": "يرجى تحديد السبب"
+            }
+        },
+        "MODALDELETE": {
+            "HEADER": "حذف كشوف المرتبات",
+            "BODY": {
+                "SURE_DELETE_MESSAGE": "هل أنت متأكد أنك تريد حذف ?"
+            }
+        },
+        "MODALREGENERATE": {
+            "HEADER": "تجديد الرواتب",
+            "BODY": {
+                "SURE_REGENERATE_MESSAGE": "هل أنت متأكد من أنك تريد إعادة إنشاء كشوف المرتبات لمرجع الملف المحدد ?"
+            }
+        },
+        "MODALNEW": {
+            "HEADER": "كشوف المرتبات الجديدة",
+            "BODY": {
+                "SURE_NEW_MESSAGE": "هل أنت متأكد من أنك تريد إنشاء رواتب جديدة لمرجع الملف المحدد ?"
+            }
+        },
+        "MODAL_UPLOAD_EMPLOYEE_FILE": {
+            "HEADER": "تحميل ملف الموظف",
+            "BODY": {
+                "EMPLOYEE_FILE": "ملف الموظف"
+            }
+        },
+        "MODAL_REJECT_EMPLOYEE": {
+            "HEADER": "رفض الموظف",
+            "BODY": {
+                "SURE_REJECT_MESSAGE": "هل أنت متأكد أنك تريد رفض هذا الموظف ?"
+            }
+        },
+        "MODAL_ACTIVATE_PAYROLL": {
+            "HEADER": "تنشيط الموظف",
+            "BODY": {
+                "SURE_NEW_MESSAGE": "هل أنت متأكد أنك تريد تفعيل هذا الموظف؟"
+            }
+        },
+        "MODAL_BLOCK_PAYROLL": {
+            "HEADER": "حظر الموظف",
+            "BODY": {
+                "SURE_NEW_MESSAGE": "هل أنت متأكد أنك تريد منع هذا الموظف؟"
+            }
+        },
+        "MODAL_PROCESS_PAYROLL": {
+            "HEADER": "معالجة كشوف المرتبات",
+            "BODY": {
+                "SURE_NEW_MESSAGE": "يرجى تقديم مرجع ملف لعملية كشوف المرتبات"
+            }
+        }
+    },
+    "CURRENCY_CUTOF_DEF": {
+        "SEARCH": {
+            "LABEL": "البحث عن تعريف القطع النقدي",
+            "LABEL_RESULT": "نتيجة البحث عن تعريف القطع المتقطع للعملة",
+            "BANK_ID": "معرف البنك",
+            "PRODUCT_ID": "معرف المنتج",
+            "CURRENCY_CODE": "رمز العملة",
+            "CUT_TYPE": "نوع القطع"
+        },
+        "FORM": {
+            "BANK_ID": "معرف البنك",
+            "PRODUCT_ID": "معرف المنتج",
+            "CURRENCY_CODE": "رمز العملة",
+            "CUT_TYPE": "نوع القطع",
+            "CUT_OF_TIME": "وقت مستقطع",
+            "STATUS": "حالة"
+        },
+        "CREATE": {
+            "LABEL": "إنشاء تعريف قطع العملة"
+        },
+        "UPDATE": {
+            "LABEL": "تحديث تعريف العملة المحددة"
+        },
+        "VERIFY": {
+            "LABEL": "تحقق من تعريف قطع العملة"
+        },
+        "MODAL": {
+            "VERIFY": {
+                "LABEL": "تحقق من تعريف قطع العملة",
+                "CONFIRMATION": "هل أنت متأكد ، تريد التحقق من هذا؟"
+            }
+        },
+        "BUTTON": {
+            "BULK": "حجم",
+            "SINGLE": "غير متزوج"
+        }
+    },
+    "PRD_SRV": {
+        "SEARCH_HEAD": "البحث عن المنتجات والخدمات",
+        "PRD_SRV": "نتيجة البحث عن المنتجات والخدمات",
+        "PRD_ID": "معرف المنتج",
+        "SRV_ID": "معرف الخدمة",
+        "BANK_ID": "معرف البنك",
+        "STATUS": "حالة",
+        "SRV_L1": "اسم الخدمة L1",
+        "SRV_L2": "اسم الخدمة L2",
+        "MSG_TYPE": "نوع الرسالة",
+        "MSG_FMT": "تنسيق الرسالة",
+        "VIEW": "عرض المنتجات والخدمات"
+    },
+    "HOLDAY": {
+        "BANK_ID": "معرف البنك",
+        "DATE": "تاريخ",
+        "HOLDAY": "يوم الاجازة",
+        "HOL_DATE": "تاريخ العيد",
+        "HEAD": "نتيجة بحث العطل",
+        "SEARCH_HEAD": "البحث عن العطل",
+        "HOL_CREATE": "إنشاء الإجازات",
+        "HOL_UPDATE": "تحديث العطل",
+        "EDIT_HOLIDAY": "يوم الاجازة",
+        "VERIFY": {
+            "LABEL": "تحقق من الإجازات",
+            "BANK_ID": "معرف البنك",
+            "HOLIDAY": "يوم الاجازة",
+            "CREATED_BY": "انشأ من قبل",
+            "STATUS": "حالة"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "حذف العطل",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد حذف هذا؟"
+            },
+            "VERIFY": {
+                "LABEL": "تحقق من الإجازات",
+                "CONFIRMATION": "هل أنت متأكد ، تريد التحقق من هذا؟"
+            }
+        }
+    },
+    "BUSINESS_DATE": {
+        "LABEL": "نتائج البحث عن تاريخ العمل",
+        "SELECT": "يختار",
+        "SEARCH": {
+            "LABEL": "البحث عن تاريخ العمل",
+            "BANK_ID": "معرف البنك",
+            "PRODUCT_ID": "معرف المنتج",
+            "USER_TYPE": {
+                "LABEL": "نوع المستخدم",
+                "BANK": "بنك",
+                "CORPORATE": "شركة كبرى",
+                "SELECT": "يختار"
+            },
+            "STATUS": {
+                "LABEL": "حالة",
+                "PROCESSD": "ما زال يحتاج بتصدير",
+                "DELETE": "تم الحذف",
+                "VERIFIED": "وافق"
+            }
+        },
+        "CREATE": {
+            "LABEL": "تسجيل المستخدم",
+            "BANK_ID": "معرف البنك",
+            "PRODUCT_ID": "معرف المنتج",
+            "BUSINESS_DATE": "تاريخ العمل ",
+            "JULIAN_DATE": "تاريخ جوليان",
+            "CUT_OVER_TIME": "قطع بمرور الوقت",
+            "CUT_OFF_TIME": "وقت مستقطع",
+            "BO_CUT_OFF_TIME": "وقت قطع المكتب الخلفي",
+            "CUT_OVER_REFERENCE": "قطع أكثر من المرجع",
+            "CUT_OFF_REFERENCE": "قطع المرجع"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "حذف تاريخ العمل",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد حذف هذا؟"
+            },
+            "VERIFY": {
+                "LABEL": "تحقق من تاريخ العمل",
+                "CONFIRMATION": "هل أنت متأكد ، تريد التحقق من هذا؟"
+            },
+            "REJECT": {
+                "LABEL": "تاريخ الرفض التجاري",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد رفض هذا؟"
+            }
+        },
+        "VERIFY": {
+            "LABEL": "تحقق من تاريخ العمل",
+            "CONFIRMATION": "هل أنت متأكد أنك تريد الموافقة على هذا؟",
+            "BANK_ID": "معرف البنك",
+            "PRODUCT_ID": "معرف المنتج",
+            "BUSINESS_DATE": "تاريخ العمل ",
+            "JULIAN_DATE": "تاريخ جوليان",
+            "CUT_OVER_TIME": "قطع بمرور الوقت",
+            "CUT_OFF_TIME": "وقت مستقطع",
+            "BO_CUT_OFF_TIME": "وقت قطع المكتب الخلفي",
+            "CUT_OVER_REFERENCE": "قطع أكثر من المرجع",
+            "CUT_OFF_REFERENCE": "قطع المرجع"
+        },
+        "UPDATE": {
+            "LABEL": "تحديث تاريخ العمل",
+            "BANK_ID": "معرف البنك",
+            "PRODUCT_ID": "معرف المنتج",
+            "BUSINESS_DATE": "تاريخ العمل  ",
+            "JULIAN_DATE": "تاريخ جوليان",
+            "CUT_OVER_TIME": "قطع بمرور الوقت",
+            "CUT_OFF_TIME": "وقت مستقطع",
+            "BO_CUT_OFF_TIME": "وقت قطع المكتب الخلفي",
+            "CUT_OVER_REFERENCE": "قطع أكثر من المرجع",
+            "CUT_OFF_REFERENCE": "قطع المرجع",
+            "STATUS": "الحالة"
+        },
+        "DISPLAY": {
+            "LABEL": "عرض تاريخ العمل",
+            "BANK_ID": "معرف البنك",
+            "PRODUCT_ID": "معرف المنتج",
+            "BUSINESS_DATE": "تاريخ العمل  ",
+            "JULIAN_DATE": "تاريخ جوليان",
+            "CUT_OVER_TIME": "قطع بمرور الوقت",
+            "CUT_OFF_TIME": "وقت مستقطع",
+            "BO_CUT_OFF_TIME": "وقت قطع المكتب الخلفي",
+            "CUT_OVER_REFERENCE": "قطع أكثر من المرجع",
+            "CUT_OFF_REFERENCE": "قطع المرجع"
+        },
+        "BUTTONS": {
+            "LIST": "قائمة",
+            "VERIFY": "تحقق"
+        }
+    },
+    "ACCOUNT_DEFINITION": {
+        "SEARCH": {
+            "LABEL": "البحث عن تعريف الحساب",
+            "BANK_ID": "معرف البنك",
+            "PRODUCT_ID": "معرف المنتج",
+            "DIRECTION": {
+                "LABEL": "اتجاه",
+                "SELECT": "يختار",
+                "I": "واردة",
+                "O": "منفتح"
+            },
+            "ACCOUNT_TYPE": "نوع الحساب"
+        },
+        "CREATE": {
+            "LABEL": "إنشاء تعريف الحساب",
+            "BANK_ID": "معرف البنك",
+            "PRODUCT_ID": "معرف المنتج",
+            "ACCOUNT_TYPE": "نوع الحساب",
+            "IBAN": "رقم حساب الآيبان",
+            "BBAN": "رقم حساب BBAN",
+            "DIRECTION": "اتجاه",
+            "SERVICE_ID": "معرف الخدمة",
+            "STATUS": "الحالة"
+        },
+        "UPDATE": {
+            "LABEL": "تحديث تعريف الحساب"
+        },
+        "VERIFY": {
+            "LABEL": "تحقق من تعريف الحساب"
+        },
+        "BUTTONS": {
+            "CLEAR": "صافي",
+            "SEARCH": "بحث",
+            "CREATE": "خلق",
+            "UPDATE": "تحديث",
+            "VERIFY": "تحقق من",
+            "DELETE": "حذف",
+            "LIST": "قائمة"
+        },
+        "RESULT": {
+            "LABEL": "نتيجة البحث عن تعريف الحساب"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "حذف تعريف الحساب",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد حذف هذا؟"
+            },
+            "VERIFY": {
+                "LABEL": "تحقق من تعريف الحساب",
+                "CONFIRMATION": "هل أنت متأكد ، تريد التحقق من هذا؟"
+            }
+        }
+    },
+    "COMMONFIELD": {
+        "SELECT": "يختار"
+    },
+    "SARIE_STREAM_DEF": {
+        "SEARCH": {
+            "LABEL": "بحث تعريف تيار ساري",
+            "STREAM_ID": "معرف الدفق",
+            "SAMA_ID": "معرف مؤسسة النقد العربي السعودي",
+            "STATUS": "حالة"
+        },
+        "RESULT": {
+            "LABEL": "نتيجة البحث عن تعريف"
+        },
+        "DISPLAY": {
+            "QUEUE_SIZE": "حجم قائمة الانتظار",
+            "STREAM": "معرف الدفق",
+            "SAMA_ID": "معرف مؤسسة النقد العربي السعودي",
+            "STATUS": "حالة",
+            "COVERSATION_ID": "معرف المحادثة",
+            "SSN": "SSN",
+            "DIRECTION": "اتجاه"
+        }
+    },
+    "GRIDSTATUS": {
+        "ALL": "الجميع"
+    },
+    "OUT_BLK_PAY": {
+        "SRCH": "البحث عن المدفوعات المجمعة الصادرة",
+        "BANK_ID": "معرف البنك",
+        "CHANNEL_ID": "معرف القناة",
+        "INSTRUCTION_UUID": "UUID التعليمات",
+        "PRODUCT_ID": "معرف المنتج",
+        "SERVICE_ID": "معرف الخدمة",
+        "FILE_REFERNCE": "مصدر المعلومات",
+        "PSH_REFERNCE": "مرجع PSH",
+        "DEP": "قسم",
+        "TOTAL_AMOUNT": "المبلغ الإجمالي",
+        "PROCESS_DATE_RANGE": "نطاق تاريخ العملية",
+        "PROCESS_DATE": "تاريخ العملية",
+        "VALUE_DATE_RANGE": "النطاق الزمني للقيمة",
+        "VALUE_DATE": "تاريخ القيمة",
+        "STATUS": "حالة",
+        "STATUS_DCR": "وصف الحالة",
+        "DIR": "اتجاه",
+        "OUT": "خارج",
+        "IN": "في",
+        "RSLTS": "نتائج البحث عن المدفوعات الجماعية الصادرة",
+        "UTI": "UTI"
+    },
+    "OUT_TRN_ENQ": {
+        "SEARCH": {
+            "LABEL": "بحث الاستفسار عن المعاملات الصادرة",
+            "CHANNEL_ID": "معرف القناة",
+            "PRODUCT_ID": "معرف المنتج",
+            "SERVICE_ID": "معرف الخدمة",
+            "E2E_REF": "رمز العملية",
+            "PSH_REF": "مرجع PSH",
+            "BANK_REF": "مرجع البنك",
+            "EXT_REF": "UTI/مرجع خارجي",
+            "VALUE_DATE_FROM": "تاريخ القيمة من",
+            "VALUE_DATE_TO": "تاريخ القيمة إلى",
+            "STATUS": "حالة",
+            "TO_BANK": "إلى البنك",
+            "AMOUNT_RANGE": "نطاق المبلغ",
+            "FROM_AMOUNT": "من كمية",
+            "TO_AMOUNT": "لكمية",
+            "RELATED_REF": "المرجع ذات الصلة",
+            "ORD_CUST_ACNT": "طلب حساب العميل",
+            "BEF_CUST_ACNT": "حساب العميل المستفيد",
+            "PAYMENT_TYPE": "نوع الدفع"
+        },
+        "RESULT": {
+            "LABEL": "نتيجة بحث الاستفسار عن المعاملات الصادرة"
+        },
+        "DISPLAY": {
+            "LABEL": "تفاصيل الاستعلام عن المعاملات الصادرة",
+            "TAB_1": "1. الرسالة",
+            "TAB_2": "2. التفاصيل المحاسبية",
+            "TAB_3": "3. الأحداث و PSR",
+            "TAB_4": "4. معلومات إضافية",
+            "LABEL_TAB1": "رسالة",
+            "LABEL_TAB2": "تفاصيل المحاسبة",
+            "LABEL_TAB3": "الأحداث و PSR",
+            "LABEL_TAB4": "معلومة اضافية",
+            "BANK_ID": "معرف البنك",
+            "CHANNEL_ID": "معرف القناة",
+            "INSTRUCTION_UUID": "UUID التعليمات",
+            "PRODUCT_ID": "معرف المنتج",
+            "SERVICE_ID": "معرف الخدمة",
+            "PSH_REFERNCE": "مرجع PSH",
+            "TRN_AMOUNT": ": 32 أ: مبلغ الصفقة",
+            "DEBIT_DATE": "تاريخ الخصم",
+            "VALUE_DATE": ": 32 أ: تاريخ الاستحقاق",
+            "CUST_REF": "إشارة العملاء",
+            "CUST_NAME": "اسم الزبون",
+            "CUST_ACC_NO": ": 50 ك: طلب حساب الزبون",
+            "BEN_BANK_CODE": "المستفيد رمز البنك",
+            "BEN_CUST_NAME": ":59:/:58D: أسم المستفيد",
+            "BEN_BANK_ACC": ":59:/:58A: رقم حساب المستفيد",
+            "TO_BANK": "إلى البنك",
+            "EXT_REF": "UTI / مرجع خارجي",
+            "BANK_REF": "مرجع البنك",
+            "STATUS": "حالة",
+            "STATUS_DCR": "وصف الحالة",
+            "EVENT_ID": "معرف الحدث",
+            "PSR_ID": "معرف PSR",
+            "PSR_TIME": "PSR Date Time",
+            "EVENT_DCR": "وصف الحدث",
+            "TRANSACTION_REF": ": 20: مرجع المرسل",
+            "PSR_DCR": "وصف PSR",
+            "ACCOUNT_NUMBER": "رقم حساب",
+            "TRN_TIME": "تاريخ / وقت المعاملة",
+            "CURRENCY_CODE": ": 32 أ: العملة",
+            "CRDR_FLAG": "الائتمان / الخصم",
+            "LABEL_OUTPAY": "الدفع الصادر",
+            "LABEL_CUST_INFO": "طلب معلومات العميل",
+            "CUST_ADD1": ":50K:/:52D: طلب سطر عنوان العميل 1",
+            "CUST_ADD2": ":50K:/:52D: طلب سطر عنوان العميل 2",
+            "CUST_ADD3": ":50K:/:52D: طلب سطر عنوان العميل 3",
+            "CUST_INST_BIC": "مؤسسة العملاء BIC",
+            "NETWORK": "شبكة",
+            "LABEL_BEN_INFO": "معلومات المستفيد",
+            "BEN_ADD1": ":59:/:58D: عنوان المستفيد 1",
+            "BEN_ADD2": ":59:/:58D: عنوان المستفيد 2",
+            "BEN_ADD3": ":59:/:58D: عنوان المستفيد 3",
+            "LABEL_ACTUAL_INFO": "المعلومات الفعلية",
+            "DEP": "قسم",
+            "TRN_CCY": "رمز العملة",
+            "CHARGE": "الشحنة",
+            "VAT": "ضريبة القيمة المضافة",
+            "EX_RATE": "سعر الصرف",
+            "ACC_INST_BIC": ": 57A: حساب برمز معرّف المؤسسة",
+            "ACC_INST_ID": ": 57 أ: حساب مع معرف طرف المؤسسة",
+            "ACC_INST_DET1": ": 57 أ: حساب بعنوان المؤسسة 1",
+            "ACC_INST_DET2": ": 57 أ: حساب بعنوان المؤسسة 2",
+            "ACC_INST_DET3": ": 57 أ: حساب بعنوان المؤسسة 3",
+            "ACC_WITH_INST_ACC_NUM": ": 57A: /: 57C: /: 57D: حساب برقم حساب المؤسسة",
+            "ACC_WITH_INST_BIC": ": 57 أ: الحساب مع معرف طرف المؤسسة و BIC",
+            "ACC_WITH_INST_NAME": ": 57D: حساب باسم المؤسسة",
+            "ACC_WITH_INST_ADDR1": ": 57D: حساب بعنوان المؤسسة 1",
+            "ACC_WITH_INST_ADDR2": ": 57D: حساب بعنوان المؤسسة 2",
+            "ACC_WITH_INST_ADDR3": ": 57D: حساب بعنوان المؤسسة 3",
+            "PP": ": 77 ب: المعلومات التنظيمية - الغرض من الدفع",
+            "PAY_DET_1": ": 70: خط معلومات الحوالات 1",
+            "PAY_DET_2": ": 70: خط معلومات الحوالات 2",
+            "PAY_DET_3": ": 70: خط معلومات الحوالات 3",
+            "PAY_DET_4": ": 70: خط معلومات الحوالات 4",
+            "S2R_INFO_1": ": 72: سرد معلومات المرسل إلى المتلقي 1",
+            "S2R_INFO_2": ": 72: سرد معلومات المرسل إلى المتلقي 2",
+            "S2R_INFO_3": ": 72: سرد معلومات المرسل إلى المتلقي 3",
+            "S2R_INFO_4": ": 72: سرد معلومات المرسل إلى المتلقي 4",
+            "S2R_INFO_5": ": 72: سرد معلومات المرسل إلى المتلقي 5",
+            "S2R_INFO_6": ": 72: سرد معلومات المرسل إلى المتلقي 6",
+            "ADD_INFO_1": "معلومات إضافية 1",
+            "ADD_INFO_2": "معلومات إضافية 2",
+            "ADD_INFO_3": "معلومات إضافية 3",
+            "ADD_INFO_4": "معلومات إضافية 4",
+            "ESB_MESSAGE": "رسالة ESB",
+            "RES_STATUS": "حالة الاستجابة",
+            "FROM_BANK": "من البنك",
+            "RELATED_REF": "المرجع ذات الصلة",
+            "TRN_REF": "رمز العملية",
+            "VAL_DATE": "تاريخ القيمه",
+            "TR_AMOUNT": "قيمة التحويل",
+            "CREATED_ON": "تم إنشاؤها على"
+        }
+    },
+    "RTGS_BLK_ENQ": {
+        "SEARCH": {
+            "LABEL": "البحث عن جملة استفسارات حول RTGS",
+            "FROM_BANK": "من البنك",
+            "TO_BANK": "إلى البنك",
+            "DIRECTION": "اتجاه",
+            "PAYMENT_TYPE": "نوع الدفع",
+            "VALUE_DATE_FROM": "تاريخ القيمة من",
+            "VALUE_DATE_TO": "تاريخ القيمة إلى",
+            "STATUS": "حالة"
+        },
+        "RESULT": {
+            "LABEL": "نتيجة بحث RTGS بالجملة"
+        },
+        "DISPLAY": {
+            "UTI": "التهاب المسالك البولية",
+            "FROM_BANK": "من البنك",
+            "TO_BANK": "إلى البنك",
+            "VALUE_DATE": "تاريخ القيمة",
+            "STATUS": "حالة",
+            "STATUS_DCR": "وصف الحالة",
+            "TOTAL_AMOUNT": "المبلغ الإجمالي",
+            "TOTAL_TRN": "إجمالي عدد المعاملات",
+            "CREATED_ON": "تم إنشاؤها على"
+        }
+    },
+    "IN_TRN_ENQ": {
+        "SEARCH": {
+            "LABEL": "بحث الاستفسار عن المعاملات الواردة",
+            "CHANNEL_ID": "معرف القناة",
+            "PRODUCT_ID": "معرف المنتج",
+            "SERVICE_ID": "معرف الخدمة",
+            "E2E_REF": "رمز العملية",
+            "PSH_REF": "مرجع PSH",
+            "BANK_REF": "مرجع البنك",
+            "EXT_REF": "UTI / مرجع خارجي",
+            "VALUE_DATE_FROM": "تاريخ القيمة من",
+            "VALUE_DATE_TO": "تاريخ القيمة إلى",
+            "STATUS": "حالة",
+            "FROM_BANK": "من البنك",
+            "RELATED_REF": "المرجع ذات الصلة",
+            "ORDERING_CUST_ACC": "طلب حساب العميل",
+            "BEN_CUST_ACC": "حساب العميل المستفيد",
+            "AMOUNT_RANGE": "نطاق المبلغ",
+            "AMOUNT_RANGE_FROM": "المبلغ من",
+            "AMOUNT_RANGE_TO": "المبلغ إلى",
+            "PAYMENT_TYPE": "نوع الدفع"
+        },
+        "RESULT": {
+            "LABEL": "نتيجة بحث الاستفسار عن المعاملات الواردة"
+        },
+        "DISPLAY": {
+            "LABEL": "استعلام عن المعاملات الواردة",
+            "TAB_1": "1. الرسالة",
+            "TAB_2": "2. التفاصيل المحاسبية",
+            "TAB_3": "3. الأحداث و PSR",
+            "TAB_4": "4. معلومات إضافية",
+            "LABEL_TAB1": "رسالة",
+            "LABEL_TAB2": "تفاصيل المحاسبة",
+            "LABEL_TAB3": "الأحداث و PSR",
+            "LABEL_TAB4": "معلومات إضافية",
+            "BANK_ID": "معرف البنك",
+            "CHANNEL_ID": "معرف القناة",
+            "INSTRUCTION_UUID": "UUID التعليمات",
+            "PRODUCT_ID": "معرف المنتج",
+            "SERVICE_ID": "معرف الخدمة",
+            "PSH_REFERNCE": "مرجع PSH",
+            "TRN_AMOUNT": ": 32 أ: مبلغ الصفقة",
+            "DEBIT_DATE": "تاريخ الخصم",
+            "VALUE_DATE": ": 32 أ: تاريخ الاستحقاق",
+            "CUST_REF": "إشارة العملاء",
+            "CUST_NAME": ": 50 ك: طلب اسم العميل",
+            "CUST_ACC_NO": ": 50 ك: طلب حساب الزبون",
+            "BEN_BANK_CODE": "المستفيد رمز البنك",
+            "BEN_CUST_NAME": ": 59: اسم المستفيد",
+            "BEN_BANK_ACC": ": 59 رقم حساب المستفيد",
+            "TO_BANK": "إلى البنك",
+            "EXT_REF": "UTI / مرجع خارجي",
+            "BANK_REF": "مرجع البنك",
+            "STATUS": "حالة",
+            "STATUS_DCR": "وصف الحالة",
+            "EVENT_ID": "معرف الحدث",
+            "PSR_ID": "معرف PSR",
+            "PSR_TIME": "PSR Date Time",
+            "EVENT_DCR": "وصف الحدث",
+            "TRANSACTION_REF": "رمز العملية",
+            "PSR_DCR": "وصف PSR",
+            "ACCOUNT_NUMBER": "رقم حساب",
+            "TRN_TIME": "وقت المعاملة",
+            "CURRENCY_CODE": "رمز العملة",
+            "CRDR_FLAG": "الائتمان / الخصم",
+            "LABEL_OUTPAY": "دفع الواردة",
+            "LABEL_CUST_INFO": "طلب معلومات العميل",
+            "LABEL_RECIVED_INFO": "تم الاستلام و C / A الفعلي",
+            "CUST_ADD1": ": 50 ك: طلب عنوان العميل 1",
+            "CUST_ADD2": ": 50 ك: طلب عنوان العميل السطر 2",
+            "CUST_ADD3": ": 50 ك: طلب عنوان العميل السطر 3",
+            "CUST_INST_BIC": "مؤسسة العملاء BIC",
+            "NETWORK": "شبكة الاتصال",
+            "LABEL_BEN_INFO": "معلومات المستفيد",
+            "BEN_ADD1": ": 59: عنوان المستفيد 1",
+            "BEN_ADD2": ": 59: عنوان المستفيد 2",
+            "BEN_ADD3": ": 59: عنوان المستفيد 3",
+            "LABEL_ACTUAL_INFO": "معلومات الدفع",
+            "LABEL_ACT_INFO": "المعلومات الفعلية",
+            "DEP": "قسم",
+            "TRN_CCY": "رمز العملة",
+            "CHARGE": "تكلفة",
+            "VAT": "ضريبة القيمة المضافة",
+            "EX_RATE": "سعر الصرف",
+            "ACC_INST_BIC": ": 57A: حساب برمز معرّف المؤسسة",
+            "ACC_INST_ID": ": 57 أ: حساب مع معرف طرف المؤسسة",
+            "ACC_INST_DET1": ": 57 أ: حساب بعنوان المؤسسة 1",
+            "ACC_INST_DET2": ": 57 أ: حساب بعنوان المؤسسة 2",
+            "ACC_INST_DET3": ": 57 أ: حساب بعنوان المؤسسة 3",
+            "PP": ": 77 ب: المعلومات التنظيمية - الغرض من الدفع",
+            "PAY_DET_1": ": 70: خط معلومات الحوالات 1",
+            "PAY_DET_2": ": 70: خط معلومات الحوالات 2",
+            "PAY_DET_3": ": 70: خط معلومات الحوالات 3",
+            "PAY_DET_4": ": 70: خط معلومات الحوالات 4",
+            "S2R_INFO_1": ": 72: سرد معلومات المرسل إلى المتلقي 1",
+            "S2R_INFO_2": ": 72: سرد معلومات المرسل إلى المتلقي 2",
+            "S2R_INFO_3": ": 72: سرد معلومات المرسل إلى المتلقي 3",
+            "S2R_INFO_4": ": 72: سرد معلومات المرسل إلى المتلقي 4",
+            "S2R_INFO_5": ": 72: سرد معلومات المرسل إلى المتلقي 5",
+            "S2R_INFO_6": ": 72: سرد معلومات المرسل إلى المتلقي 6",
+            "ADD_INFO_1": "معلومات إضافية 1",
+            "ADD_INFO_2": "معلومات إضافية 2",
+            "ADD_INFO_3": "معلومات إضافية 3",
+            "ADD_INFO_4": "معلومات إضافية 4",
+            "ACT_ACC": "رقم الحساب الفعلي",
+            "RPR_CODE": "رمز سبب الإصلاح",
+            "RPR_DCR": "وصف",
+            "ACT_NAME": "الاسم الفعلي",
+            "ACT_ADD1": "العنوان 1",
+            "ACT_ADD2": "العنوان 2",
+            "ACT_ADD3": "العنوان 3",
+            "ACT_ADD4": "العنوان 4",
+            "NOTES": "ملحوظة",
+            "ESB_MESSAGE": "رسالة ESB",
+            "RES_STATUS": "حالة الاستجابة",
+            "FROM_BANK": "من البنك",
+            "ORDERING_CUST_ACC": "طلب حساب العميل",
+            "BEN_CUST_ACC": "حساب العميل المستفيد",
+            "RELATED_REF": "المرجع ذات الصلة",
+            "VAL_DATE": "تاريخ القيمه",
+            "TR_AMOUNT": "قيمة التحويل",
+            "CREATED_ON": "تم إنشاؤها على"
+        }
+    },
+    "SARIE_OUT_CST_PAY": {
+        "LABEL": "بحث دفع العميل الصادر",
+        "SEARCH": {
+            "LABEL": "نتائج بحث دفع العميل الصادرة",
+            "BIC": "BIC",
+            "PRODUCT_ID": "معرف المنتج",
+            "SERVICE_ID": "معرف الخدمة",
+            "EVENT_CODE": "رمز الحدث",
+            "STATUS": "الحالة"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "حذف مدفوعات العميل الصادرة",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد حذف هذا؟"
+            },
+            "VERIFY": {
+                "LABEL": "تحقق من مدفوعات العميل الصادرة",
+                "CONFIRMATION": "هل أنت متأكد ، تريد التحقق من هذا؟"
+            },
+            "CANCEL": {
+                "LABEL": "إلغاء مدفوعات العميل الصادرة",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد إلغاء هذا؟"
+            },
+            "REPAIR": {
+                "LABEL": "إصلاح مدفوعات العملاء الصادرة",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد إصلاح هذا؟",
+                "PLACEHOLDER": "الرجاء تحديد سبب الإصلاح"
+            }
+        },
+        "CREATE": {
+            "LABEL": "إنشاء مدفوعات العملاء الصادرة",
+            "BIC": "معرف البنك",
+            "CUST_REF": ": 20: مرجع المرسل",
+            "PAYMENT_MODE": "طريقة الدفع",
+            "PAYMENT_PRIORITY": "أولوية الدفع",
+            "CUR_CODE": ": 32 أ: العملة",
+            "VALUE_DATE": ": 32 أ: تاريخ الاستحقاق",
+            "AMOUNT": ": 32 أ: مبلغ الصفقة",
+            "SERVICE_NAME": "اسم الخدمة",
+            "ORDR_CST_BIC": "مؤسسة الطلب BIC",
+            "ORDR_CST_DET1": ": 50 ك: طلب عنوان العميل 1",
+            "ORDR_CST_DET2": ": 50 ك: طلب عنوان العميل السطر 2",
+            "ORDR_CST_DET3": ": 50 ك: طلب عنوان العميل السطر 3",
+            "ORDR_CST_NAME": ": 50 ك: طلب اسم العميل",
+            "ORDR_CST_ACCOUNT": ": 50 ك: طلب حساب الزبون",
+            "PAY_DET4": ": 70: خط معلومات الحوالات 4",
+            "PAY_DET3": ": 70: خط معلومات الحوالات 3",
+            "PAY_DET2": ": 70: خط معلومات الحوالات 2",
+            "PAY_DET1": ": 70: خط معلومات الحوالات 1",
+            "SENDER_2_REC_INFO1": ": 72: سرد معلومات المرسل إلى المتلقي 1",
+            "SENDER_2_REC_INFO2": ": 72: سرد معلومات المرسل إلى المتلقي 2",
+            "SENDER_2_REC_INFO3": ": 72: سرد معلومات المرسل إلى المتلقي 3",
+            "SENDER_2_REC_INFO4": ": 72: سرد معلومات المرسل إلى المتلقي 4",
+            "SENDER_2_REC_INFO5": ": 72: سرد معلومات المرسل إلى المتلقي 5",
+            "SENDER_2_REC_INFO6": ": 72: سرد معلومات المرسل إلى المتلقي 6",
+            "POP": ": 77 ب: المعلومات التنظيمية - الغرض من الدفع",
+            "OTHER_POP": "الغرض الآخر للدفع",
+            "BEN_ADD1": ": 59: عنوان المستفيد 1",
+            "BEN_ADD2": ": 59: عنوان المستفيد 2",
+            "BEN_ADD3": ": 59: عنوان المستفيد 3",
+            "BEN_NAME": ": 59: اسم المستفيد",
+            "BEN_ACCOUNT": ": 59: رقم حساب المستفيد",
+            "BEN_BIC": "المستفيد رمز البنك",
+            "ACCOUNT_WITH_INSTI_BIC": ": 57A: حساب برمز معرّف المؤسسة",
+            "ACCOUNT_WITH_INSTI_ID": ": 57 أ: حساب مع معرف طرف المؤسسة",
+            "ACCOUNT_WITH_INSTI_DET1": ": 57 أ: حساب بعنوان المؤسسة 1",
+            "ACCOUNT_WITH_INSTI_DET2": ": 57 أ: حساب بعنوان المؤسسة 2",
+            "ACCOUNT_WITH_INSTI_DET3": ": 57 أ: حساب بعنوان المؤسسة 3",
+            "57A_ACCOUNT_WITH_INSTI_ACC_NUM": ": 57 أ: حساب برقم حساب المؤسسة",
+            "57A_ACCOUNT_WITH_INSTI_PARTY_BIC": ": 57A: الحساب مع معرف طرف المؤسسة و BIC",
+            "57D_ACCOUNT_WITH_INSTI_ACC_NUM": ": 57D: حساب برقم حساب المؤسسة",
+            "57D_ACCOUNT_WITH_INSTI_NAME": ": 57D: حساب باسم المؤسسة",
+            "57D_ACCOUNT_WITH_INSTI_ADD1": ": 57D: حساب بعنوان المؤسسة 1",
+            "57D_ACCOUNT_WITH_INSTI_ADD2": ": 57D: حساب بعنوان المؤسسة 2",
+            "57D_ACCOUNT_WITH_INSTI_ADD3": ": 57D: حساب بعنوان المؤسسة 3",
+            "57A_TITLE": ": 57 أ:",
+            "57D_TITLE": ": 57 د:",
+            "57C_TITLE": ": 57 ج:",
+            "57C_ACCOUNT_WITH_INSTI_ACC_NUM": ": 57C: حساب برقم حساب المؤسسة",
+            "SERVICE_ID": "معرف الخدمة"
+        },
+        "VERIFY": {
+            "LABEL": "التحقق من دفع العميل الصادر"
+        },
+        "UPDATE": "تحديث مدفوعات العميل الصادر",
+        "BUTTON": {
+            "HIGH": "عالٍ",
+            "LOW": "قليل"
+        }
+    },
+    "INTERBK_PAY": {
+        "LABEL": "البحث عن الدفع بين البنوك",
+        "SEARCH": {
+            "LABEL": "نتائج البحث عن الدفع بين البنوك",
+            "ACC_NO": "رقم الحساب",
+            "TO_BANK": "إلى البنك",
+            "FROM_DEP": "من القسم",
+            "UTI": "UTI",
+            "STATUS": {
+                "CANCELL": "الغاء"
+            },
+            "AMOUNT": "مبلغ",
+            "TRANS_REF": "مرجع الحركة",
+            "DATE_RANGE": "نطاق التاريخ",
+            "SORT_BY": "الفرز حسب",
+            "VALUE_DATE": "تاريخ القيمة"
+        },
+        "DISPLAY": {
+            "LABEL": "نتائج بحث الدفع بين البنوك",
+            "ACC_NO": "رقم حساب",
+            "TO_BANK": "إلى البنك",
+            "FROM_DEP": "من القسم",
+            "UTI": "التهاب المسالك البولية",
+            "AMOUNT": "مقدار",
+            "TRANS_REF": "رمز العملية",
+            "DATE_RANGE": "نطاق الموعد",
+            "STATUS": "حالة",
+            "VALUE_DATE": "تاريخ القيمة",
+            "POST_DATE": "تاريخ آخر",
+            "REPAIR_REASON": "سبب الإصلاح"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "حذف الدفع بين البنوك",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد حذف هذا؟"
+            },
+            "VERIFY": {
+                "LABEL": "تحقق من الدفع بين البنوك",
+                "CONFIRMATION": "هل أنت متأكد ، تريد التحقق من هذا؟"
+            },
+            "CANCEL": {
+                "LABEL": "إلغاء الدفع بين البنوك",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد إلغاء هذا؟"
+            },
+            "REPAIR": {
+                "LABEL": "إصلاح الدفع بين البنوك",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد إصلاح هذا؟",
+                "PLACEHOLDER": "الرجاء تحديد سبب الإصلاح"
+            }
+        },
+        "CREATE": {
+            "LABEL": "إنشاء الدفع بين البنوك",
+            "BIC": "معرف البنك المستفيد",
+            "CUST_REF": ": 20: مرجع المرسل",
+            "RELATED_REF": ": 21: مرجع ذو صلة",
+            "PAYMENT_MODE": "طريقة الدفع",
+            "CUR_CODE": "رمز العملة",
+            "VALUE_DATE": ": 32 أ: تاريخ الاستحقاق",
+            "AMOUNT": ": 32 أ: مبلغ الصفقة",
+            "SERVICE_NAME": "اسم الخدمة",
+            "ORDR_IST_BIC": ": 52 أ: مؤسسة الطلب BIC",
+            "ORDR_IST_DET1": ": 52 د: طلب سطر عنوان العميل 1",
+            "ORDR_IST_DET2": ": 52 د: طلب عنوان العميل السطر 2",
+            "ORDR_IST_DET3": ": 52 د: طلب عنوان العميل السطر 3",
+            "ORDR_IST_NAME": ": 52 د: طلب اسم العميل",
+            "ORDR_IST_ACCOUNT": "رقم حساب الخصم",
+            "SENDER_2_REC_INFO1": ": 72: سرد معلومات المرسل إلى المتلقي 1",
+            "SENDER_2_REC_INFO2": ": 72: سرد معلومات المرسل إلى المتلقي 2",
+            "SENDER_2_REC_INFO3": ": 72: سرد معلومات المرسل إلى المتلقي 3",
+            "SENDER_2_REC_INFO4": ": 72: سرد معلومات المرسل إلى المتلقي 4",
+            "SENDER_2_REC_INFO5": ": 72: سرد معلومات المرسل إلى المتلقي 5",
+            "SENDER_2_REC_INFO6": ": 72: سرد معلومات المرسل إلى المتلقي 6",
+            "BEN_ADD1": ": 58 د: اسم المؤسسة المستفيدة",
+            "BEN_ADD2": ": 58 د: عنوان المؤسسة المستفيدة 1",
+            "BEN_ADD3": ": 58 د: عنوان المؤسسة المستفيدة 2",
+            "BEN_ADD4": ": 58 د: عنوان المؤسسة المستفيدة 3",
+            "BEN_BANK_CODE": "المستفيد اسم البنك",
+            "BEN_ACCOUNT": ": 58 أ: معرف الطرف (حساب المستفيد)",
+            "BEN_BIC": ": 58A: كود المعرف (مؤسسة المستفيد BIC)",
+            "ACCOUNT_WITH_INSTI_BIC": ": 57A: حساب برمز معرّف المؤسسة",
+            "ACCOUNT_WITH_INSTI_ID": "حساب مع معرف المؤسسة",
+            "ACCOUNT_WITH_INSTI_DET1": ": 57 أ: حساب بعنوان المؤسسة 1",
+            "ACCOUNT_WITH_INSTI_DET2": ": 57 أ: حساب بعنوان المؤسسة 2",
+            "ACCOUNT_WITH_INSTI_DET3": ": 57 أ: حساب بعنوان المؤسسة 3",
+            "BEN_ACC_NUM": ": 58 أ: معرف الطرف (حساب المستفيد)",
+            "57A": ":57A:",
+            "57D": ":57D:",
+            "ACCOUNT_WITH_INSTI_AC_A": ": 57 أ: حساب برقم حساب المؤسسة",
+            "ACCOUNT_WITH_INSTI_I_BIC": ": 57A: الحساب مع معرف طرف المؤسسة و BIC",
+            "ACCOUNT_WITH_INSTI_AC_D": ": 57D: حساب برقم حساب المؤسسة",
+            "ACCOUNT_WITH_INSTI_NAME": "57D: حساب باسم المؤسسة",
+            "ACCOUNT_WITH_INSTI_ADD1": "57 د: حساب بعنوان المؤسسة 1",
+            "ACCOUNT_WITH_INSTI_ADD2": "57 د: حساب بعنوان المؤسسة 2",
+            "ACCOUNT_WITH_INSTI_ADD3": "57 د: حساب بعنوان المؤسسة 3",
+            "PAYMENT_PRIORITY": "أولوية الدفع",
+            "SERVICE_ID": "معرف الخدمة"
+        },
+        "VERIFY": {
+            "LABEL": "التحقق من الدفع بين البنوك"
+        },
+        "UPDATE": "تحديث الدفع بين البنوك",
+        "BUTTON": {
+            "HIGH": "عالٍ",
+            "LOW": "قليل"
+        },
+        "VALIDATION_MESSAGE": {
+            "PSH_021": "يجب ألا يكون رمز BIC للمستفيد وحساب المستفيد أو اسم المستفيد فارغًا.",
+            "PSH_022": "يجب ألا يكون اسم المستفيد وأيًا من رمز BIC المستفيد أو عنوان المستفيد فارغًا.",
+            "PSH_024": "يجب ألا يكون BIC المؤسسة المستفيدة فارغًا.",
+            "PSH_023": "يجب ألا يكون عنوان المستفيد فارغًا."
+        }
+    },
+    "SADAD": {
+        "BANK_ID": "معرف البنك",
+        "BILLER_ID": "معرف الفاتورة",
+        "CHANNEL_ID": "معرف القناة",
+        "INSTRUCTION_UUID": "UUID التعليمات",
+        "SADAD_PAY_ID": "معرف سداد سداد",
+        "SERVICE_ID": "معرف الخدمة",
+        "TRANSACTION_AMNT": "قيمة التحويل",
+        "BANK_REF": "مرجع البنك",
+        "ORDERING_CUST_NAME": "طلب اسم العميل",
+        "ORDERING_CUST_ACCNT": "طلب حساب العميل",
+        "DEP": "قسم",
+        "PRODUCT_ID": "معرف المنتج",
+        "CURRENCY_CODE": "رمز العملة",
+        "BENEFICIARY_CUST_ACCNT": "حساب العميل المستفيد",
+        "BENEFICIARY_CUST_NAME": "اسم العميل المستفيد",
+        "STATUS": "حالة",
+        "VALUE_DATE": "تاريخ القيمه",
+        "DEBIT_DATE": "تاريخ الخصم",
+        "SADAD": "بحث عن سداد",
+        "SADAD_BILL": "سداد بيل",
+        "MOI": "وزارة الداخلية",
+        "SRCH_RSLT": "نتائج بحث سداد",
+        "BILLINGACC": "حساب الفواتير",
+        "DATE_RANGE": "نطاق الموعد",
+        "NATIONAL_ID": "رقم الهوية الوطنية / هوية الإقامة / رقم السجل التجاري",
+        "UNIQUE_ID": "هوية مميزة",
+        "FORM": {
+            "BILLER_NAME": "اسم المفوتر",
+            "DUE_AMOUNT": "مبلغ مستحق",
+            "DEBIT_ACCOUNT_NUMBER": "رقم حساب الخصم",
+            "PAYMENT_NARRATIVE": "سرد الدفع",
+            "BILLER_REFERENCE_NUMBER": "الرقم المرجعي للفاتورة",
+            "DEBIT_REFERENCE_NUMBER": "الرقم المرجعي للخصم",
+            "CREATED_DATE": "تاريخ الإنشاء",
+            "PAID_AMOUNT": "المبلغ المدفوع",
+            "REFERENCE_NUMBER": "رقم المرجع",
+            "STATUS": "حالة",
+            "STATUS_DESCRIPTION": "وصف الحالة",
+            "TRANSACTION_ID": "رقم المعاملة",
+            "PRODUCT_TYPE": "نوع الدفع",
+            "BILLER_ID": "معرف الفاتورة",
+            "FILE_PATH": "مسار الملف",
+            "CHOOSE_FILE": "اختر ملف",
+            "FILE_NAME": "اسم الملف",
+            "MESSAGE": "رسالة",
+            "PAYMENT_TYPE": "نوع الدفع",
+            "BANK_REF": "مرجع البنك",
+            "CUST_REF": "إشارة العملاء",
+            "ODR_CUS_ACC": "طلب حساب العميل",
+            "CHANNEL_ID": "معرف القناة",
+            "BILLING_ACC": "حساب الفواتير",
+            "ODR_CUS_NAME": "طلب اسم العميل",
+            "BEN_CUST_ACC": "حساب العميل المستفيد",
+            "BEN_CUST_NAME": "اسم العميل المستفيد",
+            "CURR_CODE": "رمز العملة",
+            "PRODUCT_ID": "معرف المنتج",
+            "SERVICE_ID": "معرف الخدمة",
+            "INSTRUCTUIION_UUID": "UUID التعليمات",
+            "SADAD_PAYMENT_ID": "معرف سداد",
+            "BANK_REFERNCE": "مرجع البنك",
+            "TRANSACTION_AMOUNT": "قيمة التحويل",
+            "BILLINGACC": "حساب الفواتير",
+            "BILL_NUMBER": "رقم الفاتوره",
+            "MOI_SER_CODE": "كود خدمة وزارة الداخلية",
+            "MOI_BEN_ID": "معرف وزارة الداخلية المستفيد",
+            "SADAD_PAY_METHOD": "طريقة سداد سداد"
+        },
+        "DETAILS": {
+            "LABEL": "تفاصيل سداد",
+            "TAB_1": "1. الرسالة",
+            "TAB_2": "2. التفاصيل المحاسبية",
+            "TAB_3": "3. الأحداث و PSR",
+            "TAB_4": "4. معلومات إضافية",
+            "LABEL_TAB1": "رسالة",
+            "LABEL_TAB2": "تفاصيل المحاسبة",
+            "LABEL_TAB3": "الأحداث و PSR",
+            "LABEL_TAB4": "معلومة اضافية",
+            "SADAD_TRN": "سداد سداد",
+            "EVENT_ID": "معرف الحدث",
+            "PSR_ID": "معرف PSR",
+            "PSR_TIME": "PSR Date Time",
+            "EVENT_DCR": "وصف الحدث",
+            "PSR_DCR": "وصف PSR",
+            "RES_STATUS": "حالة الاستجابة",
+            "ESB_MESSAGE": "رسالة ESB"
+        }
+    },
+    "RECONCILATION": {
+        "RECONCILATION": "بحث التسوية",
+        "ID": "رقم الاستمارة",
+        "SRCH_RSLT": "نتائج بحث التسوية",
+        "PROCESS_DATE": "تاريخ التسوية",
+        "TOTAL_RECORDS": "إجمالي السجلات",
+        "FINAL_REPORT_FILE_PATH": "التقرير الأخير",
+        "SUBMITTED_REPORT_FILE_PATH": "تقرير مقدم",
+        "RECONCILATION_TYPE": "نوع التسوية",
+        "FAILED_RECORDS": "السجلات الفاشلة",
+        "STATUS": "حالة",
+        "REQUEST": "طلب",
+        "RESPONSE": "إجابة"
+    },
+    "RECONCILATION_DIFFERENCE": {
+        "RECON_SEARCH": "البحث عن فرق التسوية",
+        "RECON_SEARCH_RESULT": "نتيجة بحث اختلاف التسوية",
+        "RECON_TYPE": "نوع التسوية",
+        "EXTN_AMOUNT": "مبلغ التقرير",
+        "RECON_DATE": "تاريخ التسوية",
+        "EXTERNAL_REF": "مرجع خارجي",
+        "VALUE_DATE": "تاريخ القيمه",
+        "DIRECTION": "اتجاه",
+        "CUR_CODE": "رمز العملة",
+        "PSH_AMOUNT": "مبلغ Psh",
+        "STATUS": "حالة",
+        "RECON_STATUS": "حالة المصالحة",
+        "TODAY_UNRECONCILED": "لم تتم المصالحة اليوم",
+        "YESTERDAY_UNRECONCILED": "أمس لم تتم المصالحة",
+        "TOTAL_UNRECONCILED": "لم تتم تسويتها حتى الآن",
+        "HEAD": "فرق التصالح"
+    },
+    "RECONCILIATION_DETAIL": {
+        "RECONDET": "تفاصيل المصالحة",
+        "HEADER_ID": "معرف الرأس",
+        "RECORD_ID": "معرف التسجيل",
+        "BANK_TRAN_REF": "مرجع المعاملات المصرفية",
+        "SRCH_RSLT": "نتائج البحث عن تفاصيل التسوية",
+        "CUST_TRAN_REF": "مرجع معاملة العميل",
+        "SAMA_TRAN_REF": "مرجع معاملات مؤسسة النقد العربي السعودي",
+        "BANK_REV_REF": "مرجع عكس البنك",
+        "SAMA_STATUIS": "حالة مؤسسة النقد العربي السعودي",
+        "AMOUNT": "كمية",
+        "DEBIT_ACC": "حساب مدين",
+        "CREDIT_ACC": "حساب الائتمان",
+        "SERVICE_TYPE": "نوع الخدمة",
+        "STATUS": "حالة"
+    },
+    "TCP_IP_DEF": {
+        "SEARCH": {
+            "LABEL": "بحث تعريف TCP/IP",
+            "CONNECTION_ID": "معرف الاتصال",
+            "CONNECTION_NAME": "اسم الاتصال",
+            "STATUS": "حالة"
+        },
+        "RESULT": {
+            "LABEL": "نتيجة البحث عن تعريف TCP/IP"
+        },
+        "CREATE": {
+            "LABEL": "قم بإنشاء تعريف TCP/IP",
+            "CONNECTION_ID": "معرف الاتصال",
+            "CONNECTION_NAME": "اسم الاتصال",
+            "CONNECTION_TYPE": "نوع الاتصال",
+            "DIRECTION": "اتجاه",
+            "IP_ADDRESS": "عنوان IP",
+            "PORT": "ميناء"
+        },
+        "UPDATE": {
+            "LABEL": "تحديث تعريف TCP/IP",
+            "CONNECTION_ID": "معرف الاتصال",
+            "CONNECTION_NAME": "اسم الاتصال",
+            "CONNECTION_TYPE": "نوع الاتصال",
+            "DIRECTION": "اتجاه",
+            "IP_ADDRESS": "عنوان IP",
+            "PORT": "ميناء",
+            "STATUS": "حالة"
+        },
+        "VERIFY": {
+            "LABEL": "تحقق من تعريف TCP/IP",
+            "OLD_RECORD_LABEL": "سجل موجود",
+            "NEW_RECORD_LABEL": "سجل محدث",
+            "CONNECTION_ID": "معرف الاتصال",
+            "CONNECTION_NAME": "اسم الاتصال",
+            "CONNECTION_TYPE": "نوع الاتصال",
+            "DIRECTION": "اتجاه",
+            "IP_ADDRESS": "عنوان IP",
+            "PORT": "ميناء",
+            "STATUS": "حالة"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "حذف تعريف TCP/IP",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد حذف هذا؟"
+            },
+            "VERIFY": {
+                "LABEL": "تحقق من تعريف TCP/IP",
+                "CONFIRMATION": "هل أنت متأكد ، تريد التحقق من هذا؟"
+            },
+            "REJECT": {
+                "LABEL": "رفض تعريف TCP/IP",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد رفض هذا؟"
+            }
+        },
+        "BUTTON": {
+            "SERVER": "الخادم",
+            "CLIENT": "عميل",
+            "INCOMING": "واردة",
+            "OUTGOING": "منفتح"
+        }
+    },
+    "EVENT_CODE": {
+        "LABEL": "البحث عن تعريف رمز الحدث",
+        "SEARCH": {
+            "LABEL": "نتائج البحث عن تعريف رمز الحدث",
+            "BIC": "رمز BIC",
+            "PRODUCT_ID": "معرف المنتج",
+            "SERVICE_ID": "معرف الخدمة",
+            "EVENT_CODE": "كود الحدث",
+            "STATUS": "حالة"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "حذف تعريف رمز الحدث",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد حذف هذا؟"
+            },
+            "VERIFY": {
+                "LABEL": "تحقق من تعريف رمز الحدث",
+                "CONFIRMATION": "هل أنت متأكد ، تريد التحقق من هذا؟"
+            },
+            "REJECT": {
+                "LABEL": "رفض تعريف رمز الحدث",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد رفض هذا؟"
+            }
+        },
+        "CREATE": {
+            "LABEL": "إنشاء تعريف رمز الحدث",
+            "BIC": "رمز BIC",
+            "PRODUCT_ID": "معرف المنتج",
+            "SERVICE_ID": "معرف الخدمة",
+            "EVENT_CODE": "كود الحدث",
+            "EXTERNAL_SERVICE": "الخدمة الخارجية",
+            "EVENT_SHORT_NAME": "الاسم المختصر للحدث",
+            "SERVICE_NAME": "اسم الخدمة",
+            "LOGO": {
+                "LABEL": "شعار",
+                "PLACE_HOLDER": "اختر ملف",
+                "BUTTON": "استعراض الملف"
+            },
+            "STATUS": "الحالة"
+        },
+        "VERIFY": {
+            "LABEL": "تحقق من تعريف رمز الحدث"
+        },
+        "UPDATE": "تحديث تعريف رمز الحدث"
+    },
+    "SECUSER": {
+        "LABEL": "نتائج البحث عن تفاصيل المستخدم الخاصة بالأمان",
+        "SELECT": "يختار",
+        "SEARCH": {
+            "LABEL": "بحث تفاصيل مستخدم الأمان",
+            "USER_ID": "معرف المستخدم",
+            "USER_NAME": "اسم االمستخدم",
+            "USER_TYPE": {
+                "LABEL": "نوع المستخدم",
+                "BANK": "بنك",
+                "CORPORATE": "شركة كبرى",
+                "SELECT": "يختار"
+            },
+            "STATUS": {
+                "LABEL": "حالة",
+                "PROCESSD": "ما زال يحتاج بتصدير",
+                "DELETE": "تم الحذف",
+                "VERIFIED": "وافق"
+            }
+        },
+        "CREATE": {
+            "LABEL": "إنشاء مستخدم أمان",
+            "USER_ID": "معرف المستخدم",
+            "USER_NAME": "اسم االمستخدم",
+            "BANK_ID": "معرف البنك",
+            "EMAIL_ID": "عنوان الايميل",
+            "MOBILE_NO": "رقم الهاتف المحمول",
+            "USER_TYPE": {
+                "LABEL": "نوع المستخدم",
+                "ADMIN": "مسؤل",
+                "GENERAL": "عام"
+            },
+            "USER_GROUP": "مجموعة المستخدمين",
+            "DEPARTMENT": "قسم",
+            "PASSWORD": "كلمه السر",
+            "CONFIRMPWD": "تأكيد كلمة المرور"
+        },
+        "DISPLAY": {
+            "LABEL": "تسجيل المستخدم",
+            "USER_ID": "معرف المستخدم",
+            "USER_NAME": "اسم االمستخدم",
+            "BANK_ID": "معرف البنك",
+            "GROUP_ID": "معرف مجموعة",
+            "GROUP_NAME": "أسم المجموعة",
+            "EMAIL_ID": "عنوان الايميل",
+            "CELL_PHONE": "رقم الهاتف المحمول",
+            "STATUS": "الحالة",
+            "USER_TYPE": {
+                "LABEL": "نوع المستخدم",
+                "ADMIN": "مسؤل",
+                "GENERAL": "عام"
+            },
+            "USER_GROUP": "مجموعة المستخدمين",
+            "DEPARTMENT": "قسم",
+            "PASSWORD": "كلمه السر",
+            "CONFIRMPWD": "تأكيد كلمة المرور"
+        },
+        "UPDATE": {
+            "LABEL": "تحديث مستخدم الأمان"
+        },
+        "VERIFY": {
+            "LABEL": "تحقق من مستخدم الأمان"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "حذف مستخدم الأمان",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد حذف هذا؟"
+            },
+            "VERIFY": {
+                "LABEL": "تحقق من مستخدم الأمان",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد التحقق من هذا؟"
+            }
+        }
+    },
+    "SECURITY_USR_LOG": {
+        "SEARCH": {
+            "LABEL": "البحث في سجل مستخدم الأمان",
+            "USER_ID": "معرف المستخدم",
+            "IP_ADDRESS": "عنوان IP",
+            "STATUS": "حالة",
+            "DATE_RANGE": "نطاق الموعد"
+        },
+        "RESULT": {
+            "LABEL": "نتائج البحث في سجل مستخدم الأمان"
+        },
+        "BUTTON": {
+            "PDF": "بي دي إف",
+            "EXCEL": "اكسل"
+        },
+        "TABLE": {
+            "USER_ID": "معرف المستخدم",
+            "LOG_TIME": "تسجيل التاريخ / الوقت",
+            "REASON": "سبب",
+            "LOG_STATUS": "حالة السجل",
+            "SYSTEM_DATE": "تاريخ النظام",
+            "IP_ADDRESS": "عنوان IP"
+        }
+    },
+    "DASHBOARD": {
+        "LABEL": {
+            "CREATE_BENEFICIARY_STANDARD_INSTRUCTION": "إنشاء تعليمات دائمة للمستفيد",
+            "BENEFICIARY_STANDING_INC_SEARCH": "بحث عن التعليمات الدائمة للمستفيد",
+            "BENEFICIARY_STANDING_INC_SEARCH_RESULT": "نتيجة بحث التعليمات الدائمة للمستفيد"
+        },
+        "TABS": {
+            "TODAY": "اليوم",
+            "FORECAST": "تنبؤ بالمناخ"
+        },
+        "RESULT": {
+            "LABEL": "لوحة القيادة",
+            "FORECAST": "تنبؤ بالمناخ"
+        },
+        "SEARCH": {},
+        "DETAILS": {
+            "CURRENCY": "عملة",
+            "SYSTEM_OR_BIC": "النظام / BIC",
+            "OUTGOING": "منفتح",
+            "INCOMING": "واردة",
+            "NET_POSITION": "صافي الموقف",
+            "ACTUAL_LIMIT": "الحد الفعلي",
+            "LAST_TIME_UPDATE": "آخر تحديث للوقت",
+            "OPENING_BALANCE": "الرصيد الافتتاحي",
+            "FORWARD_BALANCE": "الرصيد الآجل",
+            "CLOSING_BALANCE": "الرصيد الختامي"
+        },
+        "MODALDELETE": {
+            "HEADER": "حذف التعليمات الدائمة",
+            "BODY": {
+                "SURE_DELETE_MESSAGE": "هل أنت متأكد أنك تريد حذف ؟",
+                "REASON": "يرجى تحديد السبب"
+            }
+        },
+        "MODALVERIFY": {
+            "HEADER": "تحقق من التعليمات الدائمة",
+            "BODY": {
+                "SURE_VERIFY_MESSAGE": "هل أنت متأكد ، تريد التحقق؟"
+            }
+        },
+        "MODALREJECT": {
+            "HEADER": "رفض التعليمات الدائمة",
+            "BODY": {
+                "SURE_REJECT_MESSAGE": "هل أنت متأكد أنك تريد الرفض؟",
+                "REASON": "يرجى تحديد السبب"
+            }
+        }
+    },
+    "SECURITY_GROUP": {
+        "SEARCH": {
+            "LABEL": "بحث مجموعة الأمان",
+            "GROUP_ID": "معرف مجموعة",
+            "GROUP_NAME": "أسم المجموعة",
+            "GROUP_TYPE": "نوع المجموعة",
+            "GROUP_STATUS": "حالة المجموعة"
+        },
+        "RESULT": {
+            "LABEL": "نتيجة بحث مجموعة الأمان"
+        },
+        "CREATE": {
+            "LABEL": "إنشاء مجموعة الأمان",
+            "GROUP_ID": "معرف مجموعة",
+            "GROUP_NAME": "أسم المجموعة",
+            "HOME_SCREEN": "الشاشة الرئيسية",
+            "GROUP_TYPE": "نوع المجموعة",
+            "SELECT": "يختار",
+            "STATUS": "الحالة",
+            "HOME_URL": "عنوان Url الصفحة الرئيسية"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "حذف مجموعة الأمان",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد حذف هذا؟"
+            },
+            "VERIFY": {
+                "LABEL": "تحقق من مجموعة الأمان",
+                "CONFIRMATION": "هل أنت متأكد ، تريد التحقق من هذا؟"
+            },
+            "REJECT": {
+                "LABEL": "رفض مجموعة الأمان",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد رفض هذا؟"
+            }
+        },
+        "UPDATE": {
+            "LABEL": "تحديث مجموعة الأمان"
+        },
+        "VERIFY": {
+            "LABEL": "تحقق من مجموعة الأمان"
+        },
+        "BUTTON": {
+            "BANK": "بنك",
+            "CORPORATE": "شركة كبرى"
+        }
+    },
+    "CURRENCY-SPREAD": {
+        "LABEL": "نتائج بحث فروق العملات",
+        "SELECT": "يختار",
+        "SEARCH": {
+            "LABEL": "بحث انتشار العملات",
+            "CLIENT_ID": "معرف العميل",
+            "CHANNEL_ID": "معرف القناة",
+            "STATUS": {
+                "LABEL": "حالة",
+                "PROCESSD": "ما زال يحتاج بتصدير",
+                "DELETE": "حذف الموافقة",
+                "VERIFIED": "وافق"
+            }
+        },
+        "UPDATE": {
+            "LABEL": "تحديث انتشار العملة",
+            "CLIENT_ID": "معرف العميل",
+            "CHANNEL_ID": "معرف القناة",
+            "CURRENCY_CODE": "رمز العملة",
+            "BUY_SPREAD": "شراء سبريد",
+            "SELL_SPREAD": "بيع السبريد",
+            "EXPIRY_DATE": "تاريخ الانتهاء",
+            "STATUS": "الحالة"
+        },
+        "CREATE": {
+            "LABEL": "إنشاء فروق أسعار العملات"
+        },
+        "VERIFY": {
+            "LABEL": "تحقق من انتشار العملة",
+            "CONFIRMATION": "هل أنت متأكد أنك تريد التحقق من هذا"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "حذف فروق العملة",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد حذف هذا؟"
+            },
+            "VERIFY": {
+                "LABEL": "تحقق من انتشار العملة",
+                "CONFIRMATION": "هل أنت متأكد ، تريد التحقق من هذا؟"
+            },
+            "REJECT": {
+                "LABEL": "رفض فروق العملة",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد رفض هذا؟"
+            }
+        }
+    },
+    "CHANNEL_DEF": {
+        "SEARCH": {
+            "LABEL": "البحث عن تعريف القناة",
+            "BANK_ID": "معرف البنك",
+            "CHANNEL_ID": "معرف القناة",
+            "STATUS": "حالة"
+        },
+        "RESULT": {
+            "LABEL": "نتيجة البحث عن تعريف القناة"
+        },
+        "CREATE": {
+            "LABEL": "إنشاء تعريف القناة",
+            "BANK_ID": "معرف البنك",
+            "CHANNEL_ID": "معرف القناة",
+            "CHANNEL_NAME": "اسم القناة"
+        },
+        "UPDATE": {
+            "LABEL": "تحديث تعريف القناة",
+            "BANK_ID": "معرف البنك",
+            "CHANNEL_ID": "معرف القناة",
+            "CHANNEL_NAME": "اسم القناة",
+            "STATUS": "حالة"
+        },
+        "VERIFY": {
+            "LABEL": "تحقق من تعريف القناة",
+            "OLD_RECORD_LABEL": "سجل موجود",
+            "NEW_RECORD_LABEL": "سجل محدث",
+            "BANK_ID": "معرف البنك",
+            "CHANNEL_ID": "معرف القناة",
+            "CHANNEL_NAME": "اسم القناة",
+            "STATUS": "حالة"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "حذف تعريف القناة",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد حذف هذا؟"
+            },
+            "VERIFY": {
+                "LABEL": "تحقق من تعريف القناة",
+                "CONFIRMATION": "هل أنت متأكد ، تريد التحقق من هذا؟"
+            },
+            "REJECT": {
+                "LABEL": "رفض تعريف القناة",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد رفض هذا؟"
+            }
+        }
+    },
+    "SCREEN_PERMISSION": {
+        "SEARCH": {
+            "LABEL": "بحث إذن الشاشة",
+            "GROUP": "مجموعة"
+        },
+        "RESULT": {
+            "LABEL": "نتيجة البحث عن إذن الشاشة"
+        },
+        "BUTTON": {
+            "SAVE_ACCESS": "حفظ الوصول",
+            "NEW_GROUP": "مجموعة جديدة"
+        },
+        "TABLE": {
+            "SCREEN_NAME": "الاسم الذي سيظهر",
+            "CREATE": "خلق",
+            "MODIFY": "تعديل",
+            "DELETE": "حذف",
+            "DISPLAY": "عرض",
+            "VERIFY": "تحقق"
+        }
+    },
+    "NWDEFN_DETAIL": {
+        "SEARCH": {
+            "LABEL": "بحث تعريف الشبكة",
+            "BANK_ID": "معرف البنك",
+            "SERVICE": "خدمة",
+            "ADAPTER_TYPE": "نوع المحول",
+            "STATUS": "حالة"
+        },
+        "CREATE": {
+            "LABEL": "إنشاء تعريف الشبكة",
+            "BANK_ID": "معرف البنك",
+            "NETWORK_ID": "عنوان الشبكة",
+            "SERVICE": "خدمة",
+            "ADAPTER_TYPE": "نوع المحول",
+            "PROTOCOL": "بروتوكول",
+            "ADAPTER_ID": "معرف المحول",
+            "TEMPLATE_ID": "معرف النموذج",
+            "CONNECTION_ID": "معرف الاتصال",
+            "STATUS": "حالة"
+        },
+        "VERIFY": {
+            "LABEL": "تحقق من تعريف الشبكة"
+        },
+        "UPDATE": {
+            "LABEL": "تحديث تعريف الشبكة"
+        },
+        "RESULT": {
+            "LABEL": "نتيجة البحث عن تعريف الشبكة"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "حذف تعريف الشبكة",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد حذف هذا؟"
+            },
+            "VERIFY": {
+                "LABEL": "تحقق من تعريف الشبكة",
+                "CONFIRMATION": "هل أنت متأكد ، تريد التحقق من هذا؟"
+            },
+            "REJECT": {
+                "LABEL": "رفض تعريف الشبكة",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد رفض هذا؟"
+            }
+        }
+    },
+    "WORKFLOW_SEARCH": {
+        "SEARCH": {
+            "LABEL": "بحث سير العمل",
+            "WORKFLOW_ID": "معرف سير العمل",
+            "WORKFLOW_NAME": "اسم سير العمل",
+            "STATUS": "حالة"
+        },
+        "RESULT": {
+            "LABEL": "نتيجة بحث سير العمل"
+        },
+        "CREATE": {
+            "LABEL": "إنشاء سير العمل",
+            "BANK_ID": "معرف البنك",
+            "CHANNEL_ID": "معرف القناة",
+            "CHANNEL_NAME": "اسم القناة",
+            "PROPERTY": "ملكية",
+            "NO_PROP_AVAIL": "لا توجد خصائص متاحة."
+        },
+        "UPDATE": {
+            "LABEL": "تحديث سير العمل",
+            "BANK_ID": "معرف البنك",
+            "CHANNEL_ID": "معرف القناة",
+            "CHANNEL_NAME": "اسم القناة",
+            "STATUS": "حالة"
+        },
+        "VERIFY": {
+            "LABEL": "تحقق من سير العمل",
+            "OLD_RECORD_LABEL": "سجل موجود",
+            "NEW_RECORD_LABEL": "سجل محدث",
+            "BANK_ID": "معرف البنك",
+            "CHANNEL_ID": "معرف القناة",
+            "CHANNEL_NAME": "اسم القناة",
+            "STATUS": "حالة"
+        },
+        "TABLE": {
+            "ID": "بطاقة تعريف",
+            "NAME": "اسم",
+            "PRODUCT_ID": "معرف المنتج",
+            "COUNTRY_CODE": "الرقم الدولي",
+            "DESCRIPTION": "وصف"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "حذف سير العمل",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد حذف"
+            },
+            "VERIFY": {
+                "LABEL": "تحقق من سير العمل",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد الموافقة على هذا"
+            },
+            "REJECT": {
+                "LABEL": "ارفض سير العمل",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد رفض هذا"
+            },
+            "MODEL": {
+                "LABEL": "نموذج سير العمل",
+                "NAME": "اسم سير العمل",
+                "COUNTRY_CODE": "الرقم الدولي",
+                "PRODUCT": "المنتج",
+                "DESC": "وصف سير العمل",
+                "CONTEXTUAL_PATH": "المسار السياقي"
+            }
+        },
+        "SAVE": "يحفظ",
+        "CLOSE": "يغلق"
+    },
+    "LIBRARY": {
+        "STANDARD_LIBRARY": "مكتبة قياسية",
+        "TYPE": "يكتب",
+        "VERSION": "الإصدار",
+        "LAST_UPDATED_DATE": "تاريخ آخر تحديث",
+        "SEARCH": "البحث عن طريق اسم الخدمة"
+    },
+    "MAPPING": {
+        "INPUTS": "المدخلات",
+        "INPUT": "مدخل",
+        "OUTPUT": "انتاج |",
+        "OUTPUTS": "النواتج",
+        "SAVE": "يحفظ",
+        "CLOSE": "يغلق",
+        "INTERNAL": "داخلي",
+        "EXTERNAL": "خارجي",
+        "SWIFT": "سويفت",
+        "MODAL": {
+            "MAPPING": {
+                "LABEL": "مشروط التعيين",
+                "MAPPING_NAME": "اسم التعيين",
+                "LIBRARY": "مكتبة",
+                "CHANNEL": "قناة"
+            },
+            "FORMATTING": {
+                "LABEL": "تنسيق",
+                "DESTINATION_TYPE": "نوع الوجهة",
+                "DESTINATION_FORMAT": "تنسيق الوجهة"
+            }
+        }
+    },
+    "LIQUIDITY_MANAGEMENT_PARAMETER": {
+        "LABEL": {
+            "SEARCH": "بحث معامِلات إدارة السيولة",
+            "SEARCH_RESULT": "نتيجة بحث معامِلات إدارة السيولة",
+            "CREATE": "إنشاء معامِل إدارة السيولة",
+            "UPDATE": "تحديث معامِل إدارة السيولة",
+            "VERIFY": "تحقق من معلمة إدارة السيولة",
+            "DELETE": "حذف معامِل إدارة السيولة"
+        },
+        "FIELD": {
+            "SERVICE_TYPE": "معرف الخدمة",
+            "PREFUND_LIMIT": "حد التمويل المسبق",
+            "LIMIT_ACCOUNT": "حساب محدد",
+            "VOSTRO_ACCOUNT": "الحساب الخاص بك",
+            "NOSTRO_ACCOUNT": "حساب نوسترو",
+            "CURRENCY_CODE": "رمز العملة",
+            "BANK_ID": "معرف البنك",
+            "ALERT_SMS": "رسائل التنبيه",
+            "ALERT_EMAIL": "تنبيه البريد الإلكتروني",
+            "ALERT_PERCENTAGE": "نسبة التنبيه",
+            "STATUS": "حالة"
+        },
+        "MODAL": {
+            "VERIFY": {
+                "LABEL": "تحقق من معلمة إدارة السيولة",
+                "CONFIRMATION": "هل أنت متأكد ، تريد التحقق من هذا؟"
+            },
+            "DELETE": {
+                "LABEL": "حذف معامِل إدارة السيولة",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد حذف هذا؟"
+            }
+        }
+    },
+    "TSMMSG": {
+        "SEARCH": {
+            "LABEL": "بحث عن رسائل TSM",
+            "RESULT": "نتيجة بحث رسالة TSM",
+            "RELATED_REF": "المرجع ذات الصلة",
+            "TRN_REF": "رمز العملية",
+            "DATE_RANGE": "نطاق الموعد",
+            "DEP": "قسم",
+            "DIR": "اتجاه",
+            "OUT": "منفتح",
+            "IN": "واردة",
+            "FROM_BANK": "من البنك",
+            "TO_BANK": "إلى البنك"
+        },
+        "DISPLAY": {
+            "LABEL": "عرض رسالة TSM",
+            "DATE": "تاريخ",
+            "FROM_BANK": "من البنك",
+            "TO_BANK": "إلى البنك",
+            "TRN_REF": "رمز العملية",
+            "RELATED_REF": "المرجع ذات الصلة",
+            "MESSAGE": "رسالة",
+            "STATUS": "حالة",
+            "TAB_1": "1. الرسالة",
+            "TAB_2": "2. الأحداث و PSR",
+            "TAB_3": "3. معلومات إضافية",
+            "LABEL_TAB1": "معلومات TSM",
+            "LABEL_TAB2": "الأحداث و PSR",
+            "LABEL_TAB3": "معلومات إضافية",
+            "EVENT_ID": "معرف الحدث",
+            "PSR_ID": "معرف PSR",
+            "PSR_TIME": "PSR Date Time",
+            "EVENT_DCR": "وصف الحدث",
+            "PSR_DCR": "وصف PSR",
+            "RES_STATUS": "حالة الاستجابة",
+            "ESB_MESSAGE": "رسالة ESB"
+        },
+        "CREATE": {
+            "LABEL": "تكوين رسالة TSM",
+            "TRN_REF": "رمز العملية",
+            "RELATED_REF": "المرجع ذات الصلة",
+            "MESSAGE": "رسالة"
+        },
+        "VERIFY": {
+            "LABEL": "تحقق من رسالة TSM"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "حذف رسالة TSM",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد حذف هذا؟"
+            },
+            "VERIFY": {
+                "LABEL": "تحقق من رسالة TSM",
+                "CONFIRMATION": "هل أنت متأكد ، تريد التحقق من هذا؟"
+            }
+        }
+    },
+    "TABNAME": {
+        "IN_ENQ": "استعلام RTP وارد",
+        "OUT_ENQ":"استعلام RTP الصادر",
+        "LIQUIDITY_MANAGEMENT_PARAMETER": "معلمة إدارة السيولة",
+        "LIBRARY": "مكتبة",
+        "MAPPING": "رسم الخرائط",
+        "WORKFLOW": "سير العمل",
+        "OUT_BLK_PAY": "استعلام عن الدفع الجماعي الصادر",
+        "SADAD": "سداد",
+        "IN_TRN_ENQ": "استعلام عن المعاملات الواردة",
+        "OUT_TRN_ENQ": "الاستعلام عن المعاملات الصادرة",
+        "RTGS_BLK_ENQ": "استعلام عن مجمع RTGS",
+        "RECONCILIATION": "مصالحة",
+        "BENEFICIARY": "المستفيد",
+        "BENEFICIARY_SI": "التعليمات الدائمة للمستفيد",
+        "PROXY_ENQUIRY": "استعلام عن الوكيل",
+        "PROXY_DETAIL": "تفاصيل الوكيل",
+        "PAYMENT_ENQUIRY": "استعلام عن الدفع",
+        "NOTIFY_DEF": "تعريف الإخطار",
+        "NOTIFY_MSG": "رسالة إعلام",
+        "NOTIFICATIONS_MSGS": "رسالة إعلام",
+        "NOTIFICATION_DEFINITION": "تعريف الإخطار",
+        "TSM_MSG": "رسالة TSM",
+        "INTERBK_PAY": "الدفع بين البنوك",
+        "SARIE_OUT_CST_PAY": "دفع الزبون الصادر",
+        "SARIE_STREAM_DEF": "تعريف ساري ستريم",
+        "SADAD_PAYMENT": "الاستعلام عن معاملات سداد",
+        "SADAD_BILLER": "صيانة الفاتورة",
+        "SADAD_MOI": "ملخص سداد وزارة الداخلية",
+        "STANDING_INST": "تعليمات دائمة",
+        "CURRENCY_SPREAD": "انتشار العملة",
+        "IBAN_CHECK": "تحقق من رقم الحساب المصرفي الدولي (IBAN)",
+        "BUSINESS_DATE": "تاريخ العمل",
+        "SERVICE_STATUS": "حالة الخدمة",
+        "CURRENCY_CUTOF_DEF": "تعريف قطع العملة",
+        "PRD_SRV": "منتجات وخدمات",
+        "ACCOUNT_DEFINITION": "تعريف الحساب",
+        "HOLDAY": "العطل",
+        "CHANNEL_ONBOARDING": "إعداد القناة",
+        "DASHBOARD": "لوحة القيادة",
+        "SECURITY_USER": "مستخدم الأمان",
+        "AUDIT_LOG": "سجل التدقيق",
+        "SCREEN_PERMISSION": "إذن الشاشة",
+        "SECURITY_GROUP": "مجموعة الأمان",
+        "SECURITY_USR_LOG": "سجل مستخدم الأمان",
+        "COUNTRY_DETAIL": "تفاصيل الدولة",
+        "DEPARTMENT": "تفاصيل القسم",
+        "SIGNATURE_LIMIT": "حد التوقيع",
+        "PRODUCT_CODE": "تفاصيل المنتج",
+        "BIC_DETAIL": "رمز بنكي",
+        "FILE_SYSTEM": "تعريف خدمة نظام الملفات",
+        "WEB_SERVICE": "تعريف خدمة الويب",
+        "MQM_DEFINITION": "تعريف MQM",
+        "NWDEFN_DETAIL": "تعريف الشبكة",
+        "EVENT_CODE": "تعريف رمز الحدث",
+        "CHANNEL_DEF": "تعريف القناة",
+        "TCP_IP_DEF": "تعريف TCP/IP",
+        "DUP_CHECK": "تحقق مكرر",
+        "ALL_CONFIGURATIONS": "كل التكوينات",
+        "SADAD_BILLER_DATA": "بيانات فواتير سداد",
+        "INCOMING_CONTROL_MESSAGES": "رسائل التحكم الواردة"
+    },
+    "ALMSYS": {
+        "DISPLAY": {
+            "CHANNEL_ID": "معرف القناة",
+            "PRODUCT_ID": "معرف المنتج",
+            "SERVICE_ID": "معرف الخدمة",
+            "CUR_CODE": "رمز العملة",
+            "TRANSACTION_AMOUNT": "مقدار",
+            "VALUE_DATE": "تاريخ القيمه",
+            "TRANSACTION_REFERENCE": "رمز العملية",
+            "ORDERING_ACCOUNT": "طلب حساب العميل",
+            "BENEFICIERY_ACCOUNT": "رقم حساب المستفيد",
+            "PAYMENT_DETAIL": "بيانات الدفع",
+            "BENBANK_ID": "بن بنك",
+            "ACTION_CODE": "نتيجة",
+            "STATUS": "حالة"
+        },
+        "SEARCH": {
+            "LABEL": "بحث تحقق مكرر",
+            "RESULT": "نتيجة بحث مكررة تحقق",
+            "CHANNEL_ID": "معرف القناة",
+            "SERVICE_ID": "معرف الخدمة",
+            "PRODUCT_ID": "معرف المنتج"
+        },
+        "LABEL": {
+            "CREATE_ALMSYSTEM": "إنشاء تحقق مكرر",
+            "UPDATE_ALMSYSTEM": "تحقق مكرر التحديث",
+            "VERIFY_ALMSYSTEM": "تحقق مكرر تحقق",
+            "DISPLAY_BENEFICIARY_STANDARD_INSTRUCTION": "عرض التعليمات الدائمة للمستفيد",
+            "BENEFICIARY_STANDING_INC_SEARCH": "بحث عن التعليمات الدائمة للمستفيد",
+            "BENEFICIARY_STANDING_INC_SEARCH_RESULT": "نتيجة بحث التعليمات الدائمة للمستفيد"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "حذف سجل تحقق مكرر",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد حذف هذا؟"
+            },
+            "VERIFY": {
+                "LABEL": "تحقق من سجل تحقق مكرر",
+                "CONFIRMATION": "هل أنت متأكد ، تريد التحقق من هذا؟"
+            }
+        },
+        "BUTTONS": {
+            "CLEAR": "صافي",
+            "SEARCH": "يبحث",
+            "CREATE": "خلق",
+            "UPDATE": "تحديث",
+            "VERIFY": "يؤكد",
+            "DELETE": "حذف",
+            "LIST": "قائمة",
+            "REJECT": "رفض",
+            "NEXT": "التالي"
+        },
+        "CREATE": {
+            "LABEL": "إنشاء تحقق مكرر",
+            "BANK_ID": "معرف البنك",
+            "PRODUCT_ID": "معرف المنتج",
+            "CURR_CODE": "رمز العملة",
+            "SERID": "معرف الخدمة",
+            "PROID": "معرف المنتج",
+            "CHNID": "معرف القناة",
+            "AMNT": "مقدار",
+            "VD": "تاريخ القيمه",
+            "TR": "رمز العملية",
+            "OCA": "طلب حساب العميل",
+            "BCA": "حساب العميل المستفيد عدد",
+            "PD": "بيانات الدفع",
+            "BENB": "بن بنك",
+            "RES": "نتيجة",
+            "DIRECTION": {
+                "LABEL": "اتجاه",
+                "SELECT": "يختار",
+                "YES": "نعم",
+                "NO": "رقم",
+                "P": "بصلح",
+                "R": "رفض"
+            },
+            "ACCOUNT_TYPE": "نوع الحساب"
+        }
+    },
+    "ALL_CONFIGURATIONS": {
+        "SEARCH": {
+            "LABEL": "البحث عن كل التكوينات",
+            "CODE": "رمز",
+            "DESCRIPTION": "وصف",
+            "PRIMARY_VALUE": "القيمة الأولية",
+            "SECONDARY_VALUE": "القيمة الثانوية"
+        },
+        "CREATE": {
+            "LABEL": "خلق التكوين",
+            "CODE": "رمز",
+            "DESCRIPTION": "وصف",
+            "PRIMARY_VALUE": "القيمة الأولية",
+            "SECONDARY_VALUE": "القيمة الثانوية",
+            "STATUS": "الحالة"
+        },
+        "UPDATE": {
+            "LABEL": "تحديث التكوين"
+        },
+        "VERIFY": {
+            "LABEL": "تحقق التكوين"
+        },
+        "STATUS": {
+            "APPROVED": "وافق",
+            "PENDING_APPROVAL": "ما زال يحتاج بتصدير",
+            "DELETE_APPROVAL": "حذف الموافقة"
+        },
+        "BUTTONS": {
+            "CLEAR": "صافي",
+            "SEARCH": "بحث",
+            "CREATE": "خلق",
+            "UPDATE": "تحديث",
+            "VERIFY": "تحقق",
+            "DELETE": "حذف",
+            "LIST": "قائمة"
+        },
+        "RESULT": {
+            "LABEL": "نتائج البحث عن كل التكوينات"
+        },
+        "MODAL": {
+            "DELETE": {
+                "LABEL": "حذف التكوين",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد حذف هذا؟"
+            },
+            "VERIFY": {
+                "LABEL": "تحقق التكوين",
+                "CONFIRMATION": "هل أنت متأكد ، تريد التحقق من هذا؟"
+            }
+        }
+    },
+    "SADAD_BILLER_DATA": {
+        "LABEL": {
+            "SEARCH": "بحث بيانات مفوتر سداد",
+            "SEARCH_RESULT": "نتيجة بحث بيانات مفوتر سداد",
+            "CREATE": "إنشاء بيانات فواتير سداد",
+            "UPDATE": "تحديث بيانات فواتير سداد",
+            "VERIFY": "التحقق من بيانات فواتير سداد",
+            "DELETE": "حذف بيانات فواتير سداد",
+            "YES": "نعم",
+            "NO": "رقم"
+        },
+        "FIELD": {
+            "BILLER_ID": "معرف الفاتورة",
+            "BILLER_NAME": "اسم المفوتر",
+            "BILLER_NAME_ARB": "اسم الفاتورة عربي",
+            "BILLER_TYPE": "نوع الفاتورة",
+            "BILLER_REF": "مرجع الفاتورة",
+            "BILLER_REF_ARB": "مرجع الفواتير عربي",
+            "SERVICE_TYPE": "نوع الخدمة",
+            "STATUS": "حالة",
+            "AMTDNMTNFLAG": "علم AMTDNMTN",
+            "AMTDNMTNLIST": "قائمة AMTDNMTN"
+        },
+        "MODAL": {
+            "VERIFY": {
+                "LABEL": "التحقق من بيانات فواتير سداد",
+                "CONFIRMATION": "هل أنت متأكد ، تريد التحقق من هذا؟"
+            },
+            "DELETE": {
+                "LABEL": "حذف بيانات فواتير سداد",
+                "CONFIRMATION": "هل أنت متأكد أنك تريد حذف هذا؟"
+            }
+        }
+    },
+    "INCOMING_CONTROL_MESSAGES": {
+        "LABEL": {
+            "SEARCH": "البحث في رسائل التحكم الواردة",
+            "SEARCH_RESULT": "نتيجة بحث رسائل التحكم الواردة",
+            "DISPLAY": "عرض رسائل التحكم الواردة"
+        },
+        "FIELD": {
+            "PSH_REFERENCE": "مرجع PSH",
+            "TRANSACTION_REFERENCE": "رمز العملية",
+            "RELATED_REFERENCE": "المرجع ذات الصلة",
+            "MESSAGE_TYPE": "نوع الرسالة",
+            "MESSAGE_DATA": "بيانات الرسالة",
+            "QUEUE_DET": "تفاصيل قائمة الانتظار",
+            "CREATED_DATE": "تاريخ الإنشاء",
+            "DATE_RANGE": "نطاق الموعد"
+        },
+        "DISPLAY": {
+            "LABEL": "عرض رسائل التحكم الواردة",
+            "TAB_1": "1. الرسالة",
+            "TAB_2": "2. معلومات إضافية",
+            "LABEL_TAB1": "معلومات رسائل التحكم الواردة",
+            "LABEL_TAB2": "معلومات إضافية"
+        }
+    },
+    "IN_ENQ": {
+        "SEARCH": {
+            "LABEL": "بحث الاستفسارات الواردة",
+            "PAYMENT_INFO_ID": "معرف معلومات الدفع",
+            "ACTION": "فعل",
+            "NOTIFY_EMAIL": "يخطر البريد الإلكتروني",
+            "NOTIFY_SMS": "يخطر الرسائل القصيرة",
+            "PSH_REF": "مرجع PSH",
+            "EXP_DATE": "تاريخ الانتهاء",
+            "STATUS": "حالة",
+            "STATUS_DCR": "وصف الحالة"
+        },
+        "RESULT": {
+            "LABEL": "نتيجة بحث الاستفسارات الواردة"
+        },
+        "DISPLAY": {
+            "LABEL": "تفاصيل استعلام RTP الوارد",
+            "TAB_1": "1. رسالة",
+            "TAB_3": "2. الأحداث و PSR",
+            "TAB_4": "3. معلومات إضافية",
+            "LABEL_TAB1": "رسالة",
+            "LABEL_TAB2": " تفاصيل المحاسبة ",
+            "LABEL_TAB3": "الأحداث و PSR",
+            "LABEL_TAB4": "معلومات إضافية",
+            "PAYMENT_INFO_ID": "معرف معلومات الدفع",
+            "ACTION": "فعل",
+            "NOTIFY_EMAIL": "يخطر البريد الإلكتروني",
+            "NOTIFY_SMS": "يخطر الرسائل القصيرة",
+            "PSH_REF": "مرجع PSH",
+            "EXP_DATE": "تاريخ الانتهاء",
+            "STATUS": "حالة",
+            "STATUS_DCR": "وصف الحالة",
+            "INSTRUCTION_UUID": "UUID التعليمات",
+            "CDTR_AGENT_MEMBER_ID": "عضو وكيل دائن",
+            "CDTR_NAME": "اسم الدائن",
+            "CDTR_ADR_TYPE": "نوع عنوان الدائن",
+            "CDTR_STREET_TYPE": "نوع شارع الدائن",
+            "CDTR_BUILD_NUMBER": "رقم بناء الدائن",
+            "CDTR_POST_CODE": "رمز بريد الدائن",
+            "CDTR_TOWN_NAME": "اسم مدينة الدائن",
+            "CDTR_CTRYSUB_DIV": "الدولة الدائنة القسم الفرعي",
+            "CDTR_CTRY": "بلد الدائن",
+            "CDTR_ADR_LINE1": "سطر عنوان الدائن 1",
+            "CDTR_ADR_LINE2": "سطر عنوان الدائن 2",
+            "CDTR_ADR_LINE3": "سطر عنوان الدائن 3",
+            "CDTR_ADR_LINE4": "سطر عنوان الدائن 4",
+            "CDTR_ADR_LINE5": "سطر عنوان الدائن 5",
+            "CDTR_ADR_LINE6": "سطر عنوان الدائن 6",
+            "CDTR_ADR_LINE7": "سطر عنوان الدائن 7",
+            "CDTR_ID": "معرف الدائن",
+            "CDTR_PROV_OF_BIRTH": "إثبات الميلاد الدائن",
+            "CDTR_CITY_OF_BIRTH": "مدينة الميلاد الدائن",
+            "CDTR_CTRY_OF_BIRTH": "بلد الميلاد الدائن",
+            "CDTR_BIRTH_DATE": "تاريخ ميلاد الدائن",
+            "CDTR_PRIVATE_ID": "معرف الدائن الخاص",
+            "CDTR_SCH_CODE": "رمز مخطط الدائن",
+            "CDTR_SCH_PRTRY": "الدائن شيم بريتري",
+            "CDTR_SCH_ISSUER": "مصدر مخطط الدائن",
+            "CDTR_CTRY_OF_RES": "بلد الإقامة الدائن",
+            "CDTR_NAME_PREFIX": "بادئة اسم الدائن",
+            "CDTR_CON_NAME": "اسم الدائن المخادع",
+            "CDTR_PHONE": "هاتف الدائن",
+            "CDTR_MOBILE": "الدائن موبايل",
+            "CDTR_FAX": "فاكس الدائن",
+            "CDTR_EMAIL": "البريد الإلكتروني للدائن",
+            "CDTR_OTHER_DETAIL": "تفاصيل الدائن آخر",
+            "CDTR_ACC_IBAN": "حساب الدائن ايبان",
+            "CDTR_CURRENCY": "عملة الدائن",
+            "CDTR_ACC_NAME": "اسم حساب الدائن",
+            "ULMT_CDTR_NAME": "اسم الدائن النهائي",
+            "ULMT_CDTR_ADR_TYPE": "نوع عنوان الدائن النهائي",
+            "ULMT_CDTR_STREET_NAME": "الاسم النهائي لشارع الدائن",
+            "ULMT_CDTR_BUILD_NUM": "رقم بناء الدائن النهائي",
+            "ULMT_CDTR_POST_CODE": "رمز البريد الدائن النهائي",
+            "ULMT_CDTR_TOWN_NAME": "الاسم النهائي لمدينة الدائن",
+            "ULMT_CDTR_CTRY_SUB_DIV": "النهائي الدائن البلد القسم الفرعي",
+            "ULMT_CDTR_CTRY": "بلد الدائن النهائي",
+            "ULMT_CDTR_ADR_LINE1": "عنوان الدائن النهائي خط 1",
+            "ULMT_CDTR_ADR_LINE2": "عنوان الدائن النهائي خط 2",
+            "ULMT_CDTR_ADR_LINE3": "عنوان الدائن النهائي خط 3",
+            "ULMT_CDTR_ADR_LINE4": "عنوان الدائن النهائي خط 4",
+            "ULMT_CDTR_ADR_LINE5": "عنوان الدائن النهائي خط 5",
+            "ULMT_CDTR_ADR_LINE6": "عنوان الدائن النهائي خط 6",
+            "ULMT_CDTR_ADR_LINE7": "عنوان الدائن النهائي خط 7",
+            "ULMT_CDTR_ID": "معرف الدائن النهائي",
+            "ULMT_BIRTH_DATE": "تاريخ ميلاد الدائن النهائي",
+            "ULMT_CDTR_PROV_OF_BIRTH": "إثبات الدائن النهائي للولادة",
+            "ULMT_CDTR_CITY_OF_BIRTH": "المدينة الدائنة النهائية للولادة",
+            "ULMT_CDTR_CTRY_OF_BIRTH": "بلد الميلاد الدائن النهائي",
+            "ULMT_CDTR_PRIVATE_ID": "الرقم التعريفي الخاص للدائن النهائي",
+            "ULMT_CDTR_SCH_CODE": "كود مخطط الدائن النهائي",
+            "ULMT_CDTR_SCH_PTPRY": "مخطط الدائن النهائي ptpry",
+            "ULMT_CDTR_SCH_ISSUER": "مُصدر مخطط الدائن النهائي",
+            "ULMT_CDTR_CTRY_OF_RES": "بلد الدائن النهائي للقرار",
+            "ULMT_CDTR_NAME_PREFIX": "بادئة اسم الدائن النهائي",
+            "ULMT_CDTR_CON_NAME": "الاسم النهائي لخداع الدائن",
+            "ULMT_CDTR_PHONE": "الهاتف الدائن النهائي",
+            "ULMT_CDTR_MOBILE": "الدائن النهائيمتحرك ",
+            "ULMT_CDTR_FAX": "فاكس الدائن النهائي",
+            "ULMT_CDTR_EMAIL": "البريد الإلكتروني للدائن النهائي",
+            "ULMT_CDTR_OTHER_DETAIL": "تفاصيل أخرى عن الدائن النهائي",
+            "DBTR_DETAILS": "تفاصيل المدين",
+            "DBTR_NAME": "اسم المدين",
+            "DBTR_ADR_TYPE": "نوع عنوان المدين",
+            "DBTR_STREET_NAME": "نوع شارع المدين",
+            "DBTR_BUILD_NUMBER": "رقم بناء المدين",
+            "DBTR_POST_CODE": "الرمز البريدي المدين",
+            "DBTR_TOWN_NAME": "اسم مدينة المدين",
+            "DBTR_CTRYSUB_DIV": "الشعبة الفرعية لبلد المدين",
+            "DBTR_CTRY": "بلد المدين",
+            "DBTR_ADR_LINE1": "سطر عنوان المدين 1",
+            "DBTR_ADR_LINE2": "سطر عنوان المدين 2",
+            "DBTR_ADR_LINE3": "سطر عنوان المدين 3",
+            "DBTR_ADR_LINE4": "سطر عنوان المدين 4",
+            "DBTR_ADR_LINE5": "سطر عنوان المدين 5",
+            "DBTR_ADR_LINE6": "سطر عنوان المدين 6",
+            "DBTR_ADR_LINE7": "سطر عنوان المدين 7",
+            "DBTR_ID": "معرف المدين",
+            "DBTR_BIRTH_DATE": "تاريخ ميلاد المدين",
+            "DBTR_PROV_OF_BIRTH": "إثبات الميلاد المدين",
+            "DBTR_CITY_OF_BIRTH": "مدينة الميلاد المدين",
+            "DBTR_CTRY_OF_BIRTH": "بلد الميلاد المدين",
+            "DBTR_PRIVATE_ID": "معرف المدين الخاص",
+            "DBTR_SCH_CODE": "رمز مخطط المدين",
+            "DBTR_SCH_PRTRY": "المدين شيم بريتري ",
+            "DBTR_SCH_ISSUER": "مُصدر مخطط المدين",
+            "DBTR_CTRY_OF_RES": "بلد الإقامة المدين",
+            "DBTR_NAME_PREFIX": "بادئة اسم المدين",
+            "DBTR_CON_NAME": "اسم المدين يخدع",
+            "DBTR_PHONE": "هاتف المدين",
+            "DBTR_MOBILE": "مدين موبايل",
+            "DBTR_FAX": "فاكس المدين",
+            "DBTR_EMAIL": "البريد الإلكتروني للمدين",
+            "DBTR_OTHER_DETAIL": "تفاصيل أخرى المدين",
+            "CDTR_ACC_CURRENCY": "عملة المدين Acc",
+            "DBTR_ACC_NAME": "اسم حساب المدين",
+            "DBTR_AGENT_MEMBER_ID": "معرف وكيل المدين",
+            "ULTIMATE_CREDITOR_DETAILS": "تفاصيل الدائن النهائي",
+            "ULMT_DBTR_DETAILS": "تفاصيل المدين النهائي",
+            "ULMT_DBTR_NAME": "اسم المدين النهائي",
+            "ULMT_DBTR_ADR_TYPE": "نوع عنوان المدين النهائي",
+            "ULMT_DBTR_STREET_NAME": "اسم شارع المدين النهائي",
+            "ULMT_DBTR_BUILD_NUM": "رقم إصدار المدين النهائي",
+            "ULMT_DBTR_POST_CODE": "الرمز البريدي المدين النهائي",
+            "ULMT_DBTR_TOWN_NAME": "اسم مدينة المدين النهائي",
+            "ULMT_DBTR_CTRY_SUB_DIV": "النهائي المدين البلد القسم الفرعي",
+            "ULMT_DBTR_CTRY": "بلد المدين النهائي",
+            "ULMT_DBTR_ADR_LINE1": "عنوان المدين النهائي خط 1",
+            "ULMT_DBTR_ADR_LINE2": "عنوان المدين النهائي خط 2",
+            "ULMT_DBTR_ADR_LINE3": "عنوان المدين النهائي خط 3",
+            "ULMT_DBTR_ADR_LINE4": "عنوان المدين النهائي خط 4",
+            "ULMT_DBTR_ADR_LINE5": "عنوان المدين النهائي خط 5",
+            "ULMT_DBTR_ADR_LINE6": "عنوان المدين النهائي خط 6",
+            "ULMT_DBTR_ADR_LINE7": "عنوان المدين النهائي خط 7",
+            "ULMT_DBTR_ID": "معرف المدين النهائي",
+            "ULMT_DBTR_BIRTH_DATE": "تاريخ ميلاد المدين النهائي",
+            "ULMT_DBTR_PROV_OF_BIRTH": "إثبات المدين النهائي للولادة",
+            "ULMT_DBTR_CITY_OF_BIRTH": "مدينة المدين النهائية",
+            "ULMT_DBTR_CTRY_OF_BIRTH": "بلد الميلاد المدين النهائي",
+            "ULMT_DBTR_PRIVATE_ID": "معرف المدين النهائي الخاص",
+            "ULMT_DBTR_SCH_CODE": "كود مخطط المدين النهائي",
+            "ULMT_DBTR_SCH_PTPRY": "مخطط المدين النهائي Ptpry",
+            "ULMT_DBTR_SCH_ISSUER": "مُصدر مخطط المدين النهائي",
+            "ULMT_DBTR_CTRY_OF_RES": "بلد المدين النهائي للقرار",
+            "ULMT_DBTR_NAME_PREFIX": "بادئة اسم المدين النهائي",
+            "ULMT_DBTR_CON_NAME": "اسم المدين النهائي",
+            "ULMT_DBTR_PHONE": "الهاتف المدين النهائي",
+            "ULMT_DBTR_MOBILE": "المدين النهائي موبايل",
+            "ULMT_DBTR_FAX": "فاكس المدين النهائي",
+            "ULMT_DBTR_EMAIL": "البريد الإلكتروني المدين النهائي",
+            "ULMT_DBTR_OTHER_DETAIL": "تفاصيل المدين النهائي الأخرى",
+            "OTHERS": "آحرون",
+            "REQ_EXECUTION_DATE": "طلب تاريخ التنفيذ",
+            "INSTRUCTION_ID": "معرف التعليمات",
+            "END_TO_END_ID": "معرف نهاية إلى نهاية",
+            "PAYMENT_TYPE_CODE": "رمز نوع الدفع",
+            "LOCAL_INST_PROP": "دعم التثبيت المحلي",
+            "AMOUNT": "كمية",
+            "CURRENCY": "عملة",
+            "INST_FOR_CDTR_AGNT": "إنست لحساب الدائن",
+            "REM_ID": "معرف ريم",
+            "REM_METHOD": "طريقة ريم",
+            "ELECTRONIC_ADDRESS": "العنوان الإلكتروني",
+            "UNSTRUCT_REM_INFO": "unstruct rem المعلومات",
+            "STRUCT_REM_INFO_NUM": "رقم معلومات هيكل ريم",
+            "STRUCT_REM_RELATED_DATE": "تاريخ ذو صلة بالهيكل",
+            "ADDRESS_REM_INFO": "معلومات العنوان ريم",
+            "CHARGES": "شحنة",
+            "REQUEST_ID": "طلب معرف",
+            "EVENT_ID": "معرف الحدث",
+            "PSR_ID": "معرف PSR",
+            "PSR_TIME": "وقت تاريخ PSR",
+            "EVENT_DCR": "وصف الحدث",
+            "TRANSACTION_REF": "رمز العملية",
+            "PSR_DCR": "وصف PSR",
+            "ACCOUNT_NUMBER": "رقم حساب",
+            "TRN_TIME": "وقت المعاملة",
+            "CURRENCY_CODE": "رمز العملة",
+            "CRDR_FLAG": "الائتمان / الخصم",
+            "LABEL_OUTPAY": "دفع الواردة",
+            "DEBITOR_DETAILS": "تفاصيل المدين",
+            "CREDITOR_DETAILS": "تفاصيل الدائن",
+            "VAT": "VAT",
+            "ESB_MESSAGE": "رسالة ESB",
+            "RES_STATUS": "حالة الاستجابة"
+        }
+    },
+    "OUT_ENQ": {
+        "SEARCH": {
+            "LABEL": "بحث استعلام RTP الصادر",
+            "PAYMENT_INFO_ID": "معرف معلومات الدفع",
+            "PSH_REFERENCE": "مرجع Psh",
+            "REQ_EXECUTION_DATE": "تاريخ تنفيذ الطلب",
+            "DBTR_NAME": "اسم المدين",
+            "DBTR_IBAN_ACC": "حساب المدين إيبان",
+            "END_TO_END_ID": "معرف نهاية إلى نهاية",
+            "AMOUNT": "كمية",
+            "CURRENCY": "عملة",
+            "CDTR_AGENT_MEMBER_ID": "معرف عضو وكيل الدائن",
+            "CDTR_NAME": "اسم الدائن",
+            "CDTR_ACC_IBAN":"حساب الدائن ايبان",
+            "STATUS":"حالة"
+          },
+          "RESULT": {
+              "LABEL": "نتيجة بحث استعلام RTP الصادرة"
+          },
+          "DISPLAY": {
+            "LABEL": "تفاصيل استعلام RTP الصادرة",
+            "LABEL_OUT": "طلب صادر للدفع",
+            "TAB_1": "1. الرسالة",
+            "TAB_2": "2. الأحداث و PSR",
+            "TAB_3": "3. معلومات إضافية",
+            "LABEL_TAB1": "رسالة",
+            "LABEL_TAB2": "الأحداث و PSR",
+            "LABEL_TAB3": "معلومات إضافية",
+            "INSTRUCTION_UUID":"UUID التعليمات",
+            "PAYMENT_INFO_ID": "معرف معلومات الدفع",
+            "PSH_REFERENCE": "مرجع Psh",
+            "REQ_EXECUTION_DATE": "تاريخ تنفيذ الطلب",
+            "DBTR_NAME": "اسم المدين",
+            "DBTR_IBAN_ACC": "حساب المدين إيبان",
+            "END_TO_END_ID": "معرف نهاية إلى نهاية",
+            "AMOUNT": "كمية",
+            "CURRENCY": "عملة",
+            "STATUS":"حالة",
+            "CDTR_DETAILS": "تفاصيل الدائن",
+            "CDTR_AGENT_MEMBER_ID":"عضو وكيل دائن",
+            "CDTR_NAME":"اسم الدائن",
+            "CDTR_ADR_TYPE":"نوع عنوان الدائن",
+            "CDTR_STREET_TYPE":"نوع شارع الدائن",
+            "CDTR_BUILD_NUMBER":"رقم بناء الدائن",
+            "CDTR_POST_CODE":"رمز بريد الدائن",
+            "CDTR_TOWN_NAME":"اسم مدينة الدائن",
+            "CDTR_CTRYSUB_DIV":"الدولة الدائنة القسم الفرعي",
+            "CDTR_CTRY":"بلد الدائن",
+            "CDTR_ADR_LINE1":"سطر عنوان الدائن 1",
+            "CDTR_ADR_LINE2":"سطر عنوان الدائن 2",
+            "CDTR_ADR_LINE3":"سطر عنوان الدائن 3",
+            "CDTR_ADR_LINE4":"سطر عنوان الدائن 4",
+            "CDTR_ADR_LINE5":"سطر عنوان الدائن 5",
+            "CDTR_ADR_LINE6":"سطر عنوان الدائن 6",
+            "CDTR_ADR_LINE7":"سطر عنوان الدائن 7",
+            "CDTR_ID":"معرف الدائن",
+            "CDTR_PROV_OF_BIRTH":"إثبات الميلاد الدائن",
+            "CDTR_CITY_OF_BIRTH":"مدينة الميلاد الدائن",
+            "CDTR_CTRY_OF_BIRTH":"بلد الميلاد الدائن",
+            "CDTR_BIRTH_DATE":"تاريخ ميلاد الدائن",
+            "CDTR_PRIVATE_ID":"معرف الدائن الخاص",
+            "CDTR_SCH_CODE":"رمز مخطط الدائن",
+            "CDTR_SCH_PRTRY":"الدائن شيم بريتري",
+            "CDTR_SCH_ISSUER":"مصدر مخطط الدائن",
+            "CDTR_CTRY_OF_RES":"بلد الإقامة الدائن",
+            "CDTR_NAME_PREFIX":"بادئة اسم الدائن",
+            "CDTR_CON_NAME":"اسم الدائن المخادع",
+            "CDTR_PHONE":"هاتف الدائن",
+            "CDTR_MOBILE":"الدائن موبايل",
+            "CDTR_FAX":"فاكس الدائن",
+            "CDTR_EMAIL":"البريد الإلكتروني للدائن",
+            "CDTR_OTHER_DETAIL":"تفاصيل الدائن آخر",
+            "CDTR_ACC_IBAN":"حساب الدائن ايبان",
+            "CDTR_CURRENCY":"عملة الدائن",
+            "CDTR_ACC_NAME":"اسم حساب الدائن",
+    
+            "DBTR_DETAILS": "تفاصيل المدين",
+            "DBTR_ADR_TYPE":"نوع عنوان المدين",
+            "DBTR_STREET_NAME":"نوع شارع المدين",
+            "DBTR_BUILD_NUMBER":"رقم بناء المدين",
+            "DBTR_POST_CODE":"الرمز البريدي المدين",
+            "DBTR_TOWN_NAME":"اسم مدينة المدين",
+            "DBTR_CTRYSUB_DIV":"الشعبة الفرعية لبلد المدين",
+            "DBTR_CTRY":"بلد المدين",
+            "DBTR_ADR_LINE1":"سطر عنوان المدين 1",
+            "DBTR_ADR_LINE2":"سطر عنوان المدين 2",
+            "DBTR_ADR_LINE3":"سطر عنوان المدين 3",
+            "DBTR_ADR_LINE4":"سطر عنوان المدين 4",
+            "DBTR_ADR_LINE5":"سطر عنوان المدين 5",
+            "DBTR_ADR_LINE6":"سطر عنوان المدين 6",
+            "DBTR_ADR_LINE7":"سطر عنوان المدين 7",
+            "DBTR_ID":"معرف المدين",
+            "DBTR_BIRTH_DATE":"تاريخ ميلاد المدين",
+            "DBTR_PROV_OF_BIRTH":"إثبات الميلاد المدين",
+            "DBTR_CITY_OF_BIRTH":"مدينة الميلاد المدين",
+            "DBTR_CTRY_OF_BIRTH":"بلد الميلاد المدين",
+            "DBTR_PRIVATE_ID":"معرف المدين الخاص",
+            "DBTR_SCH_CODE":"رمز مخطط المدين",
+            "DBTR_SCH_PRTRY":"المدين شيم بريتري ",
+            "DBTR_SCH_ISSUER":"مُصدر مخطط المدين",
+            "DBTR_CTRY_OF_RES":"بلد الإقامة المدين",
+            "DBTR_NAME_PREFIX":"بادئة اسم المدين",
+            "DBTR_CON_NAME":"اسم المدين يخدع",
+            "DBTR_PHONE":"هاتف المدين",
+            "DBTR_MOBILE":"مدين موبايل",
+            "DBTR_FAX":"فاكس المدين",
+            "DBTR_EMAIL":"البريد الإلكتروني للمدين",
+            "DBTR_OTHER_DETAIL":"تفاصيل أخرى المدين",
+            "CDTR_ACC_CURRENCY":"عملة المدين Acc",
+            "DBTR_ACC_NAME":"اسم حساب المدين",
+            "DBTR_AGENT_MEMBER_ID":"معرف وكيل المدين",
+    
+            "ULMT_CDTR_DETAILS":"تفاصيل الدائن النهائي",
+            "ULMT_CDTR_NAME":"اسم الدائن النهائي",
+            "ULMT_CDTR_ADR_TYPE":"نوع عنوان الدائن النهائي",
+            "ULMT_CDTR_STREET_NAME":"الاسم النهائي لشارع الدائن",
+            "ULMT_CDTR_BUILD_NUM":"رقم بناء الدائن النهائي",
+            "ULMT_CDTR_POST_CODE":"رمز البريد الدائن النهائي",
+            "ULMT_CDTR_TOWN_NAME":"الاسم النهائي لمدينة الدائن",
+            "ULMT_CDTR_CTRY_SUB_DIV":"النهائي الدائن البلد القسم الفرعي",
+            "ULMT_CDTR_CTRY":"بلد الدائن النهائي",
+            "ULMT_CDTR_ADR_LINE1":"عنوان الدائن النهائي خط 1",
+            "ULMT_CDTR_ADR_LINE2":"عنوان الدائن النهائي خط 2",
+            "ULMT_CDTR_ADR_LINE3":"عنوان الدائن النهائي خط 3",
+            "ULMT_CDTR_ADR_LINE4":"عنوان الدائن النهائي خط 4",
+            "ULMT_CDTR_ADR_LINE5":"عنوان الدائن النهائي خط 5",
+            "ULMT_CDTR_ADR_LINE6":"عنوان الدائن النهائي خط 6",
+            "ULMT_CDTR_ADR_LINE7":"عنوان الدائن النهائي خط 7",
+            "ULMT_CDTR_ID":"معرف الدائن النهائي",
+            "ULMT_BIRTH_DATE":"تاريخ الميلاد النهائي",
+            "ULMT_CDTR_PROV_OF_BIRTH":"إثبات الدائن النهائي للولادة",
+            "ULMT_CDTR_CITY_OF_BIRTH":"المدينة الدائنة النهائية للولادة",
+            "ULMT_CDTR_CTRY_OF_BIRTH":"بلد الميلاد الدائن النهائي",
+            "ULMT_CDTR_PRIVATE_ID":"الرقم التعريفي الخاص للدائن النهائي",
+            "ULMT_CDTR_SCH_CODE":"كود مخطط الدائن النهائي",
+            "ULMT_CDTR_SCH_PTPRY":"مخطط الدائن النهائي ptpry",
+            "ULMT_CDTR_SCH_ISSUER":"مُصدر مخطط الدائن النهائي",
+            "ULMT_CDTR_CTRY_OF_RES":"بلد الدائن النهائي للقرار",
+            "ULMT_CDTR_NAME_PREFIX":"بادئة اسم الدائن النهائي",
+            "ULMT_CDTR_CON_NAME":"الاسم النهائي لخداع الدائن",
+            "ULMT_CDTR_PHONE":"الهاتف الدائن النهائي",
+            "ULMT_CDTR_MOBILE":"الدائن النهائيمتحرك ",
+            "ULMT_CDTR_FAX":"فاكس الدائن النهائي",
+            "ULMT_CDTR_EMAIL":"البريد الإلكتروني للدائن النهائي",
+            "ULMT_CDTR_OTHER_DETAIL":"تفاصيل أخرى عن الدائن النهائي",
+    
+            "ULMT_DBTR_DETAILS":"تفاصيل المدين النهائي",
+            "ULMT_DBTR_NAME":"اسم المدين النهائي",
+            "ULMT_DBTR_ADR_TYPE":"نوع عنوان المدين النهائي",
+            "ULMT_DBTR_STREET_NAME":"اسم شارع المدين النهائي",
+            "ULMT_DBTR_BUILD_NUM":"رقم إصدار المدين النهائي",
+            "ULMT_DBTR_POST_CODE":"في نهاية المطاف الرمز البريدي المدين",
+            "ULMT_DBTR_TOWN_NAME":"اسم مدينة المدين النهائي",
+            "ULMT_DBTR_CTRY_SUB_DIV":"الشعبة الفرعية لدولة المدين النهائي",
+            "ULMT_DBTR_CTRY":"بلد المدين النهائي",
+            "ULMT_DBTR_ADR_LINE1":"سطر عنوان المدين النهائي 1",
+            "ULMT_DBTR_ADR_LINE2":"سطر عنوان المدين النهائي 2",
+            "ULMT_DBTR_ADR_LINE3":"سطر عنوان المدين النهائي 3",
+            "ULMT_DBTR_ADR_LINE4":"سطر عنوان المدين النهائي 4",
+            "ULMT_DBTR_ADR_LINE5":"سطر عنوان المدين النهائي 5",
+            "ULMT_DBTR_ADR_LINE6":"سطر عنوان المدين النهائي 6",
+            "ULMT_DBTR_ADR_LINE7":"سطر عنوان المدين النهائي 7",
+            "ULMT_DBTR_ID":"معرف المدين النهائي",
+            "ULMT_DBTR_BIRTH_DATE":"تاريخ ميلاد المدين النهائي",
+            "ULMT_DBTR_PROV_OF_BIRTH":"إثبات المدين النهائي للولادة",
+            "ULMT_DBTR_CITY_OF_BIRTH":"مدينة المدين النهائية",
+            "ULMT_DBTR_CTRY_OF_BIRTH":"بلد الميلاد المدين النهائي",
+            "ULMT_DBTR_PRIVATE_ID":"معرف المدين النهائي الخاص",
+            "ULMT_DBTR_SCH_CODE":"كود مخطط المدين النهائي",
+            "ULMT_DBTR_SCH_PTPRY":"مخطط المدين النهائي Ptpry",
+            "ULMT_DBTR_SCH_ISSUER":"مُصدر مخطط المدين النهائي",
+            "ULMT_DBTR_CTRY_OF_RES":"بلد الإقامة المدين النهائي",
+            "ULMT_DBTR_NAME_PREFIX":"بادئة اسم المدين النهائي",
+            "ULMT_DBTR_CON_NAME":"اسم المدين النهائي",
+            "ULMT_DBTR_PHONE":"المدين النهائي هاتف",
+            "ULMT_DBTR_MOBILE":"المدين النهائي متحرك ",
+            "ULMT_DBTR_FAX":"فاكس المدين النهائي",
+            "ULMT_DBTR_EMAIL":" المدين النهائي بريد إلكتروني",
+            "ULMT_DBTR_OTHER_DETAIL":"تفاصيل المدين النهائي الأخرى",
+    
+            "OTHER_DETAILS": "تفاصيل أخرى",
+            "INSTRN_ID":" معرف التعليمات",
+            "PAYMENT_TYPE_CODE": "نوع الدفع",
+            "LOCAL_INST_PROP": " دعم التثبيت المحلي",
+            "INST_FOR_CDTR_AGENT": "إنست لوكيل دائن",
+            "REM_ID": "معرف ريم",
+            "REM_MTHD": "طريقة ريم",
+            "ELE_ADR": "العنوان الإلكتروني",
+            "UNSTR_REM_INFO": "Unstruct معلومات ريم",
+            "STR_REM_INFO_NUM": "معلومات هيكل ريم",
+            "STR_REM_RLTD_DATE": "تاريخ ذو صلة بالهيكل",
+            "ADR_REM_INFO": "معلومات العنوان ريم",
+            "CHARGES": " شحنة",
+            "VAT": "",
+    
+            "PSR_ID":"معرف PSR",
+            "PSR_TIME":"تاريخ ووقت PSR",
+            "EVENT_ID":"معرف الحدث",
+            "EVENT_DCR": "وصف الحدث",
+            "PSR_DCR": "وصف PSR",
+            "ESB_MESSAGE": "رسالة ESB",
+            "RES_STATUS": "حالة الاستجابة"
+          }
+      }    
+}

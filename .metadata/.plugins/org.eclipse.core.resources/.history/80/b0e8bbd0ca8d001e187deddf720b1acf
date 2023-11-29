@@ -1,0 +1,215 @@
+package com.review.project.serviceimp;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.jpa.domain.Specification;
+import org.springframework.stereotype.Service;
+
+import java.util.Date;
+import java.util.List;
+import java.util.Optional;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+
+import com.review.project.dto.IdDto;
+import com.review.project.dto.ServiceResponse;
+import com.review.project.dto.UserDto;
+import com.review.project.entity.EntityClass;
+import com.review.project.entity.EntityID;
+import com.review.project.repository.RepositoryClass;
+import com.review.project.repository.specifications.SecurityUserSpec;
+import com.review.project.service.Serviceclass;
+
+@Service
+public class ServiceImplementation implements Serviceclass
+{
+	private static Logger logger = LogManager.getLogger(ServiceImplementation.class);
+
+	@Autowired
+	RepositoryClass repo;
+
+	public ServiceResponse postDetails(UserDto dto)
+	{
+		EntityClass entity=new EntityClass();
+		EntityID id=new EntityID();
+		Date currentDate = new Date();
+		try
+		{
+			id.setId(dto.getId());
+			id.setName(dto.getName());
+			entity.setId(id);
+			entity.setPhonenumber(dto.getPhonenumber());
+			entity.setEmail(dto.getEmail());
+			entity.setDob(dto.getDOB());
+			entity.setBlood(dto.getBlood());
+			entity.setMdate(null);
+			entity.setCdate(currentDate);
+			entity.setStatus("PROCESSED");
+			entity.setCreatedby(user());
+			repo.save(entity);
+			return new ServiceResponse("Entered Successfully","success",null);
+		}
+		catch(Exception e)
+		{
+			logger.error("Error:" + e.getMessage(), e);
+			return new ServiceResponse("Exception Occured","Exception Occured",null);
+		}
+
+	}
+	
+	public JSONObject getall(IdDto id) 
+	{
+        JSONObject response = new JSONObject();
+        try {
+            EntityID entityid = new EntityID();
+            entityid.setId(id.getId());
+            entityid.setName(id.getName());
+            Optional<EntityClass> num = repo.findById(entityid);
+            if (num.isPresent()) 
+            {
+                EntityClass entity = num.get();
+
+                // You can create a JSON object with the retrieved data
+                response.put("email", entity.getEmail());
+                response.put("phonenumber", entity.getPhonenumber());
+                response.put("status", entity.getStatus());
+                response.put("mdate", entity.getMdate());
+                response.put("cdate", entity.getCdate());
+                response.put("dob", entity.getDob());
+                response.put("blood", entity.getBlood());
+                response.put("createdby", entity.getCreatedby());
+                response.put("modifiedby", entity.getModifiedby());
+            } else 
+            {
+                response.put("message", "Entity not found");
+            }
+        } catch (Exception e) 
+        {
+            logger.error("Error:" + e.getMessage(), e);
+            response.put("error", "An error occurred while processing the request");
+        }
+
+        return response;
+    }
+	
+	
+	public ServiceResponse updateDetails(UserDto dto)
+	{
+		EntityID id=new EntityID();
+		Date currentDate = new Date();
+		try
+		{
+			id.setId(dto.getId());
+			id.setName(dto.getName());
+			Optional<EntityClass> num = repo.findById(id);
+			EntityClass entity=num.get();
+			entity.setPhonenumber(dto.getPhonenumber());
+			entity.setEmail(dto.getEmail());
+			entity.setDob(dto.getDOB());
+			entity.setBlood(dto.getBlood());
+			entity.setMdate(currentDate);
+			entity.setModifiedby(user());
+			repo.save(entity);
+			return new ServiceResponse("Updated Successfully","success",null);
+		}
+		catch(Exception e)
+		{
+			logger.error("Error:" + e.getMessage(), e);
+			return new ServiceResponse("Exception Occured","Exception Occured",null);
+		}
+
+	}
+	
+	public ServiceResponse verifyDetails(IdDto id)
+	{
+		
+		EntityID entityid=new EntityID();
+		entityid.setId(id.getName());
+		entityid.setName(id.getName());
+		Date currentDate = new Date();
+		try
+		{
+			Optional<EntityClass> num=repo.findById(entityid);
+			EntityClass entity=num.get();
+			entity.setStatus("VERIFIED");
+			entity.setModifiedby(user());
+			entity.setMdate(currentDate);
+			return new ServiceResponse("Verified Successfully","success",null);
+		}
+		catch(Exception e)
+		{
+			logger.error("Error:" + e.getMessage(), e);
+			return new ServiceResponse("Exception Occured","Exception Occured",null);
+		}
+
+	}
+	
+	public ServiceResponse deleteDetails(IdDto id)
+	{
+		
+		EntityID entityid=new EntityID();
+		entityid.setId(id.getName());
+		entityid.setName(id.getName());
+		Date currentDate = new Date();
+		try
+		{
+			Optional<EntityClass> num=repo.findById(entityid);
+			EntityClass entity=num.get();
+			entity.setStatus("DELETED");
+			entity.setModifiedby(user());
+			entity.setMdate(currentDate);
+			return new ServiceResponse("Deleted Successfully","success",null);
+		}
+		catch(Exception e)
+		{
+			logger.error("Error:" + e.getMessage(), e);
+			return new ServiceResponse("Exception Occured","Exception Occured",null);
+		}
+
+	}
+	
+	public JSONObject searchforBooks(String searchParam) 
+	{
+		JSONObject result = new JSONObject();
+		try {
+//			PageRequest pageable = PageRequest.of(start / pageSize, pageSize);
+			Specification<EntityClass> spec = SecurityUserSpec.getUserSpec(searchParam);
+			List<EntityClass> usersList = repo.findAll(spec);
+			JSONArray array = new JSONArray();
+//			JSONArray countByStatus = countByStatus(spec);
+			for (EntityClass users : usersList) {
+				JSONObject obj = new JSONObject();
+				obj.put("ID", users.getId().getId());
+				obj.put("NAME", users.getId().getName());
+				obj.put("EMAIL", users.getEmail());
+				obj.put("PHONENUMBER", users.getPhonenumber());
+				obj.put("BLOOD", users.getBlood());
+				obj.put("DOB", users.getDob());
+				obj.put("STATUS", users.getStatus());
+				array.add(obj);
+			}
+			result.put("aaData", array);
+//			result.put("iTotalDisplayRecords", studentrepo.findAll(spec).size());
+//			result.put("iTotalRecords", studentrepo.findAll(spec).size());
+//			result.put("countByStatus", countByStatus);
+		} catch (Exception e) {
+//			logger.error("Error : " + e.getMessage(), e);
+			logger.error("Error:" + e.getMessage(), e);
+		}
+		return result;
+	}
+	
+	
+	
+	
+	private String user()
+	{
+		return "Alister";
+	}
+	
+	
+	
+	
+}

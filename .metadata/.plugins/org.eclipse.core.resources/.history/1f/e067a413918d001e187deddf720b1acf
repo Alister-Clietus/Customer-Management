@@ -1,0 +1,11 @@
+package com.review.project.entity;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name="USER_DETAILS_TABLE")
+public class EntityClass 
+{
+	
+}

@@ -1,0 +1,76 @@
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <form>
+                <h2 class="mb-4" style="font-family: 'cursive';">VERIFY CUSTOMER DETAILS</h2>
+
+
+                <div class="mb-3">
+                    <label for="id" class="form-label">ID</label>
+                    <span class="error-msg-span">{{validationMessage.id}}</span>
+                    <input type="text" class="form-control" id="id" [(ngModel)]="detailsDTO.id" name="id" required readonly>
+                </div>
+
+                <div class="mb-3">
+                    <label for="Title" class="form-label">Name</label>
+                    <span class="error-msg-span">{{validationMessage.name}}</span>
+                    <input type="text" class="form-control"  id="name" [(ngModel)]="detailsDTO.name" name="name" required readonly>
+                </div>
+
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <span class="error-msg-span">{{validationMessage.email}}</span>
+                    <input type="text" class="form-control" id="email" [(ngModel)]="detailsDTO.email" name="email" required readonly>
+                </div>
+
+                <div class="mb-3">
+                    <label for="phoneNumber" class="form-label">Phone Number</label>
+                    <span class="error-msg-span">{{validationMessage.phonenumber}}</span>
+                    <input type="text" class="form-control" id="number" [(ngModel)]="detailsDTO.phonenumber" name="number" required readonly>
+                </div>
+
+                <div class="mb-3">
+                    <label for="date" class="form-label">Date of Birth</label>
+                    <span class="error-msg-span">{{validationMessage.dob}}</span>
+                    <input type="text" class="form-control" id="date" [(ngModel)]="detailsDTO.dob" name="date" required readonly>
+                </div>
+
+                <div class="mb-3">
+                    <label for="blood" class="form-label">Blood Group</label>
+                    <span class="error-msg-span">{{ validationMessage.blood}}</span>
+                    <input type="text" class="form-control" id="blood" [(ngModel)]="detailsDTO.blood" name="blood" required readonly>
+                </div>
+
+                <div class="mb-3">
+                    <label for="blood" class="form-label">Status</label>
+                    <span class="error-msg-span">{{ validationMessage.blood}}</span>
+                    <input type="text" class="form-control" id="blood" [(ngModel)]="detailsDTO.status" name="Status" required readonly>
+                </div>
+
+                <button type="submit" class="btn btn-primary" (click)="verifymodal()">Verify Details</button>
+                <button type="submit" class="btn btn-primary" (click)="back()">Back to Details</button>
+                <button type="submit" class="btn btn-primary" (click)="clear()">Clear</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" data-backdrop="static" id="verifyuser-confirmation-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Confirm to Verify User</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <p> Click to Verify the USER</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary action-btn float-right" data-dismiss="modal" (click)="cancelConfirmation()">Cancel</button>
+           <button type="button" class="btn btn-primary action-btn float-right" (click)="verify()">Yes</button>
+        </div>
+      </div>
+      <!-- /.modal-content -->
+</div>

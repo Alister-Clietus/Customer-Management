@@ -1,0 +1,1174 @@
+.ipsh-theme-color-0 {
+    /* background-image: linear-gradient( 135deg, #7F4A99 0%, #502871 100%) !important; */
+    background: #EB644C !important;
+}
+
+.ipsh-theme-color-1 {
+    background-image: linear-gradient(135deg, #93F9B9 0%, #1D976C 100%) !important;
+}
+
+.ipsh-theme-color-2 {
+    background-image: linear-gradient(135deg, #97a7cc 0%, #8E54E9 100%) !important;
+}
+
+.ipsh-theme-color-3 {
+    background-image: linear-gradient(135deg, #97a7cc 0%, #ff5858 100%) !important;
+}
+
+.ipsh-theme-color-4 {
+    background-image: linear-gradient(135deg, #f3a2a2 0%, #f14e4e 100%) !important;
+}
+
+.ipsh-theme-color-5 {
+    background-image: linear-gradient(135deg, #6288dd 0%, #182848 100%) !important;
+}
+
+.ipsh-theme-color-6 {
+    background-image: linear-gradient(135deg, #7e9de3 0%, #56ab2f 100%) !important;
+}
+
+.ipsh-theme-color-7 {
+    background-image: linear-gradient(135deg, #73d546 0%, #51a12c 100%) !important;
+}
+
+.ipsh-theme-color-8 {
+    background-image: linear-gradient(135deg, #9fd546 0%, #e1af23 100%) !important;
+}
+
+.ipsh-theme-color-9 {
+    background-image: linear-gradient(135deg, #1e6264 0%, #44A08D 100%) !important;
+}
+
+.ipsh-theme-color-10 {
+    background-image: linear-gradient(135deg, #0dac3d 0%, #b6b11c 100%) !important;
+}
+
+.ipsh-theme-color-11 {
+    background-image: linear-gradient(135deg, #595959 0%, #1e1e1e 100%) !important;
+}
+
+.ipsh-theme-color-12 {
+    background: #0c9134 !important;
+}
+
+.ipsh-theme-color-13 {
+    background: #33189d !important;
+}
+
+.ipsh-theme-color-14 {
+    background: #18919d !important;
+}
+
+.ipsh-theme-color-15 {
+    background: #9d1818 !important;
+}
+
+.ipsh-theme-color-16 {
+    background: #9d9918 !important;
+}
+
+.ipsh-theme-color-17 {
+    background: #6610f2 !important;
+}
+
+.ipsh-theme-color-18 {
+    background: #e83e8c !important;
+}
+
+.ipsh-theme-color-19 {
+    background: #B06AB3 !important;
+}
+
+.ipsh-theme-color-20 {
+    background: #56ab2f !important;
+}
+
+/*****************************************************Topbar**********************************************/
+
+.navbar-white {
+    background-color: transparent;
+}
+
+.navbar-light {
+    background-color: transparent;
+}
+
+.ipsh-topbar .navbar-light .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.ipsh-theme-0 .ipsh-topbar {
+    /* background-image: linear-gradient( 135deg, #7F4A99 0%, #502871 100%) !important; */
+    background: #EB644C !important;
+}
+
+.ipsh-theme-1 .ipsh-topbar {
+    background-image: linear-gradient(135deg, #93F9B9 0%, #1D976C 100%) !important;
+}
+
+.ipsh-theme-2 .ipsh-topbar {
+    background-image: linear-gradient(135deg, #97a7cc 0%, #8E54E9 100%) !important;
+}
+
+.ipsh-theme-3 .ipsh-topbar {
+    background-image: linear-gradient(135deg, #97a7cc 0%, #ff5858 100%) !important;
+}
+
+.ipsh-theme-4 .ipsh-topbar {
+    background-image: linear-gradient(135deg, #f3a2a2 0%, #f14e4e 100%) !important;
+}
+
+.ipsh-theme-5 .ipsh-topbar {
+    background-image: linear-gradient(135deg, #6288dd 0%, #182848 100%) !important;
+}
+
+.ipsh-theme-6 .ipsh-topbar {
+    background-image: linear-gradient(135deg, #7e9de3 0%, #56ab2f 100%) !important;
+}
+
+.ipsh-theme-7 .ipsh-topbar {
+    background-image: linear-gradient(135deg, #73d546 0%, #51a12c 100%) !important;
+}
+
+.ipsh-theme-8 .ipsh-topbar {
+    background-image: linear-gradient(135deg, #9fd546 0%, #e1af23 100%) !important;
+}
+
+.ipsh-theme-9 .ipsh-topbar {
+    background-image: linear-gradient(135deg, #1e6264 0%, #44A08D 100%) !important;
+}
+
+.ipsh-theme-10 .ipsh-topbar {
+    background-image: linear-gradient(135deg, #0dac3d 0%, #b6b11c 100%) !important;
+}
+
+.ipsh-theme-11 .ipsh-topbar {
+    background-image: linear-gradient(135deg, #595959 0%, #1e1e1e 100%) !important;
+}
+
+.ipsh-theme-12 .ipsh-topbar {
+    background: #0c9134 !important;
+}
+
+.ipsh-theme-13 .ipsh-topbar {
+    background: #33189d !important;
+}
+
+.ipsh-theme-14 .ipsh-topbar {
+    background: #18919d !important;
+}
+
+.ipsh-theme-15 .ipsh-topbar {
+    background: #9d1818 !important;
+}
+
+.ipsh-theme-16 .ipsh-topbar {
+    background: #9d9918 !important;
+}
+
+.ipsh-theme-17 .ipsh-topbar {
+    background: #6610f2 !important;
+}
+
+.ipsh-theme-18 .ipsh-topbar {
+    background: #e83e8c !important;
+}
+
+.ipsh-theme-19 .ipsh-topbar {
+    background: #B06AB3 !important;
+}
+
+.ipsh-theme-20 .ipsh-topbar {
+    background: #56ab2f !important;
+}
+
+/***********************************************************************************************************/
+
+/*****************************************************Footer**********************************************/
+
+.ipsh-theme-0 .ipsh-footer {
+    /* background-image: linear-gradient( 135deg, #7F4A99 0%, #502871 100%) !important; */
+    background: #EB644C !important;
+}
+
+.ipsh-theme-1 .ipsh-footer {
+    background-image: linear-gradient(135deg, #93F9B9 0%, #1D976C 100%) !important;
+}
+
+.ipsh-theme-2 .ipsh-footer {
+    background-image: linear-gradient(135deg, #97a7cc 0%, #8E54E9 100%) !important;
+}
+
+.ipsh-theme-3 .ipsh-footer {
+    background-image: linear-gradient(135deg, #97a7cc 0%, #ff5858 100%) !important;
+}
+
+.ipsh-theme-4 .ipsh-footer {
+    background-image: linear-gradient(135deg, #f3a2a2 0%, #f14e4e 100%) !important;
+}
+
+.ipsh-theme-5 .ipsh-footer {
+    background-image: linear-gradient(135deg, #6288dd 0%, #182848 100%) !important;
+}
+
+.ipsh-theme-6 .ipsh-footer {
+    background-image: linear-gradient(135deg, #7e9de3 0%, #56ab2f 100%) !important;
+}
+
+.ipsh-theme-7 .ipsh-footer {
+    background-image: linear-gradient(135deg, #73d546 0%, #51a12c 100%) !important;
+}
+
+.ipsh-theme-8 .ipsh-footer {
+    background-image: linear-gradient(135deg, #9fd546 0%, #e1af23 100%) !important;
+}
+
+.ipsh-theme-9 .ipsh-footer {
+    background-image: linear-gradient(135deg, #1e6264 0%, #44A08D 100%) !important;
+}
+
+.ipsh-theme-10 .ipsh-footer {
+    background-image: linear-gradient(135deg, #0dac3d 0%, #b6b11c 100%) !important;
+}
+
+.ipsh-theme-11 .ipsh-footer {
+    background-image: linear-gradient(135deg, #595959 0%, #1e1e1e 100%) !important;
+}
+
+.ipsh-theme-12 .ipsh-footer {
+    background: #0c9134 !important;
+}
+
+.ipsh-theme-13 .ipsh-footer {
+    background: #33189d !important;
+}
+
+.ipsh-theme-14 .ipsh-footer {
+    background: #18919d !important;
+}
+
+.ipsh-theme-15 .ipsh-footer {
+    background: #9d1818 !important;
+}
+
+.ipsh-theme-16 .ipsh-footer {
+    background: #9d9918 !important;
+}
+
+.ipsh-theme-17 .ipsh-footer {
+    background: #6610f2 !important;
+}
+
+.ipsh-theme-18 .ipsh-footer {
+    background: #e83e8c !important;
+}
+
+.ipsh-theme-19 .ipsh-footer {
+    background: #B06AB3 !important;
+}
+
+.ipsh-theme-20 .ipsh-footer {
+    background: #56ab2f !important;
+}
+
+/***********************************************************************************************************/
+
+/*****************************************************Sidebar**********************************************/
+
+.ipsh-theme-0 .sidebar .dashboard-menu>.active {
+    /* background-image: linear-gradient( 135deg, #7F4A99 0%, #502871 100%) !important; */
+    background: #EB644C !important;
+}
+
+.ipsh-theme-1 .sidebar .dashboard-menu>.active {
+    background-image: linear-gradient(135deg, #93F9B9 0%, #1D976C 100%) !important;
+}
+
+.ipsh-theme-2 .sidebar .dashboard-menu>.active {
+    background-image: linear-gradient(135deg, #97a7cc 0%, #8E54E9 100%) !important;
+}
+
+.ipsh-theme-3 .sidebar .dashboard-menu>.active {
+    background-image: linear-gradient(135deg, #97a7cc 0%, #ff5858 100%) !important;
+}
+
+.ipsh-theme-4 .sidebar .dashboard-menu>.active {
+    background-image: linear-gradient(135deg, #f3a2a2 0%, #f14e4e 100%) !important;
+}
+
+.ipsh-theme-5 .sidebar .dashboard-menu>.active {
+    background-image: linear-gradient(135deg, #6288dd 0%, #182848 100%) !important;
+}
+
+.ipsh-theme-6 .sidebar .dashboard-menu>.active {
+    background-image: linear-gradient(135deg, #7e9de3 0%, #56ab2f 100%) !important;
+}
+
+.ipsh-theme-7 .sidebar .dashboard-menu>.active {
+    background-image: linear-gradient(135deg, #73d546 0%, #51a12c 100%) !important;
+}
+
+.ipsh-theme-8 .sidebar .dashboard-menu>.active {
+    background-image: linear-gradient(135deg, #9fd546 0%, #e1af23 100%) !important;
+}
+
+.ipsh-theme-9 .sidebar .dashboard-menu>.active {
+    background-image: linear-gradient(135deg, #1e6264 0%, #44A08D 100%) !important;
+}
+
+.ipsh-theme-10 .sidebar .dashboard-menu>.active {
+    background-image: linear-gradient(135deg, #0dac3d 0%, #b6b11c 100%) !important;
+}
+
+.ipsh-theme-11 .sidebar .dashboard-menu>.active {
+    background-image: linear-gradient(135deg, #595959 0%, #1e1e1e 100%) !important;
+}
+
+.ipsh-theme-12 .sidebar .dashboard-menu>.active {
+    background: #0c9134 !important;
+}
+
+.ipsh-theme-13 .sidebar .dashboard-menu>.active {
+    background: #33189d !important;
+}
+
+.ipsh-theme-14 .sidebar .dashboard-menu>.active {
+    background: #18919d !important;
+}
+
+.ipsh-theme-15 .sidebar .dashboard-menu>.active {
+    background: #9d1818 !important;
+}
+
+.ipsh-theme-16 .sidebar .dashboard-menu>.active {
+    background: #9d9918 !important;
+}
+
+.ipsh-theme-17 .sidebar .dashboard-menu>.active {
+    background: #6610f2 !important;
+}
+
+.ipsh-theme-18 .sidebar .dashboard-menu>.active {
+    background: #e83e8c !important;
+}
+
+.ipsh-theme-19 .sidebar .dashboard-menu>.active {
+    background: #B06AB3 !important;
+}
+
+.ipsh-theme-20 .sidebar .dashboard-menu>.active {
+    background: #56ab2f !important;
+}
+
+.sidebar-menu-group .media:hover {
+    background: #fafafa;
+}
+
+.ipsh-theme-0 .sidebar .dashboard-menu:hover {
+    /* background-image: linear-gradient( 135deg, #7F4A99 0%, #502871 100%) !important; */
+    background: #EB644C !important;
+}
+
+.ipsh-theme-1 .sidebar .dashboard-menu:hover {
+    background-image: linear-gradient(135deg, #93F9B9 0%, #1D976C 100%) !important;
+}
+
+.ipsh-theme-2 .sidebar .dashboard-menu:hover {
+    background-image: linear-gradient(135deg, #97a7cc 0%, #8E54E9 100%) !important;
+}
+
+.ipsh-theme-3 .sidebar .dashboard-menu:hover {
+    background-image: linear-gradient(135deg, #97a7cc 0%, #ff5858 100%) !important;
+}
+
+.ipsh-theme-4 .sidebar .dashboard-menu:hover {
+    background-image: linear-gradient(135deg, #f3a2a2 0%, #f14e4e 100%) !important;
+}
+
+.ipsh-theme-5 .sidebar .dashboard-menu:hover {
+    background-image: linear-gradient(135deg, #6288dd 0%, #182848 100%) !important;
+}
+
+.ipsh-theme-6 .sidebar .dashboard-menu:hover {
+    background-image: linear-gradient(135deg, #7e9de3 0%, #56ab2f 100%) !important;
+}
+
+.ipsh-theme-7 .sidebar .dashboard-menu:hover {
+    background-image: linear-gradient(135deg, #73d546 0%, #51a12c 100%) !important;
+}
+
+.ipsh-theme-8 .sidebar .dashboard-menu:hover {
+    background-image: linear-gradient(135deg, #9fd546 0%, #e1af23 100%) !important;
+}
+
+.ipsh-theme-9 .sidebar .dashboard-menu:hover {
+    background-image: linear-gradient(135deg, #1e6264 0%, #44A08D 100%) !important;
+}
+
+.ipsh-theme-10 .sidebar .dashboard-menu:hover {
+    background-image: linear-gradient(135deg, #0dac3d 0%, #b6b11c 100%) !important;
+}
+
+.ipsh-theme-11 .sidebar .dashboard-menu:hover {
+    background-image: linear-gradient(135deg, #595959 0%, #1e1e1e 100%) !important;
+}
+
+.ipsh-theme-12 .sidebar .dashboard-menu:hover {
+    background: #0c9134 !important;
+}
+
+.ipsh-theme-13 .sidebar .dashboard-menu:hover {
+    background: #33189d !important;
+}
+
+.ipsh-theme-14 .sidebar .dashboard-menu:hover {
+    background: #18919d !important;
+}
+
+.ipsh-theme-15 .sidebar .dashboard-menu:hover {
+    background: #9d1818 !important;
+}
+
+.ipsh-theme-16 .sidebar .dashboard-menu:hover {
+    background: #9d9918 !important;
+}
+
+.ipsh-theme-17 .sidebar .dashboard-menu:hover {
+    background: #6610f2 !important;
+}
+
+.ipsh-theme-18 .sidebar .dashboard-menu:hover {
+    background: #e83e8c !important;
+}
+
+.ipsh-theme-19 .sidebar .dashboard-menu:hover {
+    background: #B06AB3 !important;
+}
+
+.ipsh-theme-20 .sidebar .dashboard-menu:hover {
+    background: #56ab2f !important;
+}
+
+/***********************************************************************************************************/
+
+.ipsh-theme-0 .user-panel-arrow-con {
+    /* background-image: linear-gradient( 135deg, #7F4A99 0%, #502871 100%) !important; */
+    background: #EB644C !important;
+}
+
+.ipsh-theme-1 .user-panel-arrow-con {
+    background-image: linear-gradient(135deg, #93F9B9 0%, #1D976C 100%) !important;
+}
+
+.ipsh-theme-2 .user-panel-arrow-con {
+    background-image: linear-gradient(135deg, #97a7cc 0%, #8E54E9 100%) !important;
+}
+
+.ipsh-theme-3 .user-panel-arrow-con {
+    background-image: linear-gradient(135deg, #97a7cc 0%, #ff5858 100%) !important;
+}
+
+.ipsh-theme-4 .user-panel-arrow-con {
+    background-image: linear-gradient(135deg, #f3a2a2 0%, #f14e4e 100%) !important;
+}
+
+.ipsh-theme-5 .user-panel-arrow-con {
+    background-image: linear-gradient(135deg, #6288dd 0%, #182848 100%) !important;
+}
+
+.ipsh-theme-6 .user-panel-arrow-con {
+    background-image: linear-gradient(135deg, #7e9de3 0%, #56ab2f 100%) !important;
+}
+
+.ipsh-theme-7 .user-panel-arrow-con {
+    background-image: linear-gradient(135deg, #73d546 0%, #51a12c 100%) !important;
+}
+
+.ipsh-theme-8 .user-panel-arrow-con {
+    background-image: linear-gradient(135deg, #9fd546 0%, #e1af23 100%) !important;
+}
+
+.ipsh-theme-9 .user-panel-arrow-con {
+    background-image: linear-gradient(135deg, #1e6264 0%, #44A08D 100%) !important;
+}
+
+.ipsh-theme-10 .user-panel-arrow-con {
+    background-image: linear-gradient(135deg, #0dac3d 0%, #b6b11c 100%) !important;
+}
+
+.ipsh-theme-11 .user-panel-arrow-con {
+    background-image: linear-gradient(135deg, #595959 0%, #1e1e1e 100%) !important;
+}
+
+.ipsh-theme-12 .user-panel-arrow-con {
+    background: #0c9134 !important;
+}
+
+.ipsh-theme-13 .user-panel-arrow-con {
+    background: #33189d !important;
+}
+
+.ipsh-theme-14 .user-panel-arrow-con {
+    background: #18919d !important;
+}
+
+.ipsh-theme-15 .user-panel-arrow-con {
+    background: #9d1818 !important;
+}
+
+.ipsh-theme-16 .user-panel-arrow-con {
+    background: #9d9918 !important;
+}
+
+.ipsh-theme-17 .user-panel-arrow-con {
+    background: #6610f2 !important;
+}
+
+.ipsh-theme-18 .user-panel-arrow-con {
+    background: #e83e8c !important;
+}
+
+.ipsh-theme-19 .user-panel-arrow-con {
+    background: #B06AB3 !important;
+}
+
+.ipsh-theme-20 .user-panel-arrow-con {
+    background: #56ab2f !important;
+}
+
+.ipsh-theme-0 .rightsidebar-card-body-nav {
+    /* background: #e5d8ec;   */
+    background: #F9CFC8 !important;
+}
+
+.ipsh-theme-1 .rightsidebar-card-body-nav {
+    background: #EDF3FF;
+}
+
+.ipsh-theme-2 .rightsidebar-card-body-nav {
+    background: #EDF3FF;
+}
+
+.ipsh-theme-3 .rightsidebar-card-body-nav {
+    background: #fff1f1 !important;
+}
+
+.ipsh-theme-4 .rightsidebar-card-body-nav {
+    background: #fff1f1 !important;
+}
+
+.ipsh-theme-5 .rightsidebar-card-body-nav {
+    background: #EDF3FF;
+}
+
+.ipsh-theme-6 .rightsidebar-card-body-nav {
+    background: #EDF3FF;
+}
+
+.ipsh-theme-7 .rightsidebar-card-body-nav {
+    background: #e6fedb !important;
+}
+
+.ipsh-theme-8 .rightsidebar-card-body-nav {
+    background: #f1e3bc !important;
+}
+
+.ipsh-theme-9 .rightsidebar-card-body-nav {
+    background: #baeaeb !important;
+}
+
+.ipsh-theme-10 .rightsidebar-card-body-nav {
+    background: #e1de83 !important;
+}
+
+.ipsh-theme-11 .rightsidebar-card-body-nav {
+    background: #e9e9e9 !important;
+}
+
+.ipsh-theme-12 .rightsidebar-card-body-nav {
+    background: #b6ddc2 !important;
+}
+
+.ipsh-theme-13 .rightsidebar-card-body-nav {
+    background: #d6d1ed !important;
+}
+
+.ipsh-theme-14 .rightsidebar-card-body-nav {
+    background: #b8e1e5 !important;
+}
+
+.ipsh-theme-15 .rightsidebar-card-body-nav {
+    background: #f3cece !important;
+}
+
+.ipsh-theme-16 .rightsidebar-card-body-nav {
+    background: #edecbb !important;
+}
+
+.ipsh-theme-17 .rightsidebar-card-body-nav {
+    background: #d7c7f1 !important;
+}
+
+.ipsh-theme-18 .rightsidebar-card-body-nav {
+    background: #edc5d8 !important;
+}
+
+.ipsh-theme-19 .rightsidebar-card-body-nav {
+    background: #f6d4f8 !important;
+}
+
+.ipsh-theme-20 .rightsidebar-card-body-nav {
+    background: #d5f6c6 !important;
+}
+
+.ipsh-theme-0 .rightsidebar-card-body-nav .nav-pills .nav-link.active, .ipsh-theme-0 .rightsidebar-card-body-nav .nav-pills .show>.nav-link {
+    /* background-color: #7F4A99 !important; */
+    background-color: #EB644C !important;
+    /* background-image: linear-gradient( 135deg, #7F4A99 0%, #502871 100%) !important; */
+}
+
+.ipsh-theme-1 .rightsidebar-card-body-nav .nav-pills .nav-link.active, .ipsh-theme-1 .rightsidebar-card-body-nav .nav-pills .show>.nav-link {
+    background-color: #1D976C !important;
+}
+
+.ipsh-theme-2 .rightsidebar-card-body-nav .nav-pills .nav-link.active, .ipsh-theme-2 .rightsidebar-card-body-nav .nav-pills .show>.nav-link {
+    background-color: #8E54E9 !important;
+}
+
+.ipsh-theme-3 .rightsidebar-card-body-nav .nav-pills .nav-link.active, .ipsh-theme-3 .rightsidebar-card-body-nav .nav-pills .show>.nav-link {
+    background-color: #f16b6b !important;
+}
+
+.ipsh-theme-4 .rightsidebar-card-body-nav .nav-pills .nav-link.active, .ipsh-theme-4 .rightsidebar-card-body-nav .nav-pills .show>.nav-link {
+    background-color: #f14e4e !important;
+}
+
+.ipsh-theme-5 .rightsidebar-card-body-nav .nav-pills .nav-link.active, .ipsh-theme-5 .rightsidebar-card-body-nav .nav-pills .show>.nav-link {
+    background-color: #182848 !important;
+}
+
+.ipsh-theme-6 .rightsidebar-card-body-nav .nav-pills .nav-link.active, .ipsh-theme-6 .rightsidebar-card-body-nav .nav-pills .show>.nav-link {
+    background-color: #7e9de3 !important;
+}
+
+.ipsh-theme-7 .rightsidebar-card-body-nav .nav-pills .nav-link.active, .ipsh-theme-7 .rightsidebar-card-body-nav .nav-pills .show>.nav-link {
+    background-color: #51a12c !important;
+}
+
+.ipsh-theme-8 .rightsidebar-card-body-nav .nav-pills .nav-link.active, .ipsh-theme-8 .rightsidebar-card-body-nav .nav-pills .show>.nav-link {
+    background-color: #e1af23 !important;
+}
+
+.ipsh-theme-9 .rightsidebar-card-body-nav .nav-pills .nav-link.active, .ipsh-theme-9 .rightsidebar-card-body-nav .nav-pills .show>.nav-link {
+    background-color: #44A08D !important;
+}
+
+.ipsh-theme-10 .rightsidebar-card-body-nav .nav-pills .nav-link.active, .ipsh-theme-10 .rightsidebar-card-body-nav .nav-pills .show>.nav-link {
+    background-color: #b6b11c !important;
+}
+
+.ipsh-theme-11 .rightsidebar-card-body-nav .nav-pills .nav-link.active, .ipsh-theme-11 .rightsidebar-card-body-nav .nav-pills .show>.nav-link {
+    background-color: #1e1e1e !important;
+}
+
+.ipsh-theme-12 .rightsidebar-card-body-nav .nav-pills .nav-link.active, .ipsh-theme-12 .rightsidebar-card-body-nav .nav-pills .show>.nav-link {
+    background-color: #0c9134 !important;
+}
+
+.ipsh-theme-13 .rightsidebar-card-body-nav .nav-pills .nav-link.active, .ipsh-theme-13 .rightsidebar-card-body-nav .nav-pills .show>.nav-link {
+    background-color: #33189d !important;
+}
+
+.ipsh-theme-14 .rightsidebar-card-body-nav .nav-pills .nav-link.active, .ipsh-theme-14 .rightsidebar-card-body-nav .nav-pills .show>.nav-link {
+    background-color: #18919d !important;
+}
+
+.ipsh-theme-15 .rightsidebar-card-body-nav .nav-pills .nav-link.active, .ipsh-theme-15 .rightsidebar-card-body-nav .nav-pills .show>.nav-link {
+    background-color: #9d1818 !important;
+}
+
+.ipsh-theme-16 .rightsidebar-card-body-nav .nav-pills .nav-link.active, .ipsh-theme-16 .rightsidebar-card-body-nav .nav-pills .show>.nav-link {
+    background-color: #9d9918 !important;
+}
+
+.ipsh-theme-17 .rightsidebar-card-body-nav .nav-pills .nav-link.active, .ipsh-theme-17 .rightsidebar-card-body-nav .nav-pills .show>.nav-link {
+    background-color: #6610f2 !important;
+}
+
+.ipsh-theme-18 .rightsidebar-card-body-nav .nav-pills .nav-link.active, .ipsh-theme-18 .rightsidebar-card-body-nav .nav-pills .show>.nav-link {
+    background-color: #e83e8c !important;
+}
+
+.ipsh-theme-19 .rightsidebar-card-body-nav .nav-pills .nav-link.active, .ipsh-theme-19 .rightsidebar-card-body-nav .nav-pills .show>.nav-link {
+    background-color: #B06AB3 !important;
+}
+
+.ipsh-theme-20 .rightsidebar-card-body-nav .nav-pills .nav-link.active, .ipsh-theme-20 .rightsidebar-card-body-nav .nav-pills .show>.nav-link {
+    background-color: #56ab2f !important;
+}
+
+/********************************************************************************************************************************/
+
+.ipsh-theme-0 .ipsh-tab {
+    background: #F3A193 !important;
+}
+
+.ipsh-theme-1 .ipsh-tab {
+    background: #93F9B9 !important;
+}
+
+.ipsh-theme-2 .ipsh-tab {
+    background: #c3a6fa !important;
+}
+
+.ipsh-theme-3 .ipsh-tab {
+    background: #ddbad6 !important;
+}
+
+.ipsh-theme-4 .ipsh-tab {
+    background: #f6a9a9 !important;
+}
+
+.ipsh-theme-5 .ipsh-tab {
+    background: #82a3eb !important;
+}
+
+.ipsh-theme-6 .ipsh-tab {
+    background: #92bbdd !important;
+}
+
+.ipsh-theme-7 .ipsh-tab {
+    background: #8ae760 !important;
+}
+
+.ipsh-theme-8 .ipsh-tab {
+    background: #e2e94e !important;
+}
+
+.ipsh-theme-9 .ipsh-tab {
+    background: #4fb8a7 !important;
+}
+
+.ipsh-theme-10 .ipsh-tab {
+    background: #64d54b !important;
+}
+
+.ipsh-theme-11 .ipsh-tab {
+    background: #616161 !important;
+}
+
+.ipsh-theme-12 .ipsh-tab {
+    background: #1ec450 !important;
+}
+
+.ipsh-theme-13 .ipsh-tab {
+    background: #583acc !important;
+}
+
+.ipsh-theme-14 .ipsh-tab {
+    background: #39aeba !important;
+}
+
+.ipsh-theme-15 .ipsh-tab {
+    background: #b43535 !important;
+}
+
+.ipsh-theme-16 .ipsh-tab {
+    background: #bcb724 !important;
+}
+
+.ipsh-theme-17 .ipsh-tab {
+    background: #7c2cfe !important;
+}
+
+.ipsh-theme-18 .ipsh-tab {
+    background: #f1539c !important;
+}
+
+.ipsh-theme-19 .ipsh-tab {
+    background: #d783db !important;
+}
+
+.ipsh-theme-20 .ipsh-tab {
+    background: #74db45 !important;
+}
+
+.ipsh-tab .nav-pills .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.ipsh-theme-0 .ipsh-tab ul li.active {
+    border-bottom: 3px solid #EB644C;
+}
+
+.ipsh-theme-1 .ipsh-tab ul li.active {
+    border-bottom: 3px solid #1D976C;
+}
+
+.ipsh-theme-2 .ipsh-tab ul li.active {
+    border-bottom: 3px solid #8E54E9;
+}
+
+.ipsh-theme-3 .ipsh-tab ul li.active {
+    border-bottom: 3px solid #ff5858;
+}
+
+.ipsh-theme-4 .ipsh-tab ul li.active {
+    border-bottom: 3px solid #f14e4e;
+}
+
+.ipsh-theme-5 .ipsh-tab ul li.active {
+    border-bottom: 3px solid #182848;
+}
+
+.ipsh-theme-6 .ipsh-tab ul li.active {
+    border-bottom: 3px solid #2fab63;
+}
+
+.ipsh-theme-7 .ipsh-tab ul li.active {
+    border-bottom: 3px solid #51a12c;
+}
+
+.ipsh-theme-8 .ipsh-tab ul li.active {
+    border-bottom: 3px solid #e1af23;
+}
+
+.ipsh-theme-9 .ipsh-tab ul li.active {
+    border-bottom: 3px solid #44A08D;
+}
+
+.ipsh-theme-10 .ipsh-tab ul li.active {
+    border-bottom: 3px solid #b6b11c;
+}
+
+.ipsh-theme-11 .ipsh-tab ul li.active {
+    border-bottom: 3px solid #1e1e1e;
+}
+
+.ipsh-theme-12 .ipsh-tab ul li.active {
+    border-bottom: 3px solid #0c9134;
+}
+
+.ipsh-theme-13 .ipsh-tab ul li.active {
+    border-bottom: 3px solid #33189d;
+}
+
+.ipsh-theme-14 .ipsh-tab ul li.active {
+    border-bottom: 3px solid #18919d;
+}
+
+.ipsh-theme-15 .ipsh-tab ul li.active {
+    border-bottom: 3px solid #9d1818;
+}
+
+.ipsh-theme-16 .ipsh-tab ul li.active {
+    border-bottom: 3px solid #9d9918;
+}
+
+.ipsh-theme-17 .ipsh-tab ul li.active {
+    border-bottom: 3px solid #6610f2;
+}
+
+.ipsh-theme-18 .ipsh-tab ul li.active {
+    border-bottom: 3px solid #e83e8c;
+}
+
+.ipsh-theme-19 .ipsh-tab ul li.active {
+    border-bottom: 3px solid #B06AB3;
+}
+
+.ipsh-theme-20 .ipsh-tab ul li.active {
+    border-bottom: 3px solid #56ab2f;
+}
+
+/***********************************************************************************************************/
+
+/*********************************************Buttons**********************************************/
+
+.ipsh-theme-0 .btn-primary, .ipsh-theme-0 .btn-primary:hover, .ipsh-theme-0 .btn-primary:active {
+    background: #263244 !important;
+    border: 1px solid transparent;
+    box-shadow: none;
+}
+
+.ipsh-theme-1 .btn-primary, .ipsh-theme-1 .btn-primary:hover, .ipsh-theme-1 .btn-primary:active {
+    background-image: linear-gradient(135deg, #93F9B9 0%, #1D976C 100%) !important;
+    border: 1px solid transparent;
+    box-shadow: none;
+}
+
+.ipsh-theme-2 .btn-primary, .ipsh-theme-2 .btn-primary:hover, .ipsh-theme-2 .btn-primary:active {
+    background-image: linear-gradient(135deg, #97a7cc 0%, #8E54E9 100%) !important;
+    border: 1px solid transparent;
+    box-shadow: none;
+}
+
+.ipsh-theme-3 .btn-primary, .ipsh-theme-3 .btn-primary:hover, .ipsh-theme-3 .btn-primary:active {
+    background-image: linear-gradient(135deg, #97a7cc 0%, #ff5858 100%) !important;
+    border: 1px solid transparent;
+    box-shadow: none;
+}
+
+.ipsh-theme-4 .btn-primary, .ipsh-theme-4 .btn-primary:hover, .ipsh-theme-4 .btn-primary:active {
+    background-image: linear-gradient(135deg, #f3a2a2 0%, #f14e4e 100%) !important;
+    border: 1px solid transparent;
+    box-shadow: none;
+}
+
+.ipsh-theme-5 .btn-primary, .ipsh-theme-5 .btn-primary:hover, .ipsh-theme-5 .btn-primary:active {
+    background-image: linear-gradient(135deg, #6288dd 0%, #182848 100%) !important;
+    border: 1px solid transparent;
+    box-shadow: none;
+}
+
+.ipsh-theme-6 .btn-primary, .ipsh-theme-6 .btn-primary:hover, .ipsh-theme-6 .btn-primary:active {
+    background-image: linear-gradient(135deg, #7e9de3 0%, #56ab2f 100%) !important;
+    border: 1px solid transparent;
+    box-shadow: none;
+}
+
+.ipsh-theme-7 .btn-primary, .ipsh-theme-7 .btn-primary:hover, .ipsh-theme-7 .btn-primary:active {
+    background-image: linear-gradient(135deg, #73d546 0%, #51a12c 100%) !important;
+    border: 1px solid transparent;
+    box-shadow: none;
+}
+
+.ipsh-theme-8 .btn-primary, .ipsh-theme-8 .btn-primary:hover, .ipsh-theme-8 .btn-primary:active {
+    background-image: linear-gradient(135deg, #9fd546 0%, #e1af23 100%) !important;
+    border: 1px solid transparent;
+    box-shadow: none;
+}
+
+.ipsh-theme-9 .btn-primary, .ipsh-theme-9 .btn-primary:hover, .ipsh-theme-9 .btn-primary:active {
+    background-image: linear-gradient(135deg, #1e6264 0%, #44A08D 100%) !important;
+    border: 1px solid transparent;
+    box-shadow: none;
+}
+
+.ipsh-theme-10 .btn-primary, .ipsh-theme-10 .btn-primary:hover, .ipsh-theme-10 .btn-primary:active {
+    background-image: linear-gradient(135deg, #0dac3d 0%, #b6b11c 100%) !important;
+    border: 1px solid transparent;
+    box-shadow: none;
+}
+
+.ipsh-theme-11 .btn-primary, .ipsh-theme-11 .btn-primary:hover, .ipsh-theme-11 .btn-primary:active {
+    background-image: linear-gradient(135deg, #595959 0%, #1e1e1e 100%) !important;
+    border: 1px solid transparent;
+    box-shadow: none;
+}
+
+.ipsh-theme-12 .btn-primary, .ipsh-theme-12 .btn-primary:hover, .ipsh-theme-12 .btn-primary:active {
+    background: #0c9134 !important;
+    border: 1px solid transparent;
+    box-shadow: none;
+}
+
+.ipsh-theme-13 .btn-primary, .ipsh-theme-13 .btn-primary:hover, .ipsh-theme-13 .btn-primary:active {
+    background: #33189d !important;
+    border: 1px solid transparent;
+    box-shadow: none;
+}
+
+.ipsh-theme-14 .btn-primary, .ipsh-theme-14 .btn-primary:hover, .ipsh-theme-14 .btn-primary:active {
+    background: #18919d !important;
+    border: 1px solid transparent;
+    box-shadow: none;
+}
+
+.ipsh-theme-15 .btn-primary, .ipsh-theme-15 .btn-primary:hover, .ipsh-theme-15 .btn-primary:active {
+    background: #9d1818 !important;
+    border: 1px solid transparent;
+    box-shadow: none;
+}
+
+.ipsh-theme-16 .btn-primary, .ipsh-theme-16 .btn-primary:hover, .ipsh-theme-16 .btn-primary:active {
+    background: #9d9918 !important;
+    border: 1px solid transparent;
+    box-shadow: none;
+}
+
+.ipsh-theme-17 .btn-primary, .ipsh-theme-17 .btn-primary:hover, .ipsh-theme-17 .btn-primary:active {
+    background: #6610f2 !important;
+    border: 1px solid transparent;
+    box-shadow: none;
+}
+
+.ipsh-theme-18 .btn-primary, .ipsh-theme-18 .btn-primary:hover, .ipsh-theme-18 .btn-primary:active {
+    background: #e83e8c !important;
+    border: 1px solid transparent;
+    box-shadow: none;
+}
+
+.ipsh-theme-19 .btn-primary, .ipsh-theme-19 .btn-primary:hover, .ipsh-theme-19 .btn-primary:active {
+    background: #B06AB3 !important;
+    border: 1px solid transparent;
+    box-shadow: none;
+}
+
+.ipsh-theme-20 .btn-primary, .ipsh-theme-20 .btn-primary:hover, .ipsh-theme-20 .btn-primary:active {
+    background: #56ab2f !important;
+    border: 1px solid transparent;
+    box-shadow: none;
+}
+
+.ipsh-theme-0 .btn-secondary, .ipsh-theme-0 .btn-secondary:hover, .ipsh-theme-0 .btn-secondary:active {
+    background: none;
+    border-color: #263244;
+    color: #263244;
+    box-shadow: none;
+}
+
+.ipsh-theme-1 .btn-secondary, .ipsh-theme-1 .btn-secondary:hover, .ipsh-theme-1 .btn-secondary:active {
+    background: none;
+    border-color: #1D976C;
+    color: #1D976C;
+    box-shadow: none;
+}
+
+.ipsh-theme-2 .btn-secondary, .ipsh-theme-2 .btn-secondary:hover, .ipsh-theme-2 .btn-secondary:active {
+    background: none;
+    border-color: #8E54E9;
+    color: #8E54E9;
+    box-shadow: none;
+}
+
+.ipsh-theme-3 .btn-secondary, .ipsh-theme-3 .btn-secondary:hover, .ipsh-theme-3 .btn-secondary:active {
+    background: none;
+    border-color: #ff5858;
+    color: #ff5858;
+    box-shadow: none;
+}
+
+.ipsh-theme-4 .btn-secondary, .ipsh-theme-4 .btn-secondary:hover, .ipsh-theme-4 .btn-secondary:active {
+    background: none;
+    border-color: #f14e4e;
+    color: #f14e4e;
+    box-shadow: none;
+}
+
+.ipsh-theme-5 .btn-secondary, .ipsh-theme-5 .btn-secondary:hover, .ipsh-theme-5 .btn-secondary:active {
+    background: none;
+    border-color: #182848;
+    color: #182848;
+    box-shadow: none;
+}
+
+.ipsh-theme-6 .btn-secondary, .ipsh-theme-6 .btn-secondary:hover, .ipsh-theme-6 .btn-secondary:active {
+    background: none;
+    border-color: #7e9de3;
+    color: #7e9de3;
+    box-shadow: none;
+}
+
+.ipsh-theme-7 .btn-secondary, .ipsh-theme-7 .btn-secondary:hover, .ipsh-theme-7 .btn-secondary:active {
+    background: none;
+    border-color: #51a12c;
+    color: #51a12c;
+    box-shadow: none;
+}
+
+.ipsh-theme-8 .btn-secondary, .ipsh-theme-8 .btn-secondary:hover, .ipsh-theme-8 .btn-secondary:active {
+    background: none;
+    border-color: #e1af23;
+    color: #e1af23;
+    box-shadow: none;
+}
+
+.ipsh-theme-9 .btn-secondary, .ipsh-theme-9 .btn-secondary:hover, .ipsh-theme-9 .btn-secondary:active {
+    background: none;
+    border-color: #44A08D;
+    color: #44A08D;
+    box-shadow: none;
+}
+
+.ipsh-theme-10 .btn-secondary, .ipsh-theme-10 .btn-secondary:hover, .ipsh-theme-10 .btn-secondary:active {
+    background: none;
+    border-color: #b6b11c;
+    color: #b6b11c;
+    box-shadow: none;
+}
+
+.ipsh-theme-11 .btn-secondary, .ipsh-theme-11 .btn-secondary:hover, .ipsh-theme-11 .btn-secondary:active {
+    background: none;
+    border-color: #1e1e1e;
+    color: #1e1e1e;
+    box-shadow: none;
+}
+
+.ipsh-theme-12 .btn-secondary, .ipsh-theme-12 .btn-secondary:hover, .ipsh-theme-12 .btn-secondary:active {
+    background: none;
+    border-color: #0c9134;
+    color: #0c9134;
+    box-shadow: none;
+}
+
+.ipsh-theme-13 .btn-secondary, .ipsh-theme-13 .btn-secondary:hover, .ipsh-theme-13 .btn-secondary:active {
+    background: none;
+    border-color: #33189d;
+    color: #33189d;
+    box-shadow: none;
+}
+
+.ipsh-theme-14 .btn-secondary, .ipsh-theme-14 .btn-secondary:hover, .ipsh-theme-14 .btn-secondary:active {
+    background: none;
+    border-color: #18919d;
+    color: #18919d;
+    box-shadow: none;
+}
+
+.ipsh-theme-15 .btn-secondary, .ipsh-theme-15 .btn-secondary:hover, .ipsh-theme-15 .btn-secondary:active {
+    background: none;
+    border-color: #9d1818;
+    color: #9d1818;
+    box-shadow: none;
+}
+
+.ipsh-theme-16 .btn-secondary, .ipsh-theme-16 .btn-secondary:hover, .ipsh-theme-16 .btn-secondary:active {
+    background: none;
+    border-color: #9d9918;
+    color: #9d9918;
+    box-shadow: none;
+}
+
+.ipsh-theme-17 .btn-secondary, .ipsh-theme-17 .btn-secondary:hover, .ipsh-theme-17 .btn-secondary:active {
+    background: none;
+    border-color: #6610f2;
+    color: #6610f2;
+    box-shadow: none;
+}
+
+.ipsh-theme-18 .btn-secondary, .ipsh-theme-18 .btn-secondary:hover, .ipsh-theme-18 .btn-secondary:active {
+    background: none;
+    border-color: #e83e8c;
+    color: #e83e8c;
+    box-shadow: none;
+}
+
+.ipsh-theme-19 .btn-secondary, .ipsh-theme-19 .btn-secondary:hover, .ipsh-theme-19 .btn-secondary:active {
+    background: none;
+    border-color: #B06AB3;
+    color: #B06AB3;
+    box-shadow: none;
+}
+
+.ipsh-theme-20 .btn-secondary, .ipsh-theme-20 .btn-secondary:hover, .ipsh-theme-20 .btn-secondary:active {
+    background: none;
+    border-color: #56ab2f;
+    color: #56ab2f;
+    box-shadow: none;
+}
+
+/*******************************************************************************************************/
+
+.modal-header {
+    background-image: linear-gradient( 60deg, #29323c 0%, #485563 100%) !important;
+    color: white;
+}
+
+.ipsh-theme-0 .modal-header{
+    background: #EB644C !important;
+}
+
+.ipsh-topbar .navbar-light .navbar-nav .nav-link .fa-language {
+  font-size: 18px;
+}

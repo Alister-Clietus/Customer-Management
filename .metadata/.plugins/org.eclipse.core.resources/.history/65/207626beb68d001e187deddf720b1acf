@@ -1,0 +1,62 @@
+package com.review.project.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.review.project.dto.IdDto;
+import com.review.project.dto.UserDto;
+import com.review.project.serviceimp.ServiceImplementation;
+
+import jakarta.validation.Valid;
+
+@RestController
+@RequestMapping
+public class AdminController 
+{
+	@Autowired 
+	ServiceImplementation service;
+	
+	@PostMapping("/add")
+	ResponseEntity<?> addDetails(@Valid @RequestBody UserDto dto)
+	{
+		return new ResponseEntity(service.postDetails(dto),HttpStatus.OK);
+	}
+	
+	@PutMapping("/update")
+	ResponseEntity<?> updateDetails(@Valid @RequestBody IdDto id)
+	{
+		return new ResponseEntity("Update Details",HttpStatus.OK);
+	}
+	
+	@DeleteMapping("/delete")
+	ResponseEntity<?> deleteDetails()
+	{
+		return new ResponseEntity("Delete Details",HttpStatus.OK);
+	}
+
+	@PutMapping("/getid")
+	ResponseEntity<?> getByIdDetails()
+	{
+		return new ResponseEntity("GetBy ID",HttpStatus.OK);
+	}
+	
+	@PutMapping("/verify")
+	ResponseEntity<?> verifyDetails()
+	{
+		return new ResponseEntity("Verify by ID",HttpStatus.OK);
+	}
+	
+	@GetMapping("/search")
+	ResponseEntity<?> searchDetails()
+	{
+		return new ResponseEntity("Search details",HttpStatus.OK);
+	}
+}

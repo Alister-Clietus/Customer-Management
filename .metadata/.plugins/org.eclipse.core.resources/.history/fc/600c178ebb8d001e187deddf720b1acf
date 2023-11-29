@@ -1,0 +1,17 @@
+package com.review.project.service;
+
+import org.json.simple.JSONObject;
+
+import com.review.project.dto.IdDto;
+import com.review.project.dto.ServiceResponse;
+import com.review.project.dto.UserDto;
+
+public interface Serviceclass
+{
+	public ServiceResponse postDetails(UserDto dto);
+	public JSONObject getall();
+	public ServiceResponse deleteDetails(IdDto id);
+	public ServiceResponse updateDetails(UserDto dto);
+	public ServiceResponse verifyDetails(IdDto id);
+	public JSONObject searchforBooks(String searchParam);
+}

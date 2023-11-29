@@ -1,0 +1,5 @@
+package com.review.project.exception;
+
+public class ExceptionControllerAdvice {
+
+}

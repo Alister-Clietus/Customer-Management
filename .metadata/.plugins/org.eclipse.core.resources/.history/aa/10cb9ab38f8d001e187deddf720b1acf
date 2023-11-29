@@ -1,0 +1,100 @@
+package com.review.project.serviceimp;
+
+import org.springframework.stereotype.Service;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.json.simple.JSONObject;
+
+import com.review.project.dto.ServiceResponse;
+
+@Service
+public class ServiceImplementation 
+{
+	private static Logger logger = LogManager.getLogger(ServiceImplementation.class);
+
+
+	public ServiceResponse postDetails()
+	{
+		
+		try
+		{
+
+			return new ServiceResponse("Entered Successfully","Entered Successfully",null);
+		}
+		catch(Exception e)
+		{
+			logger.error("Error:" + e.getMessage(), e);
+			return new ServiceResponse("Exception Occured","Exception Occured",null);
+		}
+
+	}
+	
+	public JSONObject getall()
+	{
+		
+
+		try 
+		{
+
+			
+		} 
+		catch (Exception e) 
+		{
+			logger.error("Error:" + e.getMessage(), e);
+		}
+		return null;
+	}
+	
+	public ServiceResponse verifyDetails()
+	{
+		
+		try
+		{
+
+			return new ServiceResponse("Verified Successfully","Verified Successfully",null);
+		}
+		catch(Exception e)
+		{
+			logger.error("Error:" + e.getMessage(), e);
+			return new ServiceResponse("Exception Occured","Exception Occured",null);
+		}
+
+	}
+	
+	public ServiceResponse DeleteDetails()
+	{
+		
+		try
+		{
+
+			return new ServiceResponse("Deleted Successfully","Deleted Successfully",null);
+		}
+		catch(Exception e)
+		{
+			logger.error("Error:" + e.getMessage(), e);
+			return new ServiceResponse("Exception Occured","Exception Occured",null);
+		}
+
+	}
+	
+	public ServiceResponse updateDetails()
+	{
+		
+		try
+		{
+
+			return new ServiceResponse("Updated Successfully","Updated Successfully",null);
+		}
+		catch(Exception e)
+		{
+			logger.error("Error:" + e.getMessage(), e);
+			return new ServiceResponse("Exception Occured","Exception Occured",null);
+		}
+
+	}
+	
+	
+	
+	
+	
+}

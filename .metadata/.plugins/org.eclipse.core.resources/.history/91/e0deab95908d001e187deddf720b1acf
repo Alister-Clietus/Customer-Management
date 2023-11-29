@@ -1,0 +1,12 @@
+package com.review.project.entity;
+
+import jakarta.persistence.Embeddable;
+
+@Embeddable
+public class EntityID 
+{
+	private String name;
+	private String id;
+	
+
+}

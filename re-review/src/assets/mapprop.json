@@ -1,0 +1,751 @@
+{
+    "Network": {
+        "SOAP": {
+            "parent": "Network",
+            "type": "SOAP",
+            "id": "",
+            "icon": "",
+            "left": "",
+            "top": "",
+            "attributes": [
+                {
+                    "name": "General",
+                    "fields": [
+                        {
+                            "label": "Type",
+                            "type": "radio",
+                            "xhr": "",
+                            "data": [
+                                "Incoming",
+                                "Outgoing"
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "label": "Soap  ConnectionId ",
+                            "type": "combo",
+                            "xhr": "adapter-service/webService/details/soapServiceIdList",
+                            "valueField": "serviceId",
+                            "displayField": "serviceName",
+                            "isDisabled": false,
+                            "data": [],
+                            "value": ""
+                        },
+                        {
+                            "label": "Use Parent",
+                            "type": "check",
+                            "xhr": "",
+                            "data": [
+                                {
+                                    "property": "Yes",
+                                    "isSelected": true
+                                }
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "label": "Mapping Id",
+                            "type": "combo",
+                            "xhr": "mapper-service/mapper/mapIdList",
+                            "valueField": "mapId",
+                            "displayField": "mapName",
+                            "isDisabled": true,
+                            "isShow": false,
+                            "data": [],
+                            "value": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        "Pacs008Engine": {
+            "parent": "Network",
+            "type": "Pacs008Engine",
+            "id": "",
+            "icon": "",
+            "left": "",
+            "top": "",
+            "attributes": [
+                {
+                    "name": "General",
+                    "fields": [
+                        {
+                            "label": "Mapping Id",
+                            "type": "combo",
+                            "xhr": "mapper-service/mapper/mapIdList",
+                            "valueField": "mapId",
+                            "displayField": "mapName",
+                            "isDisabled": false,
+                            "data": [],
+                            "value": ""
+                        },
+                        {
+                            "label": "Java Class",
+                            "type": "combo",
+                            "xhr": "",
+                            "valueField": "fldName",
+                            "displayField": "srvName",
+                            "isDisabled": false,
+                            "data": [
+                                {
+                                    "srvName": "Pac008Validations",
+                                    "fldName": "Pac008Validations"
+                                }
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "label": "Method",
+                            "type": "combo2",
+                            "xhr": "",
+                            "valueField": "fldName",
+                            "displayField": "srvName",
+                            "isDisabled": false,
+                            "data": [
+                                {
+                                    "srvName": "validateIban",
+                                    "fldName": "validateIban"
+                                },
+                                {
+                                    "srvName": "validateDebitorName",
+                                    "fldName": "validateDebitorName"
+                                },
+                                {
+                                    "srvName": "ValidateCurrency",
+                                    "fldName": "ValidateCurrency"
+                                }
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "label": "Cross Currency",
+                            "type": "radio",
+                            "xhr": "",
+                            "data": [
+                                "Yes",
+                                "No"
+                            ],
+                            "value": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        "REST": {
+            "parent": "Network",
+            "type": "REST",
+            "id": "",
+            "icon": "",
+            "left": "",
+            "top": "",
+            "attributes": [
+                {
+                    "name": "General",
+                    "fields": [
+                        {
+                            "label": "Type",
+                            "type": "radio",
+                            "xhr": "",
+                            "data": [
+                                "Incoming",
+                                "Outgoing"
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "label": "Rest ConnectionId",
+                            "type": "combo",
+                            "xhr": "adapter-service/restService/details/idNameList",
+                            "valueField": "serviceId",
+                            "displayField": "serviceName",
+                            "isDisabled": false,
+                            "data": [],
+                            "value": ""
+                        },
+                        {
+                            "label": "Use Parent",
+                            "type": "check",
+                            "xhr": "",
+                            "data": [
+                                {
+                                    "property": "Yes",
+                                    "isSelected": true
+                                }
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "label": "Mapping Id",
+                            "type": "combo",
+                            "xhr": "mapper-service/mapper/mapIdList",
+                            "valueField": "mapId",
+                            "displayField": "mapName",
+                            "isDisabled": true,
+                            "data": [],
+                            "value": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        "MQM": {
+            "parent": "Network",
+            "type": "MQM",
+            "id": "",
+            "icon": "",
+            "left": "",
+            "top": "",
+            "attributes": [
+                {
+                    "name": "General",
+                    "fields": [
+                        {
+                            "label": "Type",
+                            "type": "radio",
+                            "xhr": "",
+                            "data": [
+                                "Incoming",
+                                "Outgoing"
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "label": "MQM  ConnectionId ",
+                            "type": "combo",
+                            "xhr": "adapter-service/mqmDefinition/connectionIdList",
+                            "valueField": "connectionId",
+                            "displayField": "connectionName",
+                            "isDisabled": false,
+                            "data": [],
+                            "value": ""
+                        },
+                        {
+                            "label": "Use Parent",
+                            "type": "check",
+                            "xhr": "",
+                            "data": [
+                                {
+                                    "property": "Yes",
+                                    "isSelected": true
+                                }
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "label": "Mapping Id",
+                            "type": "combo",
+                            "xhr": "mapper-service/mapper/mapIdList",
+                            "valueField": "mapId",
+                            "displayField": "mapName",
+                            "isDisabled": true,
+                            "data": [],
+                            "value": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        "ExitAndReturn": {
+            "parent": "Network",
+            "type": "ExitAndReturn",
+            "id": "",
+            "icon": "",
+            "left": "",
+            "top": "",
+            "attributes": [
+                {
+                    "name": "General",
+                    "fields": [
+                        {
+                            "label": "Use Parent",
+                            "type": "check",
+                            "xhr": "",
+                            "data": [
+                                {
+                                    "property": "Yes",
+                                    "isSelected": true
+                                }
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "label": "Mapping Id",
+                            "type": "combo",
+                            "xhr": "mapper-service/mapper/mapIdList",
+                            "valueField": "mapId",
+                            "displayField": "mapName",
+                            "isDisabled": true,
+                            "isShow": false,
+                            "data": [],
+                            "value": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "Services": {
+        "AccountValidation": {
+            "parent": "Services",
+            "type": "AccountValidation",
+            "id": "",
+            "icon": "",
+            "left": "",
+            "top": "",
+            "attributes": [
+                {
+                    "name": "General",
+                    "fields": [
+                        {
+                            "label": "Mapping Id",
+                            "type": "combo",
+                            "xhr": "mapper-service/mapper/mapIdList",
+                            "valueField": "mapId",
+                            "displayField": "mapName",
+                            "isDisabled": false,
+                            "data": [],
+                            "value": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        "AccountBalance": {
+            "parent": "Services",
+            "type": "AccountBalance",
+            "id": "",
+            "icon": "",
+            "left": "",
+            "top": "",
+            "attributes": [
+                {
+                    "name": "General",
+                    "fields": [
+                        {
+                            "label": "Mapping Id",
+                            "type": "combo",
+                            "xhr": "mapper-service/mapper/mapIdList",
+                            "valueField": "mapId",
+                            "displayField": "mapName",
+                            "isDisabled": false,
+                            "data": [],
+                            "value": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        "FinancialPosting": {
+            "parent": "Services",
+            "type": "FinancialPosting",
+            "id": "",
+            "icon": "",
+            "left": "",
+            "top": "",
+            "attributes": [
+                {
+                    "name": "General",
+                    "fields": [
+                        {
+                            "label": "Mapping Id",
+                            "type": "combo",
+                            "xhr": "mapper-service/mapper/mapIdList",
+                            "valueField": "mapId",
+                            "displayField": "mapName",
+                            "isDisabled": false,
+                            "data": [],
+                            "value": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "Business": {
+        "Retry": {
+            "parent": "Business",
+            "type": "Retry",
+            "id": "",
+            "icon": "",
+            "left": "",
+            "top": "",
+            "attributes": [
+                {
+                    "name": "General",
+                    "fields": [
+                        {
+                            "label": "Max Retry",
+                            "type": "number",
+                            "xhr": "",
+                            "data": [],
+                            "value": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "Custom": {
+        "Java": {
+            "parent": "Custom",
+            "type": "Java",
+            "id": "",
+            "icon": "",
+            "left": "",
+            "top": "",
+            "attributes": [
+                {
+                    "name": "General",
+                    "fields": [
+                        {
+                            "label": "Jar",
+                            "type": "combo",
+                            "xhr": "",
+                            "valueField": "fldName",
+                            "displayField": "srvName",
+                            "isDisabled": false,
+                            "data": [
+                                {
+                                    "srvName": "Beneficiary_Validation_Jar",
+                                    "fldName": "Beneficiary_Validation_Jar"
+                                }
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "label": "Class",
+                            "type": "combo",
+                            "xhr": "",
+                            "valueField": "fldName",
+                            "displayField": "srvName",
+                            "isDisabled": false,
+                            "data": [
+                                {
+                                    "srvName": "BeneficiaryValidation",
+                                    "fldName": "BeneficiaryValidation"
+                                }
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "label": "Method",
+                            "type": "combo",
+                            "xhr": "",
+                            "valueField": "fldName",
+                            "displayField": "srvName",
+                            "isDisabled": false,
+                            "data": [
+                                {
+                                    "srvName": "checkBlackListCustomer",
+                                    "fldName": "checkBlackListCustomer"
+                                }
+                            ],
+                            "value": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "Sadad": {
+        "SadadInquiry": {
+            "parent": "Sadad",
+            "type": "SadadInquiry",
+            "id": "",
+            "icon": "",
+            "left": "",
+            "top": "",
+            "attributes": [
+                {
+                    "name": "General",
+                    "fields": [
+                        {
+                            "label": "Type",
+                            "type": "radio",
+                            "xhr": "",
+                            "data": [
+                                "Incoming",
+                                "Outgoing"
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "label": "Soap  ConnectionId ",
+                            "type": "combo",
+                            "xhr": "adapter-service/webService/details/soapServiceIdList",
+                            "valueField": "serviceId",
+                            "displayField": "serviceName",
+                            "isDisabled": false,
+                            "data": [],
+                            "value": ""
+                        },
+                        {
+                            "label": "Use Parent",
+                            "type": "check",
+                            "xhr": "",
+                            "data": [
+                                {
+                                    "property": "Yes",
+                                    "isSelected": true
+                                }
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "label": "Mapping Id",
+                            "type": "combo",
+                            "xhr": "mapper-service/mapper/mapIdList",
+                            "valueField": "mapId",
+                            "displayField": "mapName",
+                            "isDisabled": true,
+                            "isShow": false,
+                            "data": [],
+                            "value": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        "SadadPayment": {
+            "parent": "Sadad",
+            "type": "SadadPayment",
+            "id": "",
+            "icon": "",
+            "left": "",
+            "top": "",
+            "attributes": [
+                {
+                    "name": "General",
+                    "fields": [
+                        {
+                            "label": "Mapping Id",
+                            "type": "combo",
+                            "xhr": "mapper-service/mapper/mapIdList",
+                            "valueField": "mapId",
+                            "displayField": "mapName",
+                            "isDisabled": false,
+                            "data": [],
+                            "value": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "PaymentRule",
+                    "fields": [
+                        {
+                            "label": "Transaction",
+                            "type": "check",
+                            "xhr": "",
+                            "data": [
+                                {
+                                    "property": "Allow Future Date Transaction",
+                                    "isSelected": true
+                                },
+                                {
+                                    "property": "Allow back Dated Transaction",
+                                    "isSelected": false
+                                }
+                            ],
+                            "value": ""
+                        },
+                       
+                        {
+                            "label": "Post cut off action",
+                            "type": "check",
+                            "xhr": "",
+                            "data": [
+                                {
+                                    "property": "Change value date and send",
+                                    "isSelected": true
+                                },
+                                {
+                                    "property": "Send to repair queue",
+                                    "isSelected": false
+                                },
+                                {
+                                    "property": "Reject Payment",
+                                    "isSelected": false
+                                }
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "label": "Cross Currency",
+                            "type": "check",
+                            "xhr": "",
+                            "data": [
+                                {
+                                    "property": "STP",
+                                    "isSelected": true
+                                },
+                                {
+                                    "property": "Repair",
+                                    "isSelected": false
+                                }
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "label": "Future Date",
+                            "type": "check",
+                            "xhr": "",
+                            "data": [
+                                {
+                                    "property": "Warehouse",
+                                    "isSelected": true
+                                },
+                                {
+                                    "property": "release anyway",
+                                    "isSelected": false
+                                }
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "label": "Debit computation",
+                            "type": "check",
+                            "xhr": "",
+                            "data": [
+                                {
+                                    "property":"On revived date",
+                                    "isSelected": true
+                                },
+                                {
+                                    "property": "On value date",
+                                    "isSelected": false
+                                }
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "label": "Accounting",
+                            "type": "check",
+                            "xhr": "",
+                            "data": [
+                                {
+                                    "property":"No financial",
+                                    "isSelected": true
+                                },
+                                {
+                                    "property": "Credit only",
+                                    "isSelected": false
+                                },
+                                {
+                                    "property": "Debit only",
+                                    "isSelected": false
+                                }
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "label": "Charge Applicable",
+                            "type": "check",
+                            "xhr": "",
+                            "data": [
+                                {
+                                    "property":"Yes",
+                                    "isSelected": true
+                                }
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "label": "Possible duplicate",
+                            "type": "check",
+                            "xhr": "",
+                            "data": [
+                                {
+                                    "property":"Reject payment",
+                                    "isSelected": true
+                                },
+                                {
+                                    "property": "Send to repair",
+                                    "isSelected": false
+                                },
+                                {
+                                    "property": "Send with tag",
+                                    "isSelected": false
+                                }
+                            ],
+                            "value": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "EventsAndPSR",
+                    "fields": [
+                        {
+                            "label": "Events & PSR",
+                            "type": "combo2",
+                            "xhr": "",
+                            "valueField": "fldName",
+                            "displayField": "srvName",
+                            "isDisabled": false,
+                            "data": [
+                                {
+                                    "srvName": "value1",
+                                    "fldName": "value1"
+                                },
+                                {
+                                    "srvName": "value2",
+                                    "fldName": "value2"
+                                },
+                                {
+                                    "srvName": "value3",
+                                    "fldName": "value3"
+                                }
+                            ],
+                            "value": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "FinancialAdvice",
+                    "fields": [
+                        {
+                            "label": "Financial Advice",
+                            "type": "textgroup",
+                            "value": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "PossibleDuplicateRule",
+                    "fields": [
+                        {
+                            "label": "Possible Duplicate Rule",
+                            "type": "combo2",
+                            "xhr": "",
+                            "valueField": "fldName",
+                            "displayField": "srvName",
+                            "isDisabled": false,
+                            "data": [
+                                {
+                                    "srvName": "Customer reference number",
+                                    "fldName": "Customer reference number"
+                                },
+                                {
+                                    "srvName": "Ordering Account Number",
+                                    "fldName": "Ordering Account Number"
+                                },
+                                {
+                                    "srvName": "Value Date",
+                                    "fldName": "Value Date"
+                                },
+                                {
+                                    "srvName": "Beneficiary Bank ID",
+                                    "fldName": "Beneficiary Bank ID"
+                                },
+                                {
+                                    "srvName": "Ben Account Number",
+                                    "fldName": "Ben Account Number"
+                                }
+                            ],
+                            "value": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

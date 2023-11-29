@@ -1,0 +1,50 @@
+<!-- css at "B:\INTERLAND\PROJECTS\Review Projects\library-management-app\src\assets\resources\new\adminlte.css" -->
+<!-- B:\INTERLAND\PROJECTS\Review Projects\library-management-app\src\assets\resources\new\ipsh.css -->
+<div class="login-page">
+    <div class="login-box">
+        <div class="card">
+            <div class="login-logo m-2">
+                <img class="" src="assets/resources/img/user1.png" alt=""
+                    style="border-radius: 7px;width: 90px;">
+                <h1 class="h3 mb-2 mt-1 font-weight-normal" style="font-family: 'cursive';">USER LOGIN</h1>
+            </div>
+            <div class="card-body login-card-body">
+
+                <form>
+                    <label for="id-clientId" class="col-sm-6 control-label aw-custom-label text-left"></label>
+                    <div class="input-group mb-3">
+                        <input type="text" id="id-clientId" class="form-control" [(ngModel)]="userDTO.name" placeholder="Enter User Name"
+                            autocomplete="off"  name="userid">
+                    </div>
+                    <label for="id-password" class="col-sm-6 control-label aw-custom-label text-left"></label>
+                    <div class="input-group mb-3">
+                        <input type="password" id="id-password" [(ngModel)]="userDTO.password" class="form-control" placeholder="Enter Password"
+                            autocomplete="off" name="password">
+                    </div>
+                    <label for="id-clientId" class="col-sm-6 control-label aw-custom-label text-left"></label>
+                    <div class="input-group mb-3">
+                        <input type="text" id="id-clientId" class="form-control" [(ngModel)]="userDTO.email" placeholder="Enter User Email"
+                            autocomplete="off"  name="emailid">
+                    </div>
+                    <label for="id-clientId" class="col-sm-6 control-label aw-custom-label text-left"></label>
+                    <div class="row">
+
+                        <!-- /.col -->
+                        <div class="col-6">
+                            <button class="btn btn-lg btn-dark btn-block login-btn" id="idLoginBtn" (click)="login()">Login</button>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="col-6">
+                            <button class="btn btn-lg btn-dark btn-block login-btn" id="idLoginBtn" (click)="signup()">SignUp</button>
+                        </div>
+                        <!-- /.col -->
+                    </div>
+                </form>
+                <!-- /.social-auth-links -->
+            </div>
+            <!-- /.login-card-body -->
+        </div>
+    </div>
+
+</div>
